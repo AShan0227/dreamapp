@@ -128,6 +128,31 @@
           </view>
         </view>
 
+        <!-- Wave O — Duet block. Only on public dreams (you can't remix a private one) -->
+        <view v-if="dream?.video_url && (dream as any)?.is_public" class="duet-block">
+          <view class="duet-head">
+            <text class="duet-eyebrow dc-eyebrow">remix this dream</text>
+            <text class="duet-count" v-if="remixCount > 0">{{ remixCount }} remixes</text>
+          </view>
+          <view class="duet-row">
+            <view class="duet-btn" @tap="onDuet('duet')">
+              <text class="duet-emoji">🎬</text>
+              <text class="duet-label">Duet</text>
+              <text class="duet-hint">side-by-side</text>
+            </view>
+            <view class="duet-btn" @tap="onDuet('cover')">
+              <text class="duet-emoji">🎨</text>
+              <text class="duet-label">Cover</text>
+              <text class="duet-hint">your aesthetic</text>
+            </view>
+            <view class="duet-btn" @tap="onDuet('continuation')">
+              <text class="duet-emoji">→</text>
+              <text class="duet-label">Continue</text>
+              <text class="duet-hint">what happens next</text>
+            </view>
+          </view>
+        </view>
+
         <!-- Video feedback — drives director knowledge Attribution -->
         <view v-if="dream?.video_url" class="feedback-bar">
           <text class="feedback-prompt">How does the video feel?</text>
@@ -368,7 +393,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { onLoad } from '@dcloudio/uni-app'
-import { getDream, generateVideo, interpretDream, checkVideoStatus, rewriteNightmare, getCitations, submitFeedback, deleteDream, updateDream, publishDream, unpublishDream, postComment, listComments, toggleReaction, getReactions, shareCard, type Dream } from '../../api/dream'
+import { getDream, generateVideo, interpretDream, checkVideoStatus, rewriteNightmare, getCitations, submitFeedback, deleteDream, updateDream, publishDream, unpublishDream, postComment, listComments, toggleReaction, getReactions, shareCard, startDuet, listRemixesOf, type Dream, type RemixKind } from '../../api/dream'
 import DreamAtmosphere from '../../components/DreamAtmosphere.vue'
 
 const dream = ref<Dream | null>(null)
@@ -397,8 +422,33 @@ const reactionCounts = ref<Record<string, number>>({})
 const comments = ref<any[]>([])
 const newComment = ref('')
 const nextAction = ref<any>(null)  // IRT push payload set by the interpret response
+const remixCount = ref(0)          // Wave O — # of remixes of this dream
 let dreamId = ''
 let pollTimer: any = null
+
+// Wave O — start a remix and navigate to its interview
+async function onDuet(kind: RemixKind) {
+  if (!dream.value) return
+  uni.showLoading({ title: '准备 remix...' })
+  try {
+    const res = await startDuet(dream.value.id, kind)
+    uni.hideLoading()
+    uni.navigateTo({ url: `/pages/record/record?dream_id=${res.dream_id}` })
+  } catch (e: any) {
+    uni.hideLoading()
+    uni.showToast({
+      title: e?.body?.detail || 'Could not start remix',
+      icon: 'none',
+    })
+  }
+}
+
+async function loadRemixCount(id: string) {
+  try {
+    const res = await listRemixesOf(id)
+    remixCount.value = res?.count || 0
+  } catch { remixCount.value = 0 }
+}
 
 const interpretCitations = computed<any[]>(() => citations.value?.stages?.interpreter || [])
 const directorCitations = computed<any[]>(() => citations.value?.stages?.director || [])
@@ -561,6 +611,7 @@ onMounted(async () => {
     }
     loadCitations()
     refreshSocial()
+    if ((dream.value as any)?.is_public) loadRemixCount(dreamId)
   } catch (err) {
     uni.showToast({ title: 'Failed to load dream', icon: 'none' })
   }
@@ -1297,6 +1348,64 @@ async function onPublish() {
 }
 .reaction-emoji { font-size: 28rpx; }
 .reaction-count { color: #c4b5fd; font-size: 20rpx; font-variant-numeric: tabular-nums; }
+
+/* Wave O — Duet block */
+.duet-block {
+  margin: 32rpx 30rpx 0;
+  padding: 28rpx 28rpx 24rpx;
+  background: linear-gradient(135deg, rgba(20, 10, 54, 0.55) 0%, rgba(10, 8, 32, 0.7) 100%);
+  border: 1rpx solid rgba(196, 181, 253, 0.18);
+  border-radius: 24rpx;
+  backdrop-filter: blur(16rpx);
+  -webkit-backdrop-filter: blur(16rpx);
+}
+.duet-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 16rpx;
+}
+.duet-eyebrow { display: block; opacity: 0.85; }
+.duet-count {
+  font-family: var(--dc-font-caption, monospace);
+  font-size: 20rpx;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(196, 181, 253, 0.85);
+}
+.duet-row {
+  display: flex; gap: 12rpx;
+}
+.duet-btn {
+  flex: 1;
+  display: flex; flex-direction: column; align-items: center;
+  gap: 4rpx;
+  padding: 18rpx 12rpx;
+  background: rgba(45, 27, 94, 0.4);
+  border: 1rpx solid rgba(196, 181, 253, 0.15);
+  border-radius: 18rpx;
+  transition: all 200ms ease;
+}
+.duet-btn:active {
+  transform: scale(0.97);
+  border-color: rgba(167, 139, 250, 0.5);
+  background: rgba(45, 27, 94, 0.6);
+}
+.duet-emoji {
+  font-size: 36rpx;
+  filter: drop-shadow(0 0 8rpx rgba(196, 181, 253, 0.3));
+}
+.duet-label {
+  font-family: var(--dc-font-display, serif);
+  font-size: 26rpx;
+  color: #f8f4ff;
+  letter-spacing: 0.04em;
+}
+.duet-hint {
+  font-family: var(--dc-font-caption, monospace);
+  font-size: 16rpx;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(196, 181, 253, 0.6);
+}
 
 .irt-banner {
   display: flex;

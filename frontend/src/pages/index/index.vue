@@ -19,6 +19,17 @@
           <text class="page-title dc-display">Your dreams, a cinema</text>
         </view>
         <view class="header-right">
+          <!-- Streak chip — Wave M visible -->
+          <view
+            v-if="streak && (streak.current > 0 || streak.status === 'continue_today')"
+            class="streak-chip"
+            :class="{ 'streak-chip-active': streak.status === 'done_today' }"
+            @tap="goTo('/pages/profile/profile')"
+          >
+            <text class="streak-fire">{{ streak.status === 'done_today' ? '🔥' : '✨' }}</text>
+            <text class="streak-num">{{ streak.current }}</text>
+            <text class="streak-unit">d</text>
+          </view>
           <view class="header-score" v-if="dreams.length > 0">
             <text class="score-num">{{ dreams.length }}</text>
             <text class="score-label">dreams</text>
@@ -27,6 +38,17 @@
             <text class="profile-icon">&#x2699;</text>
           </view>
         </view>
+      </view>
+
+      <!-- Daily prompt strip — Wave M, only if user has at least 1 dream -->
+      <view
+        v-if="dailyPrompt && dreams.length > 0"
+        class="daily-prompt-strip"
+        @tap="useTonightPrompt"
+      >
+        <text class="dp-eyebrow dc-eyebrow">tonight · try to dream</text>
+        <text class="dp-text dc-narrative">{{ dailyPrompt.prompt }}</text>
+        <text class="dp-cta">→ 用这个开始</text>
       </view>
     </view>
 
@@ -254,9 +276,14 @@ import { ref } from 'vue'
 import { onShow } from '@dcloudio/uni-app'
 import DreamAtmosphere from '@/components/DreamAtmosphere.vue'
 import DreamSplash from '@/components/DreamSplash.vue'
-import { listDreams, unreadCount, type Dream } from '../../api/dream'
+import {
+  listDreams, unreadCount, type Dream,
+  getMyStreak, getTodayPrompt, type StreakSummary, type DailyPrompt,
+} from '../../api/dream'
 
 const dreams = ref<Dream[]>([])
+const streak = ref<StreakSummary | null>(null)
+const dailyPrompt = ref<DailyPrompt | null>(null)
 const inboxUnread = ref(0)
 const loading = ref(false)
 const loadError = ref(false)
@@ -274,6 +301,19 @@ async function reload() {
   loading.value = false
   // Fire-and-forget: unread inbox count for the bell badge
   try { inboxUnread.value = (await unreadCount()).count } catch {}
+  // Streak + daily prompt — silent failure so the page always loads
+  try { streak.value = await getMyStreak() } catch {}
+  try { dailyPrompt.value = await getTodayPrompt('zh-CN') } catch {}
+}
+
+function useTonightPrompt() {
+  if (!dailyPrompt.value) return
+  uni.switchTab({
+    url: '/pages/record/record',
+    success: () => {
+      uni.setStorageSync('sample_dream_seed', dailyPrompt.value!.prompt)
+    },
+  })
 }
 
 function goRecord() { uni.switchTab({ url: '/pages/record/record' }) }
@@ -677,6 +717,62 @@ function getAesthetic(d: Dream) {
   pointer-events: none;
 }
 .fab-icon { color: white; font-size: 56rpx; font-weight: 200; line-height: 1; }
+
+/* ===== Streak chip (Wave M) =========================================== */
+.streak-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6rpx;
+  padding: 12rpx 18rpx;
+  background: rgba(20, 10, 54, 0.5);
+  border: 1rpx solid rgba(196, 181, 253, 0.2);
+  border-radius: 9999rpx;
+  backdrop-filter: blur(12rpx);
+  -webkit-backdrop-filter: blur(12rpx);
+  transition: all 200ms ease;
+}
+.streak-chip-active {
+  background: linear-gradient(135deg, rgba(249, 160, 63, 0.25), rgba(236, 72, 153, 0.18));
+  border-color: rgba(249, 160, 63, 0.5);
+  box-shadow: 0 0 24rpx rgba(249, 160, 63, 0.3);
+}
+.streak-fire { font-size: 28rpx; filter: drop-shadow(0 0 6rpx rgba(249, 160, 63, 0.6)); }
+.streak-num {
+  font-family: var(--dc-font-display);
+  font-size: 28rpx; font-weight: 500;
+  color: var(--dc-solaris-pearl); letter-spacing: 0.02em;
+}
+.streak-unit {
+  font-family: var(--dc-font-caption);
+  font-size: 18rpx; letter-spacing: 0.15em;
+  color: var(--dc-aurora-lavender); text-transform: uppercase;
+}
+
+/* ===== Daily prompt strip (Wave M) ==================================== */
+.daily-prompt-strip {
+  margin: 28rpx 0 8rpx;
+  padding: 24rpx 28rpx;
+  background:
+    radial-gradient(ellipse 80% 100% at 100% 50%, rgba(249, 160, 63, 0.18), transparent 70%),
+    linear-gradient(135deg, rgba(45, 27, 94, 0.6) 0%, rgba(20, 10, 54, 0.7) 100%);
+  border: 1rpx solid rgba(249, 210, 110, 0.25);
+  border-radius: 24rpx;
+  display: flex; flex-direction: column; gap: 6rpx;
+  position: relative; overflow: hidden;
+  backdrop-filter: blur(16rpx);
+  -webkit-backdrop-filter: blur(16rpx);
+}
+.dp-eyebrow { display: block; opacity: 0.85; }
+.dp-text {
+  font-size: 30rpx; line-height: 1.4;
+  color: var(--dc-solaris-pearl); letter-spacing: 0.02em; margin: 4rpx 0;
+}
+.dp-cta {
+  align-self: flex-end;
+  font-family: var(--dc-font-narrative); font-style: italic;
+  font-size: 22rpx; color: var(--dc-spirited-lantern);
+  margin-top: 4rpx; letter-spacing: 0.05em;
+}
 
 /* ===== Onboarding hero (empty state) ================================ */
 .onboarding-hero {

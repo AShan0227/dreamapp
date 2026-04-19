@@ -784,3 +784,166 @@ export function waitForVideo(dream_id: string, onProgress?: (status: string) => 
 }
 
 export type { Dream, DreamChatResponse, VideoStatus }
+
+
+// =============================================================================
+//  Wave M — Streak + daily prompt
+// =============================================================================
+
+export interface StreakSummary {
+  current: number
+  longest: number
+  status: 'inactive' | 'continue_today' | 'done_today' | 'broken'
+  last_streak_date: string | null
+  next_milestone: number | null
+  next_milestone_reward: number
+}
+
+export interface DailyPrompt {
+  date: string
+  locale: string
+  prompt: string
+  category: string
+  source: 'pool' | 'seeded'
+}
+
+/** Read-only summary for UI (current/longest/next-milestone). */
+export function getMyStreak(): Promise<StreakSummary> {
+  return req<StreakSummary>(`${API_HOST}/api/streak/me`)
+}
+
+/** Today's "tonight try to dream of X" — locale-aware fallback if no row seeded. */
+export function getTodayPrompt(locale: string = 'zh-CN'): Promise<DailyPrompt> {
+  return req<DailyPrompt>(`${API_HOST}/api/streak/today-prompt?locale=${encodeURIComponent(locale)}`)
+}
+
+
+// =============================================================================
+//  Wave N — Dream Wrapped (year/quarter/month in dreams)
+// =============================================================================
+
+export interface WrappedReport {
+  period: string
+  start: string
+  end: string
+  empty: boolean
+  total_dreams: number
+  nightmare_count?: number
+  nightmare_rate?: number
+  top_symbols?: { name: string; count: number }[]
+  top_emotions?: { name: string; count: number }[]
+  top_characters?: { name: string; count: number }[]
+  emotion_arc?: { month: string; valence: number; count: number }[]
+  first_dream_title?: string
+  most_intense_dream_title?: string
+  dream_aesthetic?: string
+  streak_peak?: number
+  headline_number: number
+  headline_label_zh?: string
+  headline_label_en?: string
+  share_slug?: string
+  cached?: boolean
+}
+
+/** Period: "2026" | "2026-Q2" | "month-2026-04" */
+export function getMyWrapped(period: string): Promise<WrappedReport> {
+  return req<WrappedReport>(
+    `${API_HOST}/api/wrapped/me?period=${encodeURIComponent(period)}`,
+  )
+}
+
+export function refreshMyWrapped(period: string): Promise<WrappedReport> {
+  return req<WrappedReport>(
+    `${API_HOST}/api/wrapped/me/refresh?period=${encodeURIComponent(period)}`,
+    { method: 'POST' },
+  )
+}
+
+/** Anonymous public Wrapped lookup — no auth needed. */
+export function getPublicWrapped(slug: string): Promise<WrappedReport> {
+  return req<WrappedReport>(
+    `${API_HOST}/api/wrapped/slug/${encodeURIComponent(slug)}`,
+  )
+}
+
+
+// =============================================================================
+//  Wave O — Dream Duet / Remix
+// =============================================================================
+
+export type RemixKind = 'duet' | 'cover' | 'continuation'
+
+export interface DuetStartResponse {
+  dream_id: string
+  source_dream_id: string
+  kind: RemixKind
+  ai_message: string
+  round_number: number
+  is_complete: boolean
+}
+
+export interface RemixListItem {
+  dream_id: string
+  title: string | null
+  kind: RemixKind
+  video_url: string | null
+  created_at: string | null
+}
+
+/** Start a new dream seeded by another user's public dream. */
+export function startDuet(
+  source_dream_id: string,
+  kind: RemixKind = 'duet',
+  options: { style?: string; note?: string } = {},
+): Promise<DuetStartResponse> {
+  return req<DuetStartResponse>(`${API_HOST}/api/duet/start`, {
+    method: 'POST',
+    data: { source_dream_id, kind, ...options },
+  })
+}
+
+/** Public list of remixes derived from a given dream. */
+export function listRemixesOf(dream_id: string): Promise<{
+  source_dream_id: string
+  count: number
+  remixes: RemixListItem[]
+}> {
+  return req(`${API_HOST}/api/duet/of/${encodeURIComponent(dream_id)}`)
+}
+
+/** Wave O — my own duet/cover/continuation remix history.
+ *  (Renamed from listMyRemixes to avoid collision with the older AI-remix
+ *   pipeline helper. That one queries /api/remix/, this one /api/duet/by-me.)
+ */
+export function listMyDuets(): Promise<RemixListItem[]> {
+  return req<RemixListItem[]>(`${API_HOST}/api/duet/by-me`)
+}
+
+
+// =============================================================================
+//  Wave K Moderation — submit a content report (distinct from the older
+//  /api/reports/ helper which targeted threads.py's report endpoint.
+//  This one hits the new /api/moderation/report from Wave K.)
+// =============================================================================
+
+export interface ModerationReportRequest {
+  target_type: 'dream' | 'thread' | 'comment' | 'user' | 'dm'
+  target_id: string
+  reason: string
+  detail?: string
+}
+
+export function submitModerationReport(body: ModerationReportRequest): Promise<{
+  ok: boolean
+  auto_hidden: boolean
+  total_reports: number
+}> {
+  return req(`${API_HOST}/api/moderation/report`, {
+    method: 'POST',
+    data: body,
+  })
+}
+
+export function listModerationReasons(): Promise<{ reasons: Record<string, string> }> {
+  return req(`${API_HOST}/api/moderation/report/reasons`)
+}

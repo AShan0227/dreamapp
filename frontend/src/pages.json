@@ -31,7 +31,8 @@
 		{"path": "pages/dm/dm", "style": {"navigationBarTitleText": "Messages", "navigationStyle": "custom"}},
 		{"path": "pages/foryou/foryou", "style": {"navigationBarTitleText": "For You", "navigationStyle": "custom"}},
 		{"path": "pages/hashtag/hashtag", "style": {"navigationBarTitleText": "Hashtag", "navigationStyle": "custom"}},
-		{"path": "pages/bookmarks/bookmarks", "style": {"navigationBarTitleText": "Bookmarks", "navigationStyle": "custom"}}
+		{"path": "pages/bookmarks/bookmarks", "style": {"navigationBarTitleText": "Bookmarks", "navigationStyle": "custom"}},
+		{"path": "pages/wrapped/wrapped", "style": {"navigationBarTitleText": "Dream Wrapped", "navigationStyle": "custom"}}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

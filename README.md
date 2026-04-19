@@ -1,108 +1,162 @@
 # DreamApp
 
-Dream Operating System — Record dreams, visualize them as cinematic AI videos, interpret with multi-dimensional psychology, build automated dream agents.
+> **A cinema of dreams.** Record what you dreamt, get a deep multi-frame interpretation, watch your dream become a short film.
 
-## Quick Start
+[![CI](https://github.com/AShan0227/dreamapp/actions/workflows/ci.yml/badge.svg)](https://github.com/AShan0227/dreamapp/actions/workflows/ci.yml)
+![License](https://img.shields.io/badge/license-private-lightgrey)
 
-### Docker (Recommended)
+DreamApp is a full-stack dream operating system. You speak your dream into a warm AI interviewer; it produces a structured script, hands the script to an AI director, and ships back a multi-shot cinematic video plus a layered interpretation grounded in 492 retrievable knowledge entries (Freud, Jung, Hartmann, contemporary neuroscience, TCM, internet aesthetics, Gen Z subculture, reality-shifting, lucid dreaming, sleepmaxxing wellness — bilingual zh/en).
 
-```bash
-cp backend/.env.example backend/.env  # Fill in API keys
-docker compose up -d
-# Open http://localhost
+It also has a working social layer (Threads-style: handles, mentions, threaded comments, quote-dreams, FYP, mutual-follow DMs), monetization (WeChat Pay v3 / Alipay / Stripe with cryptographically-verified webhooks), a crisis safety net (acute distress is detected, AI suspends interpretation, real hotlines surface), and three growth mechanics: daily streak, year-in-dreams Wrapped, and dream remix duets.
+
+---
+
+## What's inside
+
+```
+backend/                   FastAPI async, 14.5k LOC, 171 endpoints
+  ├── services/            50+ domain services (interpreter, director, payments,
+  │                        crisis, moderation, streak, wrapped, duet, ...)
+  ├── routers/             16 routers grouped by domain
+  ├── models/              SQLAlchemy 2.0 + pgvector
+  ├── alembic/versions/    9 migrations (head: 0009_wave_m)
+  ├── knowledge/           18 JSON files — 492 retrievable entries
+  ├── prompts/             Editable .md prompt files (interpreter, interviewer, director)
+  └── tests/               51 unit + 8 integration, all green in CI
+
+frontend/                  UniApp Vue 3 → H5 / WeChat MP / Android
+  ├── src/pages/           32 pages (record, dream, plaza, profile, wrapped, duet, ...)
+  ├── src/components/      DreamAtmosphere · DreamSplash · CrisisOverlay · DreamOrb
+  ├── src/styles/          "Dream Cinema" design system (Inception · Paprika · Spirited
+  │                        Away · Solaris · Shinkai aesthetic palette + Cormorant serif)
+  └── src/utils/           Emotion → atmosphere variant mapper
+
+docker-compose.yml         4 services: db (pgvector pg16) · backend · frontend (nginx) · minio
+.github/workflows/ci.yml   3-job CI: unit · alembic round-trip · frontend build
+.env.example               6-section env template (LLM · Payments · Notifications ·
+                           Observability · Trust boundaries · Misc)
+docs/                      Architecture notes
+scripts/                   Backup · restore · cron install · CI handoff
 ```
 
-### Local Development
+## Highlights
+
+- **Cinema-grade frontend.** Aurora gradients, multi-layer parallax starfields, breathing pulse animations on REM cycle, film grain overlays. Five film-referenced atmosphere variants (`moonrise` / `inception` / `spirited` / `shinkai` / `solaris` / `mulholland`) chosen automatically from each dream's emotion tags.
+- **Knowledge-grounded interpretation.** Every interpretation cites the specific knowledge entries that shaped it (`/api/dreams/{id}/citations`). pgvector HNSW for sub-50ms retrieval against 492 bilingual entries spanning academic, cultural, and modern subculture content.
+- **Real-money safe payments.** WeChat Pay v3 (RSA-SHA256 over signed payload + AES-GCM ciphertext decrypt), Alipay (RSA2 over sorted params), Stripe (HMAC-SHA256 with timestamp tolerance). All three verified, replay-protected, idempotent. Audit trail in `payment_webhook_events`.
+- **Crisis safety net.** 26 high-severity bilingual patterns (zh + en) detect acute distress, suicidal ideation, or psychosis signals. On trigger: AI interpretation suspended, video generation gated, hotline surfaced (24h locale-aware), human-review queue populated. Tested in `test_crisis.py`.
+- **Content moderation.** 5-category classifier (hard / NSFW / slur / spam / injection), public-vs-private surface policy, 3-report auto-hide, human review queue. Banned users excluded from plaza queries via SQL helper.
+- **Production observability.** Structured JSON logging, request-id propagation, Sentry user/request tagging, /metrics with LLM cost counters + cache hit rate + 9-bucket latency histogram. Per-LLM-call retries with exponential backoff.
+
+## Quick start
+
+### One-shot Docker (production-shape)
+
+```bash
+cp .env.example .env                       # fill the REQUIRED block
+docker compose up -d
+open http://localhost                      # frontend
+open http://localhost:8000/openapi.json    # 171 endpoints
+```
+
+### Local dev
 
 ```bash
 # Backend
-cd backend && python3 -m venv venv && source venv/bin/activate
+cd backend
+python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env  # Fill in API keys
-python main.py  # http://localhost:8000
+cp ../.env.example .env                    # fill DREAM_AUTH_SECRET at minimum
+python main.py                             # http://localhost:8000
 
 # Frontend
-cd frontend && npm install
-npm run dev:h5        # Dev: http://localhost:5173
-npm run build:h5      # Build H5
-npm run build -p mp-weixin  # Build WeChat MP
+cd frontend
+npm ci
+npm run dev:h5                             # http://localhost:5173
+```
+
+### Tests
+
+```bash
+cd backend
+pytest tests/test_payment_webhooks.py \
+       tests/test_crisis.py \
+       tests/test_moderation.py \
+       tests/test_agent_sandbox.py -v
 ```
 
 ## Architecture
 
 ```
-Phase 1 (捕梦器):
-  Record → AI Interview → Dream Script → AI Director → Multi-Shot Video → Interpretation
-
-Phase 2 (梦境OS):
-  Entity Extraction → Cross-Temporal Correlation → Health Index
-  Dream Incubation → Dream IP → Agent System → Vibe Coder
+┌──────────────────┐    ┌─────────────────┐    ┌──────────────────┐
+│   UniApp H5/MP   │───▶│  FastAPI async  │───▶│  PostgreSQL+     │
+│   Vue 3 +        │    │  171 endpoints  │    │  pgvector (HNSW) │
+│   Cinema design  │    │                 │    └──────────────────┘
+└──────────────────┘    │  ┌─────────┐    │    ┌──────────────────┐
+                        │  │  LLM    │────┼───▶│  MiniMax m2.5    │
+                        │  │ client  │    │    └──────────────────┘
+                        │  │ +cache  │    │    ┌──────────────────┐
+                        │  │ +retry  │    │───▶│  Kling video gen │
+                        │  └─────────┘    │    │  SeedDance       │
+                        │                 │    └──────────────────┘
+                        │  ┌─────────┐    │    ┌──────────────────┐
+                        │  │ Crisis  │    │───▶│  MinIO (S3)      │
+                        │  │ Mod     │    │    │  presigned URLs  │
+                        │  │ Streak  │    │    └──────────────────┘
+                        │  │ Wrapped │    │    ┌──────────────────┐
+                        │  │ Duet    │    │───▶│  WeChat / Alipay │
+                        │  │ Webhook │    │    │  / Stripe        │
+                        │  └─────────┘    │    └──────────────────┘
+                        └─────────────────┘
 ```
 
-## Tech Stack
+## Key endpoints
 
-- **Backend**: Python FastAPI (32 files, 42 endpoints)
-- **Frontend**: uni-app Vue 3 (9 pages) → H5 / WeChat MP / Android
-- **Database**: SQLite (dev) / PostgreSQL (production)
-- **LLM**: MiniMax m2.5-highspeed via api.minimax.chat
-- **Video**: Kling v3 via openapi.klingai.com
-- **Knowledge**: 7 databases, 500KB+ (symbols, archetypes, narratives, TCM, film techniques, dream corpus, incubation)
+| Domain | Endpoint | What it does |
+|---|---|---|
+| Dream loop | `POST /api/dreams/start` | Begin AI interview |
+| | `POST /api/dreams/chat` | Continue interview |
+| | `POST /api/dreams/{id}/interpret` | Multi-lens interpretation |
+| | `POST /api/dreams/{id}/generate` | Multi-shot video |
+| Streak | `GET /api/streak/me` | My current streak + next milestone |
+| | `GET /api/streak/today-prompt` | Tonight's "try to dream of..." |
+| Wrapped | `GET /api/wrapped/me?period=2026` | My year in dreams |
+| | `GET /api/wrapped/slug/{slug}` | Anonymous public Wrapped |
+| Duet | `POST /api/duet/start` | Remix another dreamer's dream |
+| Safety | `POST /api/moderation/report` | Report content |
+| Payments | `POST /api/payments/create` | WeChat / Alipay / Stripe |
+| | `POST /api/payments/webhook/*` | Cryptographically-verified callbacks |
 
-## API Endpoints (42)
+Full list: [openapi.json](http://localhost:8000/openapi.json) when running, or browse `backend/routers/`.
 
-### Dreams
-| Method | Path | Description |
-|--------|------|-------------|
-| POST | /api/dreams/start | Start dream interview |
-| POST | /api/dreams/chat | Continue interview |
-| POST | /api/dreams/{id}/generate | Generate multi-shot video |
-| GET | /api/dreams/{id}/video-status | Poll video generation |
-| POST | /api/dreams/{id}/interpret | Multi-dimensional interpretation |
-| POST | /api/dreams/{id}/rewrite | Nightmare rewrite (IRT therapy) |
-| POST | /api/dreams/{id}/extract-entities | Extract dream entities |
-| POST | /api/dreams/voice-to-text | Voice to text |
-| GET | /api/dreams/ | List dreams |
-| GET | /api/dreams/{id} | Get dream detail |
+## Configuration
 
-### Entities & Correlation
-| GET | /api/entities/entities | List entities with counts |
-| GET | /api/entities/correlations | Cross-dream correlations |
-| GET | /api/entities/timeline | Entity appearance timeline |
-| POST | /api/entities/correlate | Run correlation analysis |
+`.env.example` documents 50+ variables grouped into 6 sections:
+- **Required for boot** (POSTGRES_PASSWORD, DREAM_AUTH_SECRET, ...)
+- **LLM** (MiniMax base URL + key + model)
+- **Payments** (WeChat / Alipay / Stripe — all three webhooks fail-closed without these)
+- **Notifications** (FCM / WeChat templates / SMTP / Aliyun SMS — silent no-op without these)
+- **Observability** (Sentry DSN, PostHog, /metrics token, trusted-proxy CIDRs)
+- **Misc** (request size cap, embedding model, debug flags)
 
-### Health
-| GET | /api/health/current | Current health metrics |
-| GET | /api/health/anomalies | Detect anomalies |
-| POST | /api/health/generate-report | Generate health report |
+Without payment / notification credentials, those subsystems gracefully no-op (failures logged, never crash). The app is fully functional in dev with just `DREAM_AUTH_SECRET` set.
 
-### Incubation
-| POST | /api/incubation/start | Start dream incubation |
-| GET | /api/incubation/{id} | Get session details |
-| POST | /api/incubation/{id}/link-dream | Link dream to session |
+## Deployment
 
-### Dream IP
-| GET | /api/ips/ | List personal mythology |
-| POST | /api/ips/detect | Scan for recurring elements |
+See [docs/DEPLOY.md](./docs/DEPLOY.md) for production runbook (TLS, backup cron, log shipping, Sentry hookup).
 
-### Social
-| GET | /api/plaza/dreams | Browse public dreams |
-| GET | /api/plaza/trending | Trending themes |
-| POST | /api/plaza/dreams/{id}/publish | Publish to plaza |
+## License
 
-### Agents
-| POST | /api/agents/create | Create agent |
-| POST | /api/agents/{id}/run | Run agent |
-| GET | /api/store/agents | Browse agent store |
-| POST | /api/vibe/customize | Customize app layout (NL) |
+Private — not yet decided whether to open source. The repo is currently public to enable free GitHub Actions; the underlying license is TBD.
 
-### Users
-| POST | /api/users/register | Register user |
-| GET | /api/users/me | Get profile |
+---
 
-## Docker Services
-
-| Service | Port | Description |
-|---------|------|-------------|
-| db | 5432 | PostgreSQL 16 |
-| backend | 8000 | FastAPI |
-| frontend | 80 | Nginx + H5 SPA |
+Built across roughly 10 development "Waves":
+- **A–F** — core dream loop (record · script · video · interpret)
+- **G** — agent runtime + sandbox
+- **H–I** — engagement + Threads-style social
+- **J** — subculture knowledge expansion (492 entries)
+- **K** — safety + payments integrity (crisis · moderation · webhooks · analytics)
+- **L1–L6** — performance + code quality (HNSW indexes · LLM cache fix · async correctness · tests · observability · security residuals)
+- **M–O** — growth mechanics (streak · Wrapped · duet) + technical debt closeout
+- **P** (current) — frontend integration of M/O/N + production deploy runbook
