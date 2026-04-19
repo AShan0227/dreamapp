@@ -1,0 +1,1652 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-04-14",
+    "description": "Traditional Chinese Medicine (TCM) and Ayurvedic dream interpretation knowledge base for AI dream analysis",
+    "sources": {
+      "classical_chinese": [
+        "Huangdi Neijing Ling Shu (黄帝内经灵枢) - Chapter 43: Excess Evils Release Dreams (淫邪发梦)",
+        "Huangdi Neijing Su Wen (黄帝内经素问) - Chapter 17: Treatise on Diagnostic Methods of the Pulse",
+        "Huangdi Neijing Su Wen (黄帝内经素问) - Chapter 80: Discussion on Fang Sheng Shuai",
+        "Unschuld, Paul U. (2016) - Huang Di Nei Jing Ling Shu: The Ancient Classic on Needle Therapy, UC Press"
+      ],
+      "tcm_clinical": [
+        "Maciocia, Giovanni - The Foundations of Chinese Medicine (3rd ed.)",
+        "Deadman, Peter - A Manual of Acupuncture",
+        "Bensky, Dan & Gamble, Andrew - Chinese Herbal Medicine: Materia Medica"
+      ],
+      "ayurvedic": [
+        "Charaka Samhita - Indriyasthana, Chapter 5 (Svapna Nidana)",
+        "Sushruta Samhita - Sharira Sthana",
+        "Ashtanga Hridayam - Nidanasthana"
+      ]
+    },
+    "disclaimer": "This knowledge base is for educational and interpretive purposes only. It does not constitute medical advice. Users experiencing persistent sleep disturbances should consult a qualified healthcare practitioner."
+  },
+
+  "core_principles": {
+    "tcm_dream_theory": {
+      "name_zh": "梦诊",
+      "name_en": "Dream Diagnosis (Meng Zhen)",
+      "summary": "In TCM, dreams are not random events but reflections of the body's internal state. The Huangdi Neijing teaches that organ excess (shi) or deficiency (xu) disturbs the five spirits (wu shen) housed in the organs, producing characteristic dream content. Undisturbed dreamless sleep indicates balanced organ function and harmonious circulation of qi and blood.",
+      "key_concepts": [
+        {
+          "term_zh": "魂 (Hun)",
+          "term_en": "Ethereal Soul",
+          "organ": "Liver",
+          "role": "Governs dream activity itself. When the Hun wanders excessively during sleep, vivid or disturbing dreams result."
+        },
+        {
+          "term_zh": "神 (Shen)",
+          "term_en": "Spirit/Mind",
+          "organ": "Heart",
+          "role": "Governs consciousness. When Shen is unsettled, sleep is restless with many dreams and nightmares."
+        },
+        {
+          "term_zh": "意 (Yi)",
+          "term_en": "Intellect/Intent",
+          "organ": "Spleen",
+          "role": "Governs thought and concentration. When Yi is disturbed, dreams become repetitive and obsessive."
+        },
+        {
+          "term_zh": "魄 (Po)",
+          "term_en": "Corporeal Soul",
+          "organ": "Lung",
+          "role": "Governs bodily sensations and instincts. When Po is disturbed, dreams involve weeping, grief, and somatic sensations."
+        },
+        {
+          "term_zh": "志 (Zhi)",
+          "term_en": "Willpower",
+          "organ": "Kidney",
+          "role": "Governs willpower and survival instinct. When Zhi is depleted, dreams involve fear, drowning, and existential threats."
+        }
+      ]
+    },
+    "yin_yang_dream_patterns": {
+      "source": "Su Wen Chapter 17",
+      "patterns": [
+        {
+          "condition_zh": "阴气盛",
+          "condition_en": "Yin qi in excess",
+          "dream_content": "Wading through deep water, flooding, immersion; accompanied by fear"
+        },
+        {
+          "condition_zh": "阳气盛",
+          "condition_en": "Yang qi in excess",
+          "dream_content": "Large fires burning, intense heat, volcanic eruptions"
+        },
+        {
+          "condition_zh": "阴阳俱盛",
+          "condition_en": "Both yin and yang in excess",
+          "dream_content": "Fighting, mutual killing, warfare, violent conflict"
+        },
+        {
+          "condition_zh": "上盛",
+          "condition_en": "Qi abundant above (upper body)",
+          "dream_content": "Flying, soaring, levitating"
+        },
+        {
+          "condition_zh": "下盛",
+          "condition_en": "Qi abundant below (lower body)",
+          "dream_content": "Falling, plummeting from heights"
+        },
+        {
+          "condition_zh": "甚饱",
+          "condition_en": "Extreme fullness (overeating)",
+          "dream_content": "Giving away things, generosity, distributing"
+        },
+        {
+          "condition_zh": "甚饥",
+          "condition_en": "Extreme hunger",
+          "dream_content": "Taking things, receiving, acquiring food"
+        }
+      ]
+    }
+  },
+
+  "five_organ_systems": [
+    {
+      "id": "liver",
+      "organ_zh": "肝",
+      "organ_en": "Liver",
+      "element_zh": "木",
+      "element_en": "Wood",
+      "spirit_zh": "魂",
+      "spirit_en": "Hun (Ethereal Soul)",
+      "emotion_zh": "怒",
+      "emotion_en": "Anger",
+      "season": "spring",
+      "color": "green",
+      "direction": "east",
+      "climate": "wind",
+      "paired_organ": "Gallbladder (胆)",
+      "time_of_day": "1:00-3:00 AM",
+
+      "excess_pattern": {
+        "pattern_zh": "肝气盛",
+        "pattern_en": "Liver Qi Excess / Liver Yang Rising",
+        "dream_themes": [
+          "Intense anger in dreams, arguing, shouting",
+          "Physical altercations, fighting",
+          "Frustration and feeling blocked or trapped",
+          "Rising or ascending movements",
+          "Flying or soaring (Liver Yang rising)"
+        ],
+        "dream_examples": [
+          "Dreaming of furious arguments with no resolution",
+          "Dreaming of being trapped in a room and needing to break out",
+          "Dreaming of storms, strong winds, violent weather",
+          "Dreaming of flying upward uncontrollably"
+        ],
+        "clinical_signs": [
+          "Headaches, especially at the temples or vertex",
+          "Red eyes, irritability",
+          "Bitter taste in the mouth",
+          "Waking between 1-3 AM",
+          "Tendency toward outbursts of anger"
+        ]
+      },
+
+      "deficiency_pattern": {
+        "pattern_zh": "肝血虚",
+        "pattern_en": "Liver Blood Deficiency",
+        "dream_themes": [
+          "Forests, trees, mountains with mushrooms",
+          "Lying immobilized under a tree, unable to rise",
+          "Being buried or trapped underground",
+          "Feelings of paralysis or inability to act",
+          "Withered or dead vegetation"
+        ],
+        "dream_examples": [
+          "Dreaming of lying beneath a tree and being unable to get up",
+          "Dreaming of dense forests with fragrant mushrooms",
+          "Dreaming of wilted gardens or dying plants",
+          "Dreaming of being buried alive"
+        ],
+        "clinical_signs": [
+          "Blurred vision, floaters",
+          "Pale, dull complexion",
+          "Numbness or tingling in limbs",
+          "Scanty menstruation",
+          "Brittle nails, dry eyes"
+        ]
+      },
+
+      "stagnation_pattern": {
+        "pattern_zh": "肝气郁结",
+        "pattern_en": "Liver Qi Stagnation",
+        "dream_themes": [
+          "Frustration, blocked pathways",
+          "Arguments that go in circles",
+          "Feeling stuck in traffic or in a maze",
+          "Tense confrontations with authority"
+        ],
+        "clinical_signs": [
+          "Distending pain in the flanks or chest",
+          "Mood swings, sighing frequently",
+          "PMS, breast distension",
+          "Globus sensation in throat"
+        ]
+      },
+
+      "wellness_recommendations": {
+        "dietary": {
+          "beneficial_foods": [
+            "Green leafy vegetables (spinach, kale, dandelion greens)",
+            "Sour foods in moderation (lemon, vinegar, plum)",
+            "Goji berries (枸杞 gouqi) to nourish Liver blood",
+            "Chrysanthemum tea (菊花茶 juhua cha) to clear Liver heat",
+            "Green tea in moderation"
+          ],
+          "foods_to_avoid": [
+            "Excessive alcohol",
+            "Greasy, fried foods",
+            "Excessive spicy food",
+            "Late-night eating"
+          ]
+        },
+        "lifestyle": [
+          "Sleep before 11 PM to allow Liver blood regeneration (Liver time: 1-3 AM)",
+          "Morning stretching or yoga to move Liver qi",
+          "Express emotions constructively rather than suppressing anger",
+          "Walk in nature, especially among trees in springtime",
+          "Practice deep breathing to release tension"
+        ],
+        "acupressure_points": [
+          {
+            "point_id": "LV3",
+            "name_zh": "太冲",
+            "name_en": "Tai Chong (Great Rushing)",
+            "location": "On the top of the foot, in the depression between the 1st and 2nd metatarsal bones, about 2 finger-widths from the web margin",
+            "technique": "Press firmly with thumb for 1-2 minutes per side. Breathe deeply.",
+            "indication": "Moves Liver qi, calms anger, relieves headaches and irritability"
+          },
+          {
+            "point_id": "LV14",
+            "name_zh": "期门",
+            "name_en": "Qi Men (Cycle Gate)",
+            "location": "Directly below the nipple, in the 6th intercostal space",
+            "technique": "Gentle circular massage for 1 minute per side",
+            "indication": "Relieves Liver qi stagnation, chest tightness, and emotional constraint"
+          }
+        ],
+        "emotional_awareness": "Liver dreams often reflect unexpressed anger, frustration, or creative energy seeking an outlet. Ask yourself: Where in my life do I feel stuck or blocked? What am I not expressing? The Liver governs the smooth flow of qi -- stagnation of emotions directly disturbs it."
+      }
+    },
+
+    {
+      "id": "heart",
+      "organ_zh": "心",
+      "organ_en": "Heart",
+      "element_zh": "火",
+      "element_en": "Fire",
+      "spirit_zh": "神",
+      "spirit_en": "Shen (Spirit/Mind)",
+      "emotion_zh": "喜",
+      "emotion_en": "Joy (in excess: mania/anxiety)",
+      "season": "summer",
+      "color": "red",
+      "direction": "south",
+      "climate": "heat",
+      "paired_organ": "Small Intestine (小肠)",
+      "time_of_day": "11:00 AM - 1:00 PM (Heart); 7:00-9:00 PM (Pericardium)",
+
+      "excess_pattern": {
+        "pattern_zh": "心火亢盛",
+        "pattern_en": "Heart Fire Blazing",
+        "dream_themes": [
+          "Laughing uncontrollably or excessively",
+          "Fire, flames, volcanic eruptions",
+          "Intense light, sun, lightning",
+          "Chaotic, overwhelming situations",
+          "Being burned or surrounded by fire"
+        ],
+        "dream_examples": [
+          "Dreaming of laughing wildly and being unable to stop",
+          "Dreaming of houses or cities on fire",
+          "Dreaming of blinding light or explosions",
+          "Dreaming of volcanic eruptions (especially in summer)"
+        ],
+        "clinical_signs": [
+          "Palpitations, racing heart",
+          "Mouth or tongue ulcers",
+          "Feeling of agitation and restlessness",
+          "Red face, thirst",
+          "Dark scanty urine"
+        ]
+      },
+
+      "deficiency_pattern": {
+        "pattern_zh": "心血虚 / 心阴虚",
+        "pattern_en": "Heart Blood / Heart Yin Deficiency",
+        "dream_themes": [
+          "Mountains with fire and smoke",
+          "Extinguishing fires (attempting to stop fires)",
+          "Nightmares and frequent waking from fear",
+          "Disjointed, incoherent dream narratives",
+          "Searching for something that cannot be found"
+        ],
+        "dream_examples": [
+          "Dreaming of trying to put out a fire that keeps spreading",
+          "Dreaming of smoke-filled mountains",
+          "Waking repeatedly from disturbing dreams, unable to recall specifics",
+          "Dreaming of being lost in a confusing, shifting landscape"
+        ],
+        "clinical_signs": [
+          "Poor memory, difficulty concentrating",
+          "Anxiety, easily startled",
+          "Insomnia or dream-disturbed sleep",
+          "Pale complexion, dizziness",
+          "Night sweats (yin deficiency)"
+        ]
+      },
+
+      "wellness_recommendations": {
+        "dietary": {
+          "beneficial_foods": [
+            "Bitter foods to clear Heart heat (bitter melon, arugula, dark chocolate in moderation)",
+            "Red foods to nourish Heart blood (red dates/jujube 红枣, beets, goji berries)",
+            "Lotus seed tea (莲子茶) to calm the Shen",
+            "Lily bulb (百合) in soups for Heart yin",
+            "Longan fruit (龙眼) to nourish Heart blood"
+          ],
+          "foods_to_avoid": [
+            "Excessive caffeine and stimulants",
+            "Very spicy or hot foods",
+            "Alcohol before bed",
+            "Heavy meals in the evening"
+          ]
+        },
+        "lifestyle": [
+          "Practice meditation or mindfulness daily to settle the Shen",
+          "Limit screen exposure 1 hour before sleep (blue light agitates Heart Fire)",
+          "Cultivate a consistent bedtime routine",
+          "Journaling before bed to release mental overactivity",
+          "Gentle evening walks rather than intense exercise"
+        ],
+        "acupressure_points": [
+          {
+            "point_id": "HT7",
+            "name_zh": "神门",
+            "name_en": "Shen Men (Spirit Gate)",
+            "location": "On the wrist crease, on the ulnar side (pinky side), in the depression at the radial side of the pisiform bone",
+            "technique": "Press gently with thumb for 1-2 minutes before bed. Breathe slowly and focus on calming the mind.",
+            "indication": "Primary point for calming the Shen, treating insomnia, anxiety, nightmares, and dream-disturbed sleep"
+          },
+          {
+            "point_id": "PC6",
+            "name_zh": "内关",
+            "name_en": "Nei Guan (Inner Pass)",
+            "location": "On the inner forearm, 2 inches above the wrist crease, between the two tendons",
+            "technique": "Press with thumb for 1-2 minutes per side. Useful when feeling anxious before sleep.",
+            "indication": "Calms the Heart, unbinds the chest, alleviates palpitations and anxiety"
+          }
+        ],
+        "emotional_awareness": "Heart dreams often reflect the state of your Shen -- your consciousness, joy, and emotional connection. Excessive fire dreams may indicate overstimulation, unprocessed emotional excitement, or anxiety masquerading as joy. Ask yourself: Am I truly at peace, or am I running on nervous energy? Is my joy authentic or frantic?"
+      }
+    },
+
+    {
+      "id": "spleen",
+      "organ_zh": "脾",
+      "organ_en": "Spleen",
+      "element_zh": "土",
+      "element_en": "Earth",
+      "spirit_zh": "意",
+      "spirit_en": "Yi (Intellect/Intent)",
+      "emotion_zh": "思",
+      "emotion_en": "Overthinking / Worry",
+      "season": "late_summer",
+      "color": "yellow",
+      "direction": "center",
+      "climate": "dampness",
+      "paired_organ": "Stomach (胃)",
+      "time_of_day": "9:00-11:00 AM (Spleen); 7:00-9:00 AM (Stomach)",
+
+      "excess_pattern": {
+        "pattern_zh": "脾气实",
+        "pattern_en": "Spleen Qi Excess / Dampness Accumulation",
+        "dream_themes": [
+          "Singing or hearing music",
+          "Feeling heavy, body weighed down",
+          "Swamps, marshes, waterlogged terrain",
+          "Storms with rain leaking into buildings",
+          "Excessive labor, endless repetitive tasks"
+        ],
+        "dream_examples": [
+          "Dreaming of singing while feeling a strange heaviness",
+          "Dreaming of trudging through mud or marsh",
+          "Dreaming of a roof leaking during a storm",
+          "Dreaming of performing the same task endlessly"
+        ],
+        "clinical_signs": [
+          "Abdominal bloating, heaviness",
+          "Loose stools, poor appetite",
+          "Feeling of heaviness in limbs and head",
+          "Excessive mucus or phlegm",
+          "Foggy thinking"
+        ]
+      },
+
+      "deficiency_pattern": {
+        "pattern_zh": "脾气虚",
+        "pattern_en": "Spleen Qi Deficiency",
+        "dream_themes": [
+          "Hunger, searching for food and not finding it",
+          "Building houses or constructing things (especially in late summer)",
+          "Abysses, deep holes, empty spaces",
+          "Being bogged down by tasks",
+          "Anxiety-laden, obsessive dreams on repeat"
+        ],
+        "dream_examples": [
+          "Dreaming of starving with no food available",
+          "Dreaming of constructing a building that never gets finished",
+          "Dreaming of an endless to-do list with mounting tasks",
+          "Dreaming of falling into a deep ravine or abyss"
+        ],
+        "clinical_signs": [
+          "Fatigue, especially after eating",
+          "Poor appetite, loose stools",
+          "Bruising easily",
+          "Overthinking, rumination",
+          "Muscle weakness, prolapse"
+        ]
+      },
+
+      "wellness_recommendations": {
+        "dietary": {
+          "beneficial_foods": [
+            "Warm, cooked foods (congee/rice porridge 粥, soups, stews)",
+            "Sweet root vegetables (sweet potato, pumpkin, squash, yam 山药)",
+            "Ginger tea (姜茶) to warm the Spleen",
+            "Chinese red dates (红枣 hong zao) to tonify qi",
+            "Millet porridge, oats",
+            "Small amounts of honey"
+          ],
+          "foods_to_avoid": [
+            "Cold, raw foods (salads, smoothies, ice cream)",
+            "Excessive dairy products",
+            "Refined sugar and processed foods",
+            "Excessive greasy or fried foods",
+            "Iced or cold beverages"
+          ]
+        },
+        "lifestyle": [
+          "Eat regular meals at consistent times; avoid skipping meals",
+          "Do not eat while distracted (reading, phone, TV)",
+          "Gentle post-meal walks to aid digestion",
+          "Practice grounding exercises: walking barefoot on earth",
+          "Set boundaries on mental work; take thinking breaks",
+          "Limit exposure to information overload"
+        ],
+        "acupressure_points": [
+          {
+            "point_id": "SP6",
+            "name_zh": "三阴交",
+            "name_en": "San Yin Jiao (Three Yin Intersection)",
+            "location": "On the inner leg, 3 inches (about 4 finger-widths) above the ankle bone, behind the tibia",
+            "technique": "Press with thumb for 1-2 minutes per side. Avoid during pregnancy.",
+            "indication": "Tonifies Spleen, calms the mind, nourishes blood and yin. One of the most important points for insomnia and dream-disturbed sleep."
+          },
+          {
+            "point_id": "ST36",
+            "name_zh": "足三里",
+            "name_en": "Zu San Li (Leg Three Miles)",
+            "location": "On the outer leg, 3 inches below the kneecap, one finger-width lateral to the shinbone",
+            "technique": "Press firmly or massage in circles for 2-3 minutes per side. Can be done daily.",
+            "indication": "Strengthens Spleen and Stomach qi, boosts overall energy, resolves dampness"
+          }
+        ],
+        "emotional_awareness": "Spleen dreams often reflect overthinking, worry, and the mind's inability to digest life experiences. Repetitive dreams are a hallmark. Ask yourself: What am I ruminating on? Am I nourishing myself adequately -- not just with food, but with rest and care? Where do I need to let go of excessive mental processing?"
+      }
+    },
+
+    {
+      "id": "lung",
+      "organ_zh": "肺",
+      "organ_en": "Lung",
+      "element_zh": "金",
+      "element_en": "Metal",
+      "spirit_zh": "魄",
+      "spirit_en": "Po (Corporeal Soul)",
+      "emotion_zh": "悲 / 忧",
+      "emotion_en": "Grief / Sadness",
+      "season": "autumn",
+      "color": "white",
+      "direction": "west",
+      "climate": "dryness",
+      "paired_organ": "Large Intestine (大肠)",
+      "time_of_day": "3:00-5:00 AM",
+
+      "excess_pattern": {
+        "pattern_zh": "肺气实",
+        "pattern_en": "Lung Qi Excess",
+        "dream_themes": [
+          "Weeping, crying, sorrow",
+          "Terror, fear, danger",
+          "Battles, warfare, violence",
+          "Ascending or being lifted upward unwillingly",
+          "Worry and apprehension"
+        ],
+        "dream_examples": [
+          "Dreaming of sobbing uncontrollably",
+          "Dreaming of battlefields and carnage",
+          "Dreaming of being lifted into the sky against your will",
+          "Dreaming of terrifying encounters"
+        ],
+        "clinical_signs": [
+          "Chest fullness, cough",
+          "Shortness of breath",
+          "Nasal congestion",
+          "Wheezing",
+          "Feeling of oppression in the chest"
+        ]
+      },
+
+      "deficiency_pattern": {
+        "pattern_zh": "肺气虚",
+        "pattern_en": "Lung Qi Deficiency",
+        "dream_themes": [
+          "Flying upward, levitating, floating",
+          "Strange objects made of gold or iron (Metal element imagery)",
+          "White objects, pale landscapes",
+          "Murderous or violent scenes observed passively",
+          "Struggling for breath"
+        ],
+        "dream_examples": [
+          "Dreaming of flying and seeing wondrous metallic objects",
+          "Dreaming of a landscape drained of color, all white",
+          "Dreaming of witnessing violence without being able to intervene",
+          "Dreaming of suffocating or gasping for air"
+        ],
+        "clinical_signs": [
+          "Weak voice, shortness of breath",
+          "Spontaneous sweating",
+          "Frequent colds, weak immune function",
+          "Dry skin, dry cough",
+          "Pale complexion"
+        ]
+      },
+
+      "wellness_recommendations": {
+        "dietary": {
+          "beneficial_foods": [
+            "White foods to nourish the Lung (pear 梨, white fungus/tremella 银耳, lily bulb 百合, lotus root 莲藕)",
+            "Honey-steamed pear for dry cough and Lung dryness",
+            "Almond milk or apricot kernel (杏仁) tea",
+            "Astragalus tea (黄芪茶 huangqi cha) to strengthen Lung qi and immunity",
+            "Radish soup (萝卜汤) to descend Lung qi"
+          ],
+          "foods_to_avoid": [
+            "Excessively cold or raw foods",
+            "Excessive mucus-forming dairy",
+            "Smoking or exposure to pollutants",
+            "Very spicy foods in excess (small amounts are okay to open the Lung)"
+          ]
+        },
+        "lifestyle": [
+          "Practice deep breathing exercises or qigong daily",
+          "Spend time in fresh air; morning walks are ideal",
+          "Allow yourself to grieve and release sadness; suppressed grief injures the Lung",
+          "Maintain a clean, well-ventilated sleeping environment",
+          "Autumn: go to bed early, rise early with the roosters (Su Wen Chapter 2)"
+        ],
+        "acupressure_points": [
+          {
+            "point_id": "LU7",
+            "name_zh": "列缺",
+            "name_en": "Lie Que (Broken Sequence)",
+            "location": "On the inner forearm, 1.5 inches above the wrist crease, above the radial artery",
+            "technique": "Press with thumbnail for 1 minute per side. Also benefits the head and neck.",
+            "indication": "Opens and descends Lung qi, releases the exterior, benefits the head. Key point for grief-related conditions."
+          },
+          {
+            "point_id": "LU1",
+            "name_zh": "中府",
+            "name_en": "Zhong Fu (Central Palace)",
+            "location": "On the chest, 1 inch below the clavicle, 6 inches lateral to the midline",
+            "technique": "Gentle circular massage for 1-2 minutes. Avoid deep pressure.",
+            "indication": "Opens the chest, disperses Lung qi, relieves cough and chest oppression"
+          }
+        ],
+        "emotional_awareness": "Lung dreams often surface during times of loss, grief, or transition. The Metal element governs letting go -- the Lung and Large Intestine release what is no longer needed. Ask yourself: What am I holding onto that needs to be released? Is there unprocessed grief? Am I allowing myself space to mourn and then move forward?"
+      }
+    },
+
+    {
+      "id": "kidney",
+      "organ_zh": "肾",
+      "organ_en": "Kidney",
+      "element_zh": "水",
+      "element_en": "Water",
+      "spirit_zh": "志",
+      "spirit_en": "Zhi (Willpower)",
+      "emotion_zh": "恐",
+      "emotion_en": "Fear",
+      "season": "winter",
+      "color": "black/dark blue",
+      "direction": "north",
+      "climate": "cold",
+      "paired_organ": "Bladder (膀胱)",
+      "time_of_day": "5:00-7:00 PM",
+
+      "excess_pattern": {
+        "pattern_zh": "肾气实",
+        "pattern_en": "Kidney Qi Excess",
+        "dream_themes": [
+          "Spine or lumbar detachment from the body",
+          "Disconnection of upper and lower body",
+          "Drowning with intense panic",
+          "Deep submersion in dark water"
+        ],
+        "dream_examples": [
+          "Dreaming that your spine is separating from your body",
+          "Dreaming of being pulled underwater by a strong current",
+          "Dreaming of your lower back dissolving or disconnecting"
+        ],
+        "clinical_signs": [
+          "Lower back stiffness and pain",
+          "Tinnitus (ringing in ears)",
+          "Feeling of heaviness in lower body",
+          "Dark urine, scanty urination"
+        ]
+      },
+
+      "deficiency_pattern": {
+        "pattern_zh": "肾气虚 / 肾精不足",
+        "pattern_en": "Kidney Qi / Jing (Essence) Deficiency",
+        "dream_themes": [
+          "Drowning, immersion in water",
+          "Swimming after a shipwreck",
+          "Overlooking an abyss, standing at the edge of a cliff",
+          "Being chased by threats (Kidney Qi deficiency)",
+          "Losing physical control, unable to move limbs",
+          "Fear, terror, existential dread"
+        ],
+        "dream_examples": [
+          "Dreaming of plunging into deep water and being terrified",
+          "Dreaming of swimming desperately after a shipwreck",
+          "Dreaming of standing at the edge of a great abyss",
+          "Dreaming of being chased by unknown dark forces",
+          "Dreaming of legs giving way, unable to run"
+        ],
+        "clinical_signs": [
+          "Lower back weakness and soreness",
+          "Frequent urination, especially at night (nocturia)",
+          "Premature aging, hair loss, graying hair",
+          "Poor memory, weak bones",
+          "Low libido, infertility",
+          "Cold limbs, aversion to cold"
+        ]
+      },
+
+      "wellness_recommendations": {
+        "dietary": {
+          "beneficial_foods": [
+            "Black foods to nourish Kidney essence (black sesame 黑芝麻, black beans 黑豆, black rice 黑米, blackberries)",
+            "Walnuts (核桃) to tonify Kidney yang and strengthen the brain",
+            "Bone broth for Kidney Jing",
+            "Goji berry and chrysanthemum tea (枸杞菊花茶)",
+            "Warm lamb or venison soups in winter",
+            "Seaweed, kelp, sea vegetables"
+          ],
+          "foods_to_avoid": [
+            "Excessive salt (damages Kidneys in excess)",
+            "Cold, raw foods especially in winter",
+            "Excessive caffeine (drains Kidney qi)",
+            "Excessive sugar"
+          ]
+        },
+        "lifestyle": [
+          "Go to bed early in winter; conserve energy (Su Wen Chapter 2: rise late, await sunlight)",
+          "Avoid overwork and excessive physical or sexual exhaustion",
+          "Practice stillness: meditation, tai chi, gentle qigong",
+          "Keep the lower back and feet warm",
+          "Rub the soles of the feet before bed to connect with Kidney meridian",
+          "Moderate exercise; avoid excessive sweating which depletes Kidney yin"
+        ],
+        "acupressure_points": [
+          {
+            "point_id": "KD1",
+            "name_zh": "涌泉",
+            "name_en": "Yong Quan (Gushing Spring)",
+            "location": "On the sole of the foot, in the depression when the toes are curled, approximately at the junction of the anterior 1/3 and posterior 2/3 of the sole",
+            "technique": "Rub vigorously with palm for 2-3 minutes per foot before sleep. This draws excess yang downward and calms the mind.",
+            "indication": "Anchors the spirit, calms fear and anxiety, treats insomnia from Kidney deficiency, clears heat from the head"
+          },
+          {
+            "point_id": "KD3",
+            "name_zh": "太溪",
+            "name_en": "Tai Xi (Great Stream)",
+            "location": "On the inner ankle, in the depression between the medial malleolus and the Achilles tendon",
+            "technique": "Press gently for 1-2 minutes per side.",
+            "indication": "Tonifies Kidney qi and yin, strengthens the lower back, treats fear-based insomnia"
+          }
+        ],
+        "emotional_awareness": "Kidney dreams often emerge during periods of deep fear, existential anxiety, or physical exhaustion. The Kidneys store Jing (essence) -- our constitutional vitality. Ask yourself: Am I running on empty? What am I deeply afraid of? Am I honoring my need for rest and restoration? Fear is the Kidney's emotion -- acknowledging it rather than suppressing it allows the Kidney energy to stabilize."
+      }
+    }
+  ],
+
+  "secondary_organs": [
+    {
+      "id": "gallbladder",
+      "organ_zh": "胆",
+      "organ_en": "Gallbladder",
+      "paired_with": "Liver",
+      "deficiency_dreams": [
+        "Dreams of fights, trials, lawsuits",
+        "Dreams of suicide or self-harm",
+        "Waking early in the morning (3-5 AM) with anxiety"
+      ],
+      "clinical_note": "Gallbladder deficiency often manifests as timidity, indecisiveness, and being easily startled awake."
+    },
+    {
+      "id": "stomach",
+      "organ_zh": "胃",
+      "organ_en": "Stomach",
+      "paired_with": "Spleen",
+      "deficiency_dreams": [
+        "Dreams of having a large, satisfying meal",
+        "Dreams of banquets and feasts"
+      ],
+      "excess_dreams": [
+        "Vivid dreams or nightmares from overeating before bed",
+        "Digestive stagnation causing restless, chaotic dreams"
+      ],
+      "clinical_note": "The Stomach is particularly affected by late-night eating. Food stagnation generates heat that disturbs the Shen."
+    },
+    {
+      "id": "small_intestine",
+      "organ_zh": "小肠",
+      "organ_en": "Small Intestine",
+      "paired_with": "Heart",
+      "deficiency_dreams": [
+        "Dreams of large cities, busy streets",
+        "Dreams of crowded, overwhelming urban environments"
+      ]
+    },
+    {
+      "id": "large_intestine",
+      "organ_zh": "大肠",
+      "organ_en": "Large Intestine",
+      "paired_with": "Lung",
+      "deficiency_dreams": [
+        "Dreams of open fields, vast empty landscapes",
+        "Dreams of wilderness, barren terrain"
+      ]
+    }
+  ],
+
+  "five_elements_dream_themes": [
+    {
+      "element_zh": "木",
+      "element_en": "Wood",
+      "pinyin": "Mu",
+      "organ_yin": "Liver (肝)",
+      "organ_yang": "Gallbladder (胆)",
+      "season": "Spring (春)",
+      "emotion": "Anger (怒)",
+      "color": "Green/Cyan (青)",
+      "direction": "East",
+      "dream_themes": {
+        "balanced": [
+          "Dreams of growth, new beginnings, spring landscapes",
+          "Planning and organizing, seeing clear paths forward",
+          "Healthy trees, vibrant green forests",
+          "Creative problem-solving in dreams"
+        ],
+        "excess": [
+          "Rage, explosive anger, violent confrontations",
+          "Storms, hurricanes, destructive wind",
+          "Feeling trapped, walls closing in",
+          "Breaking things, smashing objects"
+        ],
+        "deficiency": [
+          "Paralysis, inability to move or act",
+          "Withered plants, dead forests",
+          "Indecisiveness, standing at crossroads",
+          "Feeling weak, lacking direction"
+        ]
+      },
+      "generates": "Fire (Wood feeds Fire)",
+      "controls": "Earth (Wood roots control Earth)",
+      "interpretation_guidance": "Wood-element dreams reflect your capacity for vision, planning, and assertive action. They speak to whether your life force is flowing smoothly or blocked."
+    },
+    {
+      "element_zh": "火",
+      "element_en": "Fire",
+      "pinyin": "Huo",
+      "organ_yin": "Heart (心)",
+      "organ_yang": "Small Intestine (小肠)",
+      "season": "Summer (夏)",
+      "emotion": "Joy (喜)",
+      "color": "Red (赤)",
+      "direction": "South",
+      "dream_themes": {
+        "balanced": [
+          "Warmth, connection, love, celebration",
+          "Dancing, laughter, social gatherings",
+          "Sunlight, bright colors, clarity",
+          "Meaningful conversations, deep communion"
+        ],
+        "excess": [
+          "Fires burning out of control, explosions",
+          "Mania, frantic laughter, overstimulation",
+          "Anxiety, racing thoughts, chaos",
+          "Burning buildings, volcanic eruptions",
+          "Blinding light, overwhelming brightness"
+        ],
+        "deficiency": [
+          "Coldness, isolation, disconnection",
+          "Dark, joyless landscapes",
+          "Searching for warmth or companionship",
+          "Extinguishing fires, putting out flames",
+          "Smoke without fire"
+        ]
+      },
+      "generates": "Earth (Fire creates ash/Earth)",
+      "controls": "Metal (Fire melts Metal)",
+      "interpretation_guidance": "Fire-element dreams reflect the state of your Shen -- your consciousness, emotional connections, and capacity for joy. They reveal whether your inner flame is balanced, raging, or dimming."
+    },
+    {
+      "element_zh": "土",
+      "element_en": "Earth",
+      "pinyin": "Tu",
+      "organ_yin": "Spleen (脾)",
+      "organ_yang": "Stomach (胃)",
+      "season": "Late Summer / Seasonal Transitions (长夏)",
+      "emotion": "Worry / Overthinking (思)",
+      "color": "Yellow (黄)",
+      "direction": "Center",
+      "dream_themes": {
+        "balanced": [
+          "Nurturing, caring for others, feeding people",
+          "Fertile gardens, harvest, abundance",
+          "Home, stability, groundedness",
+          "Cooking, preparing meals with care"
+        ],
+        "excess": [
+          "Feeling heavy, sinking, stuck in mud",
+          "Endless repetitive tasks, circular thinking",
+          "Hoarding, accumulating things obsessively",
+          "Swamps, flooded fields, dampness",
+          "Singing while feeling weighed down"
+        ],
+        "deficiency": [
+          "Hunger, searching for food desperately",
+          "Collapsing buildings, unstable foundations",
+          "Feeling unsupported, abandoned",
+          "Empty houses, barren fields",
+          "Falling into deep holes or abysses"
+        ]
+      },
+      "generates": "Metal (Earth contains Metal/minerals)",
+      "controls": "Water (Earth dams Water)",
+      "interpretation_guidance": "Earth-element dreams reflect your sense of security, nourishment, and how well you process and digest -- both food and life experiences. They speak to your center of gravity."
+    },
+    {
+      "element_zh": "金",
+      "element_en": "Metal",
+      "pinyin": "Jin",
+      "organ_yin": "Lung (肺)",
+      "organ_yang": "Large Intestine (大肠)",
+      "season": "Autumn (秋)",
+      "emotion": "Grief / Sadness (悲)",
+      "color": "White (白)",
+      "direction": "West",
+      "dream_themes": {
+        "balanced": [
+          "Clear skies, crisp air, spaciousness",
+          "Letting go with grace, autumn leaves falling",
+          "Precious metals, jewels, refined objects",
+          "Organization, clarity, discernment"
+        ],
+        "excess": [
+          "Warfare, battles, violent conflict",
+          "Crying, sobbing, deep sorrow",
+          "Sharp objects, weapons, cutting",
+          "Rigid structures, prisons, confinement"
+        ],
+        "deficiency": [
+          "Flying among strange metallic objects",
+          "White, pale, colorless landscapes",
+          "Struggling to breathe, suffocation",
+          "Vast empty spaces, desolation",
+          "Witnessing violence without power to intervene"
+        ]
+      },
+      "generates": "Water (Metal condenses Water)",
+      "controls": "Wood (Metal axe controls Wood)",
+      "interpretation_guidance": "Metal-element dreams reflect your relationship with loss, boundaries, and what you value. They ask whether you can let go of what has passed and find clarity in what remains."
+    },
+    {
+      "element_zh": "水",
+      "element_en": "Water",
+      "pinyin": "Shui",
+      "organ_yin": "Kidney (肾)",
+      "organ_yang": "Bladder (膀胱)",
+      "season": "Winter (冬)",
+      "emotion": "Fear (恐)",
+      "color": "Black/Dark Blue (黑)",
+      "direction": "North",
+      "dream_themes": {
+        "balanced": [
+          "Calm deep water, still lakes, gentle flow",
+          "Wisdom, depth, insight",
+          "Exploration of caves, underwater worlds",
+          "Ancestral connections, roots"
+        ],
+        "excess": [
+          "Drowning, floods, tsunamis",
+          "Freezing, trapped in ice",
+          "Spine disconnecting, losing physical integrity",
+          "Dark depths, bottomless oceans"
+        ],
+        "deficiency": [
+          "Being chased by unknown threats",
+          "Standing at the edge of an abyss",
+          "Legs unable to move, frozen in terror",
+          "Shipwrecks, swimming desperately",
+          "Losing control of the body"
+        ]
+      },
+      "generates": "Wood (Water nourishes Wood)",
+      "controls": "Fire (Water extinguishes Fire)",
+      "interpretation_guidance": "Water-element dreams reflect your deepest reserves of vitality, your relationship with fear, and your connection to ancestral wisdom. They reveal whether your foundation is strong or depleted."
+    }
+  ],
+
+  "seasonal_dream_patterns": {
+    "source": "Huangdi Neijing Su Wen, Chapter 2 (四气调神大论 - Treatise on Regulating the Spirit According to the Four Seasons)",
+    "principle": "Dreams naturally shift with the seasons as qi flows through different organ systems. Each season activates its corresponding organ, making dreams related to that organ more common and diagnostically significant during its season.",
+    "seasons": [
+      {
+        "season_zh": "春",
+        "season_en": "Spring",
+        "months": "February - April",
+        "element": "Wood",
+        "organ": "Liver",
+        "qi_quality": "Rising, expanding, growing",
+        "normal_dream_tendencies": [
+          "Dreams become more vivid and active as yang rises",
+          "Dreams of growth, new projects, travel",
+          "Increased dream recall compared to winter",
+          "More movement and action in dreams"
+        ],
+        "pathological_dreams": [
+          "Liver deficiency in spring: lying under trees unable to rise",
+          "Excessive anger dreams signal Liver yang rising with seasonal qi",
+          "Wind-related dreams (storms, tornadoes) reflect external Wind pathogens"
+        ],
+        "lifestyle_guidance": "Go to bed later and rise earlier. Stretch and move freely. Allow your creative energy to flow without constraint. This is the time to begin new endeavors.",
+        "sleep_timing": "Sleep: ~11 PM. Wake: ~6 AM (rise with the sun)"
+      },
+      {
+        "season_zh": "夏",
+        "season_en": "Summer",
+        "months": "May - July",
+        "element": "Fire",
+        "organ": "Heart",
+        "qi_quality": "Expanding, outward, maximum yang",
+        "normal_dream_tendencies": [
+          "Dreams may be more emotional and social",
+          "Lighter sleep due to longer days, more dream interruptions",
+          "Dreams of warmth, joy, celebration, connection",
+          "Possible increase in vivid dreams from Heart activity"
+        ],
+        "pathological_dreams": [
+          "Heart Fire in summer: volcanic eruptions, extreme fire imagery",
+          "Heat disturbing Shen: restless, fragmented, incoherent dreams",
+          "Anxiety dreams signal Heart yin failing to anchor the Shen"
+        ],
+        "lifestyle_guidance": "Go to bed later and rise earlier. Be active and outgoing. Avoid anger and frustration. Nap at midday if needed to protect the Heart.",
+        "sleep_timing": "Sleep: ~11 PM. Wake: ~5:30 AM. Optional midday nap: 20-30 min."
+      },
+      {
+        "season_zh": "长夏",
+        "season_en": "Late Summer",
+        "months": "August - September (also seasonal transitions)",
+        "element": "Earth",
+        "organ": "Spleen",
+        "qi_quality": "Centering, transforming, stabilizing",
+        "normal_dream_tendencies": [
+          "Dreams become more grounded, domestic, food-related",
+          "Processing and digesting recent experiences",
+          "Dreams of home, family, nourishment",
+          "Transition dreams as seasons shift"
+        ],
+        "pathological_dreams": [
+          "Spleen deficiency: hunger dreams, endless construction",
+          "Dampness accumulation: swampy, heavy, stuck dreams",
+          "Overthinking manifesting as repetitive loop dreams"
+        ],
+        "lifestyle_guidance": "Maintain regularity in eating and sleeping. Center yourself through grounding practices. This is a time for integration and harvest.",
+        "sleep_timing": "Sleep: ~10:30 PM. Wake: ~6 AM."
+      },
+      {
+        "season_zh": "秋",
+        "season_en": "Autumn",
+        "months": "October - November",
+        "element": "Metal",
+        "organ": "Lung",
+        "qi_quality": "Contracting, descending, releasing",
+        "normal_dream_tendencies": [
+          "Dreams become more reflective, introspective",
+          "Themes of letting go, separation, transition",
+          "May process grief and loss from the year",
+          "Decreased dream intensity as yin increases"
+        ],
+        "pathological_dreams": [
+          "Lung deficiency in autumn: battles, warfare imagery",
+          "Grief dreams, crying in dreams signal Lung qi imbalance",
+          "Dreams of white objects, metallic themes"
+        ],
+        "lifestyle_guidance": "Go to bed early and rise early. Pull energy inward. Practice letting go of what no longer serves you. Keep the lungs moist in dry weather.",
+        "sleep_timing": "Sleep: ~10 PM. Wake: ~6 AM (rise with the roosters)."
+      },
+      {
+        "season_zh": "冬",
+        "season_en": "Winter",
+        "months": "December - January",
+        "element": "Water",
+        "organ": "Kidney",
+        "qi_quality": "Storing, descending, maximum yin",
+        "normal_dream_tendencies": [
+          "Deepest sleep with less dream recall",
+          "When dreams occur, they tend to be deeper and more symbolic",
+          "Themes of depth, darkness, inner wisdom",
+          "Ancestral or past-life themed dreams more common"
+        ],
+        "pathological_dreams": [
+          "Kidney deficiency in winter: drowning, shipwreck dreams",
+          "Fear-based chase dreams signal depleted Kidney qi",
+          "Abyss dreams, falling into depths"
+        ],
+        "lifestyle_guidance": "Go to bed early and rise late, waiting for sunlight. Conserve energy. Avoid excessive sweating or overexertion. This is the time for deep rest and restoration.",
+        "sleep_timing": "Sleep: ~9:30-10 PM. Wake: ~7 AM (await sunlight)."
+      }
+    ]
+  },
+
+  "common_dream_themes_diagnosis": [
+    {
+      "theme_en": "Flying / Floating",
+      "theme_zh": "飞翔 / 漂浮",
+      "primary_organ": "Lung",
+      "secondary_organ": "Liver",
+      "tcm_patterns": [
+        {
+          "pattern": "Lung Qi Deficiency (肺气虚)",
+          "description": "Lung deficiency causes dreams of flying upward and seeing strange metallic objects. The Lung qi fails to descend, and qi rises unanchored.",
+          "distinguishing_features": "Flying feels effortless, may see gold/iron objects, white or pale imagery"
+        },
+        {
+          "pattern": "Qi Abundant Above (上盛)",
+          "description": "When qi accumulates in the upper body, flying dreams result. This is a general yang excess pattern.",
+          "distinguishing_features": "Sensation of lightness in upper body, may feel head pressure upon waking"
+        },
+        {
+          "pattern": "Liver Yang Rising (肝阳上亢)",
+          "description": "Liver yang surging upward can produce soaring dreams. Often accompanied by feelings of exhilaration or anger.",
+          "distinguishing_features": "Flying with emotional intensity, may be accompanied by wind or storms"
+        }
+      ],
+      "follow_up_questions": [
+        "Was the flying effortless or were you struggling?",
+        "Did you see any metallic objects or white imagery while flying?",
+        "How did you feel -- free and joyful, or anxious and unmoored?",
+        "Do you tend to have headaches or feel light-headed during the day?"
+      ]
+    },
+    {
+      "theme_en": "Water / Drowning / Floods",
+      "theme_zh": "水 / 溺水 / 洪水",
+      "primary_organ": "Kidney",
+      "secondary_organ": null,
+      "tcm_patterns": [
+        {
+          "pattern": "Kidney Qi Deficiency (肾气虚)",
+          "description": "The Kidney governs water. When Kidney qi is weak, dreams of drowning, shipwrecks, and terrifying water immersion occur.",
+          "distinguishing_features": "Fear is prominent, water is deep and dark, feeling of helplessness"
+        },
+        {
+          "pattern": "Yin Qi in Excess (阴气盛)",
+          "description": "General yin excess produces dreams of wading through great water with fear. The body is overwhelmed by cold, damp yin energy.",
+          "distinguishing_features": "Cold water, flooding, sense of being overwhelmed"
+        }
+      ],
+      "follow_up_questions": [
+        "Was the water calm or threatening?",
+        "Were you drowning or swimming?",
+        "Was the water cold, warm, deep, or shallow?",
+        "Do you experience lower back pain, frequent urination, or fatigue?"
+      ]
+    },
+    {
+      "theme_en": "Fire / Burning",
+      "theme_zh": "火 / 燃烧",
+      "primary_organ": "Heart",
+      "secondary_organ": null,
+      "tcm_patterns": [
+        {
+          "pattern": "Heart Fire Blazing (心火亢盛)",
+          "description": "Excess Heart fire produces dreams of large fires, eruptions, and burning. The Shen is agitated by internal heat.",
+          "distinguishing_features": "Fires are large and out of control, feelings of agitation or excitement"
+        },
+        {
+          "pattern": "Heart Deficiency (心虚)",
+          "description": "Heart deficiency produces dreams of attempting to extinguish fires, or seeing mountains with fire and smoke. The dreamer tries to control fire but cannot.",
+          "distinguishing_features": "Trying to put out fire, smoke imagery, fire is smaller but persistent"
+        },
+        {
+          "pattern": "Yang Qi in Excess (阳气盛)",
+          "description": "General yang excess produces dreams of great fires burning. This is a systemic heat pattern, not organ-specific.",
+          "distinguishing_features": "Widespread fire, intense heat sensation, may wake feeling hot"
+        }
+      ],
+      "follow_up_questions": [
+        "Was the fire threatening you or were you observing it?",
+        "Were you trying to extinguish the fire?",
+        "Did you feel hot or sweaty upon waking?",
+        "Do you experience palpitations, mouth ulcers, or restlessness?"
+      ]
+    },
+    {
+      "theme_en": "Being Chased / Pursued",
+      "theme_zh": "被追赶",
+      "primary_organ": "Kidney",
+      "secondary_organ": "Liver",
+      "tcm_patterns": [
+        {
+          "pattern": "Kidney Qi Deficiency (肾气虚)",
+          "description": "When Kidney qi is depleted, the Zhi (willpower) weakens and fear dominates. The dreamer cannot confront the pursuer and can only flee.",
+          "distinguishing_features": "Pursuer is unknown/shadowy, legs feel heavy or frozen, pure terror"
+        },
+        {
+          "pattern": "Liver Qi Stagnation (肝气郁结)",
+          "description": "Stagnant Liver qi generates a feeling of being trapped. The chase reflects an inability to process and move through frustration.",
+          "distinguishing_features": "Pursuer may be known, feelings of frustration mixed with fear, anger upon waking"
+        }
+      ],
+      "follow_up_questions": [
+        "Could you see what was chasing you?",
+        "Did your legs work, or were they heavy/frozen?",
+        "Did you feel more fearful or more frustrated?",
+        "Do you feel exhausted or running on empty in daily life?"
+      ]
+    },
+    {
+      "theme_en": "Falling",
+      "theme_zh": "坠落",
+      "primary_organ": "Kidney",
+      "secondary_organ": "Spleen",
+      "tcm_patterns": [
+        {
+          "pattern": "Qi Abundant Below / Sinking Qi (下盛 / 气陷)",
+          "description": "When qi is heavy in the lower body or sinks downward, falling dreams occur. This can relate to both Kidney and Spleen qi sinking.",
+          "distinguishing_features": "Sudden drops, falling into an abyss or void"
+        },
+        {
+          "pattern": "Kidney Deficiency (肾虚)",
+          "description": "The Kidney anchors the body's foundational qi. When depleted, the dreamer loses their grounding and plummets.",
+          "distinguishing_features": "Falling into deep water or dark voids, existential dread"
+        },
+        {
+          "pattern": "Spleen Qi Sinking (脾气下陷)",
+          "description": "Spleen qi failing to hold things up produces dreams of falling into abysses, deep holes, or collapsing structures.",
+          "distinguishing_features": "Falling into holes, ground giving way, buildings collapsing"
+        }
+      ],
+      "follow_up_questions": [
+        "Were you falling into water, a void, or from a structure?",
+        "Did the ground give way beneath you?",
+        "Do you experience fatigue, heaviness, or prolapse symptoms?",
+        "Do you feel unstable or ungrounded in daily life?"
+      ]
+    },
+    {
+      "theme_en": "Anger / Fighting / Arguments",
+      "theme_zh": "愤怒 / 打斗 / 争吵",
+      "primary_organ": "Liver",
+      "secondary_organ": null,
+      "tcm_patterns": [
+        {
+          "pattern": "Liver Qi Excess (肝气盛)",
+          "description": "When Liver qi is in excess, the Hun is agitated and dreams of intense anger, physical fighting, and confrontation result. This is one of the most clearly stated correspondences in the Su Wen.",
+          "distinguishing_features": "Strong anger, physical violence, confrontation with specific people"
+        },
+        {
+          "pattern": "Liver Fire Rising (肝火上炎)",
+          "description": "Liver fire blazing upward produces explosive rage in dreams, often with shouting and destructive impulses.",
+          "distinguishing_features": "Explosive quality, red imagery, waking with headache or bitter taste"
+        }
+      ],
+      "follow_up_questions": [
+        "Were you the aggressor or the victim?",
+        "Was it someone you know?",
+        "Did you wake feeling angry or frustrated?",
+        "Are you suppressing frustration in your waking life?"
+      ]
+    },
+    {
+      "theme_en": "Crying / Grieving / Sadness",
+      "theme_zh": "哭泣 / 悲伤",
+      "primary_organ": "Lung",
+      "secondary_organ": null,
+      "tcm_patterns": [
+        {
+          "pattern": "Lung Qi Excess (肺气实)",
+          "description": "When Lung qi is in excess, the Po is overwhelmed and dreams of weeping, sorrow, and terror result.",
+          "distinguishing_features": "Intense crying, feeling of chest oppression in the dream"
+        },
+        {
+          "pattern": "Lung Qi Deficiency (肺气虚)",
+          "description": "Lung deficiency may produce a sense of suffocation, struggling for breath, or passive observation of sad events.",
+          "distinguishing_features": "Observing sadness without being able to help, breathlessness in dreams"
+        }
+      ],
+      "follow_up_questions": [
+        "Were you crying yourself or witnessing someone else cry?",
+        "Could you breathe easily in the dream?",
+        "Have you experienced a recent loss or are you suppressing grief?",
+        "Do you have any respiratory symptoms (cough, shortness of breath)?"
+      ]
+    },
+    {
+      "theme_en": "Eating / Hunger / Food",
+      "theme_zh": "进食 / 饥饿 / 食物",
+      "primary_organ": "Spleen",
+      "secondary_organ": "Stomach",
+      "tcm_patterns": [
+        {
+          "pattern": "Spleen Qi Deficiency (脾气虚)",
+          "description": "When the Spleen is deficient, the body feels undernourished. Dreams of desperate hunger and searching for food that cannot be found reflect this internal starvation.",
+          "distinguishing_features": "Searching for food, unable to eat, food disappears or is unsatisfying"
+        },
+        {
+          "pattern": "Stomach Deficiency (胃虚)",
+          "description": "Stomach deficiency produces dreams of lavish meals and feasts -- the body's attempt to compensate for what it lacks.",
+          "distinguishing_features": "Large satisfying meals, banquets, abundance of food"
+        }
+      ],
+      "follow_up_questions": [
+        "Were you eating or searching for food?",
+        "Was the food satisfying or did it disappear?",
+        "Do you skip meals or have irregular eating patterns?",
+        "Do you experience bloating, fatigue after eating, or poor appetite?"
+      ]
+    },
+    {
+      "theme_en": "Teeth Falling Out",
+      "theme_zh": "掉牙",
+      "primary_organ": "Kidney",
+      "secondary_organ": "Stomach",
+      "tcm_patterns": [
+        {
+          "pattern": "Kidney Jing Deficiency (肾精不足)",
+          "description": "In TCM, the Kidneys govern the bones and teeth. Dreams of teeth falling out may reflect declining Kidney Jing (essence), especially with aging.",
+          "distinguishing_features": "Teeth crumbling, falling out easily, fear of aging"
+        },
+        {
+          "pattern": "Stomach Fire (胃火)",
+          "description": "Stomach heat rising to the gums can also manifest as tooth dreams. The upper gums relate to the Stomach meridian.",
+          "distinguishing_features": "Teeth aching before falling, bleeding gums in dream, sensation of heat"
+        }
+      ],
+      "follow_up_questions": [
+        "Were the teeth crumbling or being pulled?",
+        "Did your gums bleed in the dream?",
+        "Do you have any dental issues or grind your teeth?",
+        "Do you experience lower back pain, frequent urination, or premature aging signs?"
+      ]
+    },
+    {
+      "theme_en": "Snakes / Serpents",
+      "theme_zh": "蛇",
+      "primary_organ": "Liver",
+      "secondary_organ": "Kidney",
+      "tcm_patterns": [
+        {
+          "pattern": "Liver Wind (肝风内动)",
+          "description": "Snakes in TCM symbolism relate to internal wind -- their sinuous movement mirrors the unpredictable, zigzagging nature of Liver wind.",
+          "distinguishing_features": "Moving, striking snakes; sudden appearance; feeling of danger"
+        },
+        {
+          "pattern": "Kidney Fear Pattern",
+          "description": "Snakes can also represent deep, primal fear stored in the Kidney system.",
+          "distinguishing_features": "Hidden snakes, lurking in dark water, coiled threats"
+        }
+      ],
+      "follow_up_questions": [
+        "Was the snake moving or still?",
+        "Did it threaten you or were you observing it?",
+        "Was it in water or on land?",
+        "Do you experience tremors, dizziness, or sudden headaches?"
+      ]
+    }
+  ],
+
+  "classical_herbal_formulas": {
+    "description": "Classical TCM formulas historically used for dream-disturbed sleep. These are for reference only and should be prescribed by a qualified TCM practitioner.",
+    "formulas": [
+      {
+        "name_zh": "半夏秫米汤",
+        "name_en": "Banxia Shumi Tang (Pinellia and Millet Decoction)",
+        "source": "Huangdi Neijing Ling Shu",
+        "indication": "Stomach qi disharmony causing insomnia and disturbed dreams. The original formula from the Nei Jing for dream-disturbed sleep.",
+        "pattern": "Stomach qi failing to descend, yin and yang unable to exchange"
+      },
+      {
+        "name_zh": "归脾汤",
+        "name_en": "Guipi Tang (Restore the Spleen Decoction)",
+        "source": "Ji Sheng Fang (Formulas to Aid the Living)",
+        "indication": "Heart-Spleen deficiency with excessive dreaming, poor memory, fatigue, and anxiety. The most common formula for overthinking-related dream disturbance.",
+        "pattern": "Heart blood and Spleen qi deficiency"
+      },
+      {
+        "name_zh": "温胆汤",
+        "name_en": "Wendan Tang (Warm the Gallbladder Decoction)",
+        "source": "Bei Ji Qian Jin Yao Fang",
+        "indication": "Phlegm-heat disturbing the Heart causing nightmares, restless sleep, and vivid frightening dreams.",
+        "pattern": "Gallbladder qi deficiency with phlegm-heat"
+      },
+      {
+        "name_zh": "酸枣仁汤",
+        "name_en": "Suanzaoren Tang (Sour Jujube Decoction)",
+        "source": "Jin Gui Yao Lue (Synopsis of the Golden Chamber)",
+        "indication": "Liver blood deficiency with heat causing insomnia, vivid dreams, irritability, and night sweats.",
+        "pattern": "Liver blood deficiency with deficiency heat"
+      },
+      {
+        "name_zh": "天王补心丹",
+        "name_en": "Tianwang Buxin Dan (Heavenly Emperor's Heart-Supplementing Pill)",
+        "source": "She Sheng Mi Pou",
+        "indication": "Heart-Kidney yin deficiency with insomnia, excessive dreaming, palpitations, poor memory, and night sweats.",
+        "pattern": "Heart and Kidney yin deficiency"
+      },
+      {
+        "name_zh": "血府逐瘀汤",
+        "name_en": "Xuefu Zhuyu Tang (Drive Out Blood Stasis from the Mansion of Blood Decoction)",
+        "source": "Yi Lin Gai Cuo",
+        "indication": "Blood stasis causing chronic insomnia with dark, disturbing dreams that recur night after night.",
+        "pattern": "Blood stasis in the chest obstructing Heart qi"
+      }
+    ]
+  },
+
+  "universal_acupressure_protocol": {
+    "description": "A simple self-care acupressure routine for improving sleep quality and reducing dream disturbance. Can be performed nightly before bed.",
+    "duration": "10-15 minutes total",
+    "points": [
+      {
+        "order": 1,
+        "point_id": "Yintang (EX-HN3)",
+        "name_zh": "印堂",
+        "name_en": "Yin Tang (Hall of Impression / Third Eye)",
+        "location": "Midpoint between the eyebrows",
+        "technique": "Press gently with middle finger or thumb. Hold for 1-2 minutes with slow, deep breathing.",
+        "benefit": "Calms the Shen, induces relaxation, clears the mind. Excellent for anxiety-driven dream disturbance."
+      },
+      {
+        "order": 2,
+        "point_id": "HT7",
+        "name_zh": "神门",
+        "name_en": "Shen Men (Spirit Gate)",
+        "location": "Wrist crease, pinky side, in the depression at the radial side of the pisiform bone",
+        "technique": "Press with opposite thumb for 1-2 minutes per wrist.",
+        "benefit": "The master point for calming the Spirit. Treats insomnia, nightmares, and excessive dreaming."
+      },
+      {
+        "order": 3,
+        "point_id": "PC6",
+        "name_zh": "内关",
+        "name_en": "Nei Guan (Inner Pass)",
+        "location": "Inner forearm, 2 inches above wrist crease, between the two tendons",
+        "technique": "Press with thumb for 1-2 minutes per arm.",
+        "benefit": "Calms the Heart, unbinds the chest, alleviates palpitations and anxiety."
+      },
+      {
+        "order": 4,
+        "point_id": "SP6",
+        "name_zh": "三阴交",
+        "name_en": "San Yin Jiao (Three Yin Intersection)",
+        "location": "Inner leg, 3 inches above the ankle bone, behind the tibia",
+        "technique": "Press with thumb for 1-2 minutes per leg. Contraindicated during pregnancy.",
+        "benefit": "Nourishes yin of Liver, Kidney, and Spleen simultaneously. One of the most important points for sleep."
+      },
+      {
+        "order": 5,
+        "point_id": "KD1",
+        "name_zh": "涌泉",
+        "name_en": "Yong Quan (Gushing Spring)",
+        "location": "Sole of the foot, in the depression when toes are curled",
+        "technique": "Rub vigorously with palm for 2-3 minutes per foot while lying in bed.",
+        "benefit": "Draws excess yang and heat downward from the head. Grounds the spirit. Calms fear."
+      },
+      {
+        "order": 6,
+        "point_id": "Anmian (EX-HN22)",
+        "name_zh": "安眠",
+        "name_en": "An Mian (Peaceful Sleep)",
+        "location": "Behind the ear, midpoint between Yifeng (SJ17) and Fengchi (GB20), in the depression behind the mastoid process",
+        "technique": "Press gently with fingertips for 1 minute per side.",
+        "benefit": "The name literally means Peaceful Sleep. Specific for insomnia and dream-disturbed sleep."
+      }
+    ]
+  },
+
+  "ayurveda_dream_types": {
+    "description": "Ayurvedic dream interpretation based on the three doshas. Included for cross-cultural reference and for users who resonate with the Ayurvedic framework.",
+    "sources": [
+      "Charaka Samhita - Indriyasthana, Chapter 5",
+      "Sushruta Samhita - Sharira Sthana",
+      "Ashtanga Hridayam"
+    ],
+    "core_principle": "In Ayurveda, dreams (Svapna) reflect the dreamer's constitutional type (Prakriti) and current imbalance (Vikriti). The content, quality, and emotional tone of dreams indicate which dosha is predominant or disturbed.",
+    "dream_classification": {
+      "drishta": "Dreams based on things seen or experienced in waking life",
+      "shruta": "Dreams based on things heard",
+      "anubhuta": "Dreams based on things experienced through other senses",
+      "prarthita": "Dreams based on desires or wishes",
+      "kalpita": "Dreams based on imagination",
+      "bhavika": "Prophetic dreams that may indicate future events or prognosis",
+      "doshaja": "Dreams caused by dosha imbalance (most diagnostically relevant)"
+    },
+    "doshas": [
+      {
+        "dosha": "Vata",
+        "dosha_sanskrit": "वात",
+        "element": "Air + Space (Ether)",
+        "qualities": "Light, dry, cold, mobile, subtle, rough",
+        "balanced_dream_characteristics": [
+          "Creative, imaginative dreams with vivid imagery",
+          "Dreams of travel and exploration",
+          "Abstract, symbolic dream narratives",
+          "Quick transitions between dream scenes"
+        ],
+        "imbalanced_dream_themes": [
+          "Flying, soaring through the sky",
+          "Falling from heights",
+          "Being chased or running frantically",
+          "Climbing trees, mountains, tall structures",
+          "Riding on animals (camels, horses, elephants)",
+          "Wandering in dry, barren lands",
+          "Dried, crooked trees and rivers",
+          "Hearing rumbling voices or thunder",
+          "Whirling wheels, spinning objects",
+          "Rapid movement, restlessness in dreams",
+          "Dreams that shift rapidly and feel chaotic"
+        ],
+        "dream_quality": "Light, fragmented, quickly forgotten. May wake frequently during the night. Dreams feel chaotic, fast-moving, and hard to follow.",
+        "associated_emotions_in_dreams": "Fear, anxiety, insecurity, confusion",
+        "body_signs": [
+          "Dry skin and lips",
+          "Constipation",
+          "Joint pain or cracking",
+          "Cold hands and feet",
+          "Restless sleep, difficulty falling asleep",
+          "Irregular appetite"
+        ],
+        "wellness_recommendations": {
+          "dietary": [
+            "Warm, moist, grounding foods (soups, stews, warm milk)",
+            "Sweet, sour, and salty tastes",
+            "Ghee, sesame oil, warm spices (cinnamon, ginger, cardamom)",
+            "Avoid cold, dry, raw foods",
+            "Warm golden milk (turmeric milk) before bed"
+          ],
+          "lifestyle": [
+            "Establish a consistent daily routine (dinacharya)",
+            "Oil massage (Abhyanga) with warm sesame oil before bed",
+            "Keep the bedroom warm and comfortable",
+            "Avoid stimulation before sleep (screens, intense conversation)",
+            "Practice grounding yoga: forward folds, seated poses"
+          ],
+          "herbal": [
+            "Ashwagandha (Withania somnifera) for calming and grounding",
+            "Brahmi (Bacopa monnieri) for mental calm",
+            "Jatamansi (Spikenard) for deep sleep",
+            "Warm milk with nutmeg before bed"
+          ]
+        }
+      },
+      {
+        "dosha": "Pitta",
+        "dosha_sanskrit": "पित्त",
+        "element": "Fire + Water",
+        "qualities": "Hot, sharp, light, liquid, oily, spreading",
+        "balanced_dream_characteristics": [
+          "Clear, vivid, well-organized dream narratives",
+          "Problem-solving and goal-oriented dreams",
+          "Teaching or leading others in dreams",
+          "Adventurous and purposeful dreams"
+        ],
+        "imbalanced_dream_themes": [
+          "Fire, flames, lightning, explosions",
+          "Sun, bright light, meteors, shooting stars",
+          "Golden mountains, fields of gold",
+          "Red flowers, red-colored trees and objects",
+          "Entering into fire, embracing flames",
+          "Conflict, competition, fighting, warfare",
+          "Blood, violence, aggression",
+          "Being judged, criticized, or humiliated",
+          "Intense arguments and debates",
+          "Poisonous things, snakes, scorpions"
+        ],
+        "dream_quality": "Vivid, colorful, intense, and well-remembered. Often involves conflict or achievement. May wake feeling hot or angry. Dreams have strong narrative structure.",
+        "associated_emotions_in_dreams": "Anger, frustration, jealousy, ambition, competitiveness",
+        "body_signs": [
+          "Acid reflux, heartburn",
+          "Skin rashes or inflammation",
+          "Excessive body heat, night sweats",
+          "Irritability, impatience",
+          "Loose stools or diarrhea",
+          "Red eyes, sensitivity to light"
+        ],
+        "wellness_recommendations": {
+          "dietary": [
+            "Cooling foods (cucumber, coconut, mint, cilantro)",
+            "Sweet, bitter, and astringent tastes",
+            "Avoid spicy, sour, and fermented foods",
+            "Coconut water, aloe vera juice",
+            "Cooling herbal teas (peppermint, rose, hibiscus)"
+          ],
+          "lifestyle": [
+            "Avoid vigorous exercise in the evening",
+            "Moonlight walks for cooling energy",
+            "Practice cooling pranayama (Shitali / Sitkari breathing)",
+            "Keep the bedroom cool and dark",
+            "Avoid competitive activities before bed"
+          ],
+          "herbal": [
+            "Shatavari (Asparagus racemosus) for cooling and calming",
+            "Amalaki (Indian Gooseberry) for reducing heat",
+            "Brahmi (Bacopa monnieri) for mental peace",
+            "Rose water applied to forehead and temples"
+          ]
+        }
+      },
+      {
+        "dosha": "Kapha",
+        "dosha_sanskrit": "कफ",
+        "element": "Water + Earth",
+        "qualities": "Heavy, slow, cool, oily, smooth, stable, soft",
+        "balanced_dream_characteristics": [
+          "Peaceful, pleasant, soothing dreams",
+          "Dreams of calm water, gardens, nature",
+          "Romantic or loving dreams",
+          "Satisfying, content, unhurried dreams"
+        ],
+        "imbalanced_dream_themes": [
+          "Clouds, rain, showers, overcast skies",
+          "Water reservoirs, ponds, calm lakes",
+          "Lotus flowers, water birds, swans",
+          "Swimming in the sea or a sea of milk",
+          "Silver mountains, snow-covered landscapes",
+          "Excessive sleeping within the dream",
+          "Lethargy, inability to move",
+          "Clinging to people or objects",
+          "Hoarding, accumulating possessions",
+          "Emotional attachment scenes, nostalgia"
+        ],
+        "dream_quality": "Long, deep, slow-moving dreams. Often replay memories or familiar scenes. May feel excessively pleasant, even indulgent. Can feel trapped in long dreams. Hard to wake from.",
+        "associated_emotions_in_dreams": "Attachment, sentimentality, possessiveness, complacency, laziness",
+        "body_signs": [
+          "Excess mucus, congestion",
+          "Weight gain, water retention",
+          "Feeling heavy and lethargic",
+          "Oversleeping, difficulty waking",
+          "Sluggish digestion",
+          "Emotional eating"
+        ],
+        "wellness_recommendations": {
+          "dietary": [
+            "Light, warm, dry foods with pungent, bitter, and astringent tastes",
+            "Spicy foods (ginger, black pepper, cayenne) to stimulate metabolism",
+            "Honey in warm water (not hot) in the morning",
+            "Avoid heavy, oily, sweet, and cold foods",
+            "Light dinner, eaten early"
+          ],
+          "lifestyle": [
+            "Wake early (before 6 AM) to avoid Kapha sluggishness",
+            "Vigorous morning exercise (running, dancing, active yoga)",
+            "Dry brushing (Garshana) to stimulate circulation",
+            "Avoid daytime napping",
+            "Engage in stimulating, varied activities"
+          ],
+          "herbal": [
+            "Trikatu (ginger, black pepper, long pepper) for stimulating digestion",
+            "Guggulu for clearing congestion and stagnation",
+            "Tulsi (Holy Basil) tea for clarity and warmth",
+            "Triphala before bed for gentle cleansing"
+          ]
+        }
+      }
+    ]
+  },
+
+  "tcm_ayurveda_correspondences": {
+    "description": "Approximate mapping between TCM and Ayurvedic frameworks for cross-system reference. These are not exact equivalences but useful parallels.",
+    "mappings": [
+      {
+        "tcm_element": "Wood (木)",
+        "tcm_organ": "Liver",
+        "ayurveda_dosha": "Pitta (partially)",
+        "shared_themes": "Anger, frustration, ambition, heat rising, transformation",
+        "note": "Liver yang rising shares qualities with Pitta excess: heat, intensity, irritability"
+      },
+      {
+        "tcm_element": "Fire (火)",
+        "tcm_organ": "Heart",
+        "ayurveda_dosha": "Pitta",
+        "shared_themes": "Fire imagery, heat, intensity, inflammation, sharp emotions",
+        "note": "Heart Fire and Pitta aggravation both manifest as fire dreams, agitation, and heat signs"
+      },
+      {
+        "tcm_element": "Earth (土)",
+        "tcm_organ": "Spleen",
+        "ayurveda_dosha": "Kapha",
+        "shared_themes": "Heaviness, dampness, stagnation, overthinking, attachment",
+        "note": "Spleen dampness and Kapha excess share qualities of heaviness, sluggishness, and accumulation"
+      },
+      {
+        "tcm_element": "Metal (金)",
+        "tcm_organ": "Lung",
+        "ayurveda_dosha": "Vata (partially)",
+        "shared_themes": "Dryness, grief, letting go, breath, the boundary between self and world",
+        "note": "Both systems link respiratory function to emotional processing of loss"
+      },
+      {
+        "tcm_element": "Water (水)",
+        "tcm_organ": "Kidney",
+        "ayurveda_dosha": "Vata",
+        "shared_themes": "Fear, depletion, aging, cold, foundational vitality",
+        "note": "Kidney deficiency and Vata derangement share exhaustion, fear, dryness, and cold"
+      }
+    ]
+  },
+
+  "ai_interview_guidance": {
+    "description": "Guidance for the AI dream interview system on how to use TCM patterns in dream analysis.",
+    "when_to_apply": [
+      "When dream content matches specific organ patterns (fire, water, flying, falling, anger, grief, etc.)",
+      "When the user reports recurring dreams of the same type",
+      "When the user mentions physical symptoms alongside their dreams",
+      "When the dream occurs during a specific season that amplifies the organ pattern",
+      "When the user expresses interest in TCM or holistic health perspectives"
+    ],
+    "integration_approach": "TCM dream interpretation should be offered as one perspective alongside psychological (Jungian, cognitive) and cultural interpretations. It should never replace medical advice but can complement it by connecting dream content to holistic wellness awareness.",
+    "sensitivity_notes": [
+      "Present TCM concepts as a traditional framework, not as definitive medical diagnosis",
+      "Use accessible language while preserving authentic terminology",
+      "Offer wellness suggestions as invitations, not prescriptions",
+      "Acknowledge that dream interpretation is inherently subjective across all traditions",
+      "Respect the user's cultural background; offer Ayurvedic parallels when relevant"
+    ],
+    "example_integration": {
+      "dream_input": "I dreamed I was drowning in dark, cold water and couldn't reach the surface",
+      "tcm_layer": "In Traditional Chinese Medicine, water dreams -- especially drowning in cold, dark water -- are associated with the Kidney system (肾). The Kidney governs water, stores our essential vitality (Jing), and houses the emotion of fear. This dream pattern may reflect a period of deep exhaustion, fear, or feeling overwhelmed by life's depths. It is especially significant if it occurs in winter, the Kidney's season. Consider: Are you pushing yourself beyond your reserves? Simple self-care includes rubbing the soles of your feet (Yong Quan / KD1 point) before bed and eating warming, Kidney-nourishing foods like black sesame, walnuts, and bone broth."
+    }
+  }
+}

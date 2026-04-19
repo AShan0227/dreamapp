@@ -1,0 +1,473 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-04-16",
+    "description": "Comprehensive dreamcore visual reference for AI video generation. Covers iconic spaces, color palettes, camera rules, and tested prompts for producing authentic dreamcore aesthetic.",
+    "total_spaces": 20,
+    "total_prompts": 10
+  },
+  "iconic_dreamcore_spaces": [
+    {
+      "id": "dc_001",
+      "name": "The Eternal Mall",
+      "description": "A vast shopping mall frozen at closing time. Metal security shutters half-lowered over darkened storefronts. Fluorescent lights buzz overhead casting a flat, shadowless glow. The floor is polished terrazzo or speckled linoleum reflecting the ceiling lights. Escalators run perpetually with no one on them. A central fountain has been drained, leaving mineral stains. Potted plastic plants sit at intervals. A distant echo of muzak plays an unidentifiable melody. The air feels processed, neither warm nor cold. Second and third floors are visible through the atrium but appear identical to the first.",
+      "visual_details": {
+        "lighting": "Overhead fluorescent panels, flat and even, no shadows. Occasional flickering tube. Exit signs glowing red-green at intervals.",
+        "textures": "Polished terrazzo floor with embedded stone chips. Smooth metal shutters. Fake marble columns. Potted ficus trees with waxy leaves.",
+        "scale": "Vast horizontal space, two to three stories visible through atrium. Corridors extend beyond comfortable sight distance.",
+        "time_of_day": "Timeless interior. No windows to outside. Clock on wall stopped or showing impossible time (4:44, 88:88)."
+      },
+      "color_palette": ["#E8E4DF", "#C9D6DF", "#F0EAD2", "#7D8491", "#B8C5D6", "#F5F1E3"],
+      "palette_names": ["bone white walls", "institutional blue-grey", "cream tile", "steel shutter grey", "reflected sky blue", "aged fluorescent yellow-white"]
+    },
+    {
+      "id": "dc_002",
+      "name": "The Empty Pool",
+      "description": "A swimming pool from the 1970s or early 1980s, either drained or filled with perfectly still water that reflects the ceiling like glass. Pale blue ceramic tiles line the pool and surrounding deck. White plastic lounge chairs are arranged in perfect rows, all empty. A lifeguard chair stands unoccupied. The ceiling is either open sky frozen in permanent sunset (orange-pink gradient) or a low industrial ceiling with exposed ducts. A single clock on the wall. The air smells faintly of chlorine. No ripple on the water surface. Distant echo of splashing from somewhere unseen.",
+      "visual_details": {
+        "lighting": "Underwater pool lights casting wavering blue glow upward. If outdoors, eternal golden hour. If indoors, diffuse fluorescent with condensation haze.",
+        "textures": "Glazed ceramic pool tiles with visible grout lines. Rough non-slip concrete deck. Chrome pool ladder. Pebbled glass block windows.",
+        "scale": "Olympic or institutional size. The far end is slightly hazy, suggesting the pool is larger than it should be.",
+        "time_of_day": "Permanent dusk or timeless interior."
+      },
+      "color_palette": ["#A8D8EA", "#E0F0FF", "#F9C784", "#FFFFFF", "#D4E6F1", "#87CEEB"],
+      "palette_names": ["pool tile blue", "reflected water white", "sunset amber", "deck white", "chlorine mist blue", "sky reflection"]
+    },
+    {
+      "id": "dc_003",
+      "name": "The Infinite Hallway",
+      "description": "A school or institutional hallway that stretches far beyond its natural length. Rows of identical metal lockers line both sides. The floor is speckled linoleum in beige and green. Fluorescent tube lights run along the ceiling, some flickering, some dead. Classroom doors with small wire-mesh safety glass windows are evenly spaced. Through the windows: empty classrooms with chairs on desks. The hallway curves gently so the end is never visible. A distant bell rings once. The smell of floor wax and cafeteria food. Bulletin boards with faded, unreadable announcements.",
+      "visual_details": {
+        "lighting": "Overhead fluorescent tubes, alternating between functional and flickering. Yellowed light. Emergency exit lights at far intervals.",
+        "textures": "Waxed linoleum with scuff marks. Painted cinder block walls in institutional green or beige. Cold metal lockers with combination locks.",
+        "scale": "Normal width but impossibly long. One-point perspective vanishing point is visible but never reachable.",
+        "time_of_day": "After school hours. Late afternoon light visible through classroom windows but hallway itself is artificially lit."
+      },
+      "color_palette": ["#D4C5A9", "#8B9E7C", "#F5E6CA", "#B0A08E", "#E8DCC8", "#9CAF88"],
+      "palette_names": ["linoleum beige", "institutional green", "fluorescent warm white", "locker tan", "wall cream", "chalkboard green"]
+    },
+    {
+      "id": "dc_004",
+      "name": "The Backrooms Level 0",
+      "description": "An endless expanse of mono-yellow office space. Fluorescent lights recessed into a drop ceiling with water-stained acoustic tiles. Walls are covered in aged yellow wallpaper with a subtle texture. The carpet is damp, dark beige commercial grade with visible wear paths. The space wraps around corners endlessly with no windows, no exits, no variation. The hum of fluorescent ballasts is the only sound. The air is stale and warm. Occasional doorways lead to more of the same. Distance is hard to judge. The space feels simultaneously familiar and deeply wrong.",
+      "visual_details": {
+        "lighting": "Recessed fluorescent panels in drop ceiling. Harsh, flat, warm-yellow. No shadows. Every surface evenly lit. Occasional panel dead or buzzing.",
+        "textures": "Damp commercial carpet with water damage. Peeling yellow wallpaper showing drywall seams. Water-stained ceiling tiles. Baseboards separating from wall.",
+        "scale": "Infinite in all directions. Ceiling height about 2.5 meters. Claustrophobic despite openness.",
+        "time_of_day": "No external reference. Permanently lit interior. Could be any time."
+      },
+      "color_palette": ["#E8D44D", "#C9B458", "#D4C87A", "#B8A940", "#F0E68C", "#8B7D3C"],
+      "palette_names": ["wallpaper yellow", "carpet gold-brown", "ceiling tile off-yellow", "baseboard dark yellow", "fluorescent warm glow", "water stain brown"]
+    },
+    {
+      "id": "dc_005",
+      "name": "The Hotel Corridor",
+      "description": "An upscale hotel hallway from the 1970s-80s. Deep red or maroon patterned carpet with gold geometric designs. Wallpaper in vertical stripes of cream and pale green or burgundy. Numbered doors at regular intervals, brass numbers not in sequential order. The corridor curves gently. Wall sconces cast warm pools of light between doors. A window at the far end shows another identical corridor one floor below. Soft orchestral music plays from behind one locked door. The ceiling is high with crown molding. A room service cart sits abandoned halfway down, covered in a white cloth.",
+      "visual_details": {
+        "lighting": "Warm wall sconces with amber glass. Soft, pooling light that leaves shadows between fixtures. Slightly dim overall.",
+        "textures": "Deep pile patterned carpet. Textured wallpaper. Polished brass door hardware. Lacquered dark wood door frames. Crown molding.",
+        "scale": "Standard width but gently curving so full length is never visible. Feels longer than any real hotel corridor.",
+        "time_of_day": "Interior. The window at the end shows late afternoon or early evening sky."
+      },
+      "color_palette": ["#8B1A1A", "#C9A96E", "#F5F0E1", "#4A6741", "#D4A574", "#2C1810"],
+      "palette_names": ["carpet deep red", "brass gold", "wallpaper cream", "stripe green", "sconce amber", "wood dark"]
+    },
+    {
+      "id": "dc_006",
+      "name": "The Playground at Dusk",
+      "description": "A children's playground from the 1990s at the boundary between day and night. Metal swing sets with rubber seats move gently on their own. A spiral slide reflects orange sky. The sandbox is either empty or filled with something that glows faintly. A merry-go-round turns at imperceptible speed. The surrounding area is open grass fading into darkness at the edges. No children are present but evidence of recent use: a dropped toy, footprints in sand. A single streetlight at the perimeter has just turned on. The sky is deep orange-purple gradient. Long shadows extend from all equipment.",
+      "visual_details": {
+        "lighting": "Golden hour transitioning to blue hour. Single sodium vapor streetlight casting orange cone. Sky gradient from orange at horizon to deep blue-purple above.",
+        "textures": "Painted metal with chips showing rust. Worn rubber swing seats. Packed dirt under swings. Woodchip safety surface. Chain links.",
+        "scale": "Normal playground size but the surrounding darkness makes it feel like an island.",
+        "time_of_day": "Dusk, the last ten minutes of civil twilight. Sky still has color but ground is darkening."
+      },
+      "color_palette": ["#E07B39", "#2C2440", "#C9A87C", "#6B4C3B", "#F5C882", "#1A1A2E"],
+      "palette_names": ["sunset orange", "twilight purple", "sand tan", "rust brown", "sodium light gold", "approaching night"]
+    },
+    {
+      "id": "dc_007",
+      "name": "The Stairwell",
+      "description": "A concrete stairwell in an apartment or institutional building, repeating identically floor after floor. Poured concrete stairs with metal pipe handrails painted green or blue, paint chipping. Walls are raw concrete or painted in off-white emulsion with moisture marks. Each landing has a heavy fire door with a small wired-glass window. The floors are numbered but the numbers repeat or skip. Fluorescent tube on each landing, some buzzing, some dead. The stairwell extends both up and down beyond reasonable building height. Echoes multiply. A single discarded item on one landing: a paper cup, a shoe, a folded newspaper.",
+      "visual_details": {
+        "lighting": "Single fluorescent tube per landing. Cold white light with green-blue cast. Deep shadows in corners and under stairs.",
+        "textures": "Poured concrete with form marks. Painted metal handrail showing multiple layers of paint. Rubber tread strips on stair edges. Dust in corners.",
+        "scale": "Normal stairwell width but extends vertically far beyond any real building. Looking up or down produces vertigo.",
+        "time_of_day": "No windows. Interior only. Timeless."
+      },
+      "color_palette": ["#C0C0C0", "#808080", "#D3D3D3", "#2E8B57", "#F5F5F5", "#A9A9A9"],
+      "palette_names": ["concrete light grey", "shadow grey", "wall off-white", "handrail green", "fluorescent white", "dust grey"]
+    },
+    {
+      "id": "dc_008",
+      "name": "The Laundromat at Night",
+      "description": "A 24-hour laundromat seen through its plate glass windows from outside, or experienced from within. All washing machines are running simultaneously but contain no clothes, just water swirling. Dryers spin empty. The floor is wet linoleum reflecting machine lights. One overhead fluorescent flickers arrhythmically. A row of orange plastic chairs sits against one wall. A vending machine in the corner with items that have illegible labels. A TV mounted high in the corner plays late-night programming in a language you almost recognize. A folding table holds a single forgotten sock.",
+      "visual_details": {
+        "lighting": "Mix of fluorescent overhead and the warm glow from dryer windows. Blue-white from washing machine displays. Exterior darkness pressing against plate glass windows.",
+        "textures": "Wet institutional linoleum. Chrome machine fronts. Molded plastic chairs. Formica folding tables. Condensation on windows.",
+        "scale": "Small, contained space. The machines create a rhythm. Through the front windows, an empty parking lot extends into darkness.",
+        "time_of_day": "Late night, 2-4 AM feeling. Complete darkness outside. Interior is an island of light."
+      },
+      "color_palette": ["#F0F0E0", "#87CEEB", "#E8A045", "#1A1A2E", "#C0C0C0", "#FFF8DC"],
+      "palette_names": ["fluorescent white", "washing machine blue", "dryer glow orange", "window darkness", "machine chrome", "linoleum cream"]
+    },
+    {
+      "id": "dc_009",
+      "name": "The Parking Structure",
+      "description": "A multi-level concrete parking garage, completely empty of vehicles. Raw concrete columns, low ceiling with exposed utility pipes. Yellow painted lane markings on smooth concrete floor. Ramp spirals up and down connecting identical levels. Ceiling-mounted fluorescent tubes in wire cages. A single security camera with blinking red LED in each corner. Numbered level signs (P1, P2, P3) but the numbers don't match the actual count of levels traversed. No exit signs visible. The sound of ventilation fans. Occasional water drip echo. An oil stain on the floor is the only evidence of vehicles.",
+      "visual_details": {
+        "lighting": "Harsh fluorescent in wire-cage fixtures. Strong contrast between lit areas and deep shadows behind columns. Orange sodium vapor lamps at ramp transitions.",
+        "textures": "Smooth poured concrete with tire marks and oil stains. Yellow and white painted lines. Concrete columns with exposed aggregate. Metal pipe ceiling.",
+        "scale": "Each level identical. The ramp creates a disorienting spiral. Looking over the edge: levels repeat downward into shadow.",
+        "time_of_day": "No external reference. Interior could be midnight or noon."
+      },
+      "color_palette": ["#A0A0A0", "#FFD700", "#FFFFFF", "#404040", "#E0853E", "#2C2C2C"],
+      "palette_names": ["concrete grey", "lane marking yellow", "line white", "shadow dark", "sodium lamp orange", "deep shadow"]
+    },
+    {
+      "id": "dc_010",
+      "name": "The Waiting Room",
+      "description": "A medical or bureaucratic waiting room of indeterminate era. Rows of connected plastic chairs in faded blue or orange. A reception window with frosted glass, closed, no one behind it. A digital display board shows a queue number that never changes. Magazines on side tables are all the same issue from years ago. A water cooler bubbles occasionally. The walls are off-white with a single framed landscape poster (a generic meadow). Low pile commercial carpet in grey-brown. An analog clock on the wall with audible ticking. The room has one entrance but no visible door to the back offices. A single wilting plant on the reception counter.",
+      "visual_details": {
+        "lighting": "Recessed fluorescent panels. Even, clinical, slightly green-tinged. No natural light.",
+        "textures": "Molded plastic seating. Low pile commercial carpet. Frosted glass reception partition. Laminate counter. Faux wood paneling on lower walls.",
+        "scale": "Room feels both too small and too large. The chair rows extend further than expected.",
+        "time_of_day": "Impossible to determine. Could be any hour. The clock reads 2:47 or similar nondescript time."
+      },
+      "color_palette": ["#D5CEC8", "#5B8FA8", "#F0EBE3", "#8B7D6B", "#E8E0D5", "#C4B7A6"],
+      "palette_names": ["carpet brown-grey", "chair institutional blue", "wall off-white", "counter wood tone", "ceiling panel", "poster frame beige"]
+    },
+    {
+      "id": "dc_011",
+      "name": "The Bowling Alley",
+      "description": "A bowling alley from the 1980s-90s, all lanes active but unoccupied. Pin-setting machines cycle endlessly. The carpet is that distinctive wild pattern: neon shapes (triangles, circles, zigzags) on black background. Overhead scoring screens display names that are not human names. Ball return machines cycle balls back. The shoe rental counter is dark and empty. A jukebox in the corner glows but the music it plays is distorted, slowed down. Ultraviolet lights make white surfaces glow purple. The snack bar is lit but unstaffed, a pretzel rotating in a warmer.",
+      "visual_details": {
+        "lighting": "Lane approach lights. UV/blacklight accents making white glow purple. Neon signage. Warm incandescent from the snack bar area. Dark overall with pools of color.",
+        "textures": "Patterned carpet with geometric neon shapes. Polished lane wood. Scored plastic ball surfaces. Formica counters. Chrome bar stools.",
+        "scale": "Long and narrow, the lane perspective creates depth. The far wall is distant and slightly hazy from lane oil mist.",
+        "time_of_day": "Night. No exterior visible. The interior creates its own time."
+      },
+      "color_palette": ["#0A0A0A", "#FF1493", "#00FF7F", "#FF6B00", "#7B68EE", "#FFD700"],
+      "palette_names": ["carpet black", "neon pink", "neon green", "neon orange", "blacklight purple", "lane golden wood"]
+    },
+    {
+      "id": "dc_012",
+      "name": "The Empty Classroom",
+      "description": "A classroom frozen at the end of a school day. Chairs are up on desks, or arranged in a semi-circle as if for a group activity that never happened. A green chalkboard has half-erased writing, the chalk dust still visible in the air where late afternoon sunlight slants through windows. The teacher's desk has a single apple, a coffee mug with dregs, and a stack of papers. Maps pulled down over the windows show countries that may not exist. A globe on a shelf spins imperceptibly. The coat hooks by the door hold one forgotten jacket. The clock reads 3:33.",
+      "visual_details": {
+        "lighting": "Late afternoon sun at a low angle, entering through side windows. Creates long shadows across the floor. Dust motes visible in the light beams. The rest of the room is in relative dimness.",
+        "textures": "Wooden desk tops with carved initials. Linoleum floor tiles. Chalk dust. Paper surfaces. Worn carpet squares in a reading corner.",
+        "scale": "Normal classroom size but feels larger without occupants. The empty desks create a grid pattern.",
+        "time_of_day": "3:30 PM, late afternoon. The golden light is fading."
+      },
+      "color_palette": ["#4A6741", "#F5E6CA", "#D4A574", "#8B6914", "#E8DCC8", "#C9A87C"],
+      "palette_names": ["chalkboard green", "chalk white-cream", "afternoon gold", "desk wood dark", "wall off-white", "paper tan"]
+    },
+    {
+      "id": "dc_013",
+      "name": "The Elevator Lobby",
+      "description": "A ground floor elevator lobby in an office building from the 1970s-80s. Two or three elevator doors in brushed steel, floor indicator arrows above each, all stuck on different floors. The lobby floor is large-format marble or terrazzo. A directory board on the wall lists floor numbers and tenant names that are slightly wrong or use impossible words. A single potted fern. A security desk with a sign-in sheet but no guard. The ceiling is high with recessed lighting and a mirror strip that reflects the floor below. Soft mechanical humming from the elevator shafts. One elevator arrives, doors open, but it is either pitch dark inside or blindingly bright.",
+      "visual_details": {
+        "lighting": "Recessed can lights in ceiling. Warm lobby lighting. The elevator interiors provide contrast when doors open: either very dark or very bright.",
+        "textures": "Brushed stainless steel elevator doors. Polished marble or terrazzo floor. Wood paneled accent walls. Glass directory case.",
+        "scale": "Modest lobby size with high ceiling. The elevator doors dominate the space.",
+        "time_of_day": "Building hours but empty. 5:15 PM on a Friday feeling."
+      },
+      "color_palette": ["#C0C0C0", "#2C1810", "#E8E0D5", "#B8860B", "#404040", "#FFF8DC"],
+      "palette_names": ["elevator steel", "wood panel dark", "marble white", "brass trim", "shadow", "ceiling light warm"]
+    },
+    {
+      "id": "dc_014",
+      "name": "The Supermarket After Close",
+      "description": "A large grocery store after the last customer has left. All the overhead fluorescents are on at full power. Aisles of products stretch far back, perfectly stocked. The produce section misters activate on empty lettuce beds. Soft pop music plays through tinny ceiling speakers. Shopping carts are corralled in a neat line by the entrance. Cash registers are dark, receipt paper trailing onto the floor from the last transaction. The deli counter display case is lit and contains trays of food under heat lamps but no one is serving. A wet floor sign stands in aisle seven. The automatic front doors sense nothing and stay closed.",
+      "visual_details": {
+        "lighting": "Full commercial fluorescent, blue-white, extremely bright and even. Warmer accent lights in bakery and deli areas. Cold blue from refrigeration cases.",
+        "textures": "Waxed linoleum or sealed concrete floor. Chrome shelving. Plastic packaging. Refrigerator glass. Conveyor belt rubber at checkout.",
+        "scale": "Warehouse-scale interior. Aisles create strong one-point perspective. The store feels larger without people for scale.",
+        "time_of_day": "Just after closing. Transition to night. No exterior visible through reflective windows."
+      },
+      "color_palette": ["#FFFFFF", "#E8F5E9", "#F5F5DC", "#87CEEB", "#FFF8DC", "#C0C0C0"],
+      "palette_names": ["fluorescent white", "produce green-white", "shelf label cream", "refrigerator blue", "bakery warm white", "checkout chrome"]
+    },
+    {
+      "id": "dc_015",
+      "name": "The Bathroom Tiled in White",
+      "description": "A large institutional bathroom or locker room shower area, entirely tiled in square white ceramic. The tiles continue from floor to walls to ceiling without interruption. Grout lines create a uniform grid. A single showerhead drips at a metronomic pace. Steam hangs in the air even though no hot water is running. A rectangular mirror above a row of identical sinks is fogged over. The drains in the floor are chrome circles at regular intervals. The fluorescent light has a slight blue cast. The echo is extreme. In one corner, a bar of soap sits on the tile floor, the only color in the room.",
+      "visual_details": {
+        "lighting": "Cool-white fluorescent tubes with slight blue cast reflected and multiplied by white tile surfaces. Extremely bright and diffuse. No shadows.",
+        "textures": "Glossy ceramic tile with visible grout lines. Chrome fixtures. Condensation on surfaces. Fogged mirror. Wet floor.",
+        "scale": "Ambiguous. The uniform tile surface and steam make it difficult to judge room boundaries. Could be small or very large.",
+        "time_of_day": "No reference. Sterile perpetual light."
+      },
+      "color_palette": ["#FFFFFF", "#F0F0F0", "#E0E0E0", "#C0C0C0", "#87CEEB", "#D5D5D5"],
+      "palette_names": ["tile white", "grout off-white", "steam grey-white", "chrome silver", "fluorescent blue cast", "condensation grey"]
+    },
+    {
+      "id": "dc_016",
+      "name": "The Chinese School Corridor (Chinese Dreamcore)",
+      "description": "A corridor in a Chinese middle or high school, after hours. Terrazzo or poured water-stone floor. Walls painted pale green on the lower half, white on the upper, with a painted stripe at the boundary. Wooden-framed glass windows look into empty classrooms where blackboards display half-erased math problems or Chinese characters. Sound-activated hallway lights in warm yellow glow as presence is sensed and fade behind. Red banners with gold text (study slogans) hang at intervals. A drinking water station with a push-button dispenser hums. Through end windows, the sky is perpetual dusk, orange-pink. The smell of chalk dust and disinfectant.",
+      "visual_details": {
+        "lighting": "Sound-activated warm-yellow incandescent or early LED. Fades in and out zone by zone. Through windows, eternal golden hour.",
+        "textures": "Polished water-stone floor reflecting light. Painted cinder block. Glass and wood window frames. Metal door frames. Paper slogans.",
+        "scale": "Long corridor with classroom doors at regular intervals. Three to four stories typical. Stairwells at each end.",
+        "time_of_day": "After school, late afternoon. The perpetual dusk through windows never fully darkens."
+      },
+      "color_palette": ["#B5C7A3", "#F5EFE0", "#E8A045", "#C41E3A", "#D4C5A9", "#F9C784"],
+      "palette_names": ["wall green lower", "wall white upper", "dusk orange", "banner red", "floor stone beige", "golden hour warm"]
+    },
+    {
+      "id": "dc_017",
+      "name": "The Abandoned Food Court",
+      "description": "A food court in a shopping mall, all vendor stalls closed and cleaned. Tables and chairs in geometric arrangements, all empty. Each stall has its signage still illuminated but shutters pulled down. The floor is clean and reflects the overhead lights. Menu boards behind each counter still display items and prices. A napkin dispenser on one table. Trash bins are empty with fresh liners. The space is vast with high ceilings. A skylight shows either a dark sky or a pale overcast that gives no sense of time. The ambient music is barely audible, an instrumental version of a recognizable pop song slowed to half speed.",
+      "visual_details": {
+        "lighting": "Overhead fluorescent panels plus individual stall signage lights (warm neon colors for each vendor). The mix creates a complex multi-temperature lighting environment.",
+        "textures": "Formica tabletops. Molded plastic chairs. Tile floor. Stainless steel counter fronts. Illuminated menu boards.",
+        "scale": "Large open space designed for hundreds. Empty, the scale becomes overwhelming.",
+        "time_of_day": "Post-closing. The skylight provides no definitive time reading."
+      },
+      "color_palette": ["#E0DCD4", "#F5F0E8", "#FF6B6B", "#4ECDC4", "#FFA07A", "#2C3E50"],
+      "palette_names": ["tile floor neutral", "table surface off-white", "vendor neon red", "vendor neon teal", "vendor neon salmon", "ceiling dark"]
+    },
+    {
+      "id": "dc_018",
+      "name": "The Computer Lab",
+      "description": "A computer lab from the late 1990s or early 2000s. CRT monitors on uniform desks, all powered on, all showing the same screensaver: a starfield moving through space, or floating Windows logos, or pipes assembling themselves. The hum of twenty monitors creates a deep vibration. The keyboards are off-white with yellowing spacebar keys. Mice on worn mouse pads. Office chairs in dark grey fabric. The room is lit only by the monitors; the overhead fluorescents are off. Through the window, it is night. A poster on the wall shows the periodic table or a faded motivational image. A single screensaver on one monitor shows something different from the others.",
+      "visual_details": {
+        "lighting": "CRT monitor glow in the dark room. Blue-white from screens illuminating faces of absent users. Slight flicker from refresh rates.",
+        "textures": "Beige plastic monitor casings. Laminate desk surfaces. Fabric office chair upholstery. Thin industrial carpet. Tangled cables behind desks.",
+        "scale": "Rows of identical workstations, typically 20-30 in a grid. The monitor glow creates depth through repetition.",
+        "time_of_day": "Night. The window shows darkness. The room's only light is the screens."
+      },
+      "color_palette": ["#0A0A2A", "#6495ED", "#C0C0C0", "#DCDCAA", "#1A1A2E", "#00FF00"],
+      "palette_names": ["room darkness blue-black", "screen glow blue", "monitor casing grey", "keyboard yellowed white", "deep shadow", "terminal green"]
+    },
+    {
+      "id": "dc_019",
+      "name": "The Chinese Residential Stairwell (Chinese Dreamcore)",
+      "description": "A stairwell in a Chinese residential apartment building (usually six-story walkup). Poured concrete stairs with dark green or blue painted metal pipe handrails, paint chipping to show prior colors beneath. Walls are white plaster turning grey with age, moisture stains near the ground. Each floor has a small landing with a heavy metal security door per apartment, some with Spring Festival couplets still pasted, faded red. A single energy-saving bulb on each landing, sensor-triggered, casting harsh white light that fades after thirty seconds, leaving darkness below and above. Discarded items in corners: an empty instant noodle cup, a broken umbrella, advertising flyers on the floor. Through small windows between floors, perpetual grey-white sky.",
+      "visual_details": {
+        "lighting": "Motion-sensor activated energy-saving bulb. Harsh cool white for 30 seconds then fade. Between activations, near-total darkness except for window light.",
+        "textures": "Raw concrete steps worn smooth in the center. Chipped paint on metal handrails revealing layers. Dusty plaster walls. Paper flyers underfoot.",
+        "scale": "Narrow stairwell spiraling upward. Six to eight floors. Looking up or down shows repeating identical landings.",
+        "time_of_day": "Indeterminate. The small windows show only overcast light."
+      },
+      "color_palette": ["#D3D3D3", "#2E8B57", "#C41E3A", "#A9A9A9", "#F5F5F5", "#808080"],
+      "palette_names": ["concrete grey", "handrail green", "couplet faded red", "wall aged grey", "light activation white", "shadow"]
+    },
+    {
+      "id": "dc_020",
+      "name": "The Motel Room",
+      "description": "A roadside motel room, probably from the 1980s, viewed in early morning or late evening light filtering through heavy curtains. Two double beds with bedspreads in a bold geometric pattern (orange, brown, gold). Wood-veneer furniture: a desk, a dresser with a TV showing static. A rotary phone on the nightstand. The bathroom door is ajar, showing mint green tile and a wrapped soap. A painting of a mountain landscape bolted to the wall. The AC unit under the window hums. Through a gap in the curtains, a parking lot and a flickering neon sign in partial view. A Bible in the nightstand drawer, slightly open. The wallpaper is textured, dark brown with a subtle stripe.",
+      "visual_details": {
+        "lighting": "Dim. Filtered natural light through heavy curtains. TV static glow. Neon sign color bleeding through curtain gap. Bathroom light left on.",
+        "textures": "Polyester bedspread with rough texture. Shag or short pile carpet. Wood veneer with visible grain pattern. Heavy curtain fabric.",
+        "scale": "Small and enclosed. The room is self-contained, a capsule.",
+        "time_of_day": "Liminal hour: either just before dawn or just after dusk. The light through the curtains is ambiguous."
+      },
+      "color_palette": ["#8B4513", "#D2691E", "#DAA520", "#2F4F4F", "#FFF8DC", "#FF6347"],
+      "palette_names": ["wallpaper brown", "bedspread rust", "bedspread gold", "curtain dark green", "ceiling off-white", "neon sign red-orange"]
+    }
+  ],
+  "camera_work_rules": {
+    "description": "Camera movement and framing rules that produce authentic dreamcore video rather than generic surreal content.",
+    "rules": [
+      {
+        "rule": "Slow dolly or tracking shots",
+        "detail": "Camera moves forward at walking pace or slower through the space. This creates the POV feeling of exploring an empty place. Speed: 0.5-1.5 m/s equivalent. Never rush.",
+        "example_prompt_fragment": "slow dolly forward through"
+      },
+      {
+        "rule": "Low or eye-level camera height",
+        "detail": "Keep the camera at approximately adult eye level (150-170cm) or slightly below. Dreamcore is experienced from a human perspective. Avoid drone shots, bird's eye views, or extreme angles.",
+        "example_prompt_fragment": "eye-level perspective, first person POV"
+      },
+      {
+        "rule": "Long takes, minimal cuts",
+        "detail": "Dreamcore videos work best as single continuous shots. The unbroken take creates the feeling of being inside the space. If cuts are necessary, use slow fades rather than hard cuts.",
+        "example_prompt_fragment": "single continuous shot, no cuts"
+      },
+      {
+        "rule": "Static or near-static wide shots",
+        "detail": "Alternatively, a completely still camera observing an empty space for an extended duration. Let the emptiness speak. Small movements in the frame (a flickering light, swaying swing) become the subject.",
+        "example_prompt_fragment": "static wide shot, fixed camera, observational"
+      },
+      {
+        "rule": "Gentle pan and slow reveal",
+        "detail": "Camera pans slowly (2-5 degrees per second) to reveal the extent of empty space. The reveal should always suggest more space beyond frame.",
+        "example_prompt_fragment": "slow pan revealing, gradual reveal"
+      },
+      {
+        "rule": "Shallow depth of field for texture",
+        "detail": "Use shallow DOF to draw attention to specific textures (carpet pattern, tile grout, chipped paint) before pulling focus to the wider space. This mimics the dreamlike focus shifts.",
+        "example_prompt_fragment": "shallow depth of field, rack focus"
+      },
+      {
+        "rule": "One-point perspective composition",
+        "detail": "Corridors, hallways, and long spaces should be framed with strong one-point perspective, the vanishing point centered in frame. This creates depth and the sense of infinite extension.",
+        "example_prompt_fragment": "centered one-point perspective, symmetrical framing"
+      },
+      {
+        "rule": "No camera shake or handheld",
+        "detail": "Dreamcore camera movement is smooth and deliberate, never handheld or shaky. Use gimbal-like stability. The steadiness contributes to the unreal, detached feeling.",
+        "example_prompt_fragment": "steady smooth camera, gimbal movement"
+      }
+    ]
+  },
+  "dreamcore_vs_generic_surreal": {
+    "description": "What distinguishes dreamcore from generic surreal imagery. Critical for maintaining aesthetic authenticity.",
+    "dreamcore_is": [
+      "Rooted in real, recognizable everyday spaces (malls, schools, pools, hotels) rendered slightly wrong or empty",
+      "Nostalgic, pulling from collective memory of 1980s-2000s architecture and interior design",
+      "Quiet and still, with absence as the primary subject rather than spectacle",
+      "Emotionally ambiguous: simultaneously comforting and unsettling, familiar and alien",
+      "Grounded in photorealistic or near-photorealistic rendering, not stylized or abstract",
+      "Focused on mundane details elevated by emptiness: a dripping faucet, a flickering light, a ticking clock",
+      "About liminal transitions: spaces between activities, times between day and night, places between destinations",
+      "Characterized by fluorescent or sodium vapor lighting, institutional color palettes, commercial architecture",
+      "Often experienced from a first-person, ground-level perspective suggesting the dreamer is physically present",
+      "Connected to the feeling of remembering a place from childhood that may not have existed exactly as you remember it"
+    ],
+    "dreamcore_is_not": [
+      "Fantastical creatures, impossible physics, or spectacular visual effects (that is surrealism)",
+      "Horror imagery, gore, or deliberately frightening content (that is nightmare fuel or horror aesthetic)",
+      "Abstract patterns, fractal geometry, or non-representational imagery (that is psychedelic or abstract art)",
+      "Medieval, fantasy, or historical settings (dreamcore is specifically modern/contemporary/late-20th-century)",
+      "Populated spaces where strange things happen to people (dreamcore is about the absence of people)",
+      "Dark, pitch-black environments (dreamcore spaces are always lit, often harshly, the light itself is part of the unease)",
+      "Colorful and vibrant (dreamcore palettes are muted, institutional, faded, washed-out)",
+      "Rapidly changing or morphing environments (dreamcore spaces are static, frozen in a moment)",
+      "Over-narrated or explained (dreamcore resists narrative explanation, it simply exists)",
+      "Cute, kawaii, or deliberately beautiful (dreamcore beauty is accidental and tinged with melancholy)"
+    ]
+  },
+  "common_mistakes": {
+    "description": "Frequent errors in AI-generated dreamcore content and how to avoid them.",
+    "mistakes": [
+      {
+        "mistake": "Adding people, characters, or entities to the scene",
+        "why_wrong": "Dreamcore is defined by human absence. The space should feel like people just left or haven't arrived yet. Adding figures breaks the core aesthetic.",
+        "fix": "Remove all characters from prompts. If human presence is needed, use only traces: a forgotten item, an indentation on a chair, a half-eaten meal."
+      },
+      {
+        "mistake": "Using dramatic, saturated, or neon color palettes",
+        "why_wrong": "Dreamcore colors are institutional and faded. Oversaturated colors push the result toward vaporwave or synthwave aesthetic instead.",
+        "fix": "Use muted, desaturated versions of colors. Think of colors seen through old fluorescent lights or in faded photographs. Beiges, institutional greens, pale blues, off-whites."
+      },
+      {
+        "mistake": "Making the space too clean and perfect",
+        "why_wrong": "Dreamcore spaces show signs of use and age: scuff marks, water stains, peeling paint, worn carpet. Pristine spaces read as 3D renders, not dream memories.",
+        "fix": "Add subtle wear: chipped paint, faded signage, water marks on ceiling tiles, worn spots on carpet, mineral deposits on tiles."
+      },
+      {
+        "mistake": "Including obvious surreal elements (floating objects, melting clocks, impossible geometry)",
+        "why_wrong": "The unsettling quality of dreamcore comes from the normalcy of the space, not from surreal distortions. The wrongness should be subtle: it looks like a real place but something is slightly off.",
+        "fix": "Keep physics normal. The eeriness comes from context (why is this place empty? why is this light on? where is everyone?) not from visual distortion."
+      },
+      {
+        "mistake": "Fast camera movement or rapid editing",
+        "why_wrong": "Dreamcore video works through slow, contemplative observation. Fast movement suggests action or urgency which breaks the meditative, frozen-in-time quality.",
+        "fix": "Use slow dolly, gentle pan, or completely static shots. Let the viewer sit with the space. Minimum shot duration: 5 seconds."
+      },
+      {
+        "mistake": "Using outdoor natural environments (forests, fields, mountains)",
+        "why_wrong": "Dreamcore is specifically about human-built environments. Nature is too organic, too alive. The aesthetic requires architecture, infrastructure, and human construction.",
+        "fix": "Restrict settings to indoor or built environments: malls, schools, offices, pools, hotels, parking structures, stairwells, laundromats. If outdoor, use built environments: playgrounds, parking lots, empty streets."
+      },
+      {
+        "mistake": "Adding text overlays, titles, or explanatory captions",
+        "why_wrong": "Dreamcore should feel discovered, not presented. Text breaks immersion. The only text should be naturally occurring in the environment: exit signs, clock faces, door numbers.",
+        "fix": "Let environmental text speak: room numbers, posted rules, vending machine labels. Never overlay external text."
+      },
+      {
+        "mistake": "Using a fantasy or sci-fi visual language",
+        "why_wrong": "Dreamcore references mundane, everyday architecture. Futuristic, sci-fi, or fantasy environments belong to different aesthetics entirely.",
+        "fix": "Reference specific real-world architectural eras: 1970s brutalism, 1980s commercial, 1990s institutional. Use building materials that exist: concrete, tile, linoleum, drywall."
+      }
+    ]
+  },
+  "tested_ai_video_prompts": {
+    "description": "Ten tested prompts that reliably produce authentic dreamcore video results with AI video generation models. Each includes the prompt, target model settings, and expected output.",
+    "prompts": [
+      {
+        "id": "prompt_001",
+        "name": "Mall After Hours",
+        "prompt": "Slow dolly shot moving forward through an empty shopping mall at night, fluorescent lights buzzing overhead, metal security shutters down on all stores, polished terrazzo floor reflecting ceiling lights, no people, escalator running in background, distant muzak playing, 1990s architecture, eye-level camera, cinematic quality, photorealistic, liminal space",
+        "style_notes": "Emphasize the reflected light on the floor. The escalator movement is the only motion. Keep color palette muted: institutional whites, greys, and pale blues.",
+        "expected_duration_sec": 5,
+        "key_elements": ["reflected floor", "running escalator", "fluorescent buzz", "empty stores"]
+      },
+      {
+        "id": "prompt_002",
+        "name": "Pool at Eternal Sunset",
+        "prompt": "Static wide shot of an indoor swimming pool with perfectly still turquoise water, reflection of ceiling visible on water surface, white plastic lounge chairs in rows along the deck, pale blue ceramic tiles, no people, permanent golden sunset light through large windows, slight steam rising from water surface, 1970s pool architecture, symmetrical composition, cinematic, dreamlike atmosphere",
+        "style_notes": "The water surface must be mirror-still. Sunset light creates warm tones contrasting with cool pool tile blue. Steam adds atmosphere without obscuring.",
+        "expected_duration_sec": 5,
+        "key_elements": ["mirror water", "sunset through windows", "empty chairs", "steam"]
+      },
+      {
+        "id": "prompt_003",
+        "name": "School Corridor Walk",
+        "prompt": "First person perspective slow walk through an empty school hallway, speckled linoleum floor, metal lockers on both sides, fluorescent lights flickering occasionally, classroom doors with wire-glass windows, after school hours, late afternoon light from classrooms, no students, one-point perspective vanishing into distance, nostalgic 1990s American school, steady camera movement",
+        "style_notes": "The POV walk should be smooth and steady. Flickering lights should be subtle, not strobing. The corridor should appear to extend beyond natural building limits.",
+        "expected_duration_sec": 5,
+        "key_elements": ["POV movement", "locker rows", "flickering light", "infinite perspective"]
+      },
+      {
+        "id": "prompt_004",
+        "name": "Backrooms Wandering",
+        "prompt": "Slow tracking shot through infinite office space, mono-yellow wallpaper, damp commercial carpet, drop ceiling with fluorescent panels, no windows, no exit, no people, identical rooms connecting through doorways, warm yellow light everywhere, claustrophobic atmosphere, the Backrooms aesthetic, photorealistic, unsettling empty space",
+        "style_notes": "Every surface is yellow-toned. The camera moves at a cautious walking pace. The identical rooms create repetition that enhances disorientation.",
+        "expected_duration_sec": 5,
+        "key_elements": ["yellow wallpaper", "drop ceiling", "damp carpet", "repeating rooms"]
+      },
+      {
+        "id": "prompt_005",
+        "name": "Playground at Dusk",
+        "prompt": "Wide shot of an empty children's playground at dusk, metal swing sets with swings moving gently on their own, spiral slide reflecting orange sunset sky, sandbox empty, merry-go-round turning imperceptibly slow, single sodium streetlight turning on, long shadows stretching across ground, 1990s playground equipment, no children present, bittersweet nostalgic atmosphere, golden hour transitioning to blue hour",
+        "style_notes": "The swings are the key movement. They sway gently as if children just left. The lighting transition from warm to cool is critical. The sky gradient drives the mood.",
+        "expected_duration_sec": 5,
+        "key_elements": ["swaying swings", "dusk sky gradient", "sodium light", "long shadows"]
+      },
+      {
+        "id": "prompt_006",
+        "name": "Hotel Corridor",
+        "prompt": "Slow dolly forward through an opulent empty hotel corridor, deep red patterned carpet with gold geometric designs, striped wallpaper cream and burgundy, brass room number plates, warm wall sconces creating pools of light between doors, the corridor gently curves so the end is never visible, 1970s luxury hotel aesthetic, no guests, soft distant music, cinematic Kubrick-inspired framing, symmetrical",
+        "style_notes": "The Shining-influenced aesthetic. The carpet pattern is crucial for establishing era and mood. The gentle curve prevents the viewer from ever seeing the end.",
+        "expected_duration_sec": 5,
+        "key_elements": ["patterned carpet", "curved corridor", "warm sconces", "brass details"]
+      },
+      {
+        "id": "prompt_007",
+        "name": "Chinese School Stairwell",
+        "prompt": "Slow upward tracking shot in a Chinese residential building stairwell, concrete steps with green painted metal pipe handrails, white plaster walls with moisture stains, motion-sensor light activating ahead and fading behind creating moving pool of light, faded red Spring Festival couplets on apartment doors, each landing identical, ascending endlessly, no people, atmospheric and melancholic, Chinese dreamcore aesthetic",
+        "style_notes": "The key visual effect is the motion-sensor light: bright white pool moving with the camera, darkness closing in behind. The green handrail paint should be visibly chipping.",
+        "expected_duration_sec": 5,
+        "key_elements": ["sensor light activation", "green handrails", "faded couplets", "repeating floors"]
+      },
+      {
+        "id": "prompt_008",
+        "name": "Laundromat 3AM",
+        "prompt": "Static shot looking into a 24-hour laundromat through its plate glass window at night, all washing machines running with no clothes inside, just water spinning, dryers spinning empty, one fluorescent light flickering, orange plastic chairs against wall, wet linoleum floor reflecting machine lights, vending machine glowing in corner, TV playing in upper corner, complete darkness outside, island of light in night, no people",
+        "style_notes": "Frame from outside looking in through the glass. The exterior darkness surrounding the bright interior is essential. The spinning machines provide mesmerizing repetitive motion.",
+        "expected_duration_sec": 5,
+        "key_elements": ["glass window framing", "spinning machines", "flickering light", "darkness outside"]
+      },
+      {
+        "id": "prompt_009",
+        "name": "Empty Pool Drained",
+        "prompt": "Slow overhead crane shot moving down into a drained swimming pool, pale blue ceramic tiles visible on floor and walls, some tiles cracked, dried mineral stains in patterns, pool ladder chrome gleaming, a single object on the pool floor (a rubber duck or a child's float), harsh overhead lighting casting sharp shadows, industrial architecture, brutalist pool building, photorealistic, abandoned but not decayed",
+        "style_notes": "The descent into the drained pool creates a sense of entering another space. The single object at the bottom is the emotional anchor. Not abandoned and ruined, just empty and clean.",
+        "expected_duration_sec": 5,
+        "key_elements": ["overhead descent", "tile grid pattern", "single object", "sharp shadows"]
+      },
+      {
+        "id": "prompt_010",
+        "name": "Computer Lab After Dark",
+        "prompt": "Slow pan across a 1990s computer lab at night, overhead lights off, twenty CRT monitors all on displaying the same starfield screensaver, blue-white glow illuminating empty office chairs, keyboards untouched, mouse on worn mouse pads, cables tangled behind desks, one monitor showing something different from the others, the room lit only by screens, window showing night outside, hum of monitors audible, nostalgic technology, dreamy atmosphere",
+        "style_notes": "The CRT glow color is critical: blue-white, not pure white. The screens should cast light on surrounding surfaces. The one different monitor creates mystery and draws the eye.",
+        "expected_duration_sec": 5,
+        "key_elements": ["CRT glow", "matching screensavers", "one different screen", "darkness beyond"]
+      }
+    ]
+  }
+}

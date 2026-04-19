@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Reality-shifting community vocabulary + techniques. Originated TikTok 2020. Treat with respect — not 'fake' or 'imaginary' to participants. Powerful coping/identity-exploration mechanism for many users.",
+    "ethical_stance": "Mirror the user's frame. Don't medicalize, don't dismiss. Refer to clinical resources only if explicit distress signals appear.",
+    "total_concepts": 16
+  },
+  "concepts": [
+    {
+      "id": "dr",
+      "term": "DR (Desired Reality)",
+      "term_zh": "理想现实",
+      "definition": "The reality the shifter wants to consciously experience — often a fictional world (Hogwarts, MHA, a parallel life with chosen circumstances). Detailed via 'scripting'.",
+      "common_DRs": ["Harry Potter Hogwarts", "My Hero Academia school", "K-pop idol life", "alternative-life-where-X", "anime-world specific shows"],
+      "interpretation_hint": "User saying 'visited my DR' is sharing something meaningful. Don't reduce to 'just a dream'."
+    },
+    {
+      "id": "cr",
+      "term": "CR (Current Reality)",
+      "term_zh": "当前现实",
+      "definition": "Where you are now. Sometimes spoken of with bored / dissatisfied tone."
+    },
+    {
+      "id": "wr",
+      "term": "WR (Waiting Room)",
+      "term_zh": "等待室",
+      "definition": "Liminal mental space practitioners visit while preparing to shift. Often imagined as a hotel lobby, library, or void."
+    },
+    {
+      "id": "scripting",
+      "term": "Scripting",
+      "term_zh": "剧本",
+      "definition": "Writing in advance every detail of your DR — appearance, relationships, history, abilities. Done in a notebook called a 'script'."
+    },
+    {
+      "id": "raven_method",
+      "term": "Raven Method",
+      "definition": "Lying in starfish position, counting from 100 down while visualizing arriving in DR with each number.",
+      "category": "shifting_technique"
+    },
+    {
+      "id": "pillow_method",
+      "term": "Pillow Method",
+      "definition": "Writing affirmations on paper, placing under pillow before sleep, repeating affirmations as you drift.",
+      "category": "shifting_technique"
+    },
+    {
+      "id": "rope_method",
+      "term": "Rope Method",
+      "definition": "Visualize climbing a rope from CR up to DR. Physical sensation focus — feel the rope.",
+      "category": "shifting_technique"
+    },
+    {
+      "id": "void_state",
+      "term": "Void State",
+      "definition": "A meditative pre-sleep state of total blankness. Believed to be the launching pad for shifts. Very close to clinical hypnagogic state.",
+      "category": "shifting_technique"
+    },
+    {
+      "id": "shifting_signs",
+      "term": "Shifting Signs",
+      "definition": "Body sensations interpreted as shift-imminent: tingling, falling sensation, hearing voices from DR, vision changing, body pressure.",
+      "interpretation_hint": "All match documented hypnagogic phenomena. Non-judgmental framing recommended."
+    },
+    {
+      "id": "respawn",
+      "term": "Respawn",
+      "definition": "When a shifter feels they've returned mid-experience to CR involuntarily."
+    },
+    {
+      "id": "intent",
+      "term": "Setting Intent",
+      "definition": "Pre-sleep declaration of where + when + as-whom you want to shift. Rituals vary."
+    },
+    {
+      "id": "anchor",
+      "term": "Anchor",
+      "definition": "Object in CR (a piece of jewelry, an item) used to ground identity continuity across shifts."
+    },
+    {
+      "id": "non_chosen_dr",
+      "term": "Visiting an Unchosen DR",
+      "definition": "Showing up in a reality you didn't script. Some shifters view this as lower-self drift; others as the universe offering something."
+    },
+    {
+      "id": "shifting_vs_lucid",
+      "term": "Shifting vs. Lucid Dreaming (community distinction)",
+      "definition": "Practitioners insist these are different — lucid dreamers know it's a dream, shifters report fully embodied alternate-reality experience. Clinically both involve hypnagogic + REM phenomena.",
+      "interpretation_hint": "Don't conflate the two. Use the user's preferred term."
+    },
+    {
+      "id": "shifting_communities",
+      "term": "Where shifters gather",
+      "definition": "Tags: #shiftingrealities #shiftingcommunity #DRme on TikTok; r/shiftingrealities on Reddit; ShiftTok hashtag."
+    },
+    {
+      "id": "support_for_shifters",
+      "term": "When shifting becomes concerning",
+      "definition": "If user reports inability to function in CR, consistent dissociation, distress on respawn, suggest grounding tools (sensory check-ins) without invalidating practice. Persistent dissociation may benefit from professional support."
+    }
+  ]
+}

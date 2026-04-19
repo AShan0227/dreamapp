@@ -1,0 +1,509 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "created": "2026-04-15",
+    "description": "Comprehensive AI video prompt guide for dreamlike cinematic output. Compiled from tested community techniques, Kling 3.0 official guides, Chinese-language prompt databases, and professional cinematography references.",
+    "sources": [
+      "Kling 3.0 Official Prompting Guides (klingaio.com, fal.ai, atlabs.ai)",
+      "Chinese prompt communities (Zhihu, CSDN, Bilibili)",
+      "Cliprise 50 Production-Ready Prompts",
+      "VEED Kling AI Complete Guide 2026",
+      "Filmmakers Academy emotion-to-camera mapping",
+      "Professional cinematography dream sequence references"
+    ]
+  },
+  "prompt_templates": [
+    {
+      "name": "Dream Landscape Establishing Shot",
+      "use_case": "Opening shot for a dream sequence - sets the surreal tone and establishes the dreamscape environment",
+      "template": "{camera_movement} of {dream_environment}. {atmospheric_elements}. {lighting_description}. {color_grade}. Shot on {film_stock}, {lens_spec}. {texture_details}.",
+      "example": "Slow crane rising through dense luminous fog, revealing a vast crystalline lake suspended above an inverted mountain range. Bioluminescent particles drift through the air like frozen starlight. Ethereal blue-violet twilight with volumetric god rays piercing through fractal cloud formations. Teal and amber color grade with desaturated midtones. Shot on 65mm film, anamorphic lens with soft halation. Visible atmospheric haze, light refracting through water droplets.",
+      "quality_notes": "Crane movements create revelation and wonder. Naming real light sources (god rays, bioluminescence) produces far better results than 'dramatic lighting'. Including film stock and lens specs adds organic texture that prevents the plastic CGI look."
+    },
+    {
+      "name": "Surreal Character Introduction",
+      "use_case": "Introducing a dreamer or dream character with emotional weight and visual distinction from reality",
+      "template": "{shot_type} of {character_description}. {character_action} with {physics_detail}. {environment_context}. {emotional_lighting}. {dream_distortion_element}. {style_reference}.",
+      "example": "Low-angle medium close-up of a woman in her mid-30s with shoulder-length dark hair and weathered features, wearing a flowing white linen dress. She walks barefoot across a mirrored floor, each step creating ripples that spread outward in slow motion with visible weight transfer from heel to toe. Endless corridor stretching behind her, walls slowly breathing and undulating. Warm golden backlight with cool blue fill creating rim illumination on her silhouette. Reflections in the floor show a different sky than above. Poetic realism, Tarkovsky aesthetic, 35mm film grain with shallow depth of field.",
+      "quality_notes": "Specifying exact physics (heel-to-toe weight transfer) prevents floating/sliding feet. The 'breathing walls' add surreal quality while keeping character grounded. Dual lighting temperatures separate the character from the dream environment. Reference to Tarkovsky anchors the visual style precisely."
+    },
+    {
+      "name": "Nightmare Sequence - Horror Dream",
+      "use_case": "Fear-based dream content with escalating tension, distorted reality, and visceral unease",
+      "template": "Shot 1 ({timing}): {pov_or_angle} {fear_environment}. {shadow_lighting}. {sound_design}.\nShot 2 ({timing}): {cut_type} to {threat_reveal}. {camera_reaction}. {distortion_element}.\nShot 3 ({timing}): {intimate_shot} of {fear_response}. {micro_detail}. {atmospheric_climax}.",
+      "example": "Shot 1 (0-5s): Handheld POV shot moving through a dark hospital corridor. Flickering fluorescent tubes casting staccato shadows on peeling walls. Distant metallic scraping sound reverberating.\nShot 2 (5-10s): Sudden whip-pan to reveal corridor has become impossibly long, stretching into darkness. Camera pulls back involuntarily as walls narrow. Ceiling drips black viscous liquid.\nShot 3 (10-15s): Extreme close-up on wide eyes reflecting something unseen, pupils dilating. Visible sweat beads on skin, shallow rapid breathing. All light sources extinguish simultaneously.\nNegative: cartoon, bright colors, smiling, stable lighting, clean environment.",
+      "quality_notes": "Multi-shot structure with time codes gives Kling clear narrative progression. POV shots create visceral connection. Specific sound design (metallic scraping, not just 'scary sounds') triggers better audio generation. Practical light sources (fluorescent tubes) that fail create organic horror. The negative prompt prevents the model from defaulting to pleasant aesthetics."
+    },
+    {
+      "name": "Lucid Dream Flight Sequence",
+      "use_case": "Euphoric flying or floating dream with freedom and wonder - common dream archetype",
+      "template": "{dynamic_camera} following {character} as they {flight_action} above {landscape}. {wind_physics}. {perspective_shift}. {magical_element}. {sky_description}. {film_aesthetic}.",
+      "example": "FPV drone shot rolling and banking as it follows a young man in casual clothes soaring above an infinite field of luminous wildflowers. His arms spread wide, shirt rippling and fluttering in strong wind, hair blown back. Camera rolls 360 degrees following his barrel roll then stabilizes behind him. Below, flowers shift color in waves from violet to gold like a living aurora. Sky transitions from deep indigo to burning amber at the horizon with three moons visible. Shot on IMAX 70mm with anamorphic lens flares, motion blur on background, subject in sharp focus.",
+      "quality_notes": "FPV drone terminology activates Kling 3.0's superior spatial reasoning. Specifying fabric physics (rippling shirt, blown hair) adds realism to the fantastical. The color-shifting flowers provide visual spectacle without requiring complex character animation. Multiple moons signal 'dream world' while remaining physically coherent."
+    },
+    {
+      "name": "Memory Fragment - Nostalgic Dream",
+      "use_case": "Dream sequences that replay distorted memories - warm but slightly wrong, evoking bittersweet nostalgia",
+      "template": "{vintage_camera_style} of {memory_scene}. {nostalgic_subject} {gentle_action}. {period_details}. {dream_imperfection}. {warm_lighting}. {texture_aging}.",
+      "example": "Handheld Super 8 film look with warm vintage tones and heavy grain, gentle lens breathing. A child in a yellow raincoat runs through a sun-dappled garden in the 1990s, chasing soap bubbles. Faded floral wallpaper visible through kitchen window, wooden clothesline with white sheets billowing. The child's face is always slightly out of focus, turning away just as camera catches up. Soft diffused afternoon light with golden lens flares, overexposed highlights bleeding into whites. Chromatic aberration on edges, color bleeding between warm tones, slight frame jitter.",
+      "quality_notes": "The Super 8 aesthetic immediately codes 'memory' for the viewer. The face always being slightly out of focus is a proven dream-logic technique - we can never quite see faces clearly in dreams. Overexposed highlights and color bleeding add the imperfection that separates dreams from reality. Specifying the era (1990s) with period details (floral wallpaper, clothesline) grounds the nostalgia."
+    },
+    {
+      "name": "Dream Transition - Reality to Dream",
+      "use_case": "The moment of falling asleep and crossing into dream state - liminal transition",
+      "template": "Shot 1 ({timing}): {reality_shot} of {character} {falling_asleep_action}. {grounded_lighting}. {real_world_detail}.\nShot 2 ({timing}): {transition_technique}. {reality_dissolving}. {dream_element_emerging}.\nShot 3 ({timing}): {dream_establishing} in {dreamscape}. {transformed_lighting}. {surreal_physics}.",
+      "example": "Shot 1 (0-4s): Static medium shot of a man in his late-20s lying in bed, eyes slowly closing. Soft window moonlight casting blue shadows on white sheets. Alarm clock showing 3:17 AM, curtain swaying gently.\nShot 2 (4-8s): Slow crash zoom into his closed eyelid as the room walls begin dissolving into particles of light. Bedsheets transform into flowing water surface. Gravity shifts 90 degrees.\nShot 3 (8-15s): Wide establishing shot, camera cranes upward revealing he now stands in a vast desert of white sand under an aurora-filled sky. Wind carries sand that transforms into butterflies mid-flight. Ethereal cyan and magenta light with no visible light source.\nSFX: Heartbeat slowing, room ambiance fading into deep oceanic hum.",
+      "quality_notes": "The three-act structure mirrors actual sleep onset. Specific time on the alarm clock (3:17 AM) adds uncanny precision that feels dreamlike. The crash zoom into the eyelid is a classic cinema transition Kling handles well. Gravity shift and material transformation (sheets to water, sand to butterflies) are surreal metamorphosis techniques from Bunuel and Lynch."
+    },
+    {
+      "name": "Underwater Dream World",
+      "use_case": "Dreams set in aquatic environments - floating, weightlessness, deep subconscious symbolism",
+      "template": "{underwater_camera} of {submerged_scene}. {character} {underwater_action} with {fluid_physics}. {light_penetration}. {aquatic_details}. {surreal_underwater_element}. {color_atmosphere}.",
+      "example": "Slow tracking shot drifting through a submerged cathedral with intact stained glass windows. A woman in a red evening dress floats weightlessly between marble columns, hair fanning outward in slow undulating waves, dress fabric billowing and folding in invisible currents. Shafts of golden light pierce through the water surface above, creating dancing caustic patterns on stone floors. Schools of luminescent fish orbit her like living constellations. Visible dust particles suspended in water catching light. Deep teal and emerald color palette with warm amber highlights where sunlight penetrates. Shot on Sony Venice with 50mm anamorphic lens, slow motion 120fps feel.",
+      "quality_notes": "Kling excels at water physics simulation. The contrast of formal dress in submerged architecture creates immediate surreal impact. Specifying how hair and fabric behave in water (fanning, billowing) prevents static-looking underwater scenes. Caustic light patterns are a proven quality trigger. The fish-as-constellations metaphor works because it is physically plausible but symbolically dreamlike."
+    },
+    {
+      "name": "Chase Dream - Anxiety Sequence",
+      "use_case": "Common anxiety dream of being chased or unable to run - distorted physics and growing dread",
+      "template": "{pursuit_camera} of {character} {desperate_action} through {shifting_environment}. {physics_breakdown}. {time_distortion}. {threat_presence}. {claustrophobic_framing}. {anxiety_lighting}.",
+      "example": "Handheld shoulder-cam with increasing instability, tracking behind a man in pajamas running through an office building that keeps reconfiguring. His legs move in slow motion but the corridors rush past at normal speed. Doorways shrink as he approaches them, forcing him to squeeze through. Shadow of unseen pursuer grows larger on walls, stretching impossibly. Ceiling lowers with each hallway turn. Harsh overhead fluorescent lighting with deep pools of shadow between fixtures, green-tinged color cast. Visible heavy breathing, condensation in cold air, sweat on neck. Film grain intensifies as sequence progresses.",
+      "quality_notes": "The speed mismatch (slow legs, normal environment) perfectly captures dream-running anxiety. Shrinking doorways and lowering ceilings are proven claustrophobia techniques. Never showing the pursuer (only its shadow) is more effective than rendering a monster. Increasing film grain throughout creates subliminal escalation. The pajamas-in-office detail signals dream logic without breaking visual coherence."
+    },
+    {
+      "name": "Peaceful Dream - Meditation Landscape",
+      "use_case": "Serene, healing dreams - used for positive dream visualization and therapeutic content",
+      "template": "{gentle_camera} through {paradise_environment}. {natural_elements} {peaceful_motion}. {harmonious_lighting}. {sensory_details}. {transcendent_element}. {soft_aesthetic}.",
+      "example": "Steadicam glides at waist height through an ancient Japanese garden at dawn. Cherry blossom petals fall in slow motion, each petal catching light as it spirals downward. Koi fish surface in a still pond creating perfect concentric ripples. Mist rises from warm stones as cool air meets heated rock. First golden rays of sunrise filter through maple leaves creating dappled patterns on moss-covered ground. A single crane stands motionless in shallow water, its reflection perfectly mirrored. Soft diffused golden hour backlight with volumetric morning mist. Kodak Ektachrome warm saturated tones, gentle bokeh from vintage 85mm prime lens at f/1.4.",
+      "quality_notes": "The steadicam at waist height creates an intimate, grounded perspective. Slow motion petals give the eye a focal point for contemplation. Multiple water interactions (koi ripples, mist, reflection) leverage Kling's strong water physics. The crane's stillness contrasts with surrounding gentle motion, creating a meditative anchor point. Specifying Kodak Ektachrome produces warm, life-affirming color science."
+    },
+    {
+      "name": "Dream Within a Dream - Inception Layer",
+      "use_case": "Nested dream states where reality becomes increasingly unstable - meta-dream sequences",
+      "template": "Shot 1 ({timing}): {apparent_reality} with {subtle_wrongness}. {character} notices {glitch}.\nShot 2 ({timing}): {reality_fracture}. {impossible_physics}. {character_reaction}.\nShot 3 ({timing}): {deeper_dream_layer}. {completely_surreal_environment}. {new_rules_of_physics}.\nNegative: {exclusions}.",
+      "example": "Shot 1 (0-5s): Medium shot of woman sitting in a normal cafe, slowly drinking coffee. Rack focus reveals the window view is upside down - cars driving on the ceiling of the street. She pauses mid-sip, eyes widening.\nShot 2 (5-10s): She stands and the coffee flows upward out of the cup in a perfect reverse stream. Other patrons continue normally as the walls begin folding inward like origami. Dutch angle increases throughout shot. Camera tilts as gravity shifts 45 degrees.\nShot 3 (10-15s): Wide establishing shot of an Escher-like impossible architecture space. Staircases connect in paradoxical loops. She walks calmly on a vertical wall while rain falls horizontally. Everything lit by sourceless warm amber glow against deep void background.\nNegative: cartoon style, bright cheerful colors, stable horizon, normal physics, smiling faces.",
+      "quality_notes": "The subtle wrongness in Shot 1 (inverted window view) is more unsettling than immediate surrealism. Progressive reality breakdown across shots creates narrative tension. The Dutch angle increasing throughout Shot 2 is a proven disorientation technique. Escher references give Kling clear geometric targets for impossible architecture. Specifying that other characters act normally while the environment distorts amplifies the dreamlike isolation."
+    },
+    {
+      "name": "Symbolic Dream - Object Transformation",
+      "use_case": "Dreams where objects carry symbolic meaning and transform between states - Jungian dream imagery",
+      "template": "{intimate_camera} on {symbolic_object} as it {transformation_action}. {metamorphosis_detail}. {emotional_context}. {character_witness}. {symbolic_lighting}. {contemplative_pace}.",
+      "example": "Macro dolly-in on an old pocket watch resting on a velvet surface. The watch face begins melting like Dali's persistence of memory, flowing like honey over the edge. Clock hands spin backward rapidly then dissolve into monarch butterflies that lift off one by one. Each butterfly trails golden dust that settles into the shape of a human hand reaching upward. A woman's face reflected in the remaining liquid metal of the watch, eyes closed in peaceful expression. Warm candlelight creating intimate chiaroscuro with deep amber shadows. Shot on 35mm film with macro lens, extremely shallow depth of field, visible film grain.",
+      "quality_notes": "Macro shots of transformation sequences are a strength of Kling 3.0. The Dali reference (melting watch) provides a universally understood surreal anchor. Sequential transformation (watch to liquid to butterflies to dust to hand) creates a visual journey. Specifying the character's reflection rather than direct appearance adds dream-logic indirection. Chiaroscuro with candlelight creates intimate symbolism-appropriate mood."
+    },
+    {
+      "name": "Epic Dreamscape - Cosmic Scale",
+      "use_case": "Grand-scale dreams that tap into universal/cosmic imagery - awe and transcendence",
+      "template": "{epic_camera} revealing {cosmic_environment}. {scale_reference}. {celestial_elements}. {impossible_beauty}. {character_scale_contrast}. {transcendent_lighting}. {epic_aesthetic}.",
+      "example": "Crane shot ascending from ground level, rising through clouds to reveal an infinite staircase spiraling upward through a nebula. Each step is a different geological era - volcanic rock transitions to ice to crystal to living coral. A solitary figure in silhouette climbs steadily, dwarfed by the cosmic scale. Galaxies rotate slowly in the background like vast clockwork. Aurora-like light ribbons weave between the steps in flowing waves of electric blue, deep violet, and rose gold. Volumetric nebula clouds with internal illumination. IMAX quality, 65mm film with deep depth of field, epic fantasy cinematography.",
+      "quality_notes": "The ascending crane mirrors the upward journey thematically. Geological era transitions on each step create visual variety without requiring complex animation per step. The silhouetted figure provides human scale reference against cosmic backdrop. Specifying galaxy rotation as 'clockwork' gives Kling a concrete motion reference. Aurora ribbons add dynamic color without overwhelming the composition."
+    },
+    {
+      "name": "Multi-Shot Dream Narrative",
+      "use_case": "Complete 15-second dream story with emotional arc - the full mini-film dream experience",
+      "template": "Shot 1 (0-3s): {establishing_dreamscape}. {mood_setting}.\nShot 2 (3-6s): {character_introduction}. {emotional_state}. {character_action}.\nShot 3 (6-9s): {dream_event}. {surreal_transformation}. {character_response}.\nShot 4 (9-12s): {climax_moment}. {peak_surrealism}. {emotional_peak}.\nShot 5 (12-15s): {resolution_or_awakening}. {final_image}.\nAudio: {sound_design}.\nNegative: {exclusions}.",
+      "example": "Shot 1 (0-3s): Wide establishing shot of an empty theater with red velvet seats stretching into fog. Single spotlight illuminates center stage. Cold blue ambient light.\nShot 2 (3-6s): Medium shot of a young woman in a simple white dress walking down the center aisle toward the stage. Her expression is searching, yearning. Handheld camera follows from behind.\nShot 3 (6-9s): As she reaches the stage, the seats behind her have filled with translucent figures - memories of people applauding silently. She turns and sees them, reaching out.\nShot 4 (9-12s): Close-up on her face as a genuine smile forms. The translucent figures begin emitting warm golden light. The theater transforms - walls dissolve revealing a starfield. Tears catch the golden light on her cheeks.\nShot 5 (12-15s): Wide overhead shot pulling away. She stands center stage surrounded by a galaxy of warm lights that were once the audience. She closes her eyes. Fade to warm white.\nAudio: Distant piano melody growing clearer, ghostly applause fading into wind, heartbeat.\nNegative: cartoon, harsh colors, fast motion, action sequences, monsters, horror elements.",
+      "quality_notes": "Five shots across 15 seconds matches Kling 3.0's optimal pacing of 3 seconds per shot. The emotional arc (loneliness to searching to discovery to joy to transcendence) gives narrative coherence. Translucent figures are within Kling's rendering capability and create dream atmosphere. The theater-to-starfield transformation provides the surreal payoff. Specifying tears catching light adds the micro-detail realism layer. Audio design reinforces the emotional journey."
+    },
+    {
+      "name": "Image-to-Video Dream Activation",
+      "use_case": "Animating a still dream image into video - bringing a static dreamscape to life with minimal motion",
+      "template": "{motion_instruction_only}. {what_moves}. {what_stays_still}. {atmospheric_additions}. {camera_behavior}. {end_state}.",
+      "example": "Gentle environmental animation only. Clouds drift slowly from right to left across the sky. Water surface produces subtle rippling reflections. Grass and wildflowers sway gently in light breeze. Fabric on any figures moves with soft billowing motion. Dust particles float through any light beams. Camera holds static position with very slight breathing motion. All movement settles back to near-stillness by end of clip.",
+      "quality_notes": "For image-to-video, never redescribe what is already in the image - this causes conflicts and artifacts. Focus exclusively on what moves and how. Specify end-state ('settles back to stillness') to prevent the model from escalating motion. 'Camera breathing motion' adds subtle life without disrupting the source composition. Keep to 15-30 words of motion instruction for best results with image-to-video mode."
+    },
+    {
+      "name": "Dialogue Dream Scene",
+      "use_case": "Dream characters speaking - surreal conversations with Kling 3.0 native audio and lip-sync",
+      "template": "{establishing_context}. {shot_pattern}.\n[Character A: {appearance}, {voice_description}]: '{dialogue}'\n{action_beat}.\n[Character B: {appearance}, {voice_description}]: '{response}'\n{dream_disruption}.\nSFX: {ambient_sound}.",
+      "example": "Tense encounter in a fog-filled forest clearing at twilight. Alternating medium shots with shallow depth of field.\n[Character A: Elderly woman with silver hair in dark cloak, soft raspy knowing whisper]: 'You have been here before. Every night you return to this place.'\nShe gestures toward a distant glowing doorway visible between the trees.\n[Character B: Young man mid-20s in modern casual clothes, uncertain trembling voice]: 'I know this place... but the door was never open before.'\nAs he speaks, the trees slowly lean inward, listening. Ground beneath his feet softens like wet clay.\nSFX: Wind through ancient trees, distant choral hum, heartbeat undertone.",
+      "quality_notes": "Kling 3.0's native audio excels when voice tone is specified in brackets with the character label. Binding dialogue to physical action first (gesture, then speech) improves lip-sync accuracy. The dream disruption between dialogue lines (trees leaning, ground softening) keeps the surreal atmosphere active during conversation. Alternating medium shots is the most reliable multi-character framing for AI video."
+    }
+  ],
+  "style_presets": {
+    "surreal": {
+      "keywords": ["dreamlike", "impossible architecture", "metamorphosis", "non-Euclidean geometry", "Dali-esque", "melting forms", "impossible scale", "paradoxical space", "living landscapes", "material transformation"],
+      "camera": ["slow dolly through impossible spaces", "Dutch angle increasing throughout shot", "macro on transforming objects", "crane revealing impossible vistas", "tracking shot through Escher-like architecture"],
+      "lighting": ["sourceless ambient glow", "bioluminescent elements", "light behaving like liquid", "shadows cast from invisible objects", "multiple contradicting light sources", "aurora-like color ribbons"],
+      "color_palette": ["deep violet and electric blue", "rose gold highlights", "teal with amber accents", "iridescent pastel tones", "desaturated backgrounds with single vivid accent color"],
+      "texture": ["surfaces rippling like liquid glass", "edges dissolving into fractals", "smoke-like particle dissolution", "crystalline formations", "organic growths on geometric surfaces"],
+      "reference_films": ["Inception (2010)", "The Cell (2000)", "Paprika (2006)", "Eternal Sunshine of the Spotless Mind (2004)", "Un Chien Andalou (1929)"],
+      "negative_prompt": "realistic physics, normal gravity, stable architecture, bright daylight, cheerful mood, cartoon style"
+    },
+    "noir": {
+      "keywords": ["high contrast", "deep shadows", "rain-slicked streets", "neon reflections", "urban isolation", "venetian blind shadows", "smoke-filled rooms", "silhouette compositions", "moral ambiguity"],
+      "camera": ["low-angle shots through venetian blinds", "slow pan across rain-streaked windows", "static locked-off medium shot", "tracking shot down empty corridor", "crane down from rooftop to street level"],
+      "lighting": ["single harsh side light source", "practical street lamps", "flickering neon signs casting colored reflections", "chiaroscuro with deep pools of shadow", "rim lighting on silhouettes", "shaft of light through doorway"],
+      "color_palette": ["monochromatic with selective color accents", "teal and orange grade", "desaturated with neon highlights", "silver and charcoal with red accent", "deep shadows trending to pure black"],
+      "texture": ["wet asphalt reflections", "cigarette smoke wisps", "rain on glass", "worn leather", "condensation on cold surfaces", "35mm film grain heavy"],
+      "reference_films": ["Blade Runner (1982)", "Chinatown (1974)", "Sin City (2005)", "Dark City (1998)", "Mulholland Drive (2001)"],
+      "negative_prompt": "bright colors, daylight, happy expressions, clean environments, smooth textures, digital sharpness"
+    },
+    "ethereal": {
+      "keywords": ["soft focus", "floating", "translucent", "luminous", "gossamer", "weightless", "celestial", "otherworldly grace", "gentle radiance", "angelic presence"],
+      "camera": ["slow steadicam glide at waist height", "gentle crane ascending", "static with slight breathing motion", "dolly forward through soft focus elements", "overhead descending through particles"],
+      "lighting": ["soft diffused backlight with warm rim", "golden hour through atmospheric haze", "volumetric morning mist with light shafts", "gentle candlelight glow", "window light with sheer curtain diffusion", "bioluminescent ambient fill"],
+      "color_palette": ["warm whites and pale gold", "lavender and soft peach", "pearl and ivory with rose highlights", "champagne and blush", "moonlight silver with warm undertones"],
+      "texture": ["light gauze and chiffon fabric movement", "dust particles floating in light beams", "lens breathing and gentle flare", "silk-like water surfaces", "petal-soft edges and halation"],
+      "reference_films": ["The Tree of Life (2011)", "The Fountain (2006)", "A Ghost Story (2017)", "Wings of Desire (1987)", "Hero (2002)"],
+      "negative_prompt": "harsh shadows, high contrast, dark mood, gritty texture, handheld shake, industrial setting"
+    },
+    "cyberpunk_dream": {
+      "keywords": ["neon-drenched dystopia", "holographic overlays", "digital rain", "glitch artifacts", "augmented reality layers", "neural interface visuals", "data streams", "high-tech low-life", "synthetic consciousness"],
+      "camera": ["FPV drone through neon canyons", "whip-pan between holographic displays", "crash zoom on cybernetic details", "handheld tracking through crowds", "low-angle looking up at towering structures"],
+      "lighting": ["neon signs casting magenta and cyan", "LED panel arrays", "holographic projection glow", "screen light on faces in darkness", "pulsing rhythmic lighting", "electric arc illumination"],
+      "color_palette": ["magenta and electric cyan", "neon pink and deep purple", "acid green on black", "orange warning tones", "chromatic aberration rainbow edges"],
+      "texture": ["wet surfaces reflecting neon", "holographic shimmer", "digital glitch artifacts", "chrome and brushed metal", "rain droplets refracting colored light", "visible data streams"],
+      "reference_films": ["Blade Runner 2049 (2017)", "Ghost in the Shell (1995)", "Akira (1988)", "The Matrix (1999)", "Tron: Legacy (2010)"],
+      "negative_prompt": "natural scenery, warm tones, daylight, vintage aesthetic, rural setting, organic textures"
+    },
+    "gothic_romantic": {
+      "keywords": ["dark fairy-tale", "decaying grandeur", "forbidden beauty", "haunted elegance", "romantic melancholy", "victorian decay", "moonlit ruins", "tragic beauty", "veiled mystery"],
+      "camera": ["slow dolly through arched corridors", "crane down from cathedral ceiling", "tracking alongside flowing gown", "push-in through candlelit space", "static symmetrical composition"],
+      "lighting": ["candlelight with deep warm shadows", "moonlight through stained glass", "fireplace glow on period walls", "lightning flash illumination", "single candelabra creating Rembrandt triangles"],
+      "color_palette": ["deep burgundy and gold", "midnight blue and silver", "black velvet with ruby accents", "moss green and aged bronze", "ivory and dried rose"],
+      "texture": ["cobwebs catching candlelight", "velvet fabric with dust motes", "crumbling stone with ivy", "aged leather and yellowed paper", "tarnished silver and oxidized copper", "heavy film grain"],
+      "reference_films": ["Crimson Peak (2015)", "Bram Stoker's Dracula (1992)", "The Others (2001)", "Pan's Labyrinth (2006)", "Sleepy Hollow (1999)"],
+      "negative_prompt": "modern setting, bright lighting, clean surfaces, contemporary clothing, cheerful atmosphere, digital precision"
+    },
+    "vaporwave_dream": {
+      "keywords": ["retrofuturism", "digital nostalgia", "pastel neon", "glitch aesthetic", "VHS degradation", "greek statuary", "sunset gradients", "consumer paradise", "liminal spaces", "digital decay"],
+      "camera": ["slow orbit around sculptural objects", "dolly through liminal corridors", "static with VHS tracking artifacts", "gentle zoom on everyday objects", "overhead drift across pastel surfaces"],
+      "lighting": ["dual-tone neon wash (pink and blue)", "sunset gradient backdrop", "screen glow in dark spaces", "fluorescent tube cold light", "palm tree shadow patterns"],
+      "color_palette": ["hot pink and cyan gradient", "lavender and mint", "coral and turquoise", "peach and electric blue", "pastel purple with magenta accents"],
+      "texture": ["VHS tracking lines and noise", "marble and chrome surfaces", "tropical plant silhouettes", "scan line overlay", "pixelated edges", "chromatic aberration heavy"],
+      "reference_films": ["Lost in Translation (2003)", "Spring Breakers (2012)", "Drive (2011)", "Enter the Void (2009)", "Mandy (2018)"],
+      "negative_prompt": "realistic style, natural colors, outdoor daylight, film grain, period accuracy, documentary feel"
+    },
+    "ancient_mythic": {
+      "keywords": ["mythological grandeur", "sacred geometry", "primordial landscapes", "titanic scale", "divine light", "elemental forces", "creation myths", "ancestral memory", "temple architecture"],
+      "camera": ["epic crane ascending temple structures", "slow tracking through ancient corridors", "wide establishing of mythic landscapes", "low-angle looking up at colossal figures", "aerial circling of sacred sites"],
+      "lighting": ["volumetric god rays through temple openings", "fire and torch light on stone walls", "golden divine radiance", "eclipse lighting with corona glow", "underground cavern with crystal illumination"],
+      "color_palette": ["gold and lapis lazuli blue", "warm sandstone and deep sky", "bronze and jade", "amber and obsidian", "earth tones with celestial accents"],
+      "texture": ["weathered carved stone", "ancient metalwork patina", "sand and dust particles in light", "running water over rock", "fire embers floating upward", "epic fantasy film grain"],
+      "reference_films": ["The Fall (2006)", "Baraka (1992)", "300 (2006)", "Immortals (2011)", "Hero (2002)"],
+      "negative_prompt": "modern elements, technology, urban setting, casual clothing, artificial lighting, small scale"
+    },
+    "tarkovsky_poetic": {
+      "keywords": ["poetic realism", "water symbolism", "slow cinema", "memory texture", "contemplative silence", "natural decay", "spiritual landscape", "time as character", "material meditation"],
+      "camera": ["extremely slow dolly forward through still environment", "long take static observation", "tracking alongside flowing water", "slow pan across decaying interior", "crane ascending from intimate to landscape"],
+      "lighting": ["natural window light shifting slowly", "overcast diffused daylight", "candlelight reflecting in water", "fog-filtered morning sun", "interior darkness with single light source"],
+      "color_palette": ["desaturated earth tones", "moss green and rain grey", "sepia undertones with cool shadows", "muted ochre and deep forest green", "monochrome with selective warm accent"],
+      "texture": ["water droplets on surfaces", "peeling wallpaper", "wet grass and mud", "rust and patina", "fog and mist", "35mm Eastmancolor film stock look"],
+      "reference_films": ["Stalker (1979)", "Mirror (1975)", "Nostalghia (1983)", "Solaris (1972)", "The Sacrifice (1986)"],
+      "negative_prompt": "fast cutting, bright colors, action sequences, clean modern surfaces, digital perfection, upbeat mood"
+    },
+    "studio_ghibli_dream": {
+      "keywords": ["hand-drawn warmth", "whimsical nature", "gentle wonder", "childhood imagination", "flying scenes", "magical realism", "environmental harmony", "spirit world", "nostalgic innocence"],
+      "camera": ["gentle tracking through lush landscape", "slow pan across detailed environment", "static wide shot with internal movement", "dolly following character through magical space", "crane revealing hidden world"],
+      "lighting": ["soft watercolor-like diffusion", "dappled sunlight through canopy", "warm afternoon glow", "twilight with firefly illumination", "storm light with dramatic clouds"],
+      "color_palette": ["warm grass green and sky blue", "sunset orange and purple", "soft pink and cream", "vibrant spring palette", "deep forest emerald with gold accents"],
+      "texture": ["soft hand-painted look", "watercolor edge bleeding", "textured clouds with visible brushwork", "gentle wind-blown vegetation", "hand-drawn rain and water"],
+      "reference_films": ["Spirited Away (2001)", "My Neighbor Totoro (1988)", "Princess Mononoke (1997)", "Howl's Moving Castle (2004)", "The Wind Rises (2013)"],
+      "negative_prompt": "photorealistic, dark mood, horror elements, urban decay, digital perfection, violent content"
+    },
+    "david_lynch_uncanny": {
+      "keywords": ["uncanny valley", "suburban horror", "red curtains", "industrial drone", "dopplganger", "reversed speech", "time loops", "familiar made strange", "liminal anxiety", "atomic dread"],
+      "camera": ["extremely slow push-in on static scene", "locked-off symmetrical composition", "low-angle looking up at ordinary objects", "tracking down identical repeating corridors", "static with single element moving wrong"],
+      "lighting": ["harsh overhead fluorescent with shadow", "red stage curtain lighting", "flickering unstable light sources", "deep darkness with isolated bright pools", "electric arc strobing"],
+      "color_palette": ["deep red and black", "sickly yellow-green", "oversaturated primary colors", "bleached-out pastels", "industrial grey with neon accent"],
+      "texture": ["velvet curtain folds", "static electricity visual artifacts", "industrial machinery close-up", "skin pores and imperfections extreme close-up", "analog TV noise and distortion"],
+      "reference_films": ["Mulholland Drive (2001)", "Twin Peaks: Fire Walk with Me (1992)", "Eraserhead (1977)", "Lost Highway (1997)", "Blue Velvet (1986)"],
+      "negative_prompt": "cheerful mood, clean aesthetic, logical narrative, bright daylight, smooth surfaces, comfortable setting"
+    }
+  },
+  "emotion_to_visual": {
+    "fear": {
+      "camera": "Handheld with increasing instability, POV shots, slow deliberate pans into darkness, Dutch angle, crash zoom on threat",
+      "lighting": "Flickering unstable sources, harsh overhead with deep shadow pools, single light source with surrounding darkness, strobing",
+      "color": "Desaturated with sickly green-yellow tint, cold blue shadows, deep blacks, selective high-contrast red accent",
+      "motion": "Subject in slow motion while environment moves at normal speed, sudden whip-pans, camera pulling away involuntarily",
+      "framing": "Subject pushed to extreme edge of frame, uncomfortable headroom, negative space dominated by darkness",
+      "texture": "Heavy film grain increasing through sequence, moisture and condensation, visible breath in cold air",
+      "audio_cues": "Metallic scraping, distant impacts, reversed whispers, heartbeat acceleration, silence before sudden sound",
+      "dream_application": "Nightmare chase sequences, shadowy pursuer, environment reconfiguring to trap the dreamer"
+    },
+    "peace": {
+      "camera": "Steadicam glide at waist height, static with gentle breathing motion, slow crane ascending, minimal movement",
+      "lighting": "Soft diffused golden hour, volumetric morning mist, warm backlight with gentle rim, dappled sunlight through leaves",
+      "color": "Warm golden tones, soft greens and blues, low contrast, pastel highlights, Kodak Ektachrome warmth",
+      "motion": "Extremely slow and deliberate, gentle environmental motion (wind in grass, water ripples), breathing-pace rhythm",
+      "framing": "Centered composition, generous negative space, wide shots with balanced elements, symmetrical when possible",
+      "texture": "Soft focus edges, gentle lens flare, smooth water surfaces, silk-like fabric movement, natural materials",
+      "audio_cues": "Distant wind chimes, gentle water flow, birdsong, slow breathing, soft ambient pad",
+      "dream_application": "Healing dreams, meditation landscapes, garden sanctuaries, still water reflections"
+    },
+    "joy": {
+      "camera": "Handheld with energetic but controlled motion, tracking alongside movement, upward crane shots, dynamic FPV following",
+      "lighting": "Bright natural sunlight, warm golden backlight, lens flares, high-key with minimal shadows",
+      "color": "Vibrant warm saturation, golden yellows, rich greens, orange and coral accents, high color contrast",
+      "motion": "Energetic and fluid, spinning or orbiting camera, speed ramps from slow to fast, upward momentum",
+      "framing": "Close to subject with wider lenses for immersion, characters centered and prominent, open compositions",
+      "texture": "Vintage lens softness with warm flare, light leaks, confetti or particle elements catching light",
+      "audio_cues": "Laughter, upbeat rhythm, wind rushing, bright metallic tones, major key melodic elements",
+      "dream_application": "Flying dreams, reunion dreams, childhood memory dreams, discovery of hidden worlds"
+    },
+    "sadness": {
+      "camera": "Locked-off distant shots, slow pull-away from subject, static observation, gentle tilt downward",
+      "lighting": "Overcast diffused light, blue-hour twilight, rain-filtered window light, single dim practical source",
+      "color": "Cool blue-grey desaturation, muted earth tones, drained warmth, monochromatic tendency, low saturation",
+      "motion": "Minimal and weighted, gravity-heavy movements, slow motion for emphasis, stillness punctuated by small gestures",
+      "framing": "Subject small in frame surrounded by empty space, frame within frame through doorways, isolating compositions",
+      "texture": "Rain on glass, fog obscuring detail, soft focus, water droplets, weathered surfaces, visible breath",
+      "audio_cues": "Solo piano, rain ambiance, distant muffled sounds, wind through empty spaces, silence",
+      "dream_application": "Loss dreams, searching for someone who cannot be found, empty rooms, rain-soaked memories"
+    },
+    "wonder": {
+      "camera": "Crane ascending to reveal vast scale, slow orbit around extraordinary object, wide establishing with push-in, FPV through fantastical space",
+      "lighting": "Volumetric god rays, bioluminescent glow, aurora-like color ribbons, multiple colored light sources creating rainbow effects",
+      "color": "Rich saturated palette, jewel tones, electric blue and gold, cosmic purples and teals, prismatic rainbow elements",
+      "motion": "Slow revelation movements, camera drifting upward, gradual scale reveal, floating and ascending elements",
+      "framing": "Wide compositions emphasizing scale, low angle looking up, subject dwarfed by environment, expansive negative space filled with light",
+      "texture": "Crystal and glass refractions, star-like particle effects, iridescent surfaces, light caustics, aurora shimmer",
+      "audio_cues": "Orchestral swell, choir voices, crystalline tones, wind whoosh on reveal, deep resonant bass for scale",
+      "dream_application": "Discovery of impossible landscapes, cosmic revelation dreams, flying above cloud layers, entering magical realms"
+    },
+    "anxiety": {
+      "camera": "Handheld with micro-jitter, slow push-in on subject face, rack focus between subject and threat, confined tracking shots",
+      "lighting": "Harsh fluorescent overhead, unstable flickering sources, green-tinted institutional lighting, shadows that move independently",
+      "color": "Sickly green-yellow undertone, desaturated with nervous energy, contrast increasing throughout sequence, color temperature shifting",
+      "motion": "Subtle vibration in otherwise still scenes, time distortion (slow limbs fast environment), restless camera unable to settle",
+      "framing": "Tight claustrophobic framing, shrinking headroom, walls closing in, subject trapped in center of narrowing composition",
+      "texture": "Sweat on skin, condensation, trembling surfaces, film grain intensifying, noise increasing",
+      "audio_cues": "Heartbeat accelerating, clock ticking, buzzing fluorescent, muffled voices, high-pitched tone building",
+      "dream_application": "Being late dreams, exam dreams, teeth falling out, unable to run, shrinking spaces"
+    },
+    "nostalgia": {
+      "camera": "Handheld Super 8 or VHS aesthetic, gentle handheld with vintage sway, slow zoom on remembered objects, tracking through childhood spaces",
+      "lighting": "Overexposed golden afternoon light, warm window light through lace curtains, sunset glow, light leaking through gaps",
+      "color": "Warm amber and sepia undertones, faded color like old photographs, color bleeding at edges, Kodachrome palette",
+      "motion": "Dreamy slow motion, gentle and unhurried, slight slow-motion on key moments, retro frame rate feel",
+      "framing": "Faces always slightly out of focus or turning away, point-of-view at child height, intimate domestic compositions",
+      "texture": "Heavy film grain, chromatic aberration, VHS tracking lines, light leaks, scratched film overlay, soft halation",
+      "audio_cues": "Muffled vintage radio, distant laughter, wind chimes, old record player, familiar but indistinct music",
+      "dream_application": "Childhood home dreams, visiting deceased loved ones, school memory dreams, holiday memories"
+    },
+    "love": {
+      "camera": "Close camera with wider lenses for immersion, slow push-in to intimate distance, over-shoulder dirty shots deepening, arc tracking circling couple",
+      "lighting": "Warm candlelight, golden hour backlight creating hair light, soft window diffusion, warm rim illumination on both subjects",
+      "color": "Warm rose and amber, soft reds and golds, gentle peach tones, warm whites with pink undertones, romantic color grade",
+      "motion": "Slow and tender, gentle orbit, movements synchronized between subjects, gradual closing of distance",
+      "framing": "Progressive tightening from singles to two-shots, characters overlapping in composition at peak intimacy, centered balanced framing",
+      "texture": "Vintage lens softness (Canon K35s, Kowas), gentle contrast, warm flare, bokeh globes from practical lights, skin glow",
+      "audio_cues": "String instruments, gentle piano, shared breathing, whispered words, warm ambient tone",
+      "dream_application": "Reunion with loved ones, romantic dreams, parent-child bonding dreams, wedding dreams"
+    },
+    "loneliness": {
+      "camera": "Locked-off distant observation, frame within frame through doorways and windows, very slow pull-back revealing emptiness, static tripod",
+      "lighting": "Single cold light source in large dark space, empty room with window light, blue-hour isolation, streetlamp pool of light in darkness",
+      "color": "Cool blue-grey dominant, desaturated, minimal warmth, monochromatic tendency, shadow areas trending to deep navy",
+      "motion": "Near-static with only subtle environmental movement, subject still while world moves around them, isolated micro-gestures",
+      "framing": "Subject tiny in large empty frame, surrounded by negative space, isolated by architectural elements, wide lens emphasizing empty space",
+      "texture": "Empty surfaces, dust in light beams, cold hard materials, minimal organic elements, sterile or abandoned environments",
+      "audio_cues": "Echo in empty spaces, single footstep, wind through empty room, distant city sounds, mechanical hum",
+      "dream_application": "Empty house dreams, searching alone, abandoned city dreams, everyone has disappeared"
+    },
+    "rage": {
+      "camera": "Crash zoom, aggressive handheld, whip-pans, low-angle empowerment shots, speed ramping from slow to explosive",
+      "lighting": "Harsh direct light, fire and explosion illumination, red practical sources, overhead downlight creating skull-like shadows",
+      "color": "Deep crimson and black, high saturation reds and oranges, extreme contrast, warm aggressive palette, burning amber",
+      "motion": "Explosive and sudden, impact moments in slow motion then snap to full speed, camera shaking from impacts",
+      "framing": "Extreme close-up on eyes and clenched features, breaking symmetry aggressively, tilted and unstable compositions",
+      "texture": "Broken glass, fire embers, dust from impacts, torn fabric, cracking surfaces, high grain with harsh contrast",
+      "audio_cues": "Deep bass impacts, glass shattering, primal scream, rumbling earthquake, metal stress sounds",
+      "dream_application": "Destruction dreams, transformation dreams (becoming powerful), breaking free dreams, confrontation dreams"
+    },
+    "confusion": {
+      "camera": "Swing and tilt lens creating shifting focal planes, disorienting orbit, involuntary zoom, POV with impossible perspective changes",
+      "lighting": "Contradicting light sources from multiple directions, shadows falling wrong way, light source moving during static shot",
+      "color": "Color temperature shifting mid-shot, desaturating and re-saturating, complementary colors clashing, chromatic aberration increasing",
+      "motion": "Environment rotating while subject stays still, impossible spatial transitions, walking forward but arriving at origin, direction reversal",
+      "framing": "Vaseline-edge distortion, center sharp but edges melting, aspect ratio subtly shifting, horizon line tilting",
+      "texture": "Surfaces morphing between materials, text becoming unreadable, familiar objects at wrong scale, mirror reflections showing different scene",
+      "audio_cues": "Reversed audio, overlapping conversations, echo on normal speech, pitch-shifted environment sounds, time-stretched tones",
+      "dream_application": "Lost in familiar places, doors leading to wrong rooms, maps that change, faces that shift"
+    },
+    "transcendence": {
+      "camera": "Infinite crane ascending, slow orbit expanding outward, macro to cosmic scale transition, camera dissolving into pure light",
+      "lighting": "Sourceless warm radiance, light emanating from within subjects, golden divine illumination, white-out approaching overexposure",
+      "color": "White and gold dominant, pure warm light, rainbow prismatic edges, colors becoming luminous and translucent",
+      "motion": "Ascending and expanding, dissolving boundaries, particles rising upward, gravitational release, spiraling outward",
+      "framing": "Subject merging with environment, boundaries dissolving, centered radiant composition, expanding from intimate to infinite",
+      "texture": "Light particles and energy, translucent forms, crystal clarity, pure luminance, dissolving material into light",
+      "audio_cues": "Choir ascending, frequency sweep upward, harmonic overtones, silence after crescendo, pure tone",
+      "dream_application": "Spiritual dreams, ego dissolution, merging with universe, ascending beyond physical form, white light dreams"
+    }
+  },
+  "kling_v3_specific": {
+    "best_practices": [
+      "Think like a director, not a photographer - write shooting scripts for film clips, not still-frame descriptions",
+      "Use the SCALE method: Shot (camera type + movement), Character (subject + appearance), Action (motion timeline), Lighting & Location (environment), Extra (audio/style/specs)",
+      "Structure prompts as: [Camera Movement] + [Subject & Action Physics] + [Environment/Lighting] + [Texture & Details] + [Audio/Emotion]",
+      "Describe motion sequentially with temporal flow (beginning to middle to end), never stack simultaneous complex actions",
+      "Use precise cinematography terminology: dolly push, whip-pan, shoulder-cam drift, crash zoom, snap focus, rack focus - never generic words like 'moves' or 'goes'",
+      "Name real light sources (neon signs, candlelight, golden hour, LED panels, fluorescent tubes) instead of saying 'dramatic lighting' or 'cinematic lighting'",
+      "Include physical texture details: film grain, skin pores, sweat, fabric creases, condensation, smoke particles - these prevent the plastic/CGI look",
+      "Specify character physics explicitly: 'heel-first landing, rolling forward with visible weight transfer' fixes floating/sliding feet",
+      "Anchor hands to objects: 'fingers firmly grip ceramic cup edge' prevents floating/morphing hand artifacts",
+      "Use multi-shot format with Shot 1/Shot 2/Shot 3 labels for 15-second narratives - optimal pacing is 4-6 shots across 10-15 seconds",
+      "For dialogue scenes, label characters with appearance AND voice tone: [Character A: Elderly CEO, deep gravelly authoritative voice]",
+      "Always include end-state language for image-to-video: 'settles into position', 'returning to stillness', 'coming to rest'",
+      "Set motion intensity numerically (0.1-1.0): 0.1-0.3 for subtle, 0.4-0.6 for natural, 0.7-1.0 for dynamic action",
+      "Keep elements to 4-5 distinct nouns maximum per shot to prevent complexity failures",
+      "Specify film stock and lens for organic texture: 'Shot on 35mm film, 85mm prime at f/1.4, shallow depth of field'",
+      "For multi-character consistency, use 'same costume', 'matching hairstyle', 'identical appearance' as anchors across shots",
+      "Include micro-motion details for realism: breathing, blinking, hair movement, fabric sway, steam rising, dust drifting"
+    ],
+    "common_mistakes": [
+      "Prompting like Midjourney/Flux (static image description) instead of directing a film clip with motion and time",
+      "Using vague adjectives ('beautiful', 'cinematic', 'amazing') instead of concrete technical references ('shot on 35mm with anamorphic flare')",
+      "Stacking multiple complex simultaneous actions instead of describing them sequentially",
+      "Redescribing image contents in image-to-video mode (causes conflicts) - focus only on what changes/moves",
+      "Missing camera direction entirely - results in random angles and movements",
+      "Using 'dramatic lighting' instead of naming specific light sources and their colors",
+      "Attempting extreme facial close-ups during rapid motion (causes distortion)",
+      "Giving multiple subjects independent complex actions in the same shot",
+      "Leaving hands unanchored in empty space (causes morphing/extra fingers)",
+      "Forgetting negative prompts - the model defaults to pleasant/neutral without explicit exclusions",
+      "Using pronouns or synonyms for characters instead of consistent unique labels",
+      "Not specifying end-state for image-to-video (causes escalating/runaway motion)",
+      "Writing prompts that are too short and vague (20 generic words) or too long without structure (200 words of adjectives)",
+      "Ignoring the Chinese-language prompt formula: Subject + Motion + Scene + (Camera + Lighting + Atmosphere)"
+    ],
+    "optimal_word_count": {
+      "text_to_video_simple": "30-50 words for single-shot scenes with clear subject and action",
+      "text_to_video_complex": "60-120 words for multi-shot narratives with dialogue and sound design",
+      "image_to_video": "15-30 words focusing exclusively on motion instructions, not image description",
+      "multi_shot_storyboard": "120-200 words total across 4-6 shots, roughly 25-35 words per shot",
+      "key_principle": "Information density matters more than word count. Every word should control a specific visual parameter. A structured 80-word prompt outperforms a rambling 200-word one."
+    },
+    "magic_words": {
+      "quality_boosters": [
+        "shot on 35mm film",
+        "shot on 65mm IMAX",
+        "anamorphic lens flare",
+        "shallow depth of field",
+        "Kodak Ektachrome",
+        "Sony Venice camera",
+        "visible film grain",
+        "photorealistic",
+        "ultra-detailed",
+        "8K resolution",
+        "cinematic color grade"
+      ],
+      "texture_credibility": [
+        "skin pores visible",
+        "condensation on glass",
+        "fabric creases and sheen",
+        "dust particles in light beams",
+        "visible breath in cold air",
+        "sweat beads on skin",
+        "wet surface reflections",
+        "steam rising",
+        "hair catching light",
+        "smoke wisps"
+      ],
+      "motion_precision": [
+        "heel-first landing with weight transfer",
+        "arms swing naturally",
+        "gracefully",
+        "deliberately",
+        "explosively",
+        "with visible momentum",
+        "settling back to stillness",
+        "physics-accurate collision",
+        "slow motion 120fps feel",
+        "speed ramp from 40% to 100%"
+      ],
+      "camera_power_words": [
+        "handheld shoulder-cam with subtle sway",
+        "FPV drone shot with 360-degree rolls",
+        "slow dolly push-in",
+        "crash zoom",
+        "rack focus foreground to background",
+        "tracking shot following from side",
+        "crane ascending to reveal",
+        "static locked-off tripod",
+        "whip-pan",
+        "dolly zoom vertigo effect",
+        "orbit 360-degree around subject",
+        "macro dolly-in"
+      ],
+      "dream_atmosphere": [
+        "ethereal",
+        "dreamlike",
+        "otherworldly",
+        "sourceless ambient glow",
+        "impossible architecture",
+        "material transformation",
+        "gravity shifts",
+        "time distortion",
+        "bioluminescent",
+        "translucent figures",
+        "dissolving edges",
+        "volumetric fog"
+      ],
+      "negative_prompt_essentials": [
+        "motion blur",
+        "face distortion",
+        "warping",
+        "morphing",
+        "extra limbs",
+        "extra fingers",
+        "floating objects",
+        "unnatural movements",
+        "sliding feet",
+        "inconsistent physics",
+        "background shifting",
+        "text morphing",
+        "cartoon style",
+        "smooth plastic skin",
+        "low quality",
+        "compression artifacts",
+        "flickering",
+        "watermark"
+      ]
+    },
+    "chinese_prompt_formula": {
+      "structure": "主体(主体描述) + 运动 + 场景(场景描述) + (镜头语言 + 光影 + 氛围)",
+      "subject_examples": ["毛茸茸的大兔子 (furry big rabbit)", "穿着白色连衣裙的年轻女性 (young woman in white dress)", "古老的东方庙宇 (ancient eastern temple)"],
+      "camera_terms_cn": {
+        "推镜头": "push-in / dolly in",
+        "拉镜头": "pull-out / dolly out",
+        "横移": "truck / lateral tracking",
+        "升降": "pedestal / vertical movement",
+        "环绕": "orbit / circular tracking",
+        "航拍": "aerial shot",
+        "特写": "close-up",
+        "超大远景": "extreme wide shot",
+        "背景虚化": "shallow depth of field / bokeh",
+        "长焦镜头": "telephoto lens",
+        "地面拍摄": "ground-level shot",
+        "顶部拍摄": "top-down / bird's eye view",
+        "变焦": "zoom",
+        "景深": "depth of field"
+      },
+      "lighting_terms_cn": {
+        "氛围光照": "ambient/atmospheric lighting",
+        "晨光": "morning light",
+        "夕阳": "sunset light",
+        "丁达尔效应": "Tyndall effect / god rays",
+        "灯光": "artificial lighting",
+        "逆光": "backlight",
+        "侧光": "side light",
+        "柔光": "soft/diffused light"
+      }
+    },
+    "duration_guidelines": {
+      "social_cut": "3-5 seconds - single action, single camera setup",
+      "narrative_shot": "5-10 seconds - action with development, possible camera movement",
+      "storyboard_sequence": "10-15 seconds - multi-shot with cuts, full mini-narrative",
+      "optimal_segment": "10-15 seconds per generation, even for longer videos - composite multiple generations",
+      "shots_per_sequence": "4-6 shots across 15 seconds, each shot minimum 2 seconds to avoid rushed feeling"
+    },
+    "aspect_ratio_guide": {
+      "16:9": "Cinematic widescreen - landscapes, establishing shots, film-quality narrative",
+      "9:16": "Vertical social media - character-focused, product demos, mobile-first content",
+      "1:1": "Square format - overhead product shots, symmetrical compositions, social feed content"
+    }
+  }
+}

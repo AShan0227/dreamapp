@@ -1,0 +1,105 @@
+# Reads sensitive values from .env at the project root (NOT backend/.env).
+# Copy .env.compose.example → .env and fill in real values before deploying.
+#
+# Required env in .env:
+#   POSTGRES_PASSWORD          — strong random
+#   MINIO_ROOT_USER            — e.g. dreamapp
+#   MINIO_ROOT_PASSWORD        — strong random
+#   DREAM_AUTH_SECRET          — openssl rand -hex 32
+#   (the rest of DREAM_* live in backend/.env)
+
+x-logging: &default_logging
+  driver: json-file
+  options:
+    max-size: "20m"
+    max-file: "5"
+
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: dreamapp
+      POSTGRES_USER: dreamapp
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    logging: *default_logging
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dreamapp"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?Set MINIO_ROOT_USER in .env}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD in .env}
+    volumes:
+      - minio_data:/data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    restart: unless-stopped
+    logging: *default_logging
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  backend:
+    image: dreamapp-backend:full
+    ports:
+      - "8000:8000"
+    volumes:
+      - dream_data:/app/data
+      - model_cache:/app/embedding_cache
+      - ./backend/knowledge:/app/knowledge:ro
+      - ./backend/prompts:/app/prompts:ro
+    env_file:
+      - ./backend/.env
+    environment:
+      - DREAM_DATABASE_URL=postgresql+asyncpg://dreamapp:${POSTGRES_PASSWORD}@db:5432/dreamapp
+      - DREAM_MINIO_ENDPOINT=minio:9000
+      - DREAM_MINIO_ACCESS_KEY=${MINIO_ROOT_USER}
+      - DREAM_MINIO_SECRET_KEY=${MINIO_ROOT_PASSWORD}
+      - DREAM_EMBEDDING_MODEL=BAAI/bge-small-zh-v1.5
+      - DREAM_EMBEDDING_CACHE_DIR=/app/embedding_cache
+      - DREAM_AUTH_SECRET=${DREAM_AUTH_SECRET:?Set DREAM_AUTH_SECRET in .env}
+      - DREAM_ENV=${DREAM_ENV:-production}
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+    logging: *default_logging
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      # 443 for HTTPS — uncomment after wiring certs into nginx.conf
+      # - "443:443"
+    volumes:
+      - ./frontend/dist/build/h5:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      # - ./certs:/etc/nginx/certs:ro
+    depends_on:
+      - backend
+    restart: unless-stopped
+    logging: *default_logging
+
+volumes:
+  dream_data:
+  pg_data:
+  minio_data:
+  model_cache:

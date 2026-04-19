@@ -1,0 +1,327 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Gen Z / Gen Alpha dream-adjacent vocabulary, bilingual EN/ZH, mapped to interpretive and generative contexts. Sources: TikTok (EN/zh), X/Twitter, Discord, Reddit, 小红书, 豆瓣, Lofter. Not a dictionary — a register guide. The purpose is to know when to use a term, when to echo it back, and when to silently translate it into interpretive craft.",
+    "ai_application": "When a user brings a term from this list, do not define it back at them. Use it naturally in the response. When generating dream interpretations or captions, select from this register based on platform and inferred age. Never force slang the user hasn't used.",
+    "currency_warning": "Slang ages fast. Anything marked 'peak' may have decayed within 6 months. Re-audit quarterly.",
+    "total_entries": 52
+  },
+  "emotional_register": [
+    {
+      "term": "ate that",
+      "zh_equivalent": "狠狠拿捏了 / 绝杀",
+      "usage": "Affirming the dream was intense and executed hard. 'My subconscious ate that one.'",
+      "dream_context": "Best for surreal dreams that landed emotionally.",
+      "register": "casual_affirmation"
+    },
+    {
+      "term": "no thoughts, head empty",
+      "zh_equivalent": "脑子空空 / 躺平了",
+      "usage": "For vague, contentless dreams. 'No thoughts, head empty, just vibes.'",
+      "dream_context": "Low-content REM, hypnagogic drift."
+    },
+    {
+      "term": "hits different",
+      "zh_equivalent": "感觉不一样 / 后劲大",
+      "usage": "A dream that carries unusual emotional weight compared to a normal one."
+    },
+    {
+      "term": "rent free",
+      "zh_equivalent": "免费占着我脑子",
+      "usage": "Something recurring in dreams without invitation. 'He's been living rent free in my dreams for 3 weeks.'",
+      "dream_context": "Recurring motif, unresolved figure."
+    },
+    {
+      "term": "core memory",
+      "zh_equivalent": "核心记忆 / 人生高光",
+      "usage": "Inside Out reference. A dream that feels formative. 'Core memory unlocked.'",
+      "dream_context": "Archetypal dreams, childhood scene dreams."
+    },
+    {
+      "term": "lore drop",
+      "zh_equivalent": "背景故事炸弹",
+      "usage": "Dream delivers narrative backstory as if the subconscious were world-building.",
+      "dream_context": "Elaborate dreams with character history."
+    },
+    {
+      "term": "backstory",
+      "zh_equivalent": "人物设定",
+      "usage": "'My dream gave this random stranger a full backstory' — impressed at the subconscious's worldbuilding."
+    },
+    {
+      "term": "npc",
+      "zh_equivalent": "npc / 背景板",
+      "usage": "Dream characters that feel non-sentient. 'The people in the dream were total NPCs.'",
+      "dream_context": "Useful for describing dream-character quality and testing lucidity."
+    },
+    {
+      "term": "side quest",
+      "zh_equivalent": "支线任务",
+      "usage": "A dream sub-plot that doesn't resolve the main dream. 'Dream gave me a 20-minute side quest about my dentist.'"
+    },
+    {
+      "term": "main character",
+      "zh_equivalent": "人生主角 / 大女主",
+      "usage": "'I was the main character of my dream' — self-insertion with agency.",
+      "dream_context": "Lucid-adjacent or high-agency dreams."
+    },
+    {
+      "term": "lived a whole life",
+      "zh_equivalent": "梦里过了一生",
+      "usage": "Dream compressed decades. Classic dream-time-distortion trope, now meme-ified."
+    },
+    {
+      "term": "the plot thickens",
+      "zh_equivalent": "剧情变得扑朔迷离",
+      "usage": "Dream complication escalated. Often ironic."
+    }
+  ],
+  "intensity_and_weirdness": [
+    {
+      "term": "fever dream",
+      "zh_equivalent": "发烧梦 / 离谱到不真实",
+      "usage": "Now used for anything surreal or chaotic — does not require actual fever. 'That whole night was a fever dream.'",
+      "cross_platform": "Universal EN + zh equivalents in use"
+    },
+    {
+      "term": "brain rot dream",
+      "zh_equivalent": "脑腐梦 / 脑子坏掉的梦",
+      "usage": "Dream dominated by whatever algorithm you've been consuming — TikTok slop, specific meme, parasocial fixation.",
+      "interpretation_hint": "Worth asking: what were you scrolling before bed? Brain rot dreams are often algorithmic residue."
+    },
+    {
+      "term": "unhinged",
+      "zh_equivalent": "发癫 / 癫公癫婆",
+      "usage": "Dream had no rules, no logic, felt psychotic. 'Unhinged dream, 10/10, would repress again.'"
+    },
+    {
+      "term": "lost the plot",
+      "zh_equivalent": "剧情崩了 / 人设崩了",
+      "usage": "Dream started coherent, collapsed into incoherence."
+    },
+    {
+      "term": "X-coded",
+      "zh_equivalent": "X 人设 / 很 X",
+      "usage": "'That was a very Capricorn-coded dream.' / 'Very AuDHD-coded.' Uses identity markers to taxonomize dream content.",
+      "interpretation_hint": "The user is doing symbolic interpretation — take their frame seriously."
+    },
+    {
+      "term": "weird flex",
+      "zh_equivalent": "奇怪的凡尔赛",
+      "usage": "'My dream's weird flex was that I could speak fluent Russian.'"
+    },
+    {
+      "term": "unserious",
+      "zh_equivalent": "不正经",
+      "usage": "Dream refused to be dramatic. 'Very unserious dream, don't analyze it.'"
+    }
+  ],
+  "romantic_and_parasocial": [
+    {
+      "term": "delulu",
+      "zh_equivalent": "妄想症 / delulu",
+      "usage": "Self-aware delusion. 'Delulu dream where my crush confessed.' K-pop stan-culture origin.",
+      "tone": "always self-aware, never pathologizing — if AI uses it, it must also be self-aware"
+    },
+    {
+      "term": "manifesting",
+      "zh_equivalent": "显化 / 吸引力法则",
+      "usage": "'I'm manifesting that dream into reality.' Dreams as pre-cognition/visualization tools.",
+      "interpretation_hint": "User may be in a manifesting/spiritual frame. Don't debunk, don't endorse — mirror."
+    },
+    {
+      "term": "shifted",
+      "zh_equivalent": "shift 了 / 跃迁了",
+      "usage": "Reality-shifting community (see shifting_subculture.json). 'I shifted to my DR last night.' Not metaphor — they mean it."
+    },
+    {
+      "term": "my dream my rules",
+      "zh_equivalent": "我的梦我做主",
+      "usage": "Justifying dream choices that would be weird awake."
+    },
+    {
+      "term": "dream cheated",
+      "zh_equivalent": "梦里出轨",
+      "usage": "'My partner dream-cheated on me and I'm still mad.' Extremely common recurring X discourse."
+    },
+    {
+      "term": "haunted by",
+      "zh_equivalent": "被 XX 困住",
+      "usage": "'Haunted by a dream I had in 7th grade.' Long-tail memory."
+    },
+    {
+      "term": "soft launch",
+      "zh_equivalent": "暗示性公开",
+      "usage": "'My subconscious soft-launched him before I noticed IRL.'"
+    },
+    {
+      "term": "ick dream",
+      "zh_equivalent": "膈应梦",
+      "usage": "Dream revealed a turn-off you didn't know you had. 'Ick dream: he chewed loud.' Dating-app era phenomenon."
+    }
+  ],
+  "spiritual_and_shadow": [
+    {
+      "term": "shadow work",
+      "zh_equivalent": "阴影功课 / 原生家庭修复",
+      "usage": "Jungian term absorbed into TikTok wellness discourse. 'Dream was pure shadow work.'",
+      "interpretation_hint": "If user brings this, they are in a Jungian frame. Honor it — don't over-academic, don't dismiss as TikTok pop psych."
+    },
+    {
+      "term": "inner child",
+      "zh_equivalent": "内在小孩",
+      "usage": "'My inner child showed up in the dream.' Extremely common in Chinese and English therapy-adjacent discourse."
+    },
+    {
+      "term": "higher self",
+      "zh_equivalent": "高我 / 本我",
+      "usage": "'The dream felt like my higher self speaking.'"
+    },
+    {
+      "term": "downloaded",
+      "zh_equivalent": "接收了讯息",
+      "usage": "Dream as transmission. 'I downloaded so much in that dream.'"
+    },
+    {
+      "term": "portal",
+      "zh_equivalent": "门 / 通道",
+      "usage": "'That dream was a portal.' Both literal (dream imagery) and metaphorical (life transition)."
+    },
+    {
+      "term": "sign from the universe",
+      "zh_equivalent": "宇宙的暗示",
+      "usage": "'Dream was a sign.' Frame-mirror: don't confirm or deny, ask what sign they felt."
+    }
+  ],
+  "meta_and_platform": [
+    {
+      "term": "POV dream",
+      "zh_equivalent": "POV 梦 / 第一视角梦",
+      "usage": "TikTok caption convention spilled into dream description. 'POV: dream where you're late to an exam forever.'"
+    },
+    {
+      "term": "simulation",
+      "zh_equivalent": "模拟 / 楚门",
+      "usage": "'The dream felt like a simulation glitch.' Simulation-theory-literate frame."
+    },
+    {
+      "term": "glitch",
+      "zh_equivalent": "bug / 穿帮",
+      "usage": "'Dream glitched when I tried to read a sign.' Classic reality-check artifact reframed as glitch."
+    },
+    {
+      "term": "the algorithm knew",
+      "zh_equivalent": "算法比我还懂我",
+      "usage": "Dreams experienced as having been delivered by the algorithm of the subconscious."
+    },
+    {
+      "term": "dream economy",
+      "zh_equivalent": "梦境经济",
+      "usage": "Meta-commentary on dream content as a kind of currency — shared, rated, consumed."
+    },
+    {
+      "term": "NPC dialogue",
+      "zh_equivalent": "NPC 台词",
+      "usage": "Scripted-feeling speech from dream characters. 'Dream NPC said the weirdest thing.'"
+    }
+  ],
+  "darker_register": [
+    {
+      "term": "liminal",
+      "zh_equivalent": "阈限 / 过渡空间",
+      "usage": "Originally anthropology (van Gennep, Turner). Now used for any eerily empty transitional space. 'That dream was liminal as hell.'",
+      "cross_ref": "internet_aesthetics.json#liminal_space"
+    },
+    {
+      "term": "uncanny",
+      "zh_equivalent": "诡异 / 不对劲",
+      "usage": "Freud's unheimlich, filtered through horror discourse. 'Uncanny dream — my house but not my house.'"
+    },
+    {
+      "term": "wrong",
+      "zh_equivalent": "不对劲",
+      "usage": "Minimal, evocative. 'Dream felt wrong. Nothing specific.' Good signal for pre-traumatic or anxiety content.",
+      "interpretation_hint": "Ask gently what felt wrong rather than forcing specifics."
+    },
+    {
+      "term": "off",
+      "zh_equivalent": "怪怪的 / 不对味",
+      "usage": "'Something was off about the house / her / the sky.'"
+    },
+    {
+      "term": "dread",
+      "zh_equivalent": "恐惧 / 不祥预感",
+      "usage": "Pre-event fear without object. Distinct from fear. Often pre-dream-climax."
+    },
+    {
+      "term": "the vibes were off",
+      "zh_equivalent": "氛围不对",
+      "usage": "Soft-spoken way of saying ominous. Common Gen Z de-escalation of horror vocabulary."
+    }
+  ],
+  "zh_native_slang_without_en_equivalent": [
+    {
+      "term": "emo 了",
+      "literal": "went emo",
+      "usage": "Wholesale emotional collapse, often temporary. '醒来 emo 了一整天.'",
+      "note": "Borrowed English 'emo' now functions as intransitive verb in Chinese."
+    },
+    {
+      "term": "破防了",
+      "literal": "defense broken",
+      "usage": "Emotionally undone by something unexpectedly moving. '那个梦直接把我破防了.'"
+    },
+    {
+      "term": "上头",
+      "literal": "gone to the head",
+      "usage": "Intense, can't stop thinking about it. '这梦太上头了.'"
+    },
+    {
+      "term": "后劲大",
+      "literal": "lingering force",
+      "usage": "Affect persists long after waking. '这梦后劲真大.'"
+    },
+    {
+      "term": "血压上来了",
+      "literal": "blood pressure rising",
+      "usage": "Frustrated by dream content. '梦里还在加班,血压直接上来了.'"
+    },
+    {
+      "term": "真实",
+      "literal": "real",
+      "usage": "Resonant. '这梦真实到可怕.'"
+    },
+    {
+      "term": "离谱",
+      "literal": "off-script",
+      "usage": "Absurd. Catch-all for dream weirdness. '离谱到离谱他妈给离谱开门.'"
+    },
+    {
+      "term": "我哭死",
+      "literal": "I cry-died",
+      "usage": "Hyperbolic emotional response. Non-literal."
+    },
+    {
+      "term": "栓 Q",
+      "literal": "thank you (phonetic, ironic)",
+      "usage": "Sarcastic thanks, resigned. '做了这种梦,栓 Q 了.'",
+      "status": "2022-2024 peak, now slightly cringe — use sparingly"
+    }
+  ],
+  "ai_application_playbook": {
+    "register_matching": "Match the user's register tightly. If they wrote '鬼压床 emo 了', don't reply in clinical Chinese. If they wrote 'unhinged fever dream', don't reply in academic English.",
+    "avoid_over_slang": "Using 3+ pieces of slang in a single response reads as trying-too-hard. One well-placed term per paragraph maximum.",
+    "cultural_translation": "Do not mechanically translate EN slang to ZH or vice versa when user has used one side. They know the other side exists. 'delulu' and '妄想' are not identical — delulu is self-aware and affectionate, 妄想 is clinical.",
+    "generation_task_fit": {
+      "dream_interpretation": "Use 3-5 terms total, load them in the framing, not the analysis itself.",
+      "share_card_caption": "Use 1-3 terms, depending on platform (see douyin_xiaohongshu_bili.json).",
+      "video_prompt": "Do NOT feed slang into image/video model prompts — translate into visual descriptors.",
+      "dm_reply_to_user": "Match their slang density exactly. No more, no less."
+    },
+    "never_do": [
+      "Define a slang term the user just used. (Condescending.)",
+      "Invent slang. Use only what's listed here or what the user brings.",
+      "Use 'based' or 'cringe' in interpretive output — those carry value judgments unsuitable for the AI's role."
+    ]
+  }
+}

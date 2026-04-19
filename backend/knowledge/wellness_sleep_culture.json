@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Contemporary sleep-wellness culture — the overlapping terrain of TikTok #sleepmaxxing, burnout-era bedrotting, biohacking Oura culture, Chinese 助眠 content, and the return of old pharmacopoeia (valerian, magnesium, lavender) under new branding. The commercial engine behind sleep has never been larger; the folk knowledge has never been more fragmented. Sources: Matthew Walker discourse + backlash, Andrew Huberman sleep toolkits, Oura / WHOOP community, r/sleep, TikTok #sleepmaxxing (billions of views), Xiaohongshu 助眠 tag, Bilibili ASMR zones.",
+    "ai_application": "Users arrive pre-loaded with vocabulary from this culture. Sleepmaxxing is now as common a reference as counting sheep. Treat this vocabulary as part of the user's lived frame, not a trend to explain. When suggesting or referencing practices, privilege the low-harm, high-evidence tier; never recommend supplements or devices as if DreamApp endorsed them.",
+    "stance": "Name the distinction between evidence-based sleep hygiene, plausibly-helpful wellness, and frankly-branded snake oil — but name it gently. Users are often intermediate in their own sleep literacy and don't need to be corrected; they need to be met.",
+    "total_entries": 36
+  },
+  "movements": [
+    {
+      "id": "sleepmaxxing",
+      "term": "Sleepmaxxing",
+      "description": "TikTok-born umbrella term: optimizing every variable of sleep into a compounding routine. Mouth tape + magnesium glycinate + blackout blind + cold room + no phone + consistent schedule + Oura tracking + nose breathing.",
+      "tone": "earnest-optimization meets wellness aesthetic. Aspirational, not medical.",
+      "common_stack": ["mouth tape", "magnesium glycinate", "blackout blinds + sleep mask", "cool room (18°C)", "weighted blanket", "no screen 1h before", "consistent schedule", "morning sun within 30 min of waking (Huberman)", "caffeine cutoff 10h before sleep"],
+      "evidence_tier": {
+        "strong_evidence": ["consistent schedule", "morning sun", "cool room", "dark room", "caffeine timing"],
+        "plausible": ["magnesium glycinate", "weighted blanket", "nasal breathing training"],
+        "thin_evidence": ["mouth tape (some harm risk)", "specific supplements in stacks"]
+      }
+    },
+    {
+      "id": "bedrotting",
+      "term": "Bedrotting",
+      "description": "Intentional extended time in bed — awake, scrolling, eating, watching, not sleeping. Gen Z reframe of depression-adjacent behavior into claimed rest practice.",
+      "cultural_note": "Sometimes legitimate recovery, sometimes avoidance. Community is self-aware about the line. Do not pathologize proactively.",
+      "related_zh": "躺平 (broader), 摆烂 (broader), bed rot in Chinese retains the EN term"
+    },
+    {
+      "id": "cozymaxxing",
+      "term": "Cozymaxxing",
+      "description": "Adjacent movement. Not about optimizing sleep metrics but about making the sleep environment sensuously pleasant. Candles, layered bedding, tea, slow rituals. Aesthetic cousin of cottagecore."
+    },
+    {
+      "id": "goblin_mode",
+      "term": "Goblin Mode",
+      "description": "Inverse of sleepmaxxing. Deliberately unoptimized: late nights, snacks in bed, phone in face. Oxford 2022 word of the year. Community flag for post-pandemic rest exhaustion.",
+      "implication": "If a user is in goblin mode framing, they don't want optimization advice. They want witness."
+    },
+    {
+      "id": "biohacking_sleep",
+      "term": "Sleep Biohacking",
+      "description": "Huberman / Attia / WHOOP-influenced quantified-self tier. HRV, deep sleep %, REM %, respiratory rate trends. Cost of entry: $300-600 device + subscription.",
+      "common_devices": ["Oura Ring", "WHOOP", "Apple Watch with AutoSleep", "Eight Sleep Pod (heated/cooled mattress)", "ChiliPad/Ooler"],
+      "caution": "Orthosomnia — anxiety caused by obsessing over sleep metrics — is a recognized clinical concept now."
+    },
+    {
+      "id": "zhuomian_wenhua",
+      "term": "助眠文化 / Chinese Sleep-Aid Culture",
+      "language": "zh",
+      "description": "Big on Bilibili, 小红书, Douyin. ASMR streams, 白噪音 whitenoise playlists, 哄睡 voice content (paid falling-asleep companionship), 中式助眠 (TCM framing: 酸枣仁, 莲子心, 百合).",
+      "sub_movements": [
+        "哄睡主播 — live voice streams for falling asleep, often paid per session",
+        "中药助眠 — 酸枣仁汤、百合地黄汤、甘麦大枣汤, TCM classic formulae",
+        "助眠手工 ASMR — slime, hair brushing, tapping (overlaps with global ASMR)",
+        "失眠互助 — insomnia support communities on Douban and WeChat"
+      ]
+    },
+    {
+      "id": "melatonin_era",
+      "term": "Melatonin Culture",
+      "description": "Over-the-counter in US, prescription in much of EU. Gen Z community treats it as everyday — often at doses far above physiological (0.3-0.5mg is evidence-based; 5-10mg gummies are commonly taken).",
+      "correction_opportunity": "If user mentions taking 10mg nightly, there's a responsible low-pressure way to mention that lower doses are actually more effective. Not as a lecture — as a gift of info."
+    },
+    {
+      "id": "mouth_taping",
+      "term": "Mouth Taping",
+      "description": "Taping lips closed to force nasal breathing during sleep. Huberman-popularized. Mixed evidence. Contraindicated for untreated sleep apnea, nasal obstruction, recent drinking.",
+      "safety_note": "If user asks, note the contraindications once. Don't moralize repeatedly."
+    },
+    {
+      "id": "the_scandi_sleep_method",
+      "term": "Scandi Sleep Method / Two-Duvet Method",
+      "description": "Couples sleep under separate duvets on a shared bed. Viral via TikTok 2023. Ends thermal and motion wars. Legitimately improves sleep quality for light sleepers and mismatched thermal preferences."
+    },
+    {
+      "id": "binaural_beats",
+      "term": "Binaural Beats / Isochronic Tones",
+      "description": "Stereo-presented frequencies claimed to entrain brainwaves. Evidence is mixed to weak. Huge YouTube/Spotify ecosystem. Users find them subjectively helpful — which may be enough.",
+      "interpretation_hint": "Placebo + calming ritual may account for most of the benefit; that's not nothing."
+    },
+    {
+      "id": "four_seven_eight",
+      "term": "4-7-8 Breathing (Weil)",
+      "description": "Inhale 4s, hold 7s, exhale 8s. Four cycles. Dr. Andrew Weil's pre-sleep ritual. Strong parasympathetic activation, widely endorsed.",
+      "evidence_tier": "good — breath-pacing for parasympathetic dominance is well-established"
+    },
+    {
+      "id": "wim_hof_night",
+      "term": "Cold + Breath Pre-Sleep",
+      "description": "Cold shower or cold plunge evening + breathwork. Controversial — cold exposure is alerting for most, use in morning; community is mixed."
+    },
+    {
+      "id": "non_sleep_deep_rest",
+      "term": "NSDR (Non-Sleep Deep Rest)",
+      "description": "Huberman's rebranding of yoga nidra. Guided body-scan hypnagogia. 10-30 minutes. Evidence for recovery effect is suggestive.",
+      "ai_application": "Offer as alternative to nap if user is sleep-anxious. Low friction, high subjective benefit."
+    },
+    {
+      "id": "ashwagandha",
+      "term": "Ashwagandha",
+      "description": "Adaptogenic herb. KSM-66 extract has modest RCT support for sleep quality and cortisol reduction. Became mainstream 2022-2024. Thyroid contraindications worth knowing."
+    },
+    {
+      "id": "magnesium_glycinate",
+      "term": "Magnesium Glycinate",
+      "description": "Evidence-light but plausible. Well-tolerated. Glycinate form minimizes GI effects. Magnesium deficiency is genuinely common. Cultural marker of sleepmaxxing community."
+    },
+    {
+      "id": "blue_light_panic",
+      "term": "Blue Light Discourse",
+      "description": "Blue-light-blocking glasses industry is large. Current evidence says brightness + behavioral engagement matter more than spectrum. Reducing pre-bed phone use is what actually helps — the glasses are a commitment device.",
+      "interpretation_hint": "If user is blue-light-obsessed, gently pivot to the more impactful variable (screen time itself)."
+    },
+    {
+      "id": "morning_sun",
+      "term": "Morning Sunlight Anchor",
+      "description": "10+ minutes of direct sunlight within 30-60 min of waking. Huberman's most durable contribution. Strong evidence for circadian anchoring, cortisol awakening response, evening melatonin timing.",
+      "evidence_tier": "strong"
+    },
+    {
+      "id": "doom_scroll_insomnia",
+      "term": "Doom-Scroll Insomnia",
+      "description": "Explicit community-named failure mode: inability to sleep because of late-night algorithmic engagement. Most commonly named self-diagnosis on r/insomnia among under-30s.",
+      "ai_application": "If user describes this, don't lecture. Offer one low-friction intervention (charger outside bedroom / grayscale mode after 10pm)."
+    },
+    {
+      "id": "sleep_divorce",
+      "term": "Sleep Divorce",
+      "description": "Couples sleeping in separate beds or rooms without romantic implication. Culturally destigmatized by wellness discourse 2023+. Scandi method is the soft version; full sleep divorce is the hard version."
+    },
+    {
+      "id": "matcha_switch",
+      "term": "Coffee-to-Matcha Switch",
+      "description": "Lower L-theanine-balanced caffeine curve, popularly claimed to produce better sleep downstream. Modest evidence for the gentler peak; dose-matched total caffeine still matters."
+    },
+    {
+      "id": "dopamine_menu",
+      "term": "Dopamine Menu",
+      "description": "Pre-curated list of low-stimulation evening activities as alternatives to scrolling. ADHD-community origin. Overlaps with sleep hygiene discourse."
+    },
+    {
+      "id": "sleep_debt",
+      "term": "Sleep Debt",
+      "description": "Walker-popularized metaphor. Mostly accurate for the acute picture; chronic partial deprivation does accumulate, though Walker's claims have been contested in specifics. Cultural staple now."
+    },
+    {
+      "id": "circadian_shift",
+      "term": "Circadian Re-Anchoring",
+      "description": "Resetting bedtime via light timing + meal timing + temperature. Standard evidence-based sleep medicine repackaged in wellness language."
+    },
+    {
+      "id": "dream_herbs",
+      "term": "Dream-Enhancing Herbs",
+      "description": "Mugwort (艾草 — overlap with TCM), Calea zacatechichi (Mexican dream herb), African Dream Root (Silene capensis), blue lotus, passionflower. Community practice in lucid-dreaming + shamanic-interest populations. Legal status and safety vary by jurisdiction.",
+      "safety_note": "Mention only when user raises. Never first-mover. Not everything sold online is safe or legal in every region."
+    },
+    {
+      "id": "shuangxiu",
+      "term": "双休型睡眠 / Two-Phase Weekend Sleep",
+      "language": "zh",
+      "description": "Chinese office-worker pattern: sleep-debt accumulated weekdays, 10+ hours weekends. Correlates with Monday dream-intensity spike reported on 小红书."
+    },
+    {
+      "id": "biphasic",
+      "term": "Biphasic / Polyphasic Sleep",
+      "description": "Segmented sleep patterns. Historical norm in pre-industrial Europe (Roger Ekirch research). Modern biohacker revival (Uberman, Everyman schedules) mostly unsustainable. Siesta cultures are the living biphasic example."
+    },
+    {
+      "id": "the_second_sleep",
+      "term": "The Second Sleep (historical)",
+      "description": "Pre-industrial 'first sleep' + wake period + 'second sleep' pattern. Waking 2-3am used for reflection, prayer, sex, quiet work. Ekirch's scholarship widely referenced now in insomnia self-help.",
+      "ai_application": "If user wakes in the middle of the night distressed, mention casually that this was historically normal. Reframes the anxiety."
+    },
+    {
+      "id": "jet_lag_protocols",
+      "term": "Jet Lag Protocols",
+      "description": "Timeshifter app, Huberman protocols, melatonin timing for phase shifts, fasted arrival. DreamApp-relevant: jet lag period often produces the most vivid / memorable dreams — worth surfacing."
+    },
+    {
+      "id": "night_owl_vindication",
+      "term": "Chronotype Discourse",
+      "description": "Morningness/eveningness as identity. Research supports genuine chronotype variance; culture wars about whether night owls are lazy or just differently-scheduled. Matthew Walker / Russell Foster push back against society-wide early-start demands."
+    },
+    {
+      "id": "cbt_i",
+      "term": "CBT-I (Cognitive Behavioral Therapy for Insomnia)",
+      "description": "Gold-standard first-line treatment for chronic insomnia. Stimulus control + sleep restriction + cognitive restructuring. Apps: Sleepio, CBT-i Coach.",
+      "ai_application": "If a user describes chronic insomnia (3+ nights/week for 3+ months), name CBT-I once as the evidence-based recommendation. Don't push repeatedly."
+    },
+    {
+      "id": "orthosomnia",
+      "term": "Orthosomnia",
+      "description": "Anxiety about sleep quality induced by sleep trackers. Clinically recognized since 2017. Increasing with Oura/WHOOP penetration.",
+      "interpretation_hint": "If user anxiously quotes their sleep score in conversation, this may be live for them. Gentle reframe: 'How did you feel when you woke up?' > 'What did the ring say?'"
+    },
+    {
+      "id": "dsps_ascd",
+      "term": "DSPS / ASPS (Delayed / Advanced Sleep Phase)",
+      "description": "Clinical circadian rhythm disorders. Genuine conditions, not just preference. Light therapy, melatonin timing, chronotherapy."
+    },
+    {
+      "id": "shift_work_disorder",
+      "term": "Shift Work Sleep Disorder",
+      "description": "Specific clinical entity. Medical professionals, manufacturing, logistics affected. Strategic caffeine + strategic napping + blackout environments. Dream content often fragmented."
+    },
+    {
+      "id": "dream_incubation",
+      "term": "Dream Incubation",
+      "description": "Pre-sleep intention setting to direct dream content. Ancient (Asclepion temples) + modern (creativity researchers, MIT's Dormio). Falls within wellness-adjacent practices users experiment with.",
+      "ai_application": "DreamApp can offer a dream-incubation prompt before sleep. Well within user expectations of this genre."
+    },
+    {
+      "id": "pink_noise",
+      "term": "Pink / Brown / White Noise",
+      "description": "Pink noise has modest evidence for deepening sleep (Papalambros 2017, small sample). Brown noise became TikTok-viral 2022 for ADHD-adjacent relaxation. White noise is the mainstream default.",
+      "common_misconception": "'Pink noise makes you smarter' overreaches the evidence — it's a small effect on memory consolidation, not a cognitive enhancer."
+    }
+  ],
+  "ai_response_playbook": {
+    "when_user_is_deep_in_sleepmaxxing": "Match their vocabulary. They're sophisticated. Don't over-explain. Engage at their level.",
+    "when_user_is_bedrotting": "Do not suggest optimization. Offer a low-effort grounding or a dream-incubation prompt if they ask.",
+    "when_user_names_a_supplement": "Do not endorse. Neutral acknowledgement + evidence-aware note if safety-relevant.",
+    "when_user_quotes_a_sleep_score": "Pivot to felt experience. 'How did the morning feel?' over 'Your REM was low.'",
+    "when_user_describes_chronic_insomnia": "Name CBT-I once. Name it calmly. Don't repeat unless asked.",
+    "never_do": [
+      "Recommend specific supplement brands.",
+      "Endorse any device by name as 'the best'.",
+      "Moralize about phone-in-bed.",
+      "Promise DreamApp will fix sleep — it's a journaling + interpretation + expression product, not a sleep medicine."
+    ],
+    "tone_benchmark": "A well-read friend who happens to know a lot about sleep but isn't evangelical about any particular piece of it."
+  }
+}

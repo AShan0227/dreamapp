@@ -1,0 +1,2273 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-04-14",
+    "description": "Comprehensive dream symbols knowledge base for AI dream interpretation",
+    "sources": {
+      "academic": [
+        "Hall & Van de Castle (1966) - Content Analysis of Dreams",
+        "DreamBank.net - 20,000+ dream reports archive",
+        "Mathes, Schredl & Goritz (2014) - Frequency of Typical Dream Themes",
+        "Revonsuo (2000) - Threat Simulation Theory",
+        "Domhoff (2003) - The Scientific Study of Dreams",
+        "Nielsen & Stenstrom (2005) - Typical Dreams Questionnaire",
+        "Hill (2004) - Cognitive-Experiential Model of Dream Interpretation"
+      ],
+      "cultural": [
+        "Zhou Gong Jie Meng (周公解梦) - Duke of Zhou's Dream Dictionary",
+        "Ibn Sirin (653-729 CE) - Islamic Dream Interpretation",
+        "Swapna Shastra - Vedic/Hindu Dream Science",
+        "Agni Purana Chapter 229 - Significance of Dreams"
+      ],
+      "psychological": [
+        "Freud (1900) - The Interpretation of Dreams",
+        "Jung (1964) - Man and His Symbols",
+        "Revonsuo (2000) - Threat Simulation Theory",
+        "Domhoff - Continuity Hypothesis"
+      ]
+    },
+    "frequency_scale": "1-10 (10 = most commonly reported worldwide, based on Typical Dreams Questionnaire data)",
+    "total_symbols": 55
+  },
+
+  "symbols": [
+
+    {
+      "id": 1,
+      "name_en": "Being Chased / Pursued",
+      "name_zh": "被追赶",
+      "frequency": 10,
+      "frequency_pct": "81.5%",
+      "category": "action",
+      "common_variations": [
+        "Chased by unknown figure",
+        "Chased by animal (dog, bear, wolf)",
+        "Chased by monster or supernatural entity",
+        "Chased but legs won't move",
+        "Chasing someone else",
+        "Hiding from pursuer"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The pursuer often represents the Shadow archetype - repressed aspects of the self that demand integration. The dreamer is running from parts of themselves they refuse to acknowledge. The specific form of the pursuer reveals the nature of the denied quality.",
+        "freudian": "Expression of repressed anxiety or guilt. The pursuer symbolizes a forbidden desire or traumatic memory the ego is trying to avoid. The act of fleeing represents defense mechanisms at work.",
+        "cognitive": "Threat Simulation Theory: the brain rehearses fight-or-flight responses to prepare for real-world dangers. Continuity Hypothesis: reflects waking-life avoidance behaviors - the dreamer is running from a problem, confrontation, or responsibility they are avoiding while awake."
+      },
+      "cultural_interpretations": {
+        "western": "Generally indicates avoidance of a problem, fear of confrontation, or anxiety about something catching up to you. The identity of the pursuer matters - known person suggests relationship conflict; unknown figure suggests internal fears.",
+        "chinese": "Being chased (被追赶) in 周公解梦 can indicate that the dreamer is under pressure from competitors or adversaries. If you escape, it suggests overcoming difficulties. If caught, it may warn of impending trouble that needs direct attention.",
+        "islamic": "In Ibn Sirin's interpretation, being chased may represent fleeing from one's responsibilities or duties. If chased by a known person, it may indicate unresolved conflict. Being chased by an animal may represent one's nafs (lower desires) pursuing them.",
+        "hindu": "In Swapna Shastra, being pursued can indicate karmic debts coming due or unresolved dharmic obligations. The nature of the pursuer indicates the nature of the karmic lesson."
+      },
+      "follow_up_questions": [
+        "Who or what was chasing you? Could you see them clearly?",
+        "How did you feel during the chase - terrified, annoyed, or something else?",
+        "Did you escape, get caught, or did it just keep going?",
+        "Is there something in your waking life you've been avoiding or putting off?",
+        "Where were you running - a familiar place or somewhere unknown?",
+        "Have you had this dream before? When did it start?"
+      ]
+    },
+
+    {
+      "id": 2,
+      "name_en": "Falling",
+      "name_zh": "坠落",
+      "frequency": 9,
+      "frequency_pct": "71.6%",
+      "category": "action",
+      "common_variations": [
+        "Falling from a building or cliff",
+        "Falling into a void or darkness",
+        "Falling and waking up with a jolt (hypnic jerk)",
+        "Falling slowly / floating down",
+        "Falling into water",
+        "Watching someone else fall",
+        "Tripping and falling"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Symbolizes a loss of psychic grounding - the dreamer has become inflated (too identified with Persona) or is losing connection to the Self. It can also represent the necessary descent into the unconscious for growth.",
+        "freudian": "Represents anxiety about loss of control, fear of failure, or sexual surrender. Freud also linked falling dreams to childhood memories of being lifted and dropped playfully.",
+        "cognitive": "Physiological trigger: hypnic myoclonia (muscle spasms during sleep onset) can cause the brain to construct a falling narrative. Psychologically, reflects real feelings of losing grip - on a situation, relationship, or sense of stability."
+      },
+      "cultural_interpretations": {
+        "western": "Classic anxiety symbol - losing control, fear of failure, or feeling unsupported. Often occurs during transitions (new job, relationship change, moving). The height of the fall may reflect the magnitude of the perceived risk.",
+        "chinese": "周公解梦: Falling from a height (从高处坠落) generally warns of setbacks in career or relationships. Falling into water may indicate upcoming financial difficulties. However, falling and landing safely can indicate recovering from difficulties.",
+        "islamic": "Falling from a height may symbolize a decrease in status or faith. Ibn Sirin notes that falling into a known place can indicate returning to old circumstances, while falling into the unknown warns of risk. Falling and being caught indicates divine protection.",
+        "hindu": "In Swapna Shastra, falling is generally considered inauspicious. It may indicate obstacles in one's path, loss of social standing, or spiritual decline. The time of night the dream occurs affects its significance."
+      },
+      "follow_up_questions": [
+        "Where were you falling from?",
+        "Did you land, or did you wake up before impact?",
+        "Were you pushed, or did you slip?",
+        "How did you feel while falling - panicked, peaceful, or resigned?",
+        "Is there an area of your life where you feel things are slipping out of control?",
+        "Did anyone else see you fall? Were they trying to help?"
+      ]
+    },
+
+    {
+      "id": 3,
+      "name_en": "Teeth Falling Out",
+      "name_zh": "掉牙",
+      "frequency": 8,
+      "frequency_pct": "39.0%",
+      "category": "body",
+      "common_variations": [
+        "Teeth crumbling or breaking",
+        "Teeth falling out one by one",
+        "All teeth falling out at once",
+        "Teeth becoming loose",
+        "Spitting out teeth",
+        "Growing new teeth",
+        "Teeth rotting"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Teeth represent power, vitality, and the ability to 'bite into life.' Loss of teeth symbolizes a loss of personal power or a transitional period where the old self is being shed for a new one - similar to how children lose baby teeth for adult ones.",
+        "freudian": "Freud associated teeth dreams with castration anxiety and repressed sexual anxieties. Also linked to concerns about physical appearance and aging. The mouth as an erogenous zone connects to oral fixation.",
+        "cognitive": "Research by Rozen & Soffer-Dudek (2018) found correlations between teeth dreams and actual dental irritation during sleep (teeth grinding/bruxism). Also linked to waking concerns about appearance, speech, competence, and personal power."
+      },
+      "cultural_interpretations": {
+        "western": "Commonly associated with vanity/appearance concerns, fear of aging, powerlessness, embarrassment, or fear of being judged. Can also relate to communication difficulties - literally 'losing your bite.'",
+        "chinese": "周公解梦: Teeth falling out (梦见掉牙) traditionally relates to family health - specifically, upper teeth represent elders and lower teeth represent younger family members. If blood is present, it amplifies the warning. However, some interpretations see it as a sign of positive transformation.",
+        "islamic": "In Ibn Sirin's interpretation, teeth represent family members - upper teeth for male relatives, lower for female. Losing a tooth may indicate the illness or death of the corresponding family member. Teeth falling into one's hand can mean receiving money.",
+        "hindu": "In Swapna Shastra, dreaming of losing teeth can indicate upcoming financial loss or family discord. However, dreaming of clean white teeth being lost may indicate gaining wisdom through loss."
+      },
+      "follow_up_questions": [
+        "How did you feel when your teeth fell out - panicked, embarrassed, or calm?",
+        "Did all teeth fall out or just specific ones?",
+        "Were other people around when it happened? Did they notice?",
+        "Have you been stressed about your appearance or how others perceive you?",
+        "Is there a situation where you feel you've lost your 'power' or voice?",
+        "Do you grind your teeth at night? Any recent dental issues?"
+      ]
+    },
+
+    {
+      "id": 4,
+      "name_en": "Flying",
+      "name_zh": "飞翔",
+      "frequency": 8,
+      "frequency_pct": "49.9%",
+      "category": "action",
+      "common_variations": [
+        "Flying freely through sky",
+        "Flying but struggling to stay airborne",
+        "Flying very high / into space",
+        "Flying low over ground",
+        "Wings appearing on body",
+        "Flying in an aircraft that changes to self-powered flight",
+        "Hovering or levitating"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Transcendence of the ego, connection to the spiritual Self. Can represent inflation (flying too high = Icarus complex) or individuation - rising above limited perspectives to see the whole. The ease of flight indicates the dreamer's relationship with their higher aspirations.",
+        "freudian": "Freud interpreted flying as disguised sexual pleasure and arousal. Also represents wish fulfillment - the desire to rise above one's current situation, escape limitations, or achieve forbidden goals.",
+        "cognitive": "Often accompanies lucid dreaming. Reflects feelings of liberation, mastery, ambition, or creative breakthrough. Difficulty flying correlates with waking feelings of being held back. Brain may simulate vestibular sensations during REM."
+      },
+      "cultural_interpretations": {
+        "western": "Freedom, ambition, perspective, transcendence. Flying easily = feeling empowered and in control. Struggling to fly = aspirations blocked by doubt or obstacles. Flying away from something = escapism.",
+        "chinese": "周公解梦: Flying (梦见飞翔) over mountains suggests overcoming obstacles and desire for freedom. Flying high indicates ambition and upward career trajectory. Falling during flight warns of overreaching or pride before a setback.",
+        "islamic": "Flying in a dream usually symbolizes ambition, freedom, and spiritual elevation. Ibn Sirin notes that flying from one's home may indicate travel. Flying without wings indicates a change in circumstances. Flying to Mecca indicates spiritual achievement.",
+        "hindu": "In Swapna Shastra, flying dreams are generally auspicious, symbolizing spiritual elevation and transcendence of material concerns. The lotus, a key Hindu symbol, grows from mud to float above water - similarly, the flying dreamer rises above worldly troubles."
+      },
+      "follow_up_questions": [
+        "How did you feel while flying - exhilarated, scared, or struggling?",
+        "Were you flying freely or were there obstacles?",
+        "How high were you flying? What could you see below?",
+        "Were you flying toward something or away from something?",
+        "Is there an area in your life where you feel liberated or want to break free?",
+        "Did you have control of the flight, or was it happening to you?"
+      ]
+    },
+
+    {
+      "id": 5,
+      "name_en": "Sexual Experiences",
+      "name_zh": "性经历",
+      "frequency": 9,
+      "frequency_pct": "76.5%",
+      "category": "action",
+      "common_variations": [
+        "Sex with a stranger",
+        "Sex with a known person (not partner)",
+        "Sex with a celebrity",
+        "Sex with an ex-partner",
+        "Interrupted sexual encounter",
+        "Inappropriate or forbidden sexual act",
+        "Romantic/sensual without explicit sex"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Often represents the union of opposites - the merging of Anima/Animus. Sex with an unknown figure suggests integration of unconscious qualities. The identity of the partner reveals which psychic qualities the dreamer is trying to unite with.",
+        "freudian": "Wish fulfillment of repressed sexual desires. The manifest content disguises latent desires through symbolism. Partners may represent forbidden objects of desire. The specific acts reveal the nature of the repressed material.",
+        "cognitive": "Continuity of waking sexual thoughts and desires. Also reflects needs for intimacy, connection, validation, or power. The partner chosen often reflects qualities the dreamer admires or desires to embody rather than literal sexual attraction."
+      },
+      "cultural_interpretations": {
+        "western": "Desire for intimacy, merging of qualities, creative union, power dynamics. Sex with a stranger = desire to discover unknown aspects of self. Sex with an authority figure = desire for power or approval.",
+        "chinese": "周公解梦 interprets sexual dreams contextually. Dreaming of intimacy may indicate harmonious relationships or upcoming good fortune in partnerships. Illicit encounters may warn of temptation or moral choices ahead.",
+        "islamic": "Ibn Sirin notes that sexual dreams can fall into the category of Hulm (from Shaytan) or Hadith al-Nafs (daily thoughts). Specific interpretations depend heavily on the partner, context, and the dreamer's marital status. Generally, appropriate sexual dreams may indicate marriage or prosperity.",
+        "hindu": "Swapna Shastra treats sexual dreams as natural expressions of desire (kama). The partner and context determine interpretation. Dreams of divine union (as with Krishna and Radha) represent spiritual longing and devotion."
+      },
+      "follow_up_questions": [
+        "Who was the other person in the dream? Someone you know?",
+        "What emotions did you feel - pleasure, guilt, confusion?",
+        "Is this a recurring dream or a one-time occurrence?",
+        "Are there qualities in that person you admire or want to develop in yourself?",
+        "How is intimacy and connection in your waking life right now?",
+        "Was the experience consensual and positive, or uncomfortable?"
+      ]
+    },
+
+    {
+      "id": 6,
+      "name_en": "School / Exams / Studying",
+      "name_zh": "考试 / 上学",
+      "frequency": 9,
+      "frequency_pct": "72.4%",
+      "category": "situation",
+      "common_variations": [
+        "Unprepared for an exam",
+        "Can't find the exam room",
+        "Late for class or exam",
+        "Back in school as an adult",
+        "Failing an exam",
+        "Forgetting what was studied",
+        "Taking an exam in the wrong subject"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The examination represents an inner test of competence - a confrontation with the Self's demands for growth. The school setting represents the psyche's learning process. Failing indicates the dreamer feels they haven't met an internal standard.",
+        "freudian": "Linked to performance anxiety and fear of judgment. The examiner represents a parental or authority figure whose approval is sought. Being unprepared reflects childhood fears of inadequacy resurfacing.",
+        "cognitive": "Strong support for Continuity Hypothesis - exam dreams often occur before evaluative situations (job interviews, presentations, deadlines). The brain rehearses worst-case scenarios. Persists into adulthood because school was the formative context for performance evaluation."
+      },
+      "cultural_interpretations": {
+        "western": "Universal anxiety about being evaluated, judged, or found lacking. Common among high achievers and perfectionists. Often surfaces before major life evaluations even decades after leaving school.",
+        "chinese": "周公解梦: Dreaming of taking exams (梦见考试) is generally auspicious, suggesting the dreamer will succeed in their endeavors. However, dreaming of failing an exam may indicate self-doubt that needs to be addressed. In Chinese culture where 高考 shapes lives, exam dreams carry intense significance.",
+        "islamic": "Exams in dreams may represent tests of faith or character. Ibn Sirin associates passing an exam with overcoming a trial in life. Failing may indicate a need for more preparation in one's spiritual or worldly duties.",
+        "hindu": "In Vedic tradition, being tested in dreams relates to karmic trials. Success indicates progress on one's dharmic path, while failure suggests the need for more self-work and spiritual discipline."
+      },
+      "follow_up_questions": [
+        "What was the exam about? Was it a subject you actually studied?",
+        "Were you unprepared, or did you suddenly forget everything?",
+        "Is there a situation in your waking life where you feel evaluated or tested?",
+        "How long ago were you actually in school? Do you dream about school often?",
+        "Who else was there - classmates, a teacher, an authority figure?",
+        "Did you finish the exam? What was the outcome?"
+      ]
+    },
+
+    {
+      "id": 7,
+      "name_en": "Death / Dying",
+      "name_zh": "死亡",
+      "frequency": 8,
+      "frequency_pct": "57.0%",
+      "category": "event",
+      "common_variations": [
+        "Own death",
+        "Death of a loved one",
+        "Attending a funeral",
+        "Seeing a dead person alive",
+        "Being killed / murdered",
+        "Witnessing mass death",
+        "A dead person speaking to you",
+        "Peaceful death / afterlife"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Death symbolizes the necessary ending of an old attitude, belief system, or phase of life for the emergence of something new. A crucial stage of individuation. The death of a specific person may represent the death of the quality they embody in the dreamer's psyche.",
+        "freudian": "Can represent repressed death wishes toward the person who dies (especially family members), fear of one's own mortality, or anxiety about loss. Also connects to the death drive (Thanatos) - the pull toward dissolution.",
+        "cognitive": "Threat simulation rehearsal for processing grief and mortality. Also reflects major life transitions - career changes, relationship endings, identity shifts. The brain metaphorically codes endings as death. Often more about transformation than literal fear."
+      },
+      "cultural_interpretations": {
+        "western": "Transformation, ending of a chapter, rebirth. Rarely literal. Dying in a dream may indicate a part of your personality or life situation that is changing. Someone else dying may reflect changing feelings about them or what they represent.",
+        "chinese": "周公解梦: Paradoxically, dreaming of one's own death (梦见自己死) is often considered auspicious - suggesting longevity, wealth, or positive transformation. Dreaming of a deceased person speaking to you may carry an important message. Death of family members may indicate they will have long life.",
+        "islamic": "Ibn Sirin differentiates: dreaming of one's own death without typical funeral rituals can indicate longevity. A dead person speaking indicates truth, as the dead cannot lie. Washing a dead person indicates helping someone repent. Death dreams carry specific meanings based on who dies and how.",
+        "hindu": "In Swapna Shastra, dreaming of death is often considered auspicious - it may signify transformation, liberation (moksha), or the end of suffering. Seeing dead relatives may indicate their blessings or messages from the ancestral realm (pitru loka)."
+      },
+      "follow_up_questions": [
+        "Who died in the dream - you, or someone else?",
+        "How did the death occur? Was it peaceful or violent?",
+        "How did you feel - grief, relief, fear, or acceptance?",
+        "Is there a major change or ending happening in your waking life?",
+        "If someone else died, what do they represent to you?",
+        "Did you see what happened after death? Was there an afterlife scene?"
+      ]
+    },
+
+    {
+      "id": 8,
+      "name_en": "Water",
+      "name_zh": "水",
+      "frequency": 9,
+      "frequency_pct": "N/A - appears in ~35% of all dream reports (DreamBank)",
+      "category": "element",
+      "common_variations": [
+        "Calm ocean or lake",
+        "Turbulent/stormy seas",
+        "Swimming underwater",
+        "Drowning",
+        "Flooding",
+        "Clear stream or river",
+        "Murky/dirty water",
+        "Rain",
+        "Tsunami / tidal wave"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Water is the primary symbol of the unconscious mind itself. Its state reflects the dreamer's relationship to their unconscious - calm water = harmony with deeper self; turbulent water = emotional upheaval or unprocessed material surfacing. Diving underwater = actively exploring the unconscious.",
+        "freudian": "Water represents birth (amniotic fluid), sexuality, and the id. Immersion in water symbolizes regression to prenatal states. Turbulent water represents uncontrollable desires.",
+        "cognitive": "Emotional barometer - water maps directly to the dreamer's emotional state. Clear and calm = emotional clarity. Murky = confusion. Rising/flooding = feeling overwhelmed. The type and movement of water precisely mirrors current emotional conditions."
+      },
+      "cultural_interpretations": {
+        "western": "Emotions, the unconscious, purification, life flow. The clarity and behavior of water tells the emotional story. Swimming competently = navigating emotions well. Drowning = overwhelmed.",
+        "chinese": "周公解梦: Water (水) is generally auspicious, representing wealth and prosperity. Clear water = smooth fortune. Muddy water = incoming difficulties. Flood water = challenges but also potential for great change. Drinking clean water = good health.",
+        "islamic": "Water represents knowledge, life, and purification in Islamic interpretation. Clear water = beneficial knowledge. Muddy water = hardship. Drinking pure water = gaining righteous knowledge. Drowning may indicate being overcome by worldly affairs.",
+        "hindu": "Water is sacred (jal) and represents purification, life force (prana), and emotional flow. Rivers like the Ganges in dreams signify spiritual cleansing. Bathing in clear water is auspicious. Floods may represent the dissolution cycle of Brahma."
+      },
+      "follow_up_questions": [
+        "What was the water like - calm, turbulent, clear, or murky?",
+        "Were you in the water, observing it, or being affected by it?",
+        "How did you feel around the water - peaceful, terrified, refreshed?",
+        "Were you able to breathe underwater?",
+        "Is there an emotional situation in your life that feels overwhelming or cleansing?",
+        "Was anyone else with you near the water?"
+      ]
+    },
+
+    {
+      "id": 9,
+      "name_en": "Snake",
+      "name_zh": "蛇",
+      "frequency": 7,
+      "frequency_pct": "~30%",
+      "category": "animal",
+      "common_variations": [
+        "Being bitten by a snake",
+        "Multiple snakes",
+        "Giant/large snake",
+        "Snake in the house",
+        "Killing a snake",
+        "Friendly or pet snake",
+        "Snake shedding skin",
+        "Colorful snake (golden, green, black)"
+      ],
+      "psychological_interpretations": {
+        "jungian": "One of the most powerful archetypal symbols. Represents transformation (shedding skin), healing (the caduceus), kundalini energy, the chthonic unconscious, and instinctual wisdom. Can represent the Shadow or the devouring aspect of the Great Mother.",
+        "freudian": "Classic phallic symbol representing repressed sexual energy, male sexuality, or fear of sexuality. Also represents fear, danger, and hidden threats lurking in the unconscious.",
+        "cognitive": "Evolutionary psychology: humans have a prepared fear response to snakes (Ohman & Mineka, 2003). Snake dreams may activate innate threat detection circuits. Also represents hidden dangers, deception, or things lurking beneath the surface of awareness."
+      },
+      "cultural_interpretations": {
+        "western": "Transformation, hidden danger, healing, temptation (Eden narrative), sexuality, wisdom, betrayal. Context determines valence - a snake shedding skin = positive transformation; a snake striking = hidden threat.",
+        "chinese": "周公解梦: Snakes (蛇) have complex meanings. Dreaming of a snake can indicate wealth and good fortune. Being bitten may mean unexpected wealth but also warns of enemies. A snake entering the house may indicate financial gain. White snakes are particularly auspicious. A snake in the grass warns of hidden enemies.",
+        "islamic": "Ibn Sirin: Snakes generally represent enemies or hidden dangers. Killing a snake = overcoming an enemy. Being bitten = being harmed by an enemy. A snake entering one's home = an enemy among household members. However, a friendly snake can represent a helper.",
+        "hindu": "Snakes (Naga) hold deep sacred significance. Dreaming of snakes can represent Kundalini energy awakening, divine protection (Lord Shiva wears Vasuki), or upcoming transformation. A cobra spreading its hood may indicate divine protection. Snake worship (Nag Panchami) reflects this reverence."
+      },
+      "follow_up_questions": [
+        "What kind of snake was it? Color, size, species?",
+        "Did it bite you or threaten you, or was it passive?",
+        "Where did you encounter the snake - inside or outside?",
+        "How did you feel - afraid, fascinated, or calm?",
+        "Is there a situation in your life that feels hidden or threatening?",
+        "Is there something in your life going through a transformation?"
+      ]
+    },
+
+    {
+      "id": 10,
+      "name_en": "Being Naked / Inappropriately Dressed",
+      "name_zh": "裸体 / 穿着不当",
+      "frequency": 8,
+      "frequency_pct": "46.0%",
+      "category": "situation",
+      "common_variations": [
+        "Naked in public",
+        "Naked at work or school",
+        "Suddenly realizing you're naked",
+        "Others don't notice your nudity",
+        "Underwear only in public",
+        "Wrong outfit for the occasion",
+        "Naked and comfortable",
+        "Trying to cover up"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The Persona (social mask) has been stripped away, revealing the true self. Can be terrifying (exposure of vulnerability) or liberating (authenticity). If others don't notice, it suggests the dreamer's anxiety about exposure is self-generated.",
+        "freudian": "Exhibitionist desires from childhood resurfacing. The conflict between desire to be seen and shame about being seen. Reflects anxieties about sexual exposure or body image.",
+        "cognitive": "Social anxiety manifested physically. Reflects fear of exposure, vulnerability, imposter syndrome, or being unprepared. Common before public presentations or new social situations. If nobody notices, the brain may be processing that fears are overblown."
+      },
+      "cultural_interpretations": {
+        "western": "Vulnerability, exposure, authenticity, shame, imposter syndrome. Very common before job interviews, presentations, or entering new social groups. The reaction of others in the dream is key to interpretation.",
+        "chinese": "周公解梦: Being naked (梦见裸体) in front of others may indicate upcoming embarrassment or loss of face (丢脸). However, some interpretations suggest it means the dreamer will receive honest feedback. Context of who sees the nudity matters.",
+        "islamic": "Nudity in dreams may represent exposure of sins or secrets. However, if the dreamer is naked in private (alone), it may not carry negative meaning. Public nudity warns of scandal or loss of reputation. Context and audience are crucial.",
+        "hindu": "In Swapna Shastra, nakedness can represent spiritual purity and renunciation (as with Jain monks) or vulnerability. The context determines whether it is liberation from material attachment or exposure of weakness."
+      },
+      "follow_up_questions": [
+        "Where were you when you realized you were naked/underdressed?",
+        "Did other people notice? How did they react?",
+        "How did you feel - mortified, indifferent, or free?",
+        "Is there a situation where you feel exposed or like a fraud?",
+        "Are you entering a new social situation or role?",
+        "Were you trying to cover up or were you comfortable?"
+      ]
+    },
+
+    {
+      "id": 11,
+      "name_en": "House / Building",
+      "name_zh": "房子 / 建筑",
+      "frequency": 10,
+      "frequency_pct": "N/A - most common single symbol in DreamBank corpus (top #1 symbol)",
+      "category": "place",
+      "common_variations": [
+        "Childhood home",
+        "Discovering new rooms",
+        "House is falling apart / decaying",
+        "House on fire",
+        "Unfamiliar house that feels like home",
+        "Mansion or palace",
+        "Haunted house",
+        "House being broken into",
+        "Building or renovating a house"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The house represents the psyche itself. Different floors represent different levels of consciousness: attic = higher mind/spirit; main floor = conscious ego; basement = unconscious/Shadow. Discovering new rooms = discovering new aspects of self. A decaying house = neglected psyche.",
+        "freudian": "The house represents the body. Doors and windows represent body openings. The facade represents the social self. Specific rooms have sexual significance. The house's condition reflects the dreamer's relationship with their body.",
+        "cognitive": "Cognitive mapping of self-concept. The house represents one's life structure - career, relationships, identity. Renovations = life changes. Decay = neglected areas of life. New rooms = untapped potential. Intruders = boundary violations."
+      },
+      "cultural_interpretations": {
+        "western": "The self, one's life, security, identity. Childhood home = past/nostalgia/unresolved issues. New rooms = undiscovered potential. Damage = areas of life falling apart.",
+        "chinese": "周公解梦: Dreaming of a big house (大房子) indicates prosperity and expanding fortune. Building a house suggests achievement. A collapsing house warns of family troubles. Buying a new house indicates positive changes ahead.",
+        "islamic": "The house represents the dreamer's life and family. A spacious house = ease and comfort. A narrow house = difficulty. Building a house = building one's faith. A strange house = the grave or afterlife.",
+        "hindu": "Houses in dreams represent the body-temple (deha). A well-maintained house indicates dharmic living. Discovering new rooms suggests spiritual awakening. A crumbling house may indicate health concerns."
+      },
+      "follow_up_questions": [
+        "Was it your actual home, childhood home, or an unfamiliar place?",
+        "What was the condition of the house?",
+        "Did you discover any new rooms or hidden spaces?",
+        "Were you alone or with others? Who was there?",
+        "What was the feeling - comfortable, eerie, exciting?",
+        "Is there an area of your life that feels like it needs renovation or attention?"
+      ]
+    },
+
+    {
+      "id": 12,
+      "name_en": "Being Late / Arriving Too Late",
+      "name_zh": "迟到",
+      "frequency": 8,
+      "frequency_pct": "59.2%",
+      "category": "situation",
+      "common_variations": [
+        "Late for work or meeting",
+        "Missing a flight or train",
+        "Late for an exam",
+        "Late for a wedding (own or others')",
+        "Obstacles keep delaying you",
+        "Clock showing wrong time",
+        "Running but never arriving"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Time pressure represents the tension between the ego's agenda and the Self's deeper timing. The dreamer may be out of sync with their own individuation process - trying to meet external deadlines while the inner self demands something different.",
+        "freudian": "Fear of missing out on opportunities, anxiety about deadlines and obligations. Can represent reluctance toward the event you're late for - lateness as unconscious resistance.",
+        "cognitive": "Directly reflects waking-life time anxiety and fear of consequences. The brain rehearses worst-case scenarios around scheduling. Strong Continuity Hypothesis support - these dreams spike during busy/stressful periods."
+      },
+      "cultural_interpretations": {
+        "western": "Time anxiety, fear of missing opportunities, feeling overwhelmed by obligations, fear of disappointing others. Very common in fast-paced, deadline-driven cultures.",
+        "chinese": "周公解梦: Being late (迟到) suggests the dreamer may be missing opportunities in waking life. Missing transportation indicates a need to reassess timing in business or personal decisions.",
+        "islamic": "Being late may indicate procrastination in religious duties or worldly obligations. Missing a journey could indicate missed opportunities for spiritual growth.",
+        "hindu": "Lateness in dreams may reflect anxieties about dharmic timing (the right moment for action). In Vedic thought, timing (muhurta) is sacred, and being late suggests misalignment with cosmic rhythm."
+      },
+      "follow_up_questions": [
+        "What were you late for?",
+        "What was preventing you from getting there on time?",
+        "How did you feel - panicked, frustrated, or resigned?",
+        "Is there an important deadline or commitment you're worried about?",
+        "Do you feel overwhelmed by your schedule in waking life?",
+        "Did you eventually arrive, or did you never make it?"
+      ]
+    },
+
+    {
+      "id": 13,
+      "name_en": "Unable to Move / Paralysis",
+      "name_zh": "无法移动 / 瘫痪",
+      "frequency": 7,
+      "frequency_pct": "~34%",
+      "category": "body",
+      "common_variations": [
+        "Sleep paralysis with presence",
+        "Legs won't move when running",
+        "Can't punch or fight back",
+        "Stuck in place while danger approaches",
+        "Can't speak or scream",
+        "Frozen with fear",
+        "Body is heavy as lead"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Represents a state of psychological paralysis - the ego is confronted by the overwhelming power of the unconscious and cannot act. May indicate a period where the dreamer needs to surrender control rather than fight.",
+        "freudian": "Conflict between desire (to act) and prohibition (superego). The paralysis represents the successful repression of a forbidden impulse. Also represents helplessness in the face of anxiety.",
+        "cognitive": "Physiological component: during REM sleep, the body experiences natural muscle atonia (paralysis). If the dreamer becomes semi-conscious during REM, they may experience this as inability to move. Psychologically reflects feelings of powerlessness in waking situations."
+      },
+      "cultural_interpretations": {
+        "western": "Powerlessness, helplessness, inability to act in a critical moment. Often reflects real feelings of being trapped in an untenable situation. Physical component (sleep paralysis) adds a physiological dimension.",
+        "chinese": "周公解梦: Being unable to move (鬼压床 - 'ghost pressing the bed') is attributed to supernatural influence. Traditionally, it's seen as a visitation by a spirit or ghost. Protective rituals may be recommended.",
+        "islamic": "Paralysis in sleep (especially with a sense of presence) may be attributed to jinn. Islamic practice recommends reciting specific surahs for protection. The experience is acknowledged as real but managed through spiritual practice.",
+        "hindu": "Sleep paralysis may be understood as the astral body not fully reconnecting with the physical body. It can also indicate spiritual awakening experiences or encounters with subtle realm beings."
+      },
+      "follow_up_questions": [
+        "Were you trying to run, fight, or call for help?",
+        "Was there something threatening nearby?",
+        "Did you feel a presence in the room?",
+        "Were you between sleep and waking (sleep paralysis)?",
+        "Is there a situation in your waking life where you feel powerless or stuck?",
+        "How often does this happen?"
+      ]
+    },
+
+    {
+      "id": 14,
+      "name_en": "Being Lost / Lost in Unknown Place",
+      "name_zh": "迷路",
+      "frequency": 8,
+      "frequency_pct": "~54%",
+      "category": "situation",
+      "common_variations": [
+        "Lost in an unfamiliar city",
+        "Lost in a forest or wilderness",
+        "Can't find your way home",
+        "Lost in a building (hospital, school, mall)",
+        "GPS/map not working",
+        "Lost in darkness",
+        "Others can't help you find the way"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Being lost in the wilderness represents the night sea journey - a necessary period of disorientation in the individuation process. The ego has lost its familiar landmarks and must find new orientation from the Self rather than the Persona.",
+        "freudian": "Anxiety about identity and direction in life. Being lost symbolizes loss of the ego's organizing function - the dreamer cannot find their way because they've lost contact with their desires and drives.",
+        "cognitive": "Spatial disorientation maps to life disorientation. Reflects real feelings of being directionless, confused about decisions, or uncertain about the future. Common during major life transitions."
+      },
+      "cultural_interpretations": {
+        "western": "Confusion about life direction, identity crisis, feeling overwhelmed by choices, disconnection from purpose. The landscape where you're lost provides clues - city = social confusion; nature = spiritual seeking; building = institutional/career confusion.",
+        "chinese": "周公解梦: Being lost (迷路) indicates confusion in decision-making. It may suggest the dreamer is at a crossroads and needs guidance. Finding the way eventually is a good omen for resolution.",
+        "islamic": "Being lost may represent going astray from the straight path (sirat al-mustaqim). It can indicate spiritual confusion or the need for guidance. Finding a guide in the dream is highly auspicious.",
+        "hindu": "Being lost represents maya (illusion) obscuring the path of dharma. The dreamer is caught in the web of worldly confusion and needs spiritual clarity. A guru appearing to guide represents divine grace."
+      },
+      "follow_up_questions": [
+        "Where were you lost - a city, nature, or a building?",
+        "Were you alone or with others?",
+        "Were you trying to get somewhere specific, or just trying to find any way out?",
+        "Are there major decisions or directions you're uncertain about in waking life?",
+        "Did you eventually find your way, or did the dream end while lost?",
+        "How did you feel - panicked, curious, or resigned?"
+      ]
+    },
+
+    {
+      "id": 15,
+      "name_en": "Car / Vehicle / Driving",
+      "name_zh": "汽车 / 驾驶",
+      "frequency": 9,
+      "frequency_pct": "N/A - #3 most common symbol in DreamBank",
+      "category": "object",
+      "common_variations": [
+        "Driving out of control",
+        "Car crash / accident",
+        "Brakes don't work",
+        "Someone else is driving",
+        "Can't find your car",
+        "Car won't start",
+        "Driving from backseat",
+        "Luxury car / broken-down car",
+        "Wrong car"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The vehicle represents the vessel carrying the ego through life. Who is driving = who is in control of your life direction. The condition of the vehicle = the state of your personal resources and energy. A breakdown = a psychic breakdown or exhaustion.",
+        "freudian": "The car is a phallic symbol representing power, control, and sexual drive. Speed = libidinal energy. Loss of control = loss of impulse control. Accidents = self-destructive tendencies or collision with reality.",
+        "cognitive": "Direct metaphor for life control and direction. Driving = agency in your own life. Passenger = others controlling your direction. Brakes failing = inability to stop something in your life. Reflects everyday driving anxiety and life navigation concerns."
+      },
+      "cultural_interpretations": {
+        "western": "Control, direction, ambition, personal power. The type of vehicle reflects self-image. Who's driving reflects who controls your life decisions. Road conditions reflect life circumstances.",
+        "chinese": "周公解梦: Cars (汽车) represent one's career journey and social status. A smooth drive = smooth career progress. A car accident warns of obstacles or health issues. Buying a new car indicates upward mobility.",
+        "islamic": "Vehicles represent one's life journey and the means by which one travels through it. A smooth ride = ease in life. Difficulty driving = trials ahead. The destination matters for interpretation.",
+        "hindu": "The chariot (ratha) is a powerful Vedic symbol - the Katha Upanishad describes the body as a chariot, the soul as its passenger, intellect as the driver, and the senses as horses. Vehicle dreams reflect this relationship between the soul and its worldly journey."
+      },
+      "follow_up_questions": [
+        "Were you driving, or was someone else?",
+        "What was the condition of the vehicle?",
+        "Were you in control, or was the car out of control?",
+        "Where were you headed?",
+        "Do you feel in control of your life direction right now?",
+        "Were the brakes, steering, or any part malfunctioning?"
+      ]
+    },
+
+    {
+      "id": 16,
+      "name_en": "Trying Repeatedly and Failing",
+      "name_zh": "反复尝试失败",
+      "frequency": 8,
+      "frequency_pct": "~65%",
+      "category": "action",
+      "common_variations": [
+        "Trying to dial a phone number but keep mismdialing",
+        "Trying to pack but items keep multiplying",
+        "Trying to get dressed but clothes keep changing",
+        "Trying to write but can't form words",
+        "Trying to run but moving in slow motion",
+        "Trying to complete a task but obstacles keep arising"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Sisyphean repetition signals that the ego's approach is fundamentally wrong - the task cannot be completed with the current attitude. The Self is demanding a change in approach, not more effort.",
+        "freudian": "Frustration dreams reflect unsatisfied desires and the inability to achieve wish fulfillment. The repetitive failure represents the repeated thwarting of id impulses by superego restrictions.",
+        "cognitive": "Motor cortex activity during REM creates these movement distortions. Psychologically reflects waking feelings of futility, spinning wheels, or making no progress despite effort."
+      },
+      "cultural_interpretations": {
+        "western": "Frustration, burnout, feeling stuck, perfectionism. Often indicates the dreamer is approaching a problem the wrong way and needs to change strategy rather than try harder.",
+        "chinese": "周公解梦: Repeated failure may indicate that the dreamer is fighting against the natural flow (逆势). The advice is often to step back and reassess rather than push forward.",
+        "islamic": "Repeated failure in dreams may indicate the need for more patience (sabr) and trust in divine timing. It can also suggest the dreamer needs to seek help or change their approach.",
+        "hindu": "Relates to the concept of karma phala (fruit of action) - repeated failure suggests wrong action (adharma) or attachment to results. The Bhagavad Gita teaches action without attachment to outcome."
+      },
+      "follow_up_questions": [
+        "What were you trying to do in the dream?",
+        "What kept going wrong?",
+        "How did you feel - frustrated, anxious, or absurdly calm?",
+        "Is there a project or goal in waking life where you feel like you're spinning your wheels?",
+        "Did you eventually succeed, give up, or just keep trying?",
+        "Have you considered approaching the problem differently?"
+      ]
+    },
+
+    {
+      "id": 17,
+      "name_en": "Dead Person Alive / Person Alive Dead",
+      "name_zh": "死者复活 / 活人死去",
+      "frequency": 7,
+      "frequency_pct": "~47%",
+      "category": "people",
+      "common_variations": [
+        "Deceased parent or grandparent appearing alive",
+        "Dead person giving a message",
+        "Knowing the person is dead but seeing them alive",
+        "Living person appearing dead in dream",
+        "Having a conversation with a dead person",
+        "Dead person looking healthy and happy"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The dead person represents an internalized psychic image (imago) that still influences the dreamer. Their appearance suggests unfinished psychological business or that the quality they represent is becoming active again in the psyche.",
+        "freudian": "Wish fulfillment - the dreamer wishes the person were still alive. Can also represent unresolved grief, guilt, or the need for closure. The message from the dead may represent the dreamer's own unexpressed thoughts.",
+        "cognitive": "Grief processing and memory consolidation. The brain replays and reworks emotional memories. These dreams often decrease in frequency over time but may spike during anniversaries or life events the deceased would have been part of."
+      },
+      "cultural_interpretations": {
+        "western": "Unresolved grief, desire for guidance, keeping memory alive. The deceased person's demeanor matters - happy/healthy = the dreamer is processing grief well; sick/distressed = unresolved emotional issues.",
+        "chinese": "周公解梦: Dreaming of a deceased person (梦见死人) is common and has specific interpretations. A dead person giving you money = good fortune. A dead person talking = listen carefully for a message. Eating with a dead person = longevity.",
+        "islamic": "Ibn Sirin: The dead cannot lie, so messages from deceased people in dreams are considered truthful. A dead person looking well-dressed indicates they are in a good state in the afterlife. Feeding the dead or being asked for items = charitable giving on their behalf (sadaqah) is needed.",
+        "hindu": "Ancestors (pitru) visiting in dreams is taken seriously. They may need prayers, rituals (shraddha), or offerings. A happy ancestor indicates they are at peace. A distressed ancestor needs prayer and pinda (ritual offerings)."
+      },
+      "follow_up_questions": [
+        "Who was the person? What was your relationship?",
+        "How long ago did they pass away?",
+        "Did they say anything to you? What was the message?",
+        "How did they look - healthy, sick, happy, sad?",
+        "Is there something unresolved in your relationship with this person?",
+        "Is there a life decision where you wish you could ask their advice?"
+      ]
+    },
+
+    {
+      "id": 18,
+      "name_en": "Baby / Child",
+      "name_zh": "婴儿 / 小孩",
+      "frequency": 7,
+      "frequency_pct": "~28%",
+      "category": "people",
+      "common_variations": [
+        "Finding a baby",
+        "Forgetting about a baby",
+        "Baby in danger",
+        "Nurturing a baby",
+        "Baby that can talk",
+        "Ugly or strange baby",
+        "Multiple babies",
+        "Baby changing or growing rapidly",
+        "Baby that is your younger self"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The Divine Child archetype - represents new beginnings, potential, innocence, and the emerging Self. A neglected baby = a neglected creative or spiritual potential. Finding a baby = discovering a new aspect of self. The child is the symbol of the Self's renewal.",
+        "freudian": "Wish for or anxiety about parenthood. Can represent the dreamer's own inner child and unmet childhood needs. A vulnerable baby reflects the dreamer's own vulnerability.",
+        "cognitive": "New projects, ideas, relationships, or phases of life that need nurturing and protection. A forgotten baby = anxiety about neglecting something important. Reflects actual parental concerns for parents."
+      },
+      "cultural_interpretations": {
+        "western": "New beginnings, innocence, vulnerability, potential, responsibility. A healthy baby = positive new development. A sick baby = a struggling new venture. Forgetting a baby = neglecting something important.",
+        "chinese": "周公解梦: Dreaming of a baby (梦见婴儿) is generally auspicious, indicating new opportunities and good fortune. A crying baby may indicate a need for attention to a neglected matter. A laughing baby = joy and prosperity ahead.",
+        "islamic": "Babies in dreams often represent blessings, joy, and good news. A beautiful baby = incoming blessings. Breastfeeding = nurturing faith. However, context matters - a distressed baby may indicate worries.",
+        "hindu": "In Swapna Shastra, children represent new beginnings and the creative force of Brahma. A divine child may represent the avatar principle - God incarnating in pure form. Dreaming of Lord Krishna as a child is extremely auspicious."
+      },
+      "follow_up_questions": [
+        "Was the baby yours, or did you find it?",
+        "How did you feel about the baby - protective, overwhelmed, or surprised?",
+        "Was the baby healthy and happy, or in distress?",
+        "Is there a new project, relationship, or phase of life you're nurturing?",
+        "Did anyone else help you with the baby?",
+        "Have you been thinking about parenthood or your own childhood?"
+      ]
+    },
+
+    {
+      "id": 19,
+      "name_en": "Fire",
+      "name_zh": "火",
+      "frequency": 7,
+      "frequency_pct": "~25%",
+      "category": "element",
+      "common_variations": [
+        "House on fire",
+        "Forest fire / wildfire",
+        "Candle or campfire",
+        "Being burned",
+        "Setting fire",
+        "Fire spreading out of control",
+        "Walking through fire unharmed",
+        "Fire as light or warmth"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Fire is the symbol of transformation, passion, and the alchemical process of individuation (the philosopher's stone requires fire). Destructive fire = the burning away of the old self. Illuminating fire = consciousness and enlightenment. Fire is both creator and destroyer.",
+        "freudian": "Passion, anger, repressed rage, sexual desire ('burning with desire'). Fire also represents the id's destructive urges. Playing with fire = flirting with forbidden desires.",
+        "cognitive": "Intense emotions - anger, passion, anxiety, urgency. The type of fire maps to the type of emotional intensity. Controlled fire (hearth) = managed passion. Wildfire = emotions out of control. Threat simulation of a primal danger."
+      },
+      "cultural_interpretations": {
+        "western": "Transformation, destruction, passion, anger, purification, creativity. A controlled fire = positive transformation. An out-of-control fire = dangerous emotions or situations.",
+        "chinese": "周公解梦: Fire (火) has dual meanings. A big fire burning brightly = great prosperity and wealth ahead. Seeing fire from afar = success. But being burned = caution against reckless behavior. Fire in the kitchen = domestic harmony.",
+        "islamic": "Fire can represent fitna (trial), hellfire, or purification. A beneficial fire (for cooking/warmth) = positive, sustenance. A destructive fire = warning of tribulation. Light from fire = guidance and knowledge.",
+        "hindu": "Agni (fire) is sacred - the messenger between humans and gods. Fire in dreams represents tapas (spiritual heat/discipline), yajna (ritual sacrifice), and transformation. Dreaming of a sacred fire is auspicious and indicates spiritual progress."
+      },
+      "follow_up_questions": [
+        "Was the fire destructive or controlled?",
+        "Were you in danger or observing from safety?",
+        "What was burning - a building, nature, or something else?",
+        "How did you feel - scared, mesmerized, or empowered?",
+        "Is there something in your life that feels urgent or out of control?",
+        "Are you going through a major transformation?"
+      ]
+    },
+
+    {
+      "id": 20,
+      "name_en": "Pregnancy / Giving Birth",
+      "name_zh": "怀孕 / 生孩子",
+      "frequency": 6,
+      "frequency_pct": "~22%",
+      "category": "body",
+      "common_variations": [
+        "Being pregnant (not actually pregnant)",
+        "Giving birth easily",
+        "Difficult or painful birth",
+        "Giving birth to a non-human",
+        "Partner is pregnant",
+        "Unexpected pregnancy",
+        "Watching someone give birth",
+        "Being pregnant with twins/multiples"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The creative process - something new gestating in the psyche. The gestation period = the time needed for psychic development. Giving birth = bringing a new aspect of self into consciousness. The nature of what's born reveals what's emerging.",
+        "freudian": "Literal wish for or anxiety about pregnancy. Also represents creative projects, ideas gestating, or the birth of a new identity. Can reflect anxieties about fertility and femininity/masculinity.",
+        "cognitive": "Creative incubation and project development. A new idea, plan, or phase of life is developing. The ease or difficulty of the birth reflects the dreamer's confidence about bringing it to fruition."
+      },
+      "cultural_interpretations": {
+        "western": "Creativity, new projects, new beginnings, potential, anticipation. Not always literal pregnancy. Can represent any creative or developmental process nearing completion.",
+        "chinese": "周公解梦: Dreaming of pregnancy (梦见怀孕) is very auspicious, indicating wealth, prosperity, and successful new ventures. Giving birth (生孩子) indicates the successful completion of a project or new opportunities. For unmarried women, it may indicate a new relationship.",
+        "islamic": "Pregnancy in dreams generally signifies increase - in wealth, knowledge, or blessings. Giving birth to a boy = relief from difficulties. Giving birth to a girl = ease and comfort. The gender and appearance of the child carry specific meanings.",
+        "hindu": "Pregnancy dreams are highly auspicious, representing the creative power of Shakti. They indicate new beginnings, prosperity, and the fruition of past efforts. In some traditions, they may indicate the soul of a future child seeking incarnation."
+      },
+      "follow_up_questions": [
+        "Are you actually pregnant or trying to conceive?",
+        "How did you feel about the pregnancy - excited, scared, or surprised?",
+        "Was the birth easy or difficult?",
+        "Is there a creative project or new venture developing in your life?",
+        "Who else was present in the dream?",
+        "What was born - a normal baby or something unusual?"
+      ]
+    },
+
+    {
+      "id": 21,
+      "name_en": "Flood / Tsunami / Rising Water",
+      "name_zh": "洪水 / 海啸",
+      "frequency": 6,
+      "frequency_pct": "~20%",
+      "category": "event",
+      "common_variations": [
+        "Massive tsunami wave approaching",
+        "Floodwaters rising in home",
+        "Swimming through flooded streets",
+        "Watching flood from safety",
+        "Flash flood",
+        "Being swept away by water",
+        "Flood receding to reveal damage"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The unconscious is overwhelming the ego - repressed material is flooding consciousness. Can represent a necessary breakthrough where the rigid ego structure needs to be dissolved for growth. The flood is both destructive and renewing (cf. Noah, Deucalion).",
+        "freudian": "Being overwhelmed by repressed emotions, especially grief or rage. The force of the water represents the force of the id breaking through the ego's defenses.",
+        "cognitive": "Emotional overwhelm mapped to physical overwhelm. Reflects feeling inundated by work, emotions, responsibilities, or life changes. Threat simulation of a primal environmental danger."
+      },
+      "cultural_interpretations": {
+        "western": "Emotional overwhelm, loss of control, cleansing/renewal, major life changes sweeping away the old. The response to the flood matters - fighting it vs. floating with it.",
+        "chinese": "周公解梦: Floods (洪水) represent challenges and difficulties ahead, but also the potential for great change and new opportunities arising from destruction. Water is wealth, so abundant water can mean abundant fortune - if managed properly.",
+        "islamic": "Floods may represent trials and tribulations. However, surviving a flood indicates overcoming difficulty with divine help. The flood of Nuh (Noah) is the archetypal example - destruction of the sinful and preservation of the faithful.",
+        "hindu": "Floods connect to the cosmic dissolution (pralaya) at the end of each age. They represent the clearing away of old karma to make room for new creation. Lord Vishnu resting on the cosmic ocean between ages is the archetypal image."
+      },
+      "follow_up_questions": [
+        "Were you caught in the flood or watching from safety?",
+        "How fast was the water rising?",
+        "Were you able to escape or swim?",
+        "Is there something in your life that feels overwhelming or out of control?",
+        "Was anyone else affected by the flood?",
+        "What was the aftermath - destruction or renewal?"
+      ]
+    },
+
+    {
+      "id": 22,
+      "name_en": "Dog",
+      "name_zh": "狗",
+      "frequency": 7,
+      "frequency_pct": "~30%",
+      "category": "animal",
+      "common_variations": [
+        "Friendly/loving dog",
+        "Aggressive/attacking dog",
+        "Lost or stray dog",
+        "Puppy",
+        "Pack of dogs",
+        "Dog biting you",
+        "Your deceased pet dog",
+        "Protecting a dog",
+        "Black dog"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Dogs represent loyalty, instinct, and the faithful companion aspect of the psyche. A loyal dog = a healthy relationship with one's instincts. An aggressive dog = instincts that have been suppressed and are now hostile. The black dog = depression (Churchill's metaphor).",
+        "freudian": "Animals represent the id and instinctual drives. Dogs specifically represent loyalty conflicts, obedience vs. rebellion, and domesticated vs. wild impulses.",
+        "cognitive": "Reflects relationships, trust, loyalty, companionship, and protection. Aggressive dogs map to perceived threats from people the dreamer trusted. Continuity from waking-life pet relationships or encounters."
+      },
+      "cultural_interpretations": {
+        "western": "Loyalty, friendship, protection, trust. A friendly dog = reliable relationships. An attacking dog = betrayal of trust. Man's best friend reflects the dreamer's closest relationships.",
+        "chinese": "周公解梦: Dogs (狗) in dreams generally indicate loyalty and friendship. A dog barking at you = gossip or slander from others. A dog biting = betrayal by a friend. A gentle dog = a faithful friend will help you.",
+        "islamic": "In Islamic tradition, dogs have complex symbolism. A guard dog = protection. A barking dog = a hostile person. A dog biting = harm from an enemy. Dreaming of hunting with a dog = beneficial partnership.",
+        "hindu": "Dogs are associated with Bhairava (fierce form of Shiva) and are guardians of the afterworld. A dog following you may indicate loyalty or protection. In the Mahabharata, a dog follows the Pandavas on their final journey, representing dharma itself."
+      },
+      "follow_up_questions": [
+        "Was the dog friendly or aggressive?",
+        "Was it a dog you recognize, or a strange dog?",
+        "What breed or size? What color?",
+        "Did the dog interact with you or others?",
+        "Is there someone in your life you associate with the qualities of this dog?",
+        "How is trust and loyalty showing up in your relationships right now?"
+      ]
+    },
+
+    {
+      "id": 23,
+      "name_en": "Spider",
+      "name_zh": "蜘蛛",
+      "frequency": 5,
+      "frequency_pct": "~15%",
+      "category": "animal",
+      "common_variations": [
+        "Large spider",
+        "Spider web",
+        "Spider crawling on body",
+        "Killing a spider",
+        "Many spiders (swarm)",
+        "Being bitten by a spider",
+        "Spider spinning a web",
+        "Spider in bed or bedroom"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The spider as the Great Mother archetype - the weaver of fate and destiny. The web represents the interconnected pattern of life. Can represent the devouring mother or the creative feminine. Arachne mythology: creativity and hubris.",
+        "freudian": "Often represents the overbearing mother figure. The web = feeling trapped in a relationship. The spider's patience = manipulation or passive aggression. Can also represent female sexuality and entrapment.",
+        "cognitive": "Evolutionary fear response (arachnophobia is partially innate). Psychologically, represents feeling trapped, manipulated, or overwhelmed by complexity. Also creativity and patience - the spider as master architect."
+      },
+      "cultural_interpretations": {
+        "western": "Creativity, patience, being trapped, manipulation, feminine power, fear. The web = complex situation you're caught in. A spider weaving = creative work in progress.",
+        "chinese": "周公解梦: Spiders (蜘蛛) can represent industriousness and good fortune. Seeing a spider web = a trap or complex situation. Killing a spider may indicate eliminating a problem. A spider descending = a visitor arriving.",
+        "islamic": "The spider holds a special place in Islam - a spider web protected the Prophet Muhammad in the cave of Thawr during the Hijra. Thus, spiders can represent divine protection. However, a spider's web can also represent fragility and the weakness of false beliefs.",
+        "hindu": "The spider (and its web) is used in the Upanishads as a metaphor for Brahman creating the universe - as a spider projects its web from itself and reabsorbs it. Dreaming of a spider may relate to creation, maya, and the fabric of reality."
+      },
+      "follow_up_questions": [
+        "How big was the spider? What did it look like?",
+        "Was it building a web or approaching you?",
+        "How did you feel - terrified, fascinated, or calm?",
+        "Is there a situation in your life that feels like a web or trap?",
+        "Do you have a particular fear of spiders in waking life?",
+        "Are you working on something creative or intricate?"
+      ]
+    },
+
+    {
+      "id": 24,
+      "name_en": "Bird",
+      "name_zh": "鸟",
+      "frequency": 5,
+      "frequency_pct": "~18%",
+      "category": "animal",
+      "common_variations": [
+        "Bird flying freely",
+        "Caged bird",
+        "Dead bird",
+        "Flock of birds",
+        "Bird attacking",
+        "Eagle or hawk",
+        "Owl",
+        "Crow or raven",
+        "Colorful/exotic bird"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Birds represent the spirit, transcendence, and thoughts rising from the unconscious. Different birds carry different meanings: eagle = the Self; owl = wisdom of the unconscious; crow = the Shadow or trickster. A caged bird = trapped spirit or repressed thoughts.",
+        "freudian": "Phallic symbol (especially in flight). Also represents aspirations and ambitions. A caged bird = repressed desires. Free flight = liberated instincts.",
+        "cognitive": "Freedom, perspective, aspiration, communication (messenger birds). The type of bird and its behavior map to the dreamer's relationship with freedom and constraint. Reflects desire for broader perspective on life situations."
+      },
+      "cultural_interpretations": {
+        "western": "Freedom, spirit, perspective, messages, aspirations. Eagles = power and vision. Doves = peace. Ravens = mystery or omens. A dead bird = lost opportunity or end of freedom.",
+        "chinese": "周公解梦: Birds (鸟) generally represent good news and communication. A phoenix (凤凰) is extremely auspicious, representing rebirth and prosperity. A crow may warn of bad news. A magpie (喜鹊) brings joy and good fortune.",
+        "islamic": "Birds often represent travelers or messengers. A caged bird = imprisonment. A bird singing = good news. An eagle = a powerful ruler. Specific birds carry Quranic significance - the hoopoe (hudhud) carried messages for Prophet Sulayman.",
+        "hindu": "Birds are vahanas (vehicles) of the gods - Garuda (eagle) carries Vishnu, the peacock carries Kartikeya, the swan/hamsa carries Saraswati and represents the ability to discern truth from illusion. Each bird species has specific divine associations."
+      },
+      "follow_up_questions": [
+        "What kind of bird was it?",
+        "Was it flying freely or trapped?",
+        "Was it singing, silent, or calling out?",
+        "How did you feel watching or interacting with the bird?",
+        "Is there an area of your life where you feel caged or free?",
+        "Did the bird have a message or significance in the dream?"
+      ]
+    },
+
+    {
+      "id": 25,
+      "name_en": "Cat",
+      "name_zh": "猫",
+      "frequency": 5,
+      "frequency_pct": "~15%",
+      "category": "animal",
+      "common_variations": [
+        "Cat being affectionate",
+        "Cat scratching or attacking",
+        "Stray cat following you",
+        "Kitten",
+        "Black cat",
+        "Cat with unusual features",
+        "Many cats",
+        "Cat in danger"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The cat represents feminine independence, intuition, and the mysterious aspects of the Anima. Cats are associated with the moon, the unconscious, and autonomous femininity that resists domestication. A friendly cat = harmonious relationship with the feminine unconscious.",
+        "freudian": "Represents feminine sexuality, independence, and sensuality. Can also represent hidden aggression (retractable claws). The cat's nocturnal nature connects it to hidden desires.",
+        "cognitive": "Independence, intuition, self-sufficiency, mystery. Reflects the dreamer's relationship with autonomy and boundaries. Cats that scratch = boundary violations. Purring cats = comfort with independence."
+      },
+      "cultural_interpretations": {
+        "western": "Independence, intuition, feminine energy, mystery, bad luck (black cats in some traditions) or good luck (others). A cat's behavior in the dream reflects the dreamer's relationship with independence and intuition.",
+        "chinese": "周公解梦: Cats (猫) have mixed interpretations. A cat catching a mouse = overcoming enemies or difficulties. A black cat = potential bad luck. A cat scratching = gossip or conflict with a woman. A cat purring = domestic comfort.",
+        "islamic": "Cats are generally well-regarded in Islam (the Prophet was fond of cats). A clean, well-kept cat = blessings. A wild or feral cat = a thief or untrustworthy person. A cat in the home = comfort and companionship.",
+        "hindu": "Cats are associated with the goddess Shashthi, protector of children. In some traditions, dreaming of a cat may warn of deception or hidden enemies. A black cat crossing one's path (even in dreams) may indicate obstacles."
+      },
+      "follow_up_questions": [
+        "What was the cat doing - affectionate, aloof, or aggressive?",
+        "Was it your cat or a strange cat?",
+        "What color was the cat?",
+        "How did you feel about the cat?",
+        "Is there someone in your life who embodies cat-like qualities - independent, mysterious?",
+        "Are you trusting your intuition in a current situation?"
+      ]
+    },
+
+    {
+      "id": 26,
+      "name_en": "Earthquake",
+      "name_zh": "地震",
+      "frequency": 5,
+      "frequency_pct": "~15%",
+      "category": "event",
+      "common_variations": [
+        "Feeling the ground shake",
+        "Buildings collapsing around you",
+        "Cracks opening in the ground",
+        "Trying to find shelter during earthquake",
+        "Aftermath of earthquake",
+        "Earthquake and then tsunami"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The very foundation of the psyche is being shaken - core beliefs, identity, or fundamental assumptions are being challenged. The earthquake comes from below (the unconscious) and disrupts the surface (ego-consciousness). A necessary destabilization for reconstruction.",
+        "freudian": "Represents instability in the ego's foundation. Repressed material from the unconscious is erupting violently. The ground represents the basis of psychological stability.",
+        "cognitive": "Personal stability being shaken - relationship upheaval, career changes, worldview shifts, health crises. Maps to the visceral experience of having the ground pulled from under you. Threat simulation of environmental danger."
+      },
+      "cultural_interpretations": {
+        "western": "Instability, upheaval, foundations shaking, major life changes that feel beyond control. Something you thought was stable is being disrupted.",
+        "chinese": "周公解梦: Earthquakes (地震) warn of major changes or disruptions ahead. They may indicate shifts in career, family structure, or living situation. Surviving an earthquake = overcoming major difficulties.",
+        "islamic": "Earthquakes are signs of divine power (referenced in Surah Az-Zalzalah). They may represent a spiritual awakening, reckoning, or divine reminder. Surviving indicates divine mercy and protection.",
+        "hindu": "Earthquakes relate to cosmic cycles and the upheaval of established order. They may indicate the end of a yuga-like personal cycle. The ground represents prakriti (material nature) being disturbed."
+      },
+      "follow_up_questions": [
+        "How severe was the earthquake?",
+        "Were you inside a building or outside?",
+        "Did anything collapse around you?",
+        "What part of your life feels unstable right now?",
+        "Were you able to find safety?",
+        "Has anything recently shaken your beliefs or expectations?"
+      ]
+    },
+
+    {
+      "id": 27,
+      "name_en": "Money / Wealth",
+      "name_zh": "金钱 / 财富",
+      "frequency": 6,
+      "frequency_pct": "~25%",
+      "category": "object",
+      "common_variations": [
+        "Finding money",
+        "Losing money",
+        "Being given money",
+        "Counting money",
+        "Stealing money",
+        "Money disappearing",
+        "Winning lottery",
+        "Being robbed",
+        "Coins vs. paper money"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Money represents psychic energy, self-worth, and personal value. Finding money = discovering untapped resources within. Losing money = energy being drained or invested poorly. The amount represents the magnitude of the psychic investment.",
+        "freudian": "Freud associated money with feces (anal stage development) and control. Money represents power, control, self-worth, and retained vs. released energy.",
+        "cognitive": "Direct reflection of financial anxieties, career concerns, and self-worth. Finding money = unexpected gain or undervalued self. Losing money = financial stress or feeling undervalued."
+      },
+      "cultural_interpretations": {
+        "western": "Self-worth, value, power, security, success. Finding money = recognizing your own value. Losing money = feeling devalued. The condition and amount of money reflect the dreamer's sense of abundance vs. scarcity.",
+        "chinese": "周公解梦: Money (钱) dreams are very specifically interpreted. Finding money = good luck ahead. Losing money = avoid risky investments. Giving money away = generosity bringing returns. Receiving gold = great prosperity.",
+        "islamic": "Money in dreams can represent knowledge, faith, or worldly gain depending on context. Finding money = receiving knowledge or provision. Losing money = losing knowledge or faith. Counterfeit money = hypocrisy or deception.",
+        "hindu": "Lakshmi, goddess of wealth, may manifest through money dreams. Finding money indicates her blessings. Losing money may indicate a need for more generosity (dana) to invite abundance."
+      },
+      "follow_up_questions": [
+        "Were you finding, losing, or receiving money?",
+        "How much money was involved?",
+        "How did you feel about the money - excited, anxious, or guilty?",
+        "Are you concerned about finances in waking life?",
+        "Do you feel valued and adequately compensated?",
+        "What does money represent to you beyond its material value?"
+      ]
+    },
+
+    {
+      "id": 28,
+      "name_en": "Mirror / Reflection",
+      "name_zh": "镜子 / 倒影",
+      "frequency": 4,
+      "frequency_pct": "~12%",
+      "category": "object",
+      "common_variations": [
+        "Looking in mirror and seeing different face",
+        "Mirror reflection not matching reality",
+        "Cracked or broken mirror",
+        "Mirror showing the future or past",
+        "Unable to see reflection",
+        "Reflection moving independently",
+        "Mirror as a portal"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The mirror represents self-reflection and confrontation with the true Self vs. the Persona. A distorted reflection = dissonance between who you are and who you think you are. No reflection = loss of identity or ego dissolution.",
+        "freudian": "Narcissistic self-examination. The mirror reflects the dreamer's relationship with their own image and self-concept. A broken mirror = fragmented self-image.",
+        "cognitive": "Self-perception and identity processing. The brain processes self-concept during sleep. A different face = identity in flux. No reflection = feeling invisible or losing sense of self."
+      },
+      "cultural_interpretations": {
+        "western": "Self-knowledge, vanity, truth, identity. A clear mirror = honest self-assessment. A broken mirror = superstition aside, represents fractured self-image or bad luck in some traditions.",
+        "chinese": "周公解梦: Mirrors (镜子) represent truth and self-knowledge. A clear mirror = clarity about yourself. A broken mirror (破镜) traditionally represents separation from a loved one. Looking in a mirror and seeing someone else = identity confusion.",
+        "islamic": "A mirror represents self-reflection and truth. Seeing a clear reflection = self-awareness and clarity. A dirty mirror = the heart clouded by sin. Mirrors can also represent one's spouse or companion.",
+        "hindu": "The mirror represents maya - the world of appearances vs. ultimate reality (Brahman). Vedanta philosophy uses the mirror metaphor extensively. A clear mirror = the purified mind reflecting truth."
+      },
+      "follow_up_questions": [
+        "What did you see in the mirror?",
+        "Was the reflection accurate, distorted, or completely different?",
+        "How did you feel seeing your reflection?",
+        "Are you going through an identity change or self-reassessment?",
+        "Was the mirror clear, cracked, or foggy?",
+        "Is there a gap between who you present to the world and who you feel you are?"
+      ]
+    },
+
+    {
+      "id": 29,
+      "name_en": "Stairs / Climbing / Descending",
+      "name_zh": "楼梯 / 攀爬 / 下降",
+      "frequency": 6,
+      "frequency_pct": "~22%",
+      "category": "action",
+      "common_variations": [
+        "Climbing endless stairs",
+        "Stairs collapsing or broken",
+        "Descending into darkness",
+        "Spiral staircase",
+        "Climbing a mountain or ladder",
+        "Elevator going up or down",
+        "Escalator moving wrong direction",
+        "Reaching the top"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Ascending = moving toward consciousness, spirit, and the Self. Descending = entering the unconscious, Shadow work, depth exploration. The staircase connects different levels of the psyche. Spiral stairs suggest the circuitous nature of individuation.",
+        "freudian": "Climbing stairs = sexual intercourse (rhythmic ascent). Ascending = social ambition. Descending = regression or exploring repressed material. The staircase connects the conscious (upper) to unconscious (lower) mind.",
+        "cognitive": "Progress (or lack thereof) toward goals. Endless stairs = feeling like you're working hard but not advancing. Reaching the top = achievement. Descending = going deeper into a problem or facing decline."
+      },
+      "cultural_interpretations": {
+        "western": "Ambition, progress, spiritual ascent, career advancement. Climbing = striving for goals. Descending = introspection or decline. The difficulty of the climb reflects the difficulty of the goal.",
+        "chinese": "周公解梦: Climbing stairs (爬楼梯) upward = career advancement and rising status. Going down = potential setbacks. An endless staircase = a goal that requires persistence.",
+        "islamic": "Ascending stairs = rising in faith, knowledge, or worldly station. Descending = moving away from righteousness. A staircase to the sky = spiritual elevation. Steps represent stages of spiritual progress.",
+        "hindu": "The seven chakras are often depicted as ascending stages. Climbing represents spiritual evolution through the chakra system. The summit (Sahasrara) represents enlightenment and union with the divine."
+      },
+      "follow_up_questions": [
+        "Were you going up or down?",
+        "Was the climb easy or difficult?",
+        "Did you reach your destination?",
+        "What was at the top or bottom?",
+        "Is there a goal you're working toward that feels like an uphill climb?",
+        "Were the stairs well-built or crumbling?"
+      ]
+    },
+
+    {
+      "id": 30,
+      "name_en": "Wedding / Marriage",
+      "name_zh": "婚礼 / 结婚",
+      "frequency": 5,
+      "frequency_pct": "~18%",
+      "category": "event",
+      "common_variations": [
+        "Your own wedding",
+        "Marrying a stranger",
+        "Wedding going wrong",
+        "Being left at the altar",
+        "Attending someone else's wedding",
+        "Wedding preparations / dress",
+        "Forced marriage",
+        "Remarrying your current spouse"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The sacred marriage (hieros gamos) - the union of opposites within the psyche, particularly Anima/Animus integration. A wedding symbolizes achieving wholeness through the union of conscious and unconscious elements. A failed wedding = integration is being resisted.",
+        "freudian": "Desire for commitment, fear of commitment, or anxiety about a relationship. The wedding partner represents the desired or feared merger. Wedding anxieties reflect intimacy fears.",
+        "cognitive": "Reflects real relationship concerns, desires for partnership, or commitment anxieties. For engaged/married people, often processes wedding-related stress. Can also represent any major commitment or merger (business, project)."
+      },
+      "cultural_interpretations": {
+        "western": "Commitment, partnership, union, transition, anxiety about change. Wedding dreams before an actual wedding are extremely common and process anxieties about the life change.",
+        "chinese": "周公解梦: Wedding dreams (结婚) are generally auspicious, indicating new partnerships, prosperity, and harmony. However, dreaming of your own wedding may paradoxically indicate sadness or challenges ahead. Attending another's wedding = good news.",
+        "islamic": "Marriage in dreams often represents a covenant or contract. Marrying a known person = forming an alliance. A joyful wedding = blessings. Marriage also symbolizes the relationship between the believer and their faith.",
+        "hindu": "Marriage (vivaha) is one of the sixteen samskaras (sacraments). Dreaming of marriage indicates union, completeness, and dharmic partnership. The specific wedding rituals in the dream carry significance."
+      },
+      "follow_up_questions": [
+        "Were you the one getting married?",
+        "Who was the partner?",
+        "Was the wedding joyful or anxiety-filled?",
+        "Are you in a relationship? Is commitment a current theme?",
+        "Did anything go wrong?",
+        "Is there a major commitment or partnership forming in any area of your life?"
+      ]
+    },
+
+    {
+      "id": 31,
+      "name_en": "Bridge",
+      "name_zh": "桥",
+      "frequency": 4,
+      "frequency_pct": "~12%",
+      "category": "place",
+      "common_variations": [
+        "Crossing a bridge",
+        "Bridge collapsing",
+        "Afraid to cross",
+        "Bridge over water",
+        "Broken bridge",
+        "Building a bridge",
+        "Bridge to nowhere",
+        "Narrow or rickety bridge"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The bridge is a transitional symbol connecting two states of consciousness, two life phases, or the conscious and unconscious. Crossing = successful transition. A collapsing bridge = the transition is failing or the dreamer is not ready.",
+        "freudian": "Represents transition between psychological states. The bridge's stability reflects the ego's ability to navigate change. Fear of crossing = fear of change.",
+        "cognitive": "Transition, decision points, connection between phases of life. A bridge connects where you are to where you need to be. Its condition reflects your confidence in the transition ahead."
+      },
+      "cultural_interpretations": {
+        "western": "Transition, overcoming obstacles, connection, moving from one phase to another. 'Burning bridges' = cutting off the past.",
+        "chinese": "周公解梦: Bridges (桥) represent transitions and opportunities. Crossing a bridge successfully = overcoming obstacles. A broken bridge = blocked path requiring alternative approaches. A stone bridge = reliable support.",
+        "islamic": "The bridge (sirat) has profound eschatological significance - the bridge over hellfire that all must cross on Judgment Day. A bridge in dreams may represent a test of faith or the path between this world and the next.",
+        "hindu": "The bridge between the material world and the spiritual realm. In the Ramayana, Lord Rama built the bridge (Rama Setu) to Lanka - representing the conquest of obstacles through devotion and determination."
+      },
+      "follow_up_questions": [
+        "Were you crossing the bridge or standing at the edge?",
+        "What was the bridge over - water, a void, a valley?",
+        "Was the bridge sturdy or fragile?",
+        "Is there a transition or decision you're facing in waking life?",
+        "What was on the other side?",
+        "Were you afraid to cross or eager?"
+      ]
+    },
+
+    {
+      "id": 32,
+      "name_en": "Losing Phone / Can't Make Call",
+      "name_zh": "丢失手机 / 无法打电话",
+      "frequency": 7,
+      "frequency_pct": "~30% (increasingly common in modern dream research)",
+      "category": "object",
+      "common_variations": [
+        "Phone screen cracked or broken",
+        "Can't dial the right number",
+        "Phone has no signal",
+        "Someone took your phone",
+        "Phone battery dying at critical moment",
+        "Wrong number keeps connecting",
+        "Phone screen won't respond to touch"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Modern manifestation of communication breakdown with the Self. The phone represents the dreamer's ability to connect with others and with their own unconscious. Loss of phone = loss of psychic connection.",
+        "freudian": "Communication breakdown, isolation anxiety. The phone represents the ability to reach out and be reached. Loss represents fear of disconnection or inability to express needs.",
+        "cognitive": "Reflects technology dependence anxiety and communication concerns. The phone is the modern extension of self and social connection. Loss represents disconnection, missing information, or inability to reach help when needed."
+      },
+      "cultural_interpretations": {
+        "western": "Disconnection, communication breakdown, isolation, missing information, social anxiety. Very common in digital age. Reflects real dependency on devices for identity and connection.",
+        "chinese": "Modern interpretations: Losing a phone represents losing connection with important people or missing opportunities. A broken phone = communication difficulties in relationships.",
+        "islamic": "Modern scholars relate phone dreams to communication with others and with Allah. Being unable to call = barriers in prayer or connection. The phone is analogous to the heart as a receiver of divine communication.",
+        "hindu": "Modern interpretation: The phone represents maya's web of communication. Losing it may paradoxically indicate liberation from worldly attachment, or it may indicate loss of connection with one's community."
+      },
+      "follow_up_questions": [
+        "Who were you trying to contact?",
+        "What was wrong with the phone?",
+        "How urgently did you need to make the call?",
+        "Is there someone you're struggling to reach or connect with?",
+        "Do you feel disconnected from your social circle?",
+        "Is there an important message you need to deliver but can't?"
+      ]
+    },
+
+    {
+      "id": 33,
+      "name_en": "Running but Can't Run Fast",
+      "name_zh": "跑不动",
+      "frequency": 7,
+      "frequency_pct": "~35%",
+      "category": "body",
+      "common_variations": [
+        "Legs feel like lead",
+        "Running in slow motion",
+        "Running but going nowhere",
+        "Feet stuck to ground",
+        "Running through thick substance (mud, water)",
+        "Can't run away from danger"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The ego's willpower is insufficient against the power of the situation. The dreamer's conscious efforts are being overwhelmed by unconscious forces. The body refusing to obey the mind represents the psyche's rejection of the ego's demands.",
+        "freudian": "The body's resistance represents internal conflict - part of the psyche wants to flee while another part holds back. The paralysis between desire and prohibition creates the frustrating middle ground.",
+        "cognitive": "During REM sleep, voluntary muscles are inhibited (atonia). The brain interprets this physical paralysis narratively as inability to run. Psychologically reflects feelings of helplessness, inadequacy, or being unprepared to face a challenge."
+      },
+      "cultural_interpretations": {
+        "western": "Helplessness, frustration, inadequacy. Feeling unable to escape a situation or meet a challenge. The harder you try, the worse it gets - mirroring waking life situations where effort seems futile.",
+        "chinese": "周公解梦: Being unable to run (跑不动) indicates obstacles and resistance in current endeavors. It suggests the need for patience and alternative approaches rather than brute force.",
+        "islamic": "Inability to move or run may indicate spiritual lethargy or being held back by worldly concerns. It can serve as a reminder to seek divine assistance rather than relying solely on personal effort.",
+        "hindu": "Relates to the concept of prarabdha karma - past actions creating present obstacles. The inability to run suggests karmic bonds that must be worked through, not escaped."
+      },
+      "follow_up_questions": [
+        "Were you running from something or toward something?",
+        "What was making it hard to run - heavy legs, sticky ground, or something else?",
+        "How did you feel - frustrated, terrified, or resigned?",
+        "Is there a situation in your life where you feel powerless or stuck?",
+        "Are your efforts in some area of life not producing results?",
+        "What happened when you couldn't run - were you caught?"
+      ]
+    },
+
+    {
+      "id": 34,
+      "name_en": "Infidelity / Partner Cheating",
+      "name_zh": "出轨 / 伴侣不忠",
+      "frequency": 6,
+      "frequency_pct": "~20%",
+      "category": "situation",
+      "common_variations": [
+        "Catching partner cheating",
+        "Dreamer cheating on partner",
+        "Partner with a stranger",
+        "Partner with someone known",
+        "Emotional affair",
+        "Finding evidence of cheating",
+        "Being forgiven / forgiving"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The 'other person' often represents the Anima/Animus - the inner counterpart seeking union. A partner cheating may reflect the dreamer's anxiety that their partner's psychic energy is being directed elsewhere. Self-cheating = exploring forbidden aspects of identity.",
+        "freudian": "Wish fulfillment or anxiety about desire. Dreaming of one's own infidelity = repressed desires for novelty or forbidden partners. Partner cheating = projection of one's own desires onto the partner, or genuine insecurity.",
+        "cognitive": "Reflects relationship insecurities, trust issues, fear of abandonment, or jealousy. Can also reflect emotional neglect - the dreamer feels their partner's attention is elsewhere (work, friends, hobbies). Usually more about emotional security than literal infidelity."
+      },
+      "cultural_interpretations": {
+        "western": "Trust, insecurity, fear of abandonment, jealousy, self-worth in relationships. Very common even in healthy relationships. Often triggered by periods of emotional distance.",
+        "chinese": "周公解梦: Dreams of infidelity (出轨) may paradoxically indicate a strong bond - the anxiety reflects how much the relationship matters. It may also serve as a warning to invest more attention in the relationship.",
+        "islamic": "Dreams of marital infidelity may indicate Shaytan sowing discord between spouses. Islamic guidance recommends seeking refuge in Allah and not sharing such dreams with the spouse, as they may be mere whispers (waswasa).",
+        "hindu": "Infidelity dreams may relate to the concept of attachment (raga) and the fear of loss. They can indicate the need to strengthen the bond of trust (vishwas) in the relationship."
+      },
+      "follow_up_questions": [
+        "Were you the one cheating or was your partner?",
+        "Who was the third person? Someone you know?",
+        "How did you feel - angry, guilty, relieved, or devastated?",
+        "Is there any distance or tension in your current relationship?",
+        "Have there been trust issues in the past?",
+        "Do you feel emotionally fulfilled in your relationship?"
+      ]
+    },
+
+    {
+      "id": 35,
+      "name_en": "Toilet / Bathroom",
+      "name_zh": "厕所 / 卫生间",
+      "frequency": 7,
+      "frequency_pct": "~32%",
+      "category": "place",
+      "common_variations": [
+        "Can't find a toilet",
+        "Toilet is dirty/overflowing",
+        "No privacy (no door, glass walls)",
+        "Toilet in public place",
+        "Being watched while using toilet",
+        "Toilet won't flush",
+        "Using the toilet and it feels real"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The toilet represents the shadow's processing station - where psychic waste is released. Inability to find one = inability to release or process negative emotions. No privacy = feeling exposed in vulnerability. A dirty toilet = contaminated emotional processing.",
+        "freudian": "Central to anal stage psychology. Represents control, release, letting go, and bodily functions. A clogged toilet = emotional constipation. Can't find a toilet = resistance to letting go of control.",
+        "cognitive": "Often has a physiological component - the body needs to urinate and the brain creates a scenario around this need. Psychologically represents the need to release emotions, let go of negativity, or address 'dirty' issues in private."
+      },
+      "cultural_interpretations": {
+        "western": "Privacy needs, letting go, release of negative emotions, basic needs being unmet. The public nature of dream toilets often reflects vulnerability about private matters becoming public.",
+        "chinese": "周公解梦: Dreaming of a toilet (厕所) can indicate the need to cleanse or release something negative. A clean toilet = upcoming resolution of problems. A dirty toilet = need to address unpleasant matters you've been avoiding.",
+        "islamic": "Toilets in dreams relate to purification (taharah). A clean bathroom = spiritual cleanliness. A dirty bathroom = need for spiritual purification. The need for privacy reflects the importance of modesty (haya).",
+        "hindu": "Relates to the concept of shuddhi (purification) and the release of impurities. The bathroom represents the necessary process of letting go of what no longer serves - both physically and spiritually."
+      },
+      "follow_up_questions": [
+        "What was the condition of the toilet?",
+        "Were you looking for one, or was the issue about privacy?",
+        "Did you actually need to go to the bathroom in real life?",
+        "Is there something you need to release or let go of?",
+        "Is there a private matter you're afraid of becoming public?",
+        "How did you feel - desperate, embarrassed, or disgusted?"
+      ]
+    },
+
+    {
+      "id": 36,
+      "name_en": "Drowning",
+      "name_zh": "溺水",
+      "frequency": 5,
+      "frequency_pct": "~15%",
+      "category": "action",
+      "common_variations": [
+        "Drowning in ocean",
+        "Drowning in pool",
+        "Rescuing someone from drowning",
+        "Being pulled under by something",
+        "Breathing underwater (surviving)",
+        "Watching someone drown",
+        "Drowning in non-water (sand, emotions metaphor)"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Being overwhelmed by the unconscious. The ego is losing its boundary and being dissolved by the waters of the unconscious. If the dreamer survives, it represents successfully navigating the depths. If drowning continues, the ego is overwhelmed.",
+        "freudian": "Overwhelming anxiety, fear of dissolution, return to prenatal state (water = womb). Being submerged = being consumed by repressed emotions.",
+        "cognitive": "Emotional overwhelm - literally 'drowning' in feelings, responsibilities, or circumstances. Reflects waking feelings of being in over your head. The ability to breathe underwater indicates adaptive coping."
+      },
+      "cultural_interpretations": {
+        "western": "Being overwhelmed, in over your head, emotional flooding, losing control. Surviving drowning = overcoming seemingly impossible odds.",
+        "chinese": "周公解梦: Drowning (溺水) warns of potential dangers, especially financial or emotional. Being rescued from drowning = help will come from unexpected sources. Watching someone drown = a relationship needs attention.",
+        "islamic": "Drowning may represent being overwhelmed by worldly affairs or debt. Being rescued = divine intervention. Drowning in clear water = immersion in faith. Drowning in muddy water = falling into fitna (trials).",
+        "hindu": "Drowning represents being caught in the ocean of samsara (cycle of birth and death). The rescue represents moksha (liberation) or the grace of a guru pulling one from the waters of illusion."
+      },
+      "follow_up_questions": [
+        "What type of water were you drowning in?",
+        "Were you alone or was someone else there?",
+        "Did someone rescue you, or did you save yourself?",
+        "What area of your life feels overwhelming right now?",
+        "Could you breathe underwater at any point?",
+        "How did you feel during the drowning - terrified, accepting, or fighting?"
+      ]
+    },
+
+    {
+      "id": 37,
+      "name_en": "War / Battle / Violence",
+      "name_zh": "战争 / 战斗 / 暴力",
+      "frequency": 5,
+      "frequency_pct": "~18%",
+      "category": "event",
+      "common_variations": [
+        "In a war zone",
+        "Physical fight",
+        "Being attacked",
+        "Using weapons",
+        "Surviving a battle",
+        "Mass destruction",
+        "Defending others",
+        "Being a soldier"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Inner conflict between opposing psychic forces. The 'enemies' represent disowned parts of the self. War represents the battle between ego and Shadow, or between competing archetypal demands. Resolution comes through integration, not victory.",
+        "freudian": "Aggression drive (Thanatos) finding expression. Repressed anger, hostility, or territorial instincts surfacing. The targets of violence represent objects of unconscious hostility.",
+        "cognitive": "Threat simulation at its most extreme. Reflects interpersonal conflict, workplace politics, competitive situations, or internal moral conflicts. Can be triggered by violent media consumption or real-world conflict exposure."
+      },
+      "cultural_interpretations": {
+        "western": "Conflict, aggression, competition, inner turmoil, survival instincts. The nature of the conflict and your role in it (aggressor, defender, bystander) reveals your relationship to conflict in waking life.",
+        "chinese": "周公解梦: War and fighting (打仗) may indicate upcoming conflicts or competitive situations. Winning a battle = success in competition. Being defeated = need to reassess strategy. Watching a war = being affected by others' conflicts.",
+        "islamic": "Jihad (struggle) in dreams can represent the inner struggle (jihad al-nafs) against one's lower self. Victory in battle = triumph over temptation. Defending others = standing for justice.",
+        "hindu": "The Bhagavad Gita's Kurukshetra battlefield represents the internal struggle between dharma and adharma. War dreams reflect the eternal battle between one's higher nature and lower impulses."
+      },
+      "follow_up_questions": [
+        "Were you fighting or observing?",
+        "Who was the enemy?",
+        "What weapons were involved?",
+        "Is there a conflict in your waking life - interpersonal, internal, or professional?",
+        "Did you feel righteous, scared, or conflicted during the battle?",
+        "Was there a resolution or did it just keep going?"
+      ]
+    },
+
+    {
+      "id": 38,
+      "name_en": "Hospital / Doctor / Illness",
+      "name_zh": "医院 / 医生 / 疾病",
+      "frequency": 5,
+      "frequency_pct": "~15%",
+      "category": "place",
+      "common_variations": [
+        "Being a patient",
+        "Visiting someone in hospital",
+        "Surgery / operation",
+        "Receiving a diagnosis",
+        "Being healed / recovering",
+        "Hospital maze (can't find the right room)",
+        "Emergency room"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The hospital represents the healing space within the psyche. A doctor may represent the inner healer or Wise Old Man archetype. Surgery = removing psychic complexes. Illness = psychic wounding that needs attention.",
+        "freudian": "Health anxieties, hypochondria, or actual physical symptoms being processed. The doctor represents authority/parental figures. Surgery = fear of violation or the cutting away of parts of the self.",
+        "cognitive": "Health anxiety processing, bodily awareness during sleep (actual pain may manifest as dream surgery), or metaphorical 'illness' in an area of life that needs healing. May be triggered by recent health concerns or hospital visits."
+      },
+      "cultural_interpretations": {
+        "western": "Healing needed, vulnerability, health anxieties, recovery, help-seeking. The type of treatment reveals what kind of help is needed.",
+        "chinese": "周公解梦: Hospitals (医院) may indicate that something in your life needs healing or attention. Being cured = resolution of a problem. A doctor examining you = someone will offer helpful advice.",
+        "islamic": "Illness in dreams can represent spiritual sickness. A doctor can represent a scholar or spiritual guide. Receiving medicine = beneficial knowledge. Being cured = relief from distress.",
+        "hindu": "The divine physician is Dhanvantari (avatar of Vishnu). Hospital dreams may indicate the need for both physical and spiritual healing (chikitsa). Ayurvedic principles suggest dreams reflect imbalances of doshas."
+      },
+      "follow_up_questions": [
+        "Were you the patient or visiting someone?",
+        "What was the illness or reason for being there?",
+        "Were you being treated or waiting?",
+        "Is there a health concern you're worried about?",
+        "Is there an area of your life that needs 'healing'?",
+        "How did the medical staff treat you - caring, cold, or absent?"
+      ]
+    },
+
+    {
+      "id": 39,
+      "name_en": "Airplane / Flying in Aircraft",
+      "name_zh": "飞机",
+      "frequency": 6,
+      "frequency_pct": "~20%",
+      "category": "object",
+      "common_variations": [
+        "Airplane taking off",
+        "Turbulence / rough flight",
+        "Airplane crashing",
+        "Missing your flight",
+        "Being on a plane to wrong destination",
+        "Plane won't take off",
+        "Looking out airplane window",
+        "Being the pilot"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The airplane represents a collective vehicle for transcendence - you're part of a larger project or journey. Being a passenger = surrendering control to collective forces. Being the pilot = taking command of a group endeavor.",
+        "freudian": "Ambition, power, escape from reality. A crashing plane = self-sabotage or fear that ambitions will come crashing down. Take-off = the beginning of a new venture.",
+        "cognitive": "Life trajectory and major life projects. Take-off = launching something new. Turbulence = difficulties in a project. Crash = fear of failure. Missing a flight = missed opportunities. Reflects actual flight anxiety for some."
+      },
+      "cultural_interpretations": {
+        "western": "Ambition, journey, perspective, life trajectory. A smooth flight = life is on track. Turbulence = bumpy road ahead. Crashes = fear of major failure.",
+        "chinese": "周公解梦: Airplanes (飞机) represent career trajectories and ambitious goals. A plane taking off = a new venture beginning. A plane crashing = be cautious in business decisions. Flying high = rising status.",
+        "islamic": "A journey by air may represent a swift change in circumstances. Reaching the destination safely = achieving goals with divine help. A crash = warning to reassess plans.",
+        "hindu": "The vimana (flying vehicle) appears in ancient texts. Airplanes in dreams may represent the movement of the soul, the speed of karmic consequences, or rapid spiritual advancement."
+      },
+      "follow_up_questions": [
+        "Were you a passenger or the pilot?",
+        "Where was the plane going?",
+        "Was the flight smooth or turbulent?",
+        "Are you launching a new project or starting something big?",
+        "Do you have a fear of flying in waking life?",
+        "Did the plane land safely?"
+      ]
+    },
+
+    {
+      "id": 40,
+      "name_en": "Forest / Woods / Jungle",
+      "name_zh": "森林 / 树林",
+      "frequency": 5,
+      "frequency_pct": "~18%",
+      "category": "place",
+      "common_variations": [
+        "Dense dark forest",
+        "Beautiful sunlit forest",
+        "Lost in the woods",
+        "Path through forest",
+        "Forest at night",
+        "Clearing in the forest",
+        "Ancient or magical forest",
+        "Forest fire"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The forest is the classic symbol of the unconscious itself - 'In the middle of the journey of our life, I found myself in a dark wood' (Dante). Entering the forest = entering the unconscious for individuation. A clearing = moment of insight. Animals in the forest = instincts encountered in the unconscious.",
+        "freudian": "The forest represents the unknown, the hidden, and the body (hair = forest metaphor). Getting lost in a forest = losing oneself in the tangle of unconscious drives.",
+        "cognitive": "Exploration, confusion, the unknown, natural instincts, adventure. A dark forest = unclear situation in life. A beautiful forest = connection with nature and peace. Reflects need for solitude and reflection."
+      },
+      "cultural_interpretations": {
+        "western": "The unconscious, the unknown, adventure, danger, transformation. Fairy tales use forests as the transformational space where the hero faces trials (Hansel and Gretel, Little Red Riding Hood, etc.).",
+        "chinese": "周公解梦: Forests (森林) represent growth and abundance. A lush green forest = prosperity. A dead or burning forest = loss or danger. Walking through a forest = spiritual journey or career path.",
+        "islamic": "A garden or forest can represent paradise (jannah) or the world of trials. A beautiful garden = blessings. A thorny thicket = worldly difficulties. Fruit-bearing trees = righteous deeds.",
+        "hindu": "The forest (vana) is the traditional place of spiritual retreat (vanaprastha stage of life). Forests represent the transition from worldly life to spiritual seeking. The Aranya (wilderness) is where sages achieve enlightenment."
+      },
+      "follow_up_questions": [
+        "Was the forest dark or light?",
+        "Were you lost or following a path?",
+        "Were you alone or with someone?",
+        "What animals or creatures did you encounter?",
+        "How did you feel - scared, peaceful, or curious?",
+        "Are you going through a period of exploration or uncertainty?"
+      ]
+    },
+
+    {
+      "id": 41,
+      "name_en": "Door / Doorway",
+      "name_zh": "门",
+      "frequency": 5,
+      "frequency_pct": "~15%",
+      "category": "object",
+      "common_variations": [
+        "Locked door",
+        "Open door",
+        "Door that won't open",
+        "Multiple doors to choose from",
+        "Door leading somewhere unexpected",
+        "Someone knocking at door",
+        "Secret or hidden door",
+        "Revolving door"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Doorways represent transitions between psychic states and opportunities for growth. A locked door = blocked psychological development. An open door = invitation to explore new aspects of self. Choosing between doors = individuation choices.",
+        "freudian": "Doors represent body openings and sexual symbolism. A locked door = repression. Opening a door = sexual initiation or access to repressed material. Knocking = seeking entry/permission.",
+        "cognitive": "Opportunity, transition, choice, access. A locked door = blocked opportunity. An open door = available path. Multiple doors = decision anxiety. Reflects real-life decision points."
+      },
+      "cultural_interpretations": {
+        "western": "Opportunity, transition, boundaries, choices. 'When one door closes, another opens.' The door's condition and what's behind it reveal the nature of the opportunity.",
+        "chinese": "周公解梦: Doors (门) represent opportunities and family fortune. An open door = good fortune and opportunities. A broken door = family problems. A red door (common in Chinese architecture) = prosperity and joy.",
+        "islamic": "Doors represent access to blessings or trials. An open door = divine provision. A closed door = a test of patience. The door of the mosque = access to spiritual knowledge. Knocking = seeking permission.",
+        "hindu": "Doors represent the gateway between the material and spiritual worlds. The temple door (dwar) is the threshold to the divine. Dreams of doors may indicate spiritual opportunities or obstacles to enlightenment."
+      },
+      "follow_up_questions": [
+        "Was the door open, closed, or locked?",
+        "Did you open it? What was on the other side?",
+        "Were you trying to get in or out?",
+        "Is there an opportunity you're considering or feel locked out of?",
+        "How many doors were there? Did you have to choose?",
+        "Did someone else open or close the door?"
+      ]
+    },
+
+    {
+      "id": 42,
+      "name_en": "Losing Wallet / Keys / Important Items",
+      "name_zh": "丢失钱包 / 钥匙 / 重要物品",
+      "frequency": 6,
+      "frequency_pct": "~22%",
+      "category": "action",
+      "common_variations": [
+        "Lost wallet",
+        "Lost keys",
+        "Lost passport/ID",
+        "Lost luggage",
+        "Phone stolen",
+        "Can't find purse",
+        "Items keep disappearing",
+        "Searching frantically for something"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The lost object represents a lost aspect of self-identity or personal power. The wallet = self-worth/resources. Keys = access to solutions. ID = identity itself. The frantic search represents the ego's attempt to reestablish lost ground.",
+        "freudian": "Loss of important objects = castration anxiety (loss of power). The specific item reveals what the dreamer fears losing - money (wallet = value), access (keys = capability), identity (ID = sense of self).",
+        "cognitive": "Security anxiety and fear of losing control. Each item represents a specific concern: wallet = financial insecurity; keys = feeling locked out; phone = disconnection; passport = identity or freedom concerns."
+      },
+      "cultural_interpretations": {
+        "western": "Insecurity, loss of identity, feeling unprepared, anxiety about losing control of important aspects of life.",
+        "chinese": "周公解梦: Losing possessions (丢东西) warns of potential carelessness or actual losses ahead. However, some interpretations say that dreaming of losing something means you'll gain something unexpected in return.",
+        "islamic": "Losing possessions may indicate spiritual carelessness or distraction from what matters. It can serve as a reminder to safeguard one's faith and relationships.",
+        "hindu": "Loss of possessions in dreams relates to the Buddhist/Hindu concept of impermanence (anitya). It may indicate attachment (upadana) that needs to be released for spiritual growth."
+      },
+      "follow_up_questions": [
+        "What did you lose?",
+        "Where did you lose it?",
+        "How frantically were you searching?",
+        "Did you find it eventually?",
+        "Is there something in your life that feels insecure or at risk?",
+        "What does the lost item represent to you?"
+      ]
+    },
+
+    {
+      "id": 43,
+      "name_en": "Road / Path / Journey",
+      "name_zh": "道路 / 旅途",
+      "frequency": 6,
+      "frequency_pct": "~20%",
+      "category": "place",
+      "common_variations": [
+        "Fork in the road",
+        "Winding path",
+        "Blocked road",
+        "Long straight highway",
+        "Off-road / no path",
+        "Road under construction",
+        "Dark road at night",
+        "Road leading to unknown destination"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The road represents the individuation path - the journey toward wholeness. A fork = a critical choice point. A blocked road = an obstacle in psychological development. The condition of the road reflects the condition of the inner journey.",
+        "freudian": "Life's direction and the dreamer's sense of purpose. A smooth road = ego's successful navigation. A rough road = difficulties in satisfying drives. Crossroads = conflicting desires.",
+        "cognitive": "Life direction, decision-making, progress. The road's condition directly maps to how the dreamer perceives their life path. Detours, roadblocks, and forks represent real decision points."
+      },
+      "cultural_interpretations": {
+        "western": "Life's journey, direction, choices, progress. 'The road less traveled' - the choices that define us.",
+        "chinese": "周公解梦: Roads (路) represent life direction. A wide smooth road = success ahead. A narrow difficult road = challenges. A fork in the road = important decision. An uphill road = hard work leading to achievement.",
+        "islamic": "The straight path (sirat al-mustaqim) is central to Islam. Roads in dreams represent one's life direction relative to divine guidance. A clear path = following guidance. A crooked path = deviation.",
+        "hindu": "The path of dharma. Roads represent the different yogic paths (karma yoga, bhakti yoga, jnana yoga, raja yoga). The fork represents the choice between paths. The destination represents moksha."
+      },
+      "follow_up_questions": [
+        "What was the road like - smooth, rough, winding?",
+        "Were you walking, driving, or standing still?",
+        "Were there any forks or obstacles?",
+        "Did you know where you were going?",
+        "Is there a major life direction decision you're facing?",
+        "Who was traveling with you, if anyone?"
+      ]
+    },
+
+    {
+      "id": 44,
+      "name_en": "Rain / Storm",
+      "name_zh": "雨 / 暴风雨",
+      "frequency": 5,
+      "frequency_pct": "~15%",
+      "category": "element",
+      "common_variations": [
+        "Gentle rain",
+        "Violent thunderstorm",
+        "Tornado / hurricane",
+        "Lightning strikes",
+        "Being caught in rain",
+        "Watching storm from shelter",
+        "Rain inside a building",
+        "Rain of unusual things (not water)"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Storms represent emotional turmoil and psychic upheaval. Lightning = sudden insight from the unconscious (illumination). Thunder = the voice of the unconscious demanding attention. Gentle rain = the fertilizing influence of unconscious material.",
+        "freudian": "Emotional release, crying, grief. A storm = suppressed anger erupting. Rain = emotional expression. The severity of the storm reflects the intensity of repressed emotions.",
+        "cognitive": "Emotional weather - the brain creates atmospheric conditions that mirror internal emotional states. Storms = emotional turbulence. Gentle rain = melancholy or renewal. Being sheltered = having coping mechanisms."
+      },
+      "cultural_interpretations": {
+        "western": "Emotions, cleansing, upheaval, renewal. A storm passing = emotional crisis resolving. Rain after drought = emotional relief.",
+        "chinese": "周公解梦: Rain (雨) is generally auspicious, representing blessings and wealth. A gentle rain = prosperity. A violent storm = temporary difficulties. Thunder (雷) = unexpected news or change.",
+        "islamic": "Rain is a mercy from Allah. Gentle rain = blessings and provision. Excessive rain/flood = trials. Lightning = the power of divine revelation. Seeking shelter = seeking divine protection.",
+        "hindu": "Rain is associated with Indra (king of gods) and Varuna (god of water). Monsoon dreams may represent abundance and fertility. Storms represent the dance of Shiva (tandava) - creative destruction."
+      },
+      "follow_up_questions": [
+        "What type of rain or storm was it?",
+        "Were you sheltered or exposed to it?",
+        "How did you feel - scared, peaceful, or exhilarated?",
+        "Is there emotional turbulence in your waking life?",
+        "Was the storm passing or intensifying?",
+        "Were you alone or with others?"
+      ]
+    },
+
+    {
+      "id": 45,
+      "name_en": "Clothing / Dressing",
+      "name_zh": "衣服 / 穿着",
+      "frequency": 5,
+      "frequency_pct": "~18%",
+      "category": "object",
+      "common_variations": [
+        "Wearing wrong clothes for occasion",
+        "Beautiful or powerful clothing",
+        "Torn or dirty clothes",
+        "Can't find clothes to wear",
+        "Wearing someone else's clothes",
+        "Clothing changing on its own",
+        "Uniform or costume",
+        "Traditional/cultural clothing"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Clothing represents the Persona - the social mask we present to the world. Wrong clothes = wearing an inappropriate Persona. Changing clothes = changing roles. No clothes = Persona stripped away, revealing the true self.",
+        "freudian": "Social facade, identity, self-presentation. Beautiful clothes = narcissistic satisfaction. Torn clothes = damaged self-image. Uniform = submission to authority or group identity.",
+        "cognitive": "Identity and social presentation. What you wear in dreams reflects how you see yourself or want to be seen. Wrong outfit = social anxiety. Power suit = confidence. Rags = diminished self-worth."
+      },
+      "cultural_interpretations": {
+        "western": "Identity, social role, self-image, first impressions. Reflects concerns about how others perceive you.",
+        "chinese": "周公解梦: New clothes (新衣服) indicate new beginnings and good fortune. Dirty or torn clothes = trouble ahead. Red clothes = celebration or auspicious events. White clothes may indicate mourning.",
+        "islamic": "Clothing represents one's faith and good deeds. Clean, white garments = purity of faith. Torn or dirty clothes = spiritual negligence. Green clothing = paradise and spiritual advancement.",
+        "hindu": "Clothing represents the gunas (qualities) that cloak the atman (soul). Saffron/orange = renunciation and spirituality. White = purity. The shedding of clothes symbolizes liberation from material identity."
+      },
+      "follow_up_questions": [
+        "What were you wearing?",
+        "Was the clothing appropriate for the situation?",
+        "How did the clothing make you feel?",
+        "Are you adapting to a new role or social situation?",
+        "Were you dressing up or down compared to others?",
+        "Is there a way you present yourself that doesn't feel authentic?"
+      ]
+    },
+
+    {
+      "id": 46,
+      "name_en": "Mountain / Hill",
+      "name_zh": "山",
+      "frequency": 4,
+      "frequency_pct": "~12%",
+      "category": "place",
+      "common_variations": [
+        "Climbing a mountain",
+        "Standing at summit",
+        "Mountain blocking the way",
+        "Falling from mountain",
+        "Mountain crumbling",
+        "Snow-capped mountain",
+        "Volcano",
+        "Looking at mountain from distance"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The mountain represents the Self and the goal of individuation. Climbing = the arduous journey toward wholeness. The summit = achieving a higher state of consciousness. The mountain is both obstacle and goal - it demands effort to reveal the reward.",
+        "freudian": "Phallic symbol, authority, obstacles. Climbing represents ambitious striving. Standing on top = mastery. An impassable mountain = an insurmountable obstacle or authority figure.",
+        "cognitive": "Goals, obstacles, achievement, challenges. The mountain's height reflects the magnitude of the challenge. Success reaching the summit reflects confidence in ability to achieve goals."
+      },
+      "cultural_interpretations": {
+        "western": "Achievement, obstacles, goals, spiritual elevation. 'Moving mountains' = overcoming seemingly impossible challenges.",
+        "chinese": "周公解梦: Mountains (山) symbolize stability, obstacles, and spiritual elevation. Climbing a mountain = career advancement. Standing at the top = achievement. Mountains crumbling = instability in established structures.",
+        "islamic": "Mountains represent firmness and stability (as described in the Quran). They also represent great scholars or leaders. Standing on a mountain = gaining authority. A mountain shaking = a trial of the mighty.",
+        "hindu": "Mountains are sacred (Mount Meru is the center of the universe, Mount Kailash is Shiva's abode). Climbing a mountain in dreams represents spiritual ascent. The Himalayas (abode of snow) represent the highest spiritual attainment."
+      },
+      "follow_up_questions": [
+        "Were you climbing, at the top, or looking at it?",
+        "How difficult was the climb?",
+        "What was the weather like?",
+        "Is there a major goal or obstacle in your life right now?",
+        "Could you see the summit?",
+        "Were you alone or with others?"
+      ]
+    },
+
+    {
+      "id": 47,
+      "name_en": "Fish",
+      "name_zh": "鱼",
+      "frequency": 4,
+      "frequency_pct": "~10%",
+      "category": "animal",
+      "common_variations": [
+        "Fish in clear water",
+        "Dead fish",
+        "Catching fish",
+        "Fish out of water",
+        "Large/whale-like fish",
+        "Eating fish",
+        "Fish tank or aquarium",
+        "Schools of fish"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Fish represent content from the deepest layers of the unconscious - they live in water (the unconscious). Catching a fish = bringing unconscious material into consciousness. The type and size of fish indicates the significance of the insight.",
+        "freudian": "Phallic/fertility symbol. Catching fish = sexual conquest. Fish in water = prenatal symbolism. Dead fish = failed reproductive drive.",
+        "cognitive": "Intuition, ideas below the surface, creativity swimming in the subconscious. Catching a fish = capturing an elusive idea. Fish out of water = feeling out of place."
+      },
+      "cultural_interpretations": {
+        "western": "Abundance, creativity, the unconscious, Christianity (ichthys symbol). A fish out of water = feeling displaced or uncomfortable.",
+        "chinese": "周公解梦: Fish (鱼) is extremely auspicious because 鱼 (yu) sounds like 余 (surplus/abundance). Dreaming of fish = prosperity and abundance. Catching a big fish = major financial gain. Koi fish = perseverance and success.",
+        "islamic": "Fish can represent provision and livelihood. Catching fish = earning halal income. Fresh fish = blessings. Spoiled fish = ill-gotten gains. The story of Prophet Yunus (Jonah) and the whale adds depth to large fish symbolism.",
+        "hindu": "Matsya (fish) is the first avatar of Vishnu, who saved the world from a great flood. Fish in dreams can represent divine protection, the beginning of a new cycle, or salvation from difficulty."
+      },
+      "follow_up_questions": [
+        "What kind of fish was it?",
+        "Was the fish alive and swimming, or dead?",
+        "Were you fishing, watching, or eating?",
+        "What was the water like?",
+        "Is there a creative idea or insight you're trying to capture?",
+        "Do you feel 'in your element' or 'like a fish out of water' right now?"
+      ]
+    },
+
+    {
+      "id": 48,
+      "name_en": "Celebrity / Famous Person",
+      "name_zh": "名人 / 明星",
+      "frequency": 5,
+      "frequency_pct": "~18%",
+      "category": "people",
+      "common_variations": [
+        "Meeting a celebrity",
+        "Being friends with a celebrity",
+        "Romantic encounter with celebrity",
+        "Being a celebrity yourself",
+        "Celebrity giving you advice",
+        "Celebrity in an ordinary setting"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Celebrities represent projected archetypal qualities - the Hero, the Wise Old Man, the Great Mother, etc. The specific celebrity embodies qualities the dreamer admires and wants to integrate. Meeting them = encountering those qualities within.",
+        "freudian": "Wish fulfillment and ego ideals. The celebrity represents the ideal self the dreamer aspires to be. Romantic dreams about celebrities = desire for the qualities they embody, not necessarily the person.",
+        "cognitive": "Media influence on dream content. The celebrity represents admired qualities, desired lifestyles, or aspirational goals. The brain uses familiar cultural figures as shorthand for specific traits."
+      },
+      "cultural_interpretations": {
+        "western": "Aspiration, admiration, desire for recognition, projected qualities. The specific celebrity reveals what the dreamer values or desires.",
+        "chinese": "Dreaming of celebrities (明星) may indicate a desire for recognition and success. It can also reflect admiration for specific qualities the celebrity embodies.",
+        "islamic": "Dreaming of famous scholars or righteous leaders can indicate seeking knowledge or spiritual guidance. Dreaming of worldly celebrities may reflect attachment to dunya (worldly life).",
+        "hindu": "Meeting divine avatars or saints in dreams is considered extremely auspicious in Hindu tradition. Meeting worldly celebrities reflects the dreamer's ambitions and the qualities they wish to develop."
+      },
+      "follow_up_questions": [
+        "Who was the celebrity?",
+        "What were they doing or saying?",
+        "What do you admire most about this person?",
+        "What qualities do they embody that you wish you had?",
+        "How did they treat you in the dream?",
+        "Are you seeking recognition or validation in some area of your life?"
+      ]
+    },
+
+    {
+      "id": 49,
+      "name_en": "Darkness / Night",
+      "name_zh": "黑暗 / 夜晚",
+      "frequency": 6,
+      "frequency_pct": "~22%",
+      "category": "element",
+      "common_variations": [
+        "Complete darkness",
+        "Navigating in darkness",
+        "Something lurking in dark",
+        "Lights going out",
+        "Dark room or building",
+        "Darkness lifting / dawn breaking",
+        "Unable to see"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Darkness represents the unknown aspects of the unconscious. The Shadow literally lives in darkness. Navigating through darkness = making progress despite not understanding consciously. Light emerging = consciousness expanding.",
+        "freudian": "Fear of the unknown, repressed material, death anxiety. Darkness = the repressed unconscious. Light = consciousness and understanding.",
+        "cognitive": "Uncertainty, fear of the unknown, confusion, depression, lack of clarity. Mirrors waking experiences of not seeing a way forward. Dawn breaking = hope emerging."
+      },
+      "cultural_interpretations": {
+        "western": "The unknown, fear, ignorance, depression, mystery. The dreamer's comfort level with darkness reveals their relationship with uncertainty.",
+        "chinese": "周公解梦: Darkness (黑暗) may indicate confusion or difficulties ahead. Moving from darkness to light = resolving problems. Being trapped in darkness = need for guidance.",
+        "islamic": "Darkness may represent ignorance or distance from divine guidance. Light (nur) = faith and guidance. Moving from darkness to light = embracing Islam or deepening faith.",
+        "hindu": "Darkness (tamas) is one of the three gunas - representing ignorance and inertia. Moving from darkness to light represents the journey from tamas to sattva (purity and knowledge). The Gayatri mantra invokes this transition."
+      },
+      "follow_up_questions": [
+        "How dark was it - dim or total blackness?",
+        "Were you afraid or calm in the darkness?",
+        "Was there anything in the dark with you?",
+        "Did light eventually appear?",
+        "Is there an area of your life where you feel 'in the dark'?",
+        "Are you facing uncertainty about something important?"
+      ]
+    },
+
+    {
+      "id": 50,
+      "name_en": "Crying / Tears",
+      "name_zh": "哭泣",
+      "frequency": 6,
+      "frequency_pct": "~20%",
+      "category": "action",
+      "common_variations": [
+        "Crying uncontrollably",
+        "Tears of joy",
+        "Crying but no tears",
+        "Trying not to cry",
+        "Someone else crying",
+        "Waking up actually crying",
+        "Crying blood or unusual substance"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Emotional release that the waking ego has been preventing. The tears represent psychic energy that needs to flow. The reason for crying reveals what the psyche is mourning or celebrating. Tears of joy = breakthrough in individuation.",
+        "freudian": "Release of repressed emotions. The dream provides a safe space for emotional expression that the waking ego forbids. Crying may express grief, anger, frustration, or relief that the conscious mind suppresses.",
+        "cognitive": "Emotional processing during sleep. The brain processes and releases emotional tension. Often the dreamer wakes up feeling emotionally lighter. May reflect genuine sadness, stress, or emotional events being metabolized."
+      },
+      "cultural_interpretations": {
+        "western": "Emotional release, grief, joy, vulnerability, catharsis. The type of crying and its trigger reveal the emotional issue being processed.",
+        "chinese": "周公解梦: Crying (哭) paradoxically can indicate good fortune coming. Loud crying = upcoming celebration. Quiet crying = release of worries. Crying at a funeral = longevity and good health.",
+        "islamic": "Crying in a dream can have multiple meanings. Crying with tears = divine mercy and forgiveness. Crying without tears = a warning. Crying out of fear of Allah = a positive sign of piety.",
+        "hindu": "Tears represent the release of emotional karma. Crying in a dream may indicate the washing away of past sins or the soul's longing for the divine (viraha - the pain of separation from God)."
+      },
+      "follow_up_questions": [
+        "What were you crying about?",
+        "Were the tears sad, angry, or joyful?",
+        "Did you wake up actually crying?",
+        "Is there something in your waking life you've been holding back emotionally?",
+        "Did the crying feel cathartic or distressing?",
+        "Was anyone comforting you?"
+      ]
+    },
+
+    {
+      "id": 51,
+      "name_en": "Dragon",
+      "name_zh": "龙",
+      "frequency": 3,
+      "frequency_pct": "~5% (higher in East Asian populations)",
+      "category": "animal",
+      "common_variations": [
+        "Friendly dragon",
+        "Attacking dragon",
+        "Flying on a dragon",
+        "Slaying a dragon",
+        "Golden/red/black dragon",
+        "Dragon guarding treasure",
+        "Dragon breathing fire",
+        "Baby dragon"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The dragon is one of the most powerful archetypal symbols - it guards the treasure of the Self. The hero's journey requires confronting the dragon to claim the treasure (wholeness). Slaying = overcoming a complex. Befriending = integrating a powerful unconscious force.",
+        "freudian": "The dragon represents the terrifying aspects of the father figure (Oedipal significance) or the devouring mother. It embodies combined fears of authority, destruction, and overwhelming power.",
+        "cognitive": "Power, challenge, fear to overcome, primal forces. The dragon represents the biggest obstacle or most powerful force in the dreamer's life. How the dreamer relates to the dragon reveals their relationship with power."
+      },
+      "cultural_interpretations": {
+        "western": "Challenge to overcome, power, danger, treasure, evil (Christian tradition). The dragon guards what you most desire - you must confront your greatest fear to get it.",
+        "chinese": "周公解梦: The dragon (龙) is the ultimate auspicious symbol in Chinese culture. Dreaming of a dragon = great power, authority, and fortune. A golden dragon = supreme good luck. Flying on a dragon = exceptional success. Dragons represent the emperor, power, and yang energy.",
+        "islamic": "Dragons or large serpents in dreams may represent powerful enemies or great trials. Overcoming a dragon = triumph over a formidable adversary. Fire-breathing = a powerful opposition.",
+        "hindu": "Dragons/serpents (Naga) are divine beings in Hindu cosmology. They guard treasures and sacred knowledge. Dreaming of nagas may indicate the activation of kundalini energy or the protection of spiritual wisdom."
+      },
+      "follow_up_questions": [
+        "Was the dragon friendly or threatening?",
+        "What color was it?",
+        "Did you fight it, run from it, or ride it?",
+        "What was the dragon guarding or protecting?",
+        "What is the biggest challenge or fear in your life right now?",
+        "Did you feel powerful or powerless in the dream?"
+      ]
+    },
+
+    {
+      "id": 52,
+      "name_en": "Old Friend / Reunion",
+      "name_zh": "老朋友 / 重逢",
+      "frequency": 7,
+      "frequency_pct": "~28%",
+      "category": "people",
+      "common_variations": [
+        "Meeting a childhood friend",
+        "Reunion with an ex-partner",
+        "Old classmate appearing",
+        "Friend you lost touch with",
+        "Friend appearing at current age",
+        "Friend appearing at age you last saw them",
+        "Group reunion"
+      ],
+      "psychological_interpretations": {
+        "jungian": "The old friend represents a quality or aspect of the psyche that was active during that period of life. Their appearance suggests that quality is relevant again or needs to be reintegrated. They serve as ambassadors from a previous stage of individuation.",
+        "freudian": "Nostalgia, unfinished business, unresolved relationship dynamics. The specific friend represents a particular drive or conflict from that era of life resurfacing.",
+        "cognitive": "Memory consolidation and emotional processing. The brain revisits past relationships, especially during periods of change. The friend may represent a quality or life lesson from that era that's relevant to a current situation."
+      },
+      "cultural_interpretations": {
+        "western": "Nostalgia, unresolved relationships, qualities from the past resurfacing. The friend represents a version of yourself from that time period.",
+        "chinese": "周公解梦: Meeting old friends (遇到老朋友) indicates that help may come from unexpected sources. It can also suggest that lessons from the past are relevant to current challenges.",
+        "islamic": "Old friends in dreams may represent past good deeds or relationships that continue to benefit. Reunion with a righteous friend = spiritual companionship continues to bless.",
+        "hindu": "Past connections represent karmic bonds (bandhan). Reuniting with old friends may indicate shared karmic lessons or the continuation of bonds across lifetimes."
+      },
+      "follow_up_questions": [
+        "Who was the friend? When did you last see them?",
+        "What were you doing together?",
+        "How did you feel seeing them?",
+        "What do they remind you of about that period of your life?",
+        "Is there something from your past that's relevant to your current situation?",
+        "Have you been feeling nostalgic lately?"
+      ]
+    },
+
+    {
+      "id": 53,
+      "name_en": "Unable to Find Toilet / Bathroom",
+      "name_zh": "找不到厕所",
+      "frequency": 7,
+      "frequency_pct": "~32%",
+      "category": "situation",
+      "common_variations": [
+        "Searching desperately for a bathroom",
+        "All bathrooms are occupied",
+        "Bathrooms are all too dirty to use",
+        "Bathroom has no walls/door",
+        "Finding a bathroom but it's unsuitable",
+        "Bathroom in an impossible location"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Inability to find a private space for releasing psychic waste. The dreamer cannot process and discharge negative material because there is no safe, private container for it. They need a sacred space for inner work.",
+        "freudian": "Anal stage conflicts - the need to release vs. the prohibition against releasing. Reflects control issues, propriety conflicts, and the inability to let go of something in a socially acceptable way.",
+        "cognitive": "Dual trigger: physical bladder pressure during sleep creates the narrative, AND psychological need to find a safe space to process private emotions. Reflects real-life lack of privacy or inability to address personal needs."
+      },
+      "cultural_interpretations": {
+        "western": "Unmet basic needs, lack of privacy, inability to address personal issues. Very common and often has a physiological component.",
+        "chinese": "周公解梦: Searching for a toilet (找厕所) indicates unresolved problems that need attention. The difficulty finding relief mirrors the difficulty addressing the underlying issue.",
+        "islamic": "The search for a place of purification reflects the soul's need for spiritual cleansing. Inability to find it may indicate barriers to repentance or spiritual practice.",
+        "hindu": "Relates to the need for shuddhi (purification) and the search for appropriate space and time for spiritual practice. The obstacles represent worldly distractions preventing inner cleansing."
+      },
+      "follow_up_questions": [
+        "Did you actually need to use the bathroom when you woke up?",
+        "What was wrong with the bathrooms you found?",
+        "Were other people preventing you from using it?",
+        "Is there a private matter you're struggling to find space to deal with?",
+        "Do you feel like your basic needs are being met?",
+        "Is there something you need to release or let go of?"
+      ]
+    },
+
+    {
+      "id": 54,
+      "name_en": "Killing / Murder",
+      "name_zh": "杀人 / 谋杀",
+      "frequency": 4,
+      "frequency_pct": "~15%",
+      "category": "action",
+      "common_variations": [
+        "Killing someone you know",
+        "Killing a stranger",
+        "Killing in self-defense",
+        "Being killed",
+        "Witnessing murder",
+        "Killing accidentally",
+        "Hiding after killing",
+        "Killing an animal"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Killing represents the termination of a psychic complex, attitude, or relationship pattern. Killing a known person = ending your relationship with the quality they represent. Self-defense killing = protecting the ego from being overwhelmed. The guilt after killing = resistance to the necessary change.",
+        "freudian": "Expression of repressed aggression, death wishes, and hostility. Killing a parent = Oedipal resolution. Killing a rival = competitive aggression. The act provides cathartic release for impulses the waking ego forbids.",
+        "cognitive": "Extreme form of conflict resolution in dreams. The target represents something the dreamer wants to eliminate from their life - a habit, relationship dynamic, or aspect of self. Rarely reflects actual violent impulses."
+      },
+      "cultural_interpretations": {
+        "western": "Ending something, eliminating a problem, repressed anger, major change. Usually symbolic rather than literal. The victim represents what the dreamer wants to eliminate.",
+        "chinese": "周公解梦: Killing someone (杀人) in a dream may paradoxically indicate the resolution of a long-standing problem. It can also suggest that the dreamer will receive unexpected wealth or overcome a major rival.",
+        "islamic": "Killing in a dream may represent overcoming an enemy or trials. However, it can also indicate oppression. The identity of the victim and the context determine the meaning. Killing in self-defense = legitimate protection.",
+        "hindu": "The Bhagavad Gita's central dilemma involves Arjuna's reluctance to kill in battle. Killing in dreams may represent the necessary destruction of adharma (unrighteousness) or the ego's death for spiritual rebirth."
+      },
+      "follow_up_questions": [
+        "Who were you killing? Someone you know?",
+        "Was it intentional or accidental?",
+        "How did you feel - horrified, relieved, or numb?",
+        "Is there something in your life you desperately want to end or eliminate?",
+        "Was it in self-defense?",
+        "What happened afterward in the dream?"
+      ]
+    },
+
+    {
+      "id": 55,
+      "name_en": "Eating / Food",
+      "name_zh": "吃东西 / 食物",
+      "frequency": 6,
+      "frequency_pct": "~22%",
+      "category": "action",
+      "common_variations": [
+        "Eating a feast",
+        "Food that tastes strange or wrong",
+        "Unable to eat / food disappearing",
+        "Cooking or preparing food",
+        "Rotten or disgusting food",
+        "Eating with others",
+        "Eating forbidden food",
+        "Endless hunger"
+      ],
+      "psychological_interpretations": {
+        "jungian": "Food represents psychic nourishment - ideas, relationships, experiences that feed the soul. A feast = abundant psychic nutrition. Rotten food = toxic material being ingested. Sharing food = communal psychic exchange.",
+        "freudian": "Oral fixation, desire for satisfaction, hunger for love or approval. The type of food reveals the nature of the desire. Eating excessively = insatiable need. Not being able to eat = deprivation or prohibition.",
+        "cognitive": "Basic needs fulfillment, comfort, satisfaction. Can be triggered by actual hunger during sleep. Psychologically represents what the dreamer is 'consuming' in waking life - ideas, media, relationships. Rotten food = unhealthy influences."
+      },
+      "cultural_interpretations": {
+        "western": "Nourishment, satisfaction, desire, indulgence, comfort. Eating together = community and belonging. Food quality reflects life quality.",
+        "chinese": "周公解梦: Eating (吃东西) in dreams is generally auspicious. A feast = prosperity and celebration. Eating meat = wealth. Eating fruit = good fortune. Eating spoiled food = health warning.",
+        "islamic": "Food represents provision (rizq) from Allah. Halal food = righteous provision. Haram food = unlawful gains. Sharing food = generosity. Sweet food = pleasant words or knowledge.",
+        "hindu": "Food is sacred (anna is Brahman). Eating prasad (blessed food) in dreams is highly auspicious. Food quality reflects the gunas - sattvic food = spiritual nourishment, tamasic food = spiritual degradation."
+      },
+      "follow_up_questions": [
+        "What were you eating?",
+        "How did the food taste - delicious, strange, or revolting?",
+        "Were you eating alone or with others?",
+        "Were you hungry before sleeping?",
+        "Is there an appetite or hunger in your waking life that isn't being satisfied?",
+        "Were you cooking or being served?"
+      ]
+    }
+  ],
+
+  "interpretation_frameworks": {
+    "jungian": {
+      "name": "Jungian / Analytical Psychology",
+      "founder": "Carl Gustav Jung (1875-1961)",
+      "core_concepts": [
+        "Collective Unconscious - shared inherited psychic material expressed through archetypes",
+        "Archetypes - universal patterns (Shadow, Anima/Animus, Self, Persona, Great Mother, Wise Old Man, Divine Child, Trickster)",
+        "Individuation - the lifelong process of integrating unconscious material into consciousness",
+        "Compensation - dreams compensate for the one-sidedness of waking consciousness",
+        "Amplification - connecting dream images to mythological, cultural, and personal parallels"
+      ],
+      "key_principles": [
+        "Dreams are the psyche's attempt to communicate important things to the individual",
+        "Every dream figure and element represents an aspect of the dreamer's own psyche",
+        "Dreams don't disguise - they express in the only language available to them (symbols)",
+        "Personal associations take priority over universal symbol dictionaries",
+        "The dream is a self-portrait of the psyche's current state"
+      ]
+    },
+    "freudian": {
+      "name": "Freudian / Psychoanalytic",
+      "founder": "Sigmund Freud (1856-1939)",
+      "core_concepts": [
+        "Manifest Content - the surface story of the dream",
+        "Latent Content - the hidden, repressed meaning beneath",
+        "Dream-Work - the process that transforms latent to manifest content",
+        "Condensation - multiple ideas compressed into one image",
+        "Displacement - emotional significance shifted from important to trivial elements",
+        "Symbolization - abstract ideas represented by concrete symbols"
+      ],
+      "key_principles": [
+        "Dreams are the 'royal road to the unconscious'",
+        "Dreams are wish fulfillment (disguised gratification of repressed desires)",
+        "The dream censor disguises unacceptable wishes to protect the dreamer's sleep",
+        "Sexual and aggressive drives are primary motivators of dream content",
+        "Free association to dream elements reveals the latent content"
+      ]
+    },
+    "cognitive": {
+      "name": "Cognitive / Neuroscientific",
+      "theories": [
+        {
+          "name": "Threat Simulation Theory (Revonsuo, 2000)",
+          "description": "Dreams evolved to simulate threatening events, rehearsing survival responses in a safe environment"
+        },
+        {
+          "name": "Continuity Hypothesis (Domhoff, 2003)",
+          "description": "Dream content reflects waking-life preoccupations, concerns, and activities - dreams are continuous with waking thought"
+        },
+        {
+          "name": "Social Simulation Theory (Revonsuo, 2009)",
+          "description": "Dreams simulate social interactions to strengthen social bonds and rehearse social skills"
+        },
+        {
+          "name": "Memory Consolidation Theory",
+          "description": "Dreams play a role in consolidating memories, especially emotional memories, from short-term to long-term storage"
+        },
+        {
+          "name": "Emotion Regulation Theory (Walker, 2009)",
+          "description": "REM sleep and dreaming help process emotional experiences, reducing their emotional charge"
+        }
+      ],
+      "key_principles": [
+        "Dream content is influenced by recent experiences (day residue) and ongoing concerns",
+        "The brain creates dream narratives from internally generated neural activity",
+        "REM sleep atonia (muscle paralysis) can manifest as inability to move/run in dreams",
+        "Emotional tone of dreams reflects the dreamer's waking emotional state",
+        "Dreams may serve adaptive functions evolved through natural selection"
+      ]
+    }
+  },
+
+  "cultural_frameworks": {
+    "chinese_zhougong": {
+      "name": "周公解梦 (Duke of Zhou's Dream Interpretation)",
+      "origin": "Zhou Dynasty (1046-256 BCE), China",
+      "key_principles": [
+        "Dreams are messages from the spiritual realm or the unconscious",
+        "Symbols often carry opposite meanings (dreaming of death = longevity)",
+        "Context and personal circumstances affect interpretation",
+        "Dreams are categorized by type: Ordinary, Direct, Scary, Mind, Ailment, Symbolism",
+        "Colors, numbers, and animals carry specific culturally-bound meanings",
+        "Timing within the dream and within the night affects interpretation"
+      ],
+      "unique_aspects": [
+        "Strong emphasis on financial and career predictions",
+        "Homophones create unique symbol meanings (鱼/yu = 余/surplus)",
+        "Five elements (Wu Xing) theory influences interpretation",
+        "Yin-yang balance reflected in dream symbolism"
+      ]
+    },
+    "islamic_ibn_sirin": {
+      "name": "Islamic Dream Interpretation (Ibn Sirin tradition)",
+      "origin": "Ibn Sirin (653-729 CE), Basra, Iraq",
+      "key_principles": [
+        "Three categories: Ru'ya (true visions from Allah), Hadith al-Nafs (self-reflection), Hulm (from Shaytan)",
+        "True dreams are 1/46th of prophethood (hadith)",
+        "Interpretation must consider the dreamer's character, circumstances, and time",
+        "Only qualified persons should interpret dreams",
+        "Some dreams should not be shared widely",
+        "Seeking refuge in Allah from bad dreams is recommended"
+      ],
+      "unique_aspects": [
+        "Quranic verses and prophetic traditions inform specific symbol meanings",
+        "The moral character of the dreamer affects the interpretation",
+        "Certain times (dawn/fajr) produce more truthful dreams",
+        "Dreams shared only with trusted, wise individuals"
+      ]
+    },
+    "hindu_swapna_shastra": {
+      "name": "Swapna Shastra (Science of Dreams)",
+      "origin": "Vedic period (c. 1500 BCE onwards), India",
+      "key_principles": [
+        "Dreams reflect the state of the three gunas (sattva, rajas, tamas)",
+        "The time of night when the dream occurs determines its duration of effect",
+        "First watch: effects last 1 year; Fourth watch: effects last 10 days",
+        "Dreams can indicate dosha imbalances (Ayurvedic connection)",
+        "Divine dreams (darshan) are distinct from ordinary dreams",
+        "Planetary positions influence dream content and meaning"
+      ],
+      "unique_aspects": [
+        "Integration with Ayurvedic health system",
+        "Connection to astrological charts (Jyotish)",
+        "Concept of prarabdha karma affecting dream content",
+        "Sacred animal symbolism tied to specific deities"
+      ]
+    }
+  },
+
+  "follow_up_question_templates": {
+    "universal_questions": [
+      "How did you feel during this dream?",
+      "How did you feel when you woke up?",
+      "Is this a recurring dream? When did it first happen?",
+      "What was happening in your life when you had this dream?",
+      "Did the dream remind you of anything in your waking life?",
+      "Was there anything unusual about the setting or atmosphere?",
+      "Were you yourself in the dream, or were you observing?",
+      "What was the most vivid or memorable detail?",
+      "How did the dream end?",
+      "If you could change one thing about the dream, what would it be?"
+    ],
+    "emotional_exploration": [
+      "What was the strongest emotion in the dream?",
+      "Did the emotion change during the dream?",
+      "Is this an emotion you've been experiencing in waking life?",
+      "Were you surprised by your emotional reaction?",
+      "Did you feel in control of your emotions in the dream?"
+    ],
+    "relationship_exploration": [
+      "Did you recognize anyone in the dream?",
+      "How did the people in the dream treat you?",
+      "Is there a relationship in your waking life that mirrors the dream dynamic?",
+      "Were you trying to reach someone or being reached?",
+      "Did you feel alone, supported, or threatened by others?"
+    ],
+    "symbolic_exploration": [
+      "What stands out most to you about [the symbol]?",
+      "What does [the symbol] remind you of in your own life?",
+      "If [the symbol] could speak, what would it say to you?",
+      "What personal meaning does [the symbol] hold for you?",
+      "Have you encountered [the symbol] in other dreams?"
+    ],
+    "gestalt_role_play": [
+      "If you were [the dream element], what would you say?",
+      "What is your purpose as [the dream element]?",
+      "What do you like about being [the dream element]?",
+      "What do you dislike about being [the dream element]?",
+      "What do you fear most as [the dream element]?",
+      "What do you desire most as [the dream element]?"
+    ]
+  }
+}

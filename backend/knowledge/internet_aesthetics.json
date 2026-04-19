@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Internet-native dream-adjacent aesthetics that originated on Tumblr/Reddit/TikTok 2018-2025. These aren't traditional symbols — they're whole visual moods modern users invoke when describing dreams ('this dream felt very weirdcore'). Powering video-prompt generation + symbol matching for Gen Z users.",
+    "source": "aestheticwiki.org + r/LiminalSpace + r/Dreamcore + Tumblr/X observation",
+    "total_aesthetics": 18
+  },
+  "aesthetics": [
+    {
+      "id": "liminal_space",
+      "name_en": "Liminal Space",
+      "name_zh": "阈限空间",
+      "year_emerged": 2019,
+      "core_imagery": [
+        "empty fluorescent-lit hallways", "hotel corridors at 3 AM",
+        "abandoned mall food courts", "schools after hours",
+        "swimming pools with water but no swimmers", "playgrounds in fog",
+        "carpet patterns from the 1990s", "unmoving escalators",
+        "stairwells that go on too long", "places that should have people but don't"
+      ],
+      "emotional_tone": "uncanny familiarity, gentle dread, déjà vu, suspended time",
+      "color_palette": ["fluorescent yellow-green", "beige carpet", "off-white walls", "muted teal"],
+      "lighting": "harsh overhead fluorescent, sometimes flickering",
+      "camera_grammar": "wide static shots, low-quality digital camera aesthetic, slight fish-eye, pov walking",
+      "reference_works": ["Kane Pixels' Backrooms", "@spacelimina Twitter", "The Backrooms (game)"],
+      "dream_relevance": "Most common Gen Z dream description: 'I was in a place I'd been before but it was empty and wrong.' Map this when user describes: empty institutional spaces, fluorescent light, no people in normally-busy places.",
+      "video_prompt_keywords": "liminal space, empty fluorescent corridor, abandoned mall, 90s carpet, uncanny stillness, no people, slight fish-eye lens, harsh overhead lighting, beige and teal palette",
+      "ai_application": "When user mentions empty hallway / abandoned mall / school at night → trigger liminal_space aesthetic in director."
+    },
+    {
+      "id": "dreamcore",
+      "name_en": "Dreamcore",
+      "name_zh": "梦核",
+      "year_emerged": 2020,
+      "core_imagery": [
+        "fields of distorted-color grass under purple sky",
+        "playgrounds with eyes painted on the slides",
+        "cracked CRT TVs broadcasting static",
+        "stuffed animals in fields",
+        "houses with walls made of clouds",
+        "your childhood bedroom but the geometry is wrong",
+        "long roads with no horizon",
+        "swimming pools with night sky reflected"
+      ],
+      "emotional_tone": "nostalgic, melancholic, surreal-sweet, half-remembered childhood",
+      "color_palette": ["pastel purple", "sunset pink", "lime green", "cyan", "peach"],
+      "lighting": "soft glow, no clear light source, magic-hour everywhere",
+      "camera_grammar": "low-fi vhs grain, dream-blur, slight chromatic aberration, 4:3 aspect",
+      "reference_works": ["@dreamcore_imagery Tumblr", "weirddreamcore subreddit", "Cicada3301 ARG aesthetic"],
+      "dream_relevance": "When user describes: childhood places that feel slightly wrong, surreal-but-tender imagery, 'sunset that wouldn't end' — this is dreamcore.",
+      "video_prompt_keywords": "dreamcore, pastel purple sky, surreal childhood imagery, soft glow, vhs grain, magic hour, oversized stuffed animals, melancholic surreal",
+      "ai_application": "Dominant aesthetic for nostalgic/melancholy dreams featuring childhood imagery."
+    },
+    {
+      "id": "weirdcore",
+      "name_en": "Weirdcore",
+      "name_zh": "怪核",
+      "year_emerged": 2020,
+      "core_imagery": [
+        "pixelated arrows pointing nowhere", "smiley faces stretched too wide",
+        "instructions in a language that's almost-English",
+        "doors that open onto more doors", "MS Paint scribbles over photos",
+        "low-resolution stock photo of grass with text", "wrong-perspective rooms",
+        "staircases drawn in a single point", "JPEG artifacts and saturated cyan"
+      ],
+      "emotional_tone": "surreal unease, technological glitch, thoughts-but-wrong",
+      "color_palette": ["oversaturated cyan", "harsh red", "yellow warning", "JPEG-compression rainbow"],
+      "lighting": "flat, no shadows, photoshopped",
+      "camera_grammar": "early-2000s low-res digital, raw cell phone screenshot energy, MS Paint annotations",
+      "reference_works": ["weirdcore Tumblr tag", "@weirdimagery", "Cell.Block.Tango.7 YouTube"],
+      "dream_relevance": "When dream feels surreal in a 'is this even a dream' way — text in dreams, instructions, signs that don't make sense, glitchy reality.",
+      "video_prompt_keywords": "weirdcore, low-res digital, MS Paint annotations, oversaturated cyan red, JPEG artifacts, flat shadowless lighting, surreal text overlays",
+      "ai_application": "Use for dreams with text/instructions/signs that don't make sense, glitch sensations."
+    },
+    {
+      "id": "traumacore",
+      "name_en": "Traumacore",
+      "name_zh": "创伤核",
+      "year_emerged": 2020,
+      "core_imagery": [
+        "kid's birthday party photos with text overlays of distress",
+        "old VHS family footage with disturbing captions",
+        "stuffed animals on bare mattresses",
+        "pink bedrooms with broken toys",
+        "cake with fork stabbed in it"
+      ],
+      "emotional_tone": "repressed-childhood-pain made visible, dissociative, weaponized cuteness",
+      "color_palette": ["cotton candy pink", "stark white", "deep red"],
+      "lighting": "harsh flash, overexposed, late-90s flash photography",
+      "camera_grammar": "VHS color bleed, polaroid borders, MySpace-era webcam",
+      "reference_works": ["traumacore Tumblr", "Lacey Sturm aesthetic"],
+      "dream_relevance": "When users describe dreams of childhood-but-uncanny, returning to a young version of themselves with adult feelings. Sensitive territory — surface mental health resources.",
+      "video_prompt_keywords": "traumacore, late-90s flash photography, pink bedroom with broken toys, VHS color bleed, polaroid borders, weaponized cuteness, overexposed",
+      "ai_application": "DETECT and proactively offer therapist + IRT. Flag for content warning."
+    },
+    {
+      "id": "kidcore",
+      "name_en": "Kidcore",
+      "name_zh": "童核",
+      "year_emerged": 2018,
+      "core_imagery": [
+        "primary-color plastic toys", "Lisa Frank rainbow stickers",
+        "Crayola crayon scribbles", "CRT TVs playing Saturday cartoons",
+        "Polly Pocket houses", "alphabet wall posters"
+      ],
+      "emotional_tone": "joyful nostalgia, playground innocence, no irony",
+      "color_palette": ["primary red", "sky blue", "school-bus yellow", "grass green"],
+      "lighting": "bright daylight, no shadows",
+      "camera_grammar": "90s film camera grain, square format, child's-eye low angle",
+      "reference_works": ["kidcore Tumblr", "Wee Sing aesthetic"],
+      "dream_relevance": "Sweet childhood dreams, playground / cartoons / sticker stationery imagery.",
+      "video_prompt_keywords": "kidcore, primary colors, Crayola scribbles, Lisa Frank rainbow, child's-eye perspective, 90s film grain, joyful playground"
+    },
+    {
+      "id": "backrooms",
+      "name_en": "The Backrooms",
+      "name_zh": "后室",
+      "year_emerged": 2019,
+      "core_imagery": [
+        "endless yellow office space with mono-fluorescent buzz",
+        "damp carpet smell evocation", "empty cubicle wastelands",
+        "doorways into more identical rooms", "humidity and dust"
+      ],
+      "emotional_tone": "trapped, scaling claustrophobia, slow dread, isolation",
+      "color_palette": ["mono yellow-green", "off-yellow walls", "stained beige carpet"],
+      "lighting": "mono fluorescent, audible 60Hz hum",
+      "camera_grammar": "VHS handycam, motion blur, wide-angle distortion",
+      "reference_works": ["Kane Pixels Backrooms films", "r/backrooms"],
+      "dream_relevance": "Specific subgenre of liminal — when user describes feeling trapped in endless similar rooms, can't find exit. Often anxiety / trapped-in-life metaphor.",
+      "video_prompt_keywords": "backrooms, endless yellow corridor, mono fluorescent buzz, stained carpet, VHS handycam, claustrophobic infinite space"
+    },
+    {
+      "id": "vaporwave",
+      "name_en": "Vaporwave",
+      "name_zh": "蒸汽波",
+      "year_emerged": 2012,
+      "core_imagery": [
+        "Roman busts with sunglasses", "1990s computer wireframes",
+        "purple grids extending to horizon", "palm trees + dolphins + pyramids",
+        "Windows 95 error windows", "VHS tracking lines"
+      ],
+      "emotional_tone": "nostalgia for futures that never happened, ironic capitalism critique",
+      "color_palette": ["hot pink", "cyan", "deep purple", "neon magenta"],
+      "lighting": "neon glow, sunset gradient sky",
+      "camera_grammar": "low-poly 3D, anaglyph 3D, dot crawl",
+      "reference_works": ["Macintosh Plus 'Floral Shoppe'", "vaporwave subreddit"],
+      "dream_relevance": "Specific to dreams with 80s/90s tech aesthetics, computer rooms, neon nostalgia, Tokyo nightscapes.",
+      "video_prompt_keywords": "vaporwave, hot pink cyan purple, Roman bust sunglasses, 90s computer wireframe, purple grid, neon Tokyo, palm trees, VHS tracking"
+    },
+    {
+      "id": "y2k",
+      "name_en": "Y2K",
+      "name_zh": "千禧风",
+      "year_emerged": 2020,
+      "core_imagery": [
+        "frosted-translucent iMac G3", "Motorola flip phones",
+        "low-rise jeans + bedazzled belt", "butterfly clips",
+        "chrome silver everything", "MSN messenger interface",
+        "early-internet pixel butterflies"
+      ],
+      "emotional_tone": "optimistic future-as-imagined-in-1999, glossy hopeful",
+      "color_palette": ["chrome silver", "ice blue", "candy pink", "translucent plastic"],
+      "lighting": "high-key flash photography, bedroom-lamp bedazzled glow",
+      "camera_grammar": "early digital camera, 240p quality, tilt-shift selfie angle",
+      "reference_works": ["@y2k_aesthetic Pinterest", "the matrix interface"],
+      "dream_relevance": "Dreams of teenage years for users born 1990-2005. Bedroom / mall / first AIM convo nostalgia."
+    },
+    {
+      "id": "cottagecore",
+      "name_en": "Cottagecore",
+      "name_zh": "田园核",
+      "year_emerged": 2018,
+      "core_imagery": [
+        "wildflower fields", "linen dresses", "bread baking",
+        "wooden cottages with smoke", "preserved jars on shelves",
+        "deer in misty woods", "Beatrix Potter illustrations"
+      ],
+      "emotional_tone": "pastoral retreat, anti-industrial, soft femininity",
+      "color_palette": ["sage green", "butter yellow", "dusty rose", "honey amber"],
+      "lighting": "golden hour, candle, hearth fire",
+      "camera_grammar": "16mm film, soft focus, painterly",
+      "reference_works": ["Studio Ghibli Howl's Moving Castle", "cottagecore Tumblr"],
+      "dream_relevance": "Escapism dreams of slow rural life — read as need for rest from urban overstimulation."
+    },
+    {
+      "id": "fairycore",
+      "name_en": "Fairycore",
+      "name_zh": "仙灵核",
+      "year_emerged": 2020,
+      "core_imagery": [
+        "mushroom rings", "moss-covered stones",
+        "iridescent dragonfly wings", "moonlit ponds with lily pads",
+        "ferns curling in spirals", "pressed flowers"
+      ],
+      "emotional_tone": "magical realism, hidden world inside the woods",
+      "color_palette": ["moss green", "lavender", "iridescent pearl", "moon silver"],
+      "video_prompt_keywords": "fairycore, mushroom rings, moss stones, iridescent dragonfly, moonlit pond, magical hidden woods"
+    },
+    {
+      "id": "old_web",
+      "name_en": "Old Web / Frutiger Aero",
+      "name_zh": "古早网",
+      "year_emerged": 2021,
+      "core_imagery": [
+        "Windows XP Bliss wallpaper", "iOS skeuomorphic icons",
+        "MSN Messenger", "Windows 7 Aero glass",
+        "early YouTube layouts", "GeoCities pages"
+      ],
+      "emotional_tone": "internet-was-fun nostalgia, pre-algorithm web",
+      "color_palette": ["sky blue gradient", "Windows green", "translucent glass"],
+      "dream_relevance": "Dreams about being on the early internet, MSN convos, MySpace pages."
+    },
+    {
+      "id": "dark_academia",
+      "name_en": "Dark Academia",
+      "name_zh": "暗黑学院风",
+      "year_emerged": 2018,
+      "core_imagery": [
+        "old library reading rooms", "stacks of leather-bound books",
+        "candlelit study desks", "Oxford-style stone courtyards",
+        "tweed jackets, fountain pens", "rain on tall windows"
+      ],
+      "emotional_tone": "intellectual obsession, gothic romance, academic melancholy",
+      "color_palette": ["forest green", "burgundy", "ochre", "warm shadow brown"],
+      "lighting": "warm tungsten lamp, candle, single window beam",
+      "video_prompt_keywords": "dark academia, leather-bound books, candlelit library, tweed, rain on windows, warm tungsten, autumn"
+    },
+    {
+      "id": "cyberpunk_neon",
+      "name_en": "Cyberpunk Neon",
+      "name_zh": "赛博朋克霓虹",
+      "core_imagery": [
+        "rain-soaked Tokyo alleys", "holographic ads", "wet pavement reflections",
+        "robotic limbs", "broken vending machines", "convenience-store fluorescence"
+      ],
+      "color_palette": ["neon pink", "electric cyan", "deep navy", "hot magenta"],
+      "video_prompt_keywords": "cyberpunk, rain-soaked neon street, holographic ads, wet pavement reflection, Blade Runner Tokyo"
+    },
+    {
+      "id": "hauntology",
+      "name_en": "Hauntology",
+      "name_zh": "幽灵学",
+      "year_emerged": 2017,
+      "core_imagery": [
+        "British public information films from 70s",
+        "BBC test cards at midnight",
+        "abandoned playgrounds with pylons",
+        "Children's TV with eerie incidental music",
+        "VHS rentals from a shop that closed in 1989"
+      ],
+      "emotional_tone": "nostalgia for cancelled futures, unresolved past leaking into present",
+      "reference_works": ["Mark Fisher Ghosts of My Life", "Boards of Canada music"],
+      "dream_relevance": "Sophisticated dream-feeling: place-that-shouldn't-be, time-that-shouldn't-be. Often surfaces during user's mid-30s reckoning periods."
+    },
+    {
+      "id": "unsettling_houses",
+      "name_en": "House of Leaves / Wrong House",
+      "name_zh": "怪屋",
+      "core_imagery": [
+        "rooms that are bigger inside than outside",
+        "doors that lead to wrong rooms",
+        "stairs that don't end where they should",
+        "your house but a different floorplan",
+        "extra rooms you didn't know existed"
+      ],
+      "emotional_tone": "spatial wrongness, identity wrongness via place",
+      "dream_relevance": "Common adult dream: discovering an extra room in your own house. Universally interpreted as discovering parts of self.",
+      "video_prompt_keywords": "wrong-floorplan house, infinite stairs, room you didn't know existed, House of Leaves spatial wrongness"
+    },
+    {
+      "id": "vibe_shift_cafecore",
+      "name_en": "Cafécore / Coffee shop ambient",
+      "name_zh": "咖啡馆风",
+      "core_imagery": [
+        "rain on cafe windows", "lo-fi hip hop study girl",
+        "warm steam from latte", "wooden tables with laptop + book"
+      ],
+      "emotional_tone": "comfortable focus, gentle solitude, productive cocooning",
+      "video_prompt_keywords": "cafecore, rain on window, warm steam latte, lo-fi study girl, wooden cafe interior, golden lamplight"
+    },
+    {
+      "id": "sleep_paralysis_demon_aesthetic",
+      "name_en": "Sleep Paralysis Demon Aesthetic",
+      "name_zh": "鬼压床美学",
+      "year_emerged": 2018,
+      "core_imagery": [
+        "shadow figure sitting on chest", "the Hat Man (tall, brimmed hat)",
+        "Old Hag pressing down", "doorway-shaped silhouette",
+        "blurred dark figure in peripheral vision",
+        "you can see the room but cannot move"
+      ],
+      "emotional_tone": "primal terror, witnessed paralysis, uncanny presence",
+      "video_prompt_keywords": "sleep paralysis demon, shadow figure on chest, hat man silhouette, dark doorway figure, paralyzed POV from bed",
+      "dream_relevance": "Specific category — TikTok community has named these archetypes. Real medical phenomenon (hypnopompic hallucinations) + cultural meme. Surface explanatory content."
+    },
+    {
+      "id": "fever_dream_aesthetic",
+      "name_en": "Fever Dream",
+      "name_zh": "高烧梦境",
+      "core_imagery": [
+        "objects pulsing in size", "wallpaper patterns crawling",
+        "your own hands looking wrong", "the ceiling impossibly far",
+        "swarming geometric patterns", "looped meaningless tasks"
+      ],
+      "emotional_tone": "cognitive distortion, body wrongness, looped delirium",
+      "color_palette": ["sickly yellow", "pulsing red", "cold sweat blue"],
+      "video_prompt_keywords": "fever dream, pulsing objects, crawling wallpaper, distorted hands, looped delirium, sickly yellow"
+    }
+  ]
+}

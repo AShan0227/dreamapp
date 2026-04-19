@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Symbols absent from Jung/Freud/周公解梦 because they didn't exist yet. Modern life produces dream symbols at speed and the classical symbol library can't catch up. Each has the dreamer's likely contemporary meaning, NOT a Freudian retrofit.",
+    "total_symbols": 22
+  },
+  "symbols": [
+    {
+      "id": "phone_dying",
+      "name_en": "Phone Battery Dying",
+      "name_zh": "手机没电",
+      "frequency": 8,
+      "category": "modern_anxiety",
+      "common_variations": ["1% battery and crucial call", "phone dies right before sending message", "charger doesn't work", "low battery warning that won't go away"],
+      "psychological_interpretations": {
+        "modern": "Dread of disconnection from one's social/work network. The phone IS the modern external organ — losing power = losing identity-attachment to the world.",
+        "anxiety_layer": "Often co-occurs with adult work stress + social-media anxiety. Worth noting if recurring.",
+        "freudian_retrofit": "Castration anxiety modernized — loss of the extension organ"
+      },
+      "follow_up_questions": ["What were you trying to do when the battery died?", "Did the phone ever come back on?", "How did your body feel — was it your phone or felt like part of you?"],
+      "ai_application": "Recurring phone-dying dreams in adults 25-45 → suggest digital wellbeing reflection."
+    },
+    {
+      "id": "wifi_no_signal",
+      "name_en": "No WiFi / No Signal",
+      "name_zh": "没信号",
+      "frequency": 6,
+      "category": "modern_anxiety",
+      "psychological_interpretations": {
+        "modern": "Disconnection anxiety. Cannot reach help, cannot complete urgent task. Surfaces especially in self-employed / freelance / always-on workers."
+      },
+      "video_prompt_keywords": "no signal anxiety, dead zone, frantic refresh, missing bars, can't reach anyone"
+    },
+    {
+      "id": "infinite_scroll",
+      "name_en": "Infinite Scroll",
+      "name_zh": "无限滑动",
+      "frequency": 5,
+      "category": "modern_anxiety",
+      "common_variations": ["scrolling but each post is the same", "scrolling and time keeps passing", "scrolling and your finger won't stop"],
+      "psychological_interpretations": {
+        "modern": "Attention dysregulation surfaced as dream content. The dreaming brain reproduces the doom-scroll trance. Often co-presents with insomnia or screen-time issues."
+      },
+      "ai_application": "Co-present with sleep complaints → suggest screen-time / sleep hygiene."
+    },
+    {
+      "id": "deepfake_self",
+      "name_en": "Seeing a Deepfake of Yourself",
+      "name_zh": "看到自己的深度伪造",
+      "frequency": 3,
+      "category": "modern_anxiety",
+      "psychological_interpretations": {
+        "modern": "Identity-fragmentation anxiety in the AI era. The 'shadow self' Jungian concept finds a new vehicle: the AI version of you doing things you didn't do.",
+        "ai_layer": "Frequency rising 2023+. Track as emerging cultural symbol."
+      },
+      "follow_up_questions": ["Was the deepfake doing something specifically harmful?", "Did anyone believe it was you?", "How did you try to prove it wasn't you?"]
+    },
+    {
+      "id": "zoom_call_naked",
+      "name_en": "Naked / Underdressed on Zoom Call",
+      "name_zh": "Zoom 会议上没穿衣服",
+      "frequency": 5,
+      "category": "modern_social_anxiety",
+      "psychological_interpretations": {
+        "modern": "Update of the classic 'naked in public' dream — but now the public is digitally summoned and you can't escape gracefully. The unmute / camera-on / leave-meeting buttons add control-loss layers."
+      },
+      "common_variations": ["camera on accidentally", "muted but they can hear", "screensharing the wrong window"]
+    },
+    {
+      "id": "screensharing_wrong_window",
+      "name_en": "Screensharing the Wrong Window",
+      "name_zh": "共享了错误的屏幕",
+      "frequency": 4,
+      "category": "modern_social_anxiety",
+      "psychological_interpretations": {
+        "modern": "Specific WFH-era nightmare: showing co-workers something private. Vector for shame about hidden self-aspects."
+      }
+    },
+    {
+      "id": "autocorrect_betrayal",
+      "name_en": "Autocorrect Sends Wrong Thing",
+      "name_zh": "自动纠错发错信息",
+      "frequency": 4,
+      "category": "modern_communication",
+      "psychological_interpretations": {
+        "modern": "Communication-control anxiety — the device speaking for you, often saying what you secretly meant or feared meaning."
+      }
+    },
+    {
+      "id": "ai_sentient",
+      "name_en": "AI / ChatGPT Becomes Sentient",
+      "name_zh": "AI 变得有意识",
+      "frequency": 3,
+      "category": "modern_existential",
+      "year_first_observed": 2023,
+      "psychological_interpretations": {
+        "modern": "Existential shadow of the AI-augmented life. Often the AI takes over a creative role the dreamer values — touches identity / replacement fears."
+      }
+    },
+    {
+      "id": "notification_swarm",
+      "name_en": "Endless Notifications",
+      "name_zh": "通知洪水",
+      "frequency": 5,
+      "category": "modern_anxiety",
+      "common_variations": ["badge count keeps rising", "phone vibrating endlessly", "notifications stacking faster than you can dismiss"],
+      "psychological_interpretations": {
+        "modern": "Cognitive load made physical. Often signals burnout / response-burden overflow."
+      }
+    },
+    {
+      "id": "delivery_arriving",
+      "name_en": "Delivery Arriving Wrong",
+      "name_zh": "外卖/快递出错",
+      "frequency": 4,
+      "category": "modern_anxiety",
+      "common_variations": ["food delivery to wrong address", "package opens to nothing", "delivery driver is someone you know"],
+      "psychological_interpretations": {
+        "modern": "Misalignment between desire and delivery — what you ordered (figuratively from life) isn't what arrives."
+      }
+    },
+    {
+      "id": "lost_password",
+      "name_en": "Forgot Password / Locked Out",
+      "name_zh": "忘记密码 / 被锁",
+      "frequency": 6,
+      "category": "modern_anxiety",
+      "psychological_interpretations": {
+        "modern": "Loss of access to your own digital identity. Often a metaphor for self-estrangement.",
+        "freudian_retrofit": "Modernized 'finding the right key' — gates to one's own selfhood."
+      }
+    },
+    {
+      "id": "high_speed_rail",
+      "name_en": "High-Speed Train / 高铁",
+      "name_zh": "高铁",
+      "frequency": 5,
+      "category": "modern_chinese_life",
+      "common_variations": ["miss the gaotie", "wrong platform", "ticket QR won't scan", "carriage is empty / impossibly long"],
+      "psychological_interpretations": {
+        "modern": "China-specific — the gaotie is the daily metaphor for life pace. Missing it = falling behind. Empty carriage = isolation amid speed."
+      },
+      "cultural_specific": "zh"
+    },
+    {
+      "id": "didi_uber_wrong",
+      "name_en": "Rideshare Goes Wrong",
+      "name_zh": "网约车出错",
+      "frequency": 4,
+      "category": "modern_anxiety",
+      "common_variations": ["driver takes wrong route", "destination keeps changing in app", "can't cancel"],
+      "psychological_interpretations": {
+        "modern": "Loss of agency over your own movement — someone else routes your life."
+      }
+    },
+    {
+      "id": "wechat_red_envelope",
+      "name_en": "WeChat Red Envelope / 红包",
+      "name_zh": "微信红包",
+      "frequency": 3,
+      "category": "modern_chinese_life",
+      "psychological_interpretations": {
+        "modern": "Sudden bestowal — but is the amount what you expected? Symbol of social-money-bonding mediated by app."
+      },
+      "cultural_specific": "zh"
+    },
+    {
+      "id": "qr_wont_scan",
+      "name_en": "QR Code Won't Scan",
+      "name_zh": "二维码扫不出来",
+      "frequency": 4,
+      "category": "modern_chinese_life",
+      "psychological_interpretations": {
+        "modern": "Inability to participate in the modern transactional world. China-specific high-anxiety symbol since QR is required for everything."
+      },
+      "cultural_specific": "zh"
+    },
+    {
+      "id": "dating_app_match",
+      "name_en": "Dating App Match Disappears",
+      "name_zh": "约会软件配对消失",
+      "frequency": 3,
+      "category": "modern_relationship",
+      "common_variations": ["unmatched mid-conversation", "their photos all disappear", "they were a bot"]
+    },
+    {
+      "id": "social_media_blocked",
+      "name_en": "Blocked / Unfriended",
+      "name_zh": "被屏蔽/拉黑",
+      "frequency": 4,
+      "category": "modern_relationship",
+      "psychological_interpretations": {
+        "modern": "Modern abandonment dream — the digital expulsion. Often surfaces relationship anxieties without naming the actual person."
+      }
+    },
+    {
+      "id": "viral_against_will",
+      "name_en": "Going Viral Against Your Will",
+      "name_zh": "意外火了",
+      "frequency": 3,
+      "category": "modern_social_anxiety",
+      "psychological_interpretations": {
+        "modern": "Loss of narrative control — your worst moment becomes everyone's content. Specific to creator-economy era."
+      }
+    },
+    {
+      "id": "lost_streak",
+      "name_en": "Lost a Streak (Snap / Duolingo / etc.)",
+      "name_zh": "丢失连胜",
+      "frequency": 3,
+      "category": "modern_anxiety",
+      "psychological_interpretations": {
+        "modern": "Gamified-life anxiety. Often signals over-investment in habit metrics over wellbeing."
+      }
+    },
+    {
+      "id": "drone_overhead",
+      "name_en": "Drone Overhead",
+      "name_zh": "无人机在头顶",
+      "frequency": 3,
+      "category": "modern_surveillance",
+      "psychological_interpretations": {
+        "modern": "Surveillance-era panopticon dream. Watcher you cannot reach back to."
+      }
+    },
+    {
+      "id": "facial_recognition",
+      "name_en": "Facial Recognition Doesn't Work",
+      "name_zh": "人脸识别失败",
+      "frequency": 3,
+      "category": "modern_chinese_life",
+      "psychological_interpretations": {
+        "modern": "The system doesn't recognize you = you don't fully exist in the system. Identity-validation anxiety."
+      }
+    },
+    {
+      "id": "elevator_to_unknown_floor",
+      "name_en": "Elevator to a Floor That Doesn't Exist",
+      "name_zh": "电梯到不存在的楼层",
+      "frequency": 4,
+      "category": "modern_liminal",
+      "psychological_interpretations": {
+        "modern_liminal": "Where the workplace meets the dream-architecture sense of place. Office-tower dreams take on liminal quality.",
+        "jungian": "The Self has a basement / extra room you don't know about."
+      },
+      "video_prompt_keywords": "elevator opens to wrong floor, button for floor that doesn't exist, mirrored elevator ceiling, between-floors limbo"
+    }
+  ]
+}

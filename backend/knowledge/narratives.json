@@ -1,0 +1,1032 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-04-14",
+    "description": "Dream narrative archetypes knowledge base for AI dream interpretation. Maps recurring story patterns in dreams to psychological significance, life stages, and interpretive frameworks.",
+    "sources": {
+      "narrative_theory": [
+        "Campbell, Joseph (1949) - The Hero with a Thousand Faces",
+        "Booker, Christopher (2004) - The Seven Basic Plots: Why We Tell Stories",
+        "Vogler, Christopher (2007) - The Writer's Journey: Mythic Structure for Writers",
+        "Propp, Vladimir (1928) - Morphology of the Folktale"
+      ],
+      "dream_research": [
+        "Hall & Van de Castle (1966) - Content Analysis of Dreams",
+        "Domhoff, G. William (2003) - The Scientific Study of Dreams",
+        "Hartmann, Ernest (1998) - Dreams and Nightmares: The Origin and Meaning of Dreams",
+        "Barrett, Deirdre (2001) - The Committee of Sleep",
+        "Revonsuo, Antti (2000) - The Reinterpretation of Dreams: An Evolutionary Hypothesis",
+        "Nielsen & Stenstrom (2005) - Typical Dreams Questionnaire"
+      ],
+      "psychological": [
+        "Jung, C.G. (1964) - Man and His Symbols",
+        "Jung, C.G. (1959) - The Archetypes and the Collective Unconscious",
+        "Freud, Sigmund (1900) - The Interpretation of Dreams",
+        "Hillman, James (1979) - The Dream and the Underworld",
+        "Von Franz, Marie-Louise (1996) - The Interpretation of Fairy Tales"
+      ],
+      "cultural": [
+        "Zhou Gong Jie Meng (周公解梦) - Duke of Zhou's Dream Dictionary",
+        "Ibn Sirin (653-729 CE) - Islamic Dream Interpretation",
+        "Swapna Shastra - Vedic Dream Science"
+      ]
+    },
+    "usage": "The AI should analyze a dream description, identify which narrative archetype(s) the dream follows, and use the archetype data to provide deeper structural interpretation beyond individual symbol analysis."
+  },
+
+  "narrative_archetypes": [
+    {
+      "id": 1,
+      "name_en": "The Hero's Journey",
+      "name_zh": "英雄之旅",
+      "description": "The dreamer is called away from ordinary life, faces trials or opponents in an unfamiliar world, gains something valuable, and returns transformed. This is the fundamental narrative of growth through ordeal. The dream may compress the entire arc into a single scene or play out one stage in detail.",
+      "typical_dream_scenarios": [
+        "Receiving a mysterious message, letter, or phone call that compels you to go somewhere",
+        "Leaving home and traveling through increasingly strange or dangerous landscapes",
+        "Being given a task or mission by an authority figure or stranger",
+        "Fighting a monster, villain, or impossible obstacle and prevailing",
+        "Finding a treasure, artifact, or piece of knowledge after a long journey",
+        "Returning home after an adventure to find things subtly changed",
+        "Being guided by a wise old figure through a dangerous place",
+        "Refusing a call or opportunity and feeling mounting dread"
+      ],
+      "emotional_arc": {
+        "stages": ["restlessness or dissatisfaction", "excitement mixed with fear at the call", "anxiety during the threshold crossing", "determination during trials", "despair at the lowest point", "exhilaration at triumph", "calm integration upon return"],
+        "dominant_feeling": "A sense of being tested and ultimately proving equal to the challenge",
+        "wake_feeling": "Often empowered, sometimes exhausted, occasionally frustrated if the journey was left incomplete"
+      },
+      "psychological_significance": {
+        "primary": "The psyche is processing a major life transition or challenge. The ego is being called to expand beyond its current boundaries. The trials represent real obstacles the dreamer faces, and the treasure represents the psychological resource they need to develop.",
+        "jungian": "The individuation process itself. The hero represents the ego venturing into the unconscious (the unknown world) to integrate shadow material and return with greater wholeness.",
+        "developmental": "Reflects the universal human pattern of growth through challenge. The dreamer's unconscious is rehearsing courage and competence for a real-world demand."
+      },
+      "life_stage_correlation": [
+        "Late adolescence and early adulthood (leaving home, finding identity)",
+        "Career transitions (new job, promotion, starting a business)",
+        "Any period requiring the dreamer to step into a new, larger role",
+        "Post-crisis recovery when the psyche is rebuilding confidence"
+      ],
+      "detection_keywords": [
+        "quest", "journey", "mission", "adventure", "called", "chosen",
+        "traveled far", "long road", "left home", "set out",
+        "fought", "battled", "overcame", "found something",
+        "came back", "returned", "brought back", "treasure",
+        "guide", "mentor", "wise old", "helper",
+        "couldn't refuse", "had to go", "destiny", "task"
+      ],
+      "related_symbols": [
+        "sword", "path", "mountain", "cave", "treasure", "map",
+        "wise old man/woman", "threshold", "gate", "forest",
+        "dragon", "monster", "amulet", "horse", "ship"
+      ]
+    },
+
+    {
+      "id": 2,
+      "name_en": "The Descent / Katabasis",
+      "name_zh": "下降 / 冥界之旅",
+      "description": "The dreamer goes downward: into basements, caves, underwater, underground tunnels, or into darkness itself. This is the narrative of confronting what lies beneath consciousness. Unlike the Hero's Journey, the emphasis is not on triumph but on witnessing, enduring, and understanding what exists in the depths.",
+      "typical_dream_scenarios": [
+        "Descending stairs into a basement that keeps going deeper than possible",
+        "Swimming or sinking into deep dark water",
+        "Entering a cave, mine, or tunnel that leads underground",
+        "Being buried alive or sinking into earth",
+        "Walking into progressively darker rooms",
+        "Discovering hidden rooms below a familiar building",
+        "Visiting the dead or encountering deceased people underground",
+        "Finding ancient ruins or forgotten civilizations beneath the surface"
+      ],
+      "emotional_arc": {
+        "stages": ["curiosity or compulsion to descend", "growing unease as light fades", "dread or awe in the deepest point", "encounter with something profound or terrifying", "slow return with changed perspective"],
+        "dominant_feeling": "A mixture of fear and fascination, the sense of approaching something forbidden or sacred",
+        "wake_feeling": "Often shaken but with a feeling of having touched something real and important"
+      },
+      "psychological_significance": {
+        "primary": "The dreamer is descending into their own unconscious. What they find below represents repressed memories, buried emotions, shadow material, or ancestral/collective patterns. This dream often occurs when the psyche is ready to process deep material.",
+        "jungian": "Classic nekyia or night-sea journey. The descent into the collective unconscious to retrieve lost soul fragments. The underworld represents the deepest layers of the psyche where transformation happens outside ego control.",
+        "developmental": "Often signals that surface-level coping has reached its limits and the dreamer needs to go deeper to find resolution. Can indicate readiness for therapy or deep self-examination."
+      },
+      "life_stage_correlation": [
+        "Midlife crisis or midlife transition (the classic Dantean descent)",
+        "During or after grief and bereavement",
+        "Depression or dark night of the soul periods",
+        "After trauma, when the psyche begins processing buried material",
+        "Spiritual awakening or deepening of inner life"
+      ],
+      "detection_keywords": [
+        "went down", "descended", "underground", "basement", "cellar",
+        "cave", "tunnel", "mine", "deep water", "ocean floor",
+        "sinking", "buried", "beneath", "below", "under",
+        "darkness", "couldn't see", "deeper and deeper",
+        "discovered underneath", "hidden room below",
+        "dead people", "ancient", "ruins", "forgotten"
+      ],
+      "related_symbols": [
+        "stairs going down", "basement", "cave", "ocean", "well",
+        "coffin", "grave", "darkness", "lantern", "candle",
+        "bones", "roots", "underground river", "subterranean city",
+        "dead relatives", "ancient artifacts"
+      ]
+    },
+
+    {
+      "id": 3,
+      "name_en": "The Chase / Pursuit",
+      "name_zh": "追逐 / 逃亡",
+      "description": "The dreamer is hunted, pursued, or fleeing from a threatening force. The narrative is dominated by the tension between pursuer and pursued, the desperate search for escape, and the feeling that no matter how fast you run, the threat keeps coming. Occasionally the dreamer is the pursuer rather than the prey.",
+      "typical_dream_scenarios": [
+        "Being chased by an unknown shadowy figure through city streets",
+        "Running from a wild animal (wolf, bear, snake) through a forest",
+        "Fleeing from a natural disaster (flood, fire, tornado) that is gaining on you",
+        "Being pursued by police, soldiers, or authority figures",
+        "Trying to run but legs feel heavy, stuck in slow motion",
+        "Hiding and hoping the pursuer doesn't find you",
+        "Being chased through a familiar place that has become threatening",
+        "Chasing someone or something that keeps slipping away"
+      ],
+      "emotional_arc": {
+        "stages": ["sudden awareness of danger", "surge of adrenaline and panic", "desperate flight and frantic decision-making", "mounting terror as escape narrows", "either capture/confrontation or escape/waking"],
+        "dominant_feeling": "Pure visceral fear and the survival imperative, the body in full fight-or-flight",
+        "wake_feeling": "Heart pounding, sweating, relief at waking, lingering anxiety"
+      },
+      "psychological_significance": {
+        "primary": "The dreamer is avoiding something in waking life: a difficult conversation, a responsibility, an emotion, a truth about themselves. The pursuer often embodies whatever the dreamer refuses to face. The dream escalates because avoidance makes the threat grow larger.",
+        "jungian": "The pursuer frequently represents the Shadow. What we refuse to integrate pursues us with increasing intensity. The dream asks: what are you running from, and what would happen if you stopped and turned around?",
+        "evolutionary": "Threat Simulation Theory (Revonsuo): the brain rehearses escape from predators and dangers. This is one of the oldest and most universal dream narratives, rooted in survival circuitry."
+      },
+      "life_stage_correlation": [
+        "Any period of high stress, deadline pressure, or overwhelm",
+        "When avoiding a necessary confrontation or decision",
+        "During anxiety disorders or PTSD",
+        "Childhood and adolescence (most frequent chase dreams)",
+        "Times of major avoidance of responsibility or truth"
+      ],
+      "detection_keywords": [
+        "chased", "chasing", "ran", "running", "fleeing", "escape",
+        "pursuing", "followed", "hunted", "couldn't get away",
+        "hiding", "hiding from", "catching up", "gaining on me",
+        "couldn't run", "legs wouldn't move", "slow motion",
+        "they found me", "got away", "trapped",
+        "someone after me", "being followed", "stalked"
+      ],
+      "related_symbols": [
+        "shadow figure", "wolf", "bear", "monster", "stranger",
+        "darkness", "alley", "forest", "locked doors",
+        "heavy legs", "mud", "slow motion", "hiding place",
+        "labyrinth", "dead end", "weapon"
+      ]
+    },
+
+    {
+      "id": 4,
+      "name_en": "The Metamorphosis",
+      "name_zh": "变形 / 蜕变",
+      "description": "The dreamer or someone in the dream transforms: becoming an animal, changing gender or age, dissolving into elements, growing wings, merging with another being. The narrative centers on the experience of identity becoming fluid and the self becoming something other than what it was.",
+      "typical_dream_scenarios": [
+        "Gradually turning into an animal (bird, wolf, fish, snake)",
+        "Looking in a mirror and seeing a different face or body",
+        "Aging rapidly or becoming young again",
+        "Growing wings, gills, or other non-human features",
+        "Body dissolving into water, light, smoke, or earth",
+        "Merging with another person and sharing their consciousness",
+        "Watching someone else transform into something unexpected",
+        "Shedding skin like a snake or emerging from a cocoon"
+      ],
+      "emotional_arc": {
+        "stages": ["initial surprise or disorientation", "fascination or horror at the change", "struggle between old and new identity", "surrender to the transformation", "experience of the new form's capabilities or limitations"],
+        "dominant_feeling": "A vertiginous loss of familiar identity mixed with awe at new possibilities",
+        "wake_feeling": "Disoriented, with a lingering sense of expanded identity or existential questioning"
+      },
+      "psychological_significance": {
+        "primary": "The dreamer's identity is in flux. Something fundamental is changing in how they see themselves. The specific transformation reveals the direction: becoming an animal suggests reconnecting with instinct; becoming younger suggests reclaiming lost vitality; dissolving suggests ego death and spiritual expansion.",
+        "jungian": "The transformation process of individuation made visible. The Self is showing the ego that identity is more fluid than the ego believes. Animal transformations often represent integration of instinctual, body-level wisdom.",
+        "developmental": "Identity is being restructured. The dreamer is outgrowing an old self-concept and the psyche is experimenting with new ways of being."
+      },
+      "life_stage_correlation": [
+        "Adolescence and puberty (body and identity transformation)",
+        "Gender or sexual identity exploration at any age",
+        "Midlife reinvention or career change",
+        "Spiritual transformation or awakening",
+        "Recovery from illness or injury that changed the body",
+        "Pregnancy and postpartum (body radically changing)"
+      ],
+      "detection_keywords": [
+        "turned into", "became", "transformed", "changed into",
+        "shape-shifted", "morphed", "growing", "shrinking",
+        "wings", "tail", "fur", "scales", "feathers",
+        "not myself", "different body", "someone else",
+        "mirror showed", "reflection was different",
+        "dissolving", "melting", "merging", "shedding skin",
+        "cocoon", "hatching", "emerging", "evolving"
+      ],
+      "related_symbols": [
+        "butterfly", "snake shedding skin", "cocoon", "chrysalis",
+        "mirror", "mask", "animal", "bird", "wolf",
+        "water", "fire", "moon phases", "seasons changing",
+        "egg", "seed", "caterpillar", "phoenix"
+      ]
+    },
+
+    {
+      "id": 5,
+      "name_en": "The Labyrinth",
+      "name_zh": "迷宫 / 迷途",
+      "description": "The dreamer is lost, disoriented, or trapped in a confusing space. They search for a way out, a destination, or a specific person/thing, but paths keep shifting, maps don't work, and familiar places become unrecognizable. The narrative is defined by frustrated searching and the inability to find one's way.",
+      "typical_dream_scenarios": [
+        "Being lost in a building with endless corridors and identical doors",
+        "Wandering a city where streets keep changing and you can't find your way",
+        "Trying to get somewhere but every route leads back to the start",
+        "Searching for someone in a crowd and never finding them",
+        "GPS or maps not working, directions making no sense",
+        "A familiar place (home, school, workplace) rearranged into a maze",
+        "Walking through a forest where all directions look the same",
+        "Trying to reach a destination that keeps moving further away"
+      ],
+      "emotional_arc": {
+        "stages": ["initial confidence that you know where you are", "growing confusion as landmarks disappear", "frustration and mounting anxiety", "desperation and exhaustion", "either finding the way or surrendering to being lost"],
+        "dominant_feeling": "Disorientation, frustration, and the creeping realization that rational navigation has failed",
+        "wake_feeling": "Exhausted, anxious, sometimes relieved, occasionally with a residual sense of having no direction"
+      },
+      "psychological_significance": {
+        "primary": "The dreamer feels lost in some dimension of their waking life. They lack direction, clarity, or a clear path forward. The labyrinth represents a problem or life situation that cannot be solved by linear thinking. The dream asks: what are you trying to find, and are you looking in the right way?",
+        "jungian": "The labyrinth is a symbol of the journey inward. Getting lost is necessary because the goal cannot be reached by the ego's preferred direct route. The Minotaur at the center represents the truth the dreamer must eventually face.",
+        "developmental": "Reflects periods of genuine confusion about life direction, values, or identity. The dreamer needs a new orientation system because the old one no longer works."
+      },
+      "life_stage_correlation": [
+        "Quarter-life crisis (early-to-mid 20s, uncertain about direction)",
+        "After a major loss that removes the structure of daily life",
+        "Career confusion or existential questioning at any age",
+        "Relationship ambiguity or uncertainty about commitment",
+        "Decision paralysis when facing too many options",
+        "Cultural displacement (immigration, relocation)"
+      ],
+      "detection_keywords": [
+        "lost", "couldn't find", "searching", "looking for",
+        "maze", "labyrinth", "endless corridors", "wrong turn",
+        "kept going in circles", "back to where I started",
+        "couldn't find the way", "no exit", "all the doors",
+        "nothing looked familiar", "the map was wrong",
+        "trying to get to", "couldn't reach", "kept moving away",
+        "which way", "no direction", "confused", "disoriented"
+      ],
+      "related_symbols": [
+        "maze", "corridors", "doors", "map", "compass",
+        "crossroads", "fog", "mirror house", "spiral",
+        "thread", "breadcrumbs", "forest", "city streets",
+        "stairs", "tunnels", "signposts with wrong directions"
+      ]
+    },
+
+    {
+      "id": 6,
+      "name_en": "The Revelation / Epiphany",
+      "name_zh": "启示 / 顿悟",
+      "description": "The dreamer discovers something hidden: a secret room, a forgotten truth, a message meant just for them. The narrative centers on the moment of unveiling, when something previously invisible becomes blindingly clear. The dream carries a charge of significance, as though the universe is communicating directly.",
+      "typical_dream_scenarios": [
+        "Finding a hidden room in your house you never knew existed",
+        "Opening a book and the words rearrange into a personal message",
+        "A deceased person delivering an important piece of information",
+        "Suddenly understanding a complex problem or life situation with total clarity",
+        "Lifting a veil or curtain and seeing reality behind appearances",
+        "Receiving a phone call, letter, or email with life-changing news",
+        "Seeing the future or a clear vision of what must be done",
+        "Being shown the answer by a guide, teacher, or luminous figure"
+      ],
+      "emotional_arc": {
+        "stages": ["sense that something is about to be revealed", "growing anticipation or sacred dread", "the moment of revelation, charged with meaning", "awe, clarity, or shock", "urgency to remember the message before waking"],
+        "dominant_feeling": "A numinous quality of profound significance, the feeling that this matters deeply",
+        "wake_feeling": "Intense desire to remember, sometimes lingering clarity, sometimes frustration that the message is fading"
+      },
+      "psychological_significance": {
+        "primary": "The unconscious is delivering a message the conscious mind has been unable or unwilling to receive. The hidden room represents unexplored potential. The message represents knowledge the dreamer already possesses but has not yet acknowledged. These dreams often contain genuinely useful insights.",
+        "jungian": "The Self communicating with the ego through symbols. These are often what Jung called 'big dreams' with numinous quality. The hidden room is undiscovered aspects of the personality. The message from the dead represents ancestral or transpersonal wisdom.",
+        "developmental": "Occurs when the psyche has been working on a problem and has reached a solution below the threshold of consciousness. Also signals readiness for a new level of self-knowledge."
+      },
+      "life_stage_correlation": [
+        "Turning points and crossroads when a decision is needed",
+        "During creative projects when the subconscious is processing material",
+        "After long periods of reflection, therapy, or self-examination",
+        "Bereavement, when processing a relationship with the deceased",
+        "Spiritual practice deepening into genuine insight",
+        "Scientific or artistic breakthroughs (Barrett's Committee of Sleep)"
+      ],
+      "detection_keywords": [
+        "discovered", "found", "hidden", "secret", "revealed",
+        "suddenly understood", "realized", "it all made sense",
+        "message", "told me", "showed me", "knew",
+        "hidden room", "secret door", "behind the wall",
+        "vision", "prophecy", "the answer", "clarity",
+        "someone said something important", "I could see clearly",
+        "unveiled", "lifted the veil", "truth", "light"
+      ],
+      "related_symbols": [
+        "hidden room", "secret door", "book", "scroll", "letter",
+        "light", "sun", "eye", "crystal", "key",
+        "wise figure", "deceased relative", "angel", "voice",
+        "mountaintop", "lightning", "dawn", "opened box"
+      ]
+    },
+
+    {
+      "id": 7,
+      "name_en": "The Loss / Separation",
+      "name_zh": "失去 / 离别",
+      "description": "The dreamer loses someone or something precious: a loved one disappears, a child wanders off, a treasured possession is stolen or destroyed. The narrative is dominated by grief, desperate searching, and the ache of absence. Sometimes the dreamer is the one leaving.",
+      "typical_dream_scenarios": [
+        "A loved one dying or disappearing and you can't stop it",
+        "Losing a child in a crowd and searching frantically",
+        "A partner leaving and you are unable to follow",
+        "Watching a house burn or a precious object shatter",
+        "Saying goodbye knowing you will never see the person again",
+        "A pet running away and you calling after it",
+        "Your teeth falling out one by one (loss of part of self)",
+        "Being left behind as everyone else moves forward"
+      ],
+      "emotional_arc": {
+        "stages": ["awareness that something is about to be lost", "desperate attempt to prevent the loss", "the moment of losing, grief flooding in", "emptiness and desolation", "sometimes acceptance or a transformed relationship with what was lost"],
+        "dominant_feeling": "Deep grief, helplessness, and the ache of absence",
+        "wake_feeling": "Sadness, sometimes tears, lingering sense of loss, occasionally relief that it was a dream followed by appreciation for what one has"
+      },
+      "psychological_significance": {
+        "primary": "The dreamer is processing actual or anticipated loss. This may be literal (someone is ill, a relationship is ending) or symbolic (losing youth, innocence, a former identity, a life stage). The dream allows the psyche to rehearse grief and begin adaptation.",
+        "jungian": "Necessary dissolution of attachments that prevent growth. Loss dreams can signal that the ego is clinging to something that the Self has outgrown. The grief in the dream is real and valid, but the loss may ultimately serve individuation.",
+        "developmental": "Universal across all life stages but peaks during transitions: children leaving home, retirement, divorce, aging. The psyche processes loss through dreams to avoid being overwhelmed in waking life."
+      },
+      "life_stage_correlation": [
+        "After any bereavement or significant loss",
+        "During anticipatory grief (someone is ill, relationship ending)",
+        "Empty nest period when children leave",
+        "Retirement and loss of professional identity",
+        "Aging and loss of physical capabilities",
+        "After miscarriage, abortion, or infertility",
+        "Divorce or breakup processing"
+      ],
+      "detection_keywords": [
+        "lost", "gone", "disappeared", "left me", "died",
+        "couldn't find", "taken away", "stolen", "broken",
+        "said goodbye", "leaving", "never see again",
+        "missing", "empty", "alone", "abandoned",
+        "funeral", "grave", "crying", "searching for",
+        "teeth falling out", "crumbling", "fading away",
+        "slipping through my fingers", "couldn't hold on"
+      ],
+      "related_symbols": [
+        "empty house", "abandoned place", "graveyard", "autumn",
+        "sunset", "broken object", "empty hands", "fog",
+        "tears", "rain", "withered flowers", "clock",
+        "departing train/ship/plane", "closed door",
+        "falling teeth", "crumbling building"
+      ]
+    },
+
+    {
+      "id": 8,
+      "name_en": "The Reunion / Integration",
+      "name_zh": "重逢 / 合一",
+      "description": "The dreamer finds someone or something long lost. Separated people come together. Broken things are made whole. Fragments merge into unity. This is the narrative of recovery, reconciliation, and wholeness. It often carries profound emotional relief and the sense of coming home.",
+      "typical_dream_scenarios": [
+        "Meeting a deceased loved one who appears healthy, happy, and at peace",
+        "Finding a lost child, pet, or treasured object in an unexpected place",
+        "Reconciling with an estranged family member or friend",
+        "Returning to a childhood home and finding it exactly as you remember",
+        "Two halves of something fitting together perfectly",
+        "Meeting your younger self and embracing them",
+        "A crowd of people who all turn out to be different aspects of you",
+        "Coming home after a long journey and being welcomed"
+      ],
+      "emotional_arc": {
+        "stages": ["longing or searching", "unexpected encounter or discovery", "shock and disbelief", "overwhelming relief and joy", "sense of completeness and peace"],
+        "dominant_feeling": "Deep relief, homecoming, and the joy of wholeness restored",
+        "wake_feeling": "Warmth, peace, gratitude, sometimes bittersweet awareness that the reunion was in a dream"
+      },
+      "psychological_significance": {
+        "primary": "The psyche is healing a split. Something that was separated, repressed, or lost is being reintegrated into the whole personality. These are often deeply healing dreams that mark progress in grief processing, shadow integration, or recovery from trauma.",
+        "jungian": "The coniunctio, the union of opposites. The Self is bringing separated parts of the psyche together. Meeting the dead signifies integration of ancestral wisdom. Meeting the younger self signifies reclaiming lost innocence or vitality. These dreams often mark significant individuation milestones.",
+        "developmental": "Signals psychological healing and integration. The dreamer has done enough inner work that separated parts of the self can now reconnect. Often follows periods of therapy, reflection, or life transition."
+      },
+      "life_stage_correlation": [
+        "Recovery phase after grief (not the acute phase, but months or years later)",
+        "After successful therapy or deep self-work",
+        "Reconciliation periods in family or romantic relationships",
+        "Later midlife and elder years when integration becomes the psyche's primary task",
+        "After long periods of exile, displacement, or disconnection",
+        "Spiritual maturation and acceptance"
+      ],
+      "detection_keywords": [
+        "found", "reunited", "came back", "together again",
+        "saw my mother/father/grandmother", "the dead person was alive",
+        "they looked healthy", "they smiled", "they said it was okay",
+        "came home", "returned", "welcomed", "embraced",
+        "whole again", "complete", "fit together",
+        "forgave", "reconciled", "made peace",
+        "my younger self", "met myself", "all parts of me"
+      ],
+      "related_symbols": [
+        "home", "garden", "feast", "embrace", "light",
+        "circle", "ring", "mandala", "bridge",
+        "deceased relatives looking well", "childhood home",
+        "puzzle pieces", "wedding", "sunrise",
+        "warm hands", "open door", "feast table"
+      ]
+    },
+
+    {
+      "id": 9,
+      "name_en": "The Trial / Test",
+      "name_zh": "考验 / 试炼",
+      "description": "The dreamer faces an examination, competition, performance, or test of competence. They must prove themselves under pressure, often with the stakes feeling impossibly high. The classic form is the exam dream, but it extends to any scenario where the dreamer is being evaluated and may be found wanting.",
+      "typical_dream_scenarios": [
+        "Taking an exam for a class you forgot you enrolled in",
+        "Being called on stage to perform with no preparation",
+        "Job interview where you cannot answer any of the questions",
+        "Sports competition where your body won't cooperate",
+        "Presenting to an audience and your notes are blank",
+        "Being judged by a panel and knowing you will fail",
+        "Trying to prove your innocence in a trial or courtroom",
+        "A test where the questions are in a language you cannot read"
+      ],
+      "emotional_arc": {
+        "stages": ["shock at being unprepared", "frantic attempt to improvise or catch up", "humiliation as inadequacy becomes visible", "either desperate fight or total freeze", "judgment rendered (pass or fail)"],
+        "dominant_feeling": "Performance anxiety, impostor syndrome, and the dread of being exposed as inadequate",
+        "wake_feeling": "Relief that it was a dream, but lingering self-doubt and anxiety about real competence"
+      },
+      "psychological_significance": {
+        "primary": "The dreamer fears they are not good enough. This narrative surfaces when the dreamer faces real-world evaluation (promotion, relationship milestone, public visibility) and doubts their worthiness. The unpreparedness in the dream mirrors the feeling that one has been 'faking it.'",
+        "jungian": "The persona (public mask) is being tested. The dream reveals the gap between how the dreamer presents themselves and how they actually feel about their competence. The examiner often represents the internalized critic or parental authority.",
+        "developmental": "Extremely common among high achievers and perfectionists. Peaks before major evaluations but can persist throughout life as a recurring pattern reflecting deep-seated adequacy concerns."
+      },
+      "life_stage_correlation": [
+        "Students during exam periods (the literal trigger)",
+        "Early career professionals proving themselves",
+        "Before any major presentation, interview, or performance",
+        "Midlife professionals who fear being overtaken by younger competitors",
+        "New parents feeling tested in the parenting role",
+        "Any period of impostor syndrome or self-doubt"
+      ],
+      "detection_keywords": [
+        "exam", "test", "quiz", "evaluation", "grade",
+        "unprepared", "didn't study", "forgot", "late",
+        "stage", "audience", "perform", "presentation",
+        "interview", "judging", "scored", "failed",
+        "couldn't answer", "blank page", "couldn't remember",
+        "everyone watching", "laughed at", "humiliated",
+        "competition", "race", "contestant", "on trial"
+      ],
+      "related_symbols": [
+        "classroom", "stage", "courtroom", "arena",
+        "blank paper", "clock ticking", "audience",
+        "judges", "spotlight", "naked in public",
+        "broken instrument", "forgotten lines",
+        "report card", "diploma", "scoreboard"
+      ]
+    },
+
+    {
+      "id": 10,
+      "name_en": "The Flood / Apocalypse",
+      "name_zh": "洪水 / 末日",
+      "description": "An overwhelming force threatens to destroy everything: flood, fire, earthquake, tornado, nuclear explosion, alien invasion, plague. The dreamer witnesses or tries to survive the end of the world as they know it. The old order is being swept away with terrifying finality.",
+      "typical_dream_scenarios": [
+        "A massive wave or rising water engulfing the land",
+        "Watching a city destroyed by earthquake, bombs, or fire from above",
+        "Trying to outrun a tsunami, tornado, or lava flow",
+        "The sky turning red or dark, the sun going out",
+        "Nuclear explosion on the horizon, the shockwave approaching",
+        "Plague or zombies overrunning civilization",
+        "The ground opening up and swallowing buildings",
+        "Trying to gather loved ones and flee before the end comes"
+      ],
+      "emotional_arc": {
+        "stages": ["ominous signs that something catastrophic is coming", "terror as the scale of the destruction becomes clear", "helplessness against an unstoppable force", "survival instinct and triage (who can I save?)", "either obliteration or post-apocalyptic aftermath"],
+        "dominant_feeling": "Overwhelm, helplessness before forces vastly larger than the self, existential dread",
+        "wake_feeling": "Shaken, grateful to be alive, sometimes a lingering sense that something in life really does need to radically change"
+      },
+      "psychological_significance": {
+        "primary": "The dreamer feels overwhelmed by forces beyond their control. The apocalypse represents a situation (emotional, professional, relational) that feels like it will destroy everything. Paradoxically, flood dreams can also signal necessary destruction that clears the way for renewal. The old world must end for a new one to begin.",
+        "jungian": "The flood is the eruption of unconscious contents that overwhelm the ego. When too much has been repressed for too long, the unconscious breaks through catastrophically. But this destruction is also regenerative: after the flood, new land appears.",
+        "developmental": "Peaks during life upheavals: divorce, job loss, health crisis, cultural collapse. The dream processes the feeling that the foundation of one's life is being destroyed. Children have apocalypse dreams during family instability."
+      },
+      "life_stage_correlation": [
+        "During any major life upheaval or crisis",
+        "After sudden loss (death, divorce, job termination)",
+        "During periods of emotional overwhelm or burnout",
+        "When the dreamer's worldview is being fundamentally challenged",
+        "During collective trauma (pandemic, war, economic collapse)",
+        "Before major voluntary life changes (the old life must end)"
+      ],
+      "detection_keywords": [
+        "flood", "tsunami", "wave", "water rising", "drowning",
+        "earthquake", "ground shaking", "buildings falling",
+        "fire", "burning", "explosion", "nuclear", "bomb",
+        "tornado", "hurricane", "storm", "volcano", "lava",
+        "end of the world", "apocalypse", "everyone dying",
+        "destroyed", "wiped out", "nothing left",
+        "tried to save", "couldn't stop it", "run for your life"
+      ],
+      "related_symbols": [
+        "water", "wave", "ocean", "rain", "storm",
+        "fire", "smoke", "earthquake", "volcano",
+        "mushroom cloud", "dark sky", "red sky",
+        "broken buildings", "rubble", "ash",
+        "ark", "high ground", "bunker", "shelter"
+      ]
+    },
+
+    {
+      "id": 11,
+      "name_en": "The Garden / Paradise",
+      "name_zh": "乐园 / 净土",
+      "description": "The dreamer enters a place of extraordinary beauty, peace, and safety. A perfect garden, a luminous landscape, a place where everything is in harmony. There is no threat, no urgency, no lack. The narrative is simply the experience of being held in a space of unconditional peace.",
+      "typical_dream_scenarios": [
+        "Walking through a garden of impossible beauty with flowers of every color",
+        "Floating in warm, luminous water under a perfect sky",
+        "Being in a sunlit meadow with the feeling that everything is exactly right",
+        "A childhood home perfected, with everything in its ideal form",
+        "A feast with loved ones where everyone is happy and healthy",
+        "Flying over a pristine landscape of mountains, rivers, and forests",
+        "A temple, library, or sanctuary filled with golden light",
+        "Sitting in silence in a place so peaceful the mind goes completely still"
+      ],
+      "emotional_arc": {
+        "stages": ["entering the space and feeling immediate relief", "deepening relaxation and the dropping away of all anxiety", "full presence and absorption in the beauty", "a sense of belonging and being held", "sometimes reluctance to leave as waking approaches"],
+        "dominant_feeling": "Profound peace, gratitude, and the experience of wholeness without effort",
+        "wake_feeling": "Calm, refreshed, nostalgic for the dream, sometimes a gentle sadness at returning to ordinary life"
+      },
+      "psychological_significance": {
+        "primary": "The psyche is showing the dreamer their own capacity for peace and wholeness. These dreams serve as psychological reset points, providing the nervous system with a deep experience of safety. They may also represent what the dreamer is striving toward or what they need more of in waking life.",
+        "jungian": "The temenos or sacred enclosure. The garden represents the Self in its wholeness. These dreams often come as compensation for periods of stress, showing the ego that peace exists beneath the turmoil. Can also represent the anima/animus in its positive aspect.",
+        "developmental": "Common during recovery from illness, after periods of extreme stress, or during spiritual opening. The psyche provides its own medicine. Also appears as a vision of potential, showing the dreamer what their life could feel like."
+      },
+      "life_stage_correlation": [
+        "Recovery after illness, surgery, or trauma",
+        "Periods of spiritual practice or contemplative retreat",
+        "After resolving a long-standing conflict",
+        "Late life, as the psyche moves toward acceptance and peace",
+        "During pregnancy or early bonding with a newborn",
+        "After completing a major life achievement or project"
+      ],
+      "detection_keywords": [
+        "garden", "paradise", "beautiful", "peaceful", "perfect",
+        "flowers", "sunlight", "warm", "golden", "luminous",
+        "floating", "flying over", "meadow", "forest glade",
+        "sanctuary", "temple", "haven", "safe place",
+        "everyone was happy", "no worries", "serene", "calm",
+        "clear water", "gentle", "harmony", "bliss",
+        "didn't want to leave", "felt like home", "belonged"
+      ],
+      "related_symbols": [
+        "garden", "flowers", "trees", "sunlight", "water",
+        "fountain", "birds singing", "rainbow", "butterflies",
+        "temple", "cathedral", "library", "golden light",
+        "feast", "table of food", "children playing",
+        "mountain lake", "meadow", "cottage"
+      ]
+    },
+
+    {
+      "id": 12,
+      "name_en": "The Tower / Imprisonment",
+      "name_zh": "高塔 / 囚禁",
+      "description": "The dreamer is trapped, confined, or imprisoned. They are locked in a room, stuck in an elevator, buried, restrained, or held captive. The walls may be literal (prison cell) or metaphorical (can't leave a job, relationship, or situation). The narrative centers on the claustrophobic tension between the desire for freedom and the impossibility of escape.",
+      "typical_dream_scenarios": [
+        "Locked in a room with no windows or doors",
+        "Stuck in an elevator that won't move",
+        "Imprisoned in a cell or dungeon",
+        "Tied up, handcuffed, or physically restrained",
+        "Trapped in a car, train, or plane that you can't exit",
+        "Being in a building where all exits are blocked or locked",
+        "Buried alive or encased in something",
+        "Unable to leave a party, meeting, or gathering (social trap)"
+      ],
+      "emotional_arc": {
+        "stages": ["realization that you are confined", "testing the boundaries and finding them solid", "rising panic and claustrophobia", "desperate attempts to break free", "either escape, resignation, or waking from the intensity"],
+        "dominant_feeling": "Claustrophobia, powerlessness, and the desperate need for freedom",
+        "wake_feeling": "Relief at freedom, lingering sense of confinement, sometimes urgent motivation to change something in waking life"
+      },
+      "psychological_significance": {
+        "primary": "The dreamer feels trapped in some aspect of their waking life: a job, relationship, living situation, social role, or their own habits and patterns. The prison is whatever is constraining their growth or freedom. The dream dramatizes the cost of remaining confined.",
+        "jungian": "The ego is imprisoned by its own complexes, rigid persona, or outdated self-concept. The tower can also represent the ivory tower of intellectualization that disconnects from embodied life. Liberation requires destroying the old structure.",
+        "developmental": "Peaks when the dreamer has outgrown their current life structure but hasn't yet found the courage or means to change. Common in unfulfilling careers, codependent relationships, and situations where duty overrides desire."
+      },
+      "life_stage_correlation": [
+        "Being in an unfulfilling job or career (golden handcuffs)",
+        "Codependent or controlling relationships",
+        "Adolescence (feeling controlled by parents)",
+        "Caretaker burnout (trapped by responsibility)",
+        "Chronic illness or disability (feeling imprisoned by the body)",
+        "Any situation where leaving feels impossible despite misery"
+      ],
+      "detection_keywords": [
+        "trapped", "locked", "stuck", "can't get out", "confined",
+        "prison", "cell", "cage", "chains", "tied up",
+        "elevator stuck", "door locked", "no exit", "no way out",
+        "walls closing in", "buried", "suffocating",
+        "can't leave", "couldn't move", "restrained",
+        "held captive", "kidnapped", "imprisoned",
+        "blocked", "sealed", "no windows", "underground"
+      ],
+      "related_symbols": [
+        "prison", "tower", "cage", "chains", "locked door",
+        "elevator", "basement", "closet", "coffin",
+        "handcuffs", "bars", "walls", "fence",
+        "key (often just out of reach)", "narrow space",
+        "guard", "captor", "locked box"
+      ]
+    },
+
+    {
+      "id": 13,
+      "name_en": "The Crossing / Threshold",
+      "name_zh": "跨越 / 门槛",
+      "description": "The dreamer stands at a boundary and must cross: a bridge over an abyss, a door between worlds, a border between countries, a shoreline between land and sea. The narrative tension is entirely about the decision to cross and what exists on the other side. The crossing itself is the story.",
+      "typical_dream_scenarios": [
+        "Standing on a bridge deciding whether to cross, with fog on the other side",
+        "Finding a door in a wall that leads somewhere impossibly different",
+        "Standing at the edge of a cliff with the urge to jump or fly",
+        "Crossing a border with guards who may or may not let you through",
+        "Walking through a portal, mirror, or gateway into another world",
+        "Wading into a river that separates two landscapes",
+        "Standing at the threshold of a house, unable to enter or walk away",
+        "Dying and moving toward a light or doorway"
+      ],
+      "emotional_arc": {
+        "stages": ["awareness that a boundary exists", "hesitation and assessment of risk", "the gathering of courage or the push of necessity", "the liminal moment of crossing (often the most vivid part)", "arrival in the new space, changed by the crossing"],
+        "dominant_feeling": "Anticipation charged with both fear and hope, the vertigo of standing between two realities",
+        "wake_feeling": "A sense of being at a turning point, often with increased clarity about a real decision"
+      },
+      "psychological_significance": {
+        "primary": "The dreamer is at a genuine transition point in life. The threshold represents the line between who they have been and who they are becoming. The dream dramatizes the moment of commitment. What lies on the other side is unknown, which is both the source of fear and the invitation to grow.",
+        "jungian": "The threshold between the conscious and unconscious worlds. Crossing it means leaving the known ego-world and entering the realm of the Self. Door and bridge dreams often mark initiation into a new phase of individuation.",
+        "developmental": "Appears at every major life transition: graduation, marriage, parenthood, divorce, retirement, death. The psyche marks these passages with threshold imagery because they are genuinely irreversible. Once crossed, you cannot uncross."
+      },
+      "life_stage_correlation": [
+        "Before major life decisions (marriage, divorce, career change)",
+        "Graduation or completion of a major life phase",
+        "Immigration or relocation to a new country/culture",
+        "Near-death or serious illness (the ultimate threshold)",
+        "Retirement or end of a career",
+        "Coming out, gender transition, or major identity shift",
+        "Before and after childbirth"
+      ],
+      "detection_keywords": [
+        "bridge", "crossing", "door", "doorway", "threshold",
+        "border", "gate", "gateway", "portal", "passage",
+        "other side", "crossed over", "went through",
+        "couldn't go back", "point of no return",
+        "edge", "cliff edge", "shore", "river bank",
+        "entered", "stepped through", "on the boundary",
+        "deciding", "hesitating", "about to", "the line"
+      ],
+      "related_symbols": [
+        "bridge", "door", "gate", "portal", "mirror",
+        "river", "shore", "border", "fence", "wall with opening",
+        "cliff", "edge", "staircase", "elevator",
+        "tunnel entrance", "arch", "rainbow",
+        "boat", "ferry", "checkpoint"
+      ]
+    },
+
+    {
+      "id": 14,
+      "name_en": "The Mirror / Double",
+      "name_zh": "镜像 / 分身",
+      "description": "The dreamer encounters themselves: a reflection that moves independently, a doppelganger, a twin, or an alternate version of who they are. The narrative turns on the uncanny experience of meeting the self as other, and the question of which version is real.",
+      "typical_dream_scenarios": [
+        "Looking in a mirror and seeing a different version of yourself staring back",
+        "Meeting your exact double on the street and speaking with them",
+        "Discovering that another you has been living a parallel life",
+        "Your reflection in a mirror moving independently or refusing to match your movements",
+        "Being in a room full of copies of yourself",
+        "Meeting a younger or older version of yourself",
+        "Fighting with, embracing, or merging with your double",
+        "Realizing that someone you have been interacting with is actually you"
+      ],
+      "emotional_arc": {
+        "stages": ["uncanny recognition", "disbelief and disorientation", "curiosity or horror at the double", "confrontation or communication with the other self", "integration, rejection, or unresolved tension"],
+        "dominant_feeling": "The uncanny, the unsettling recognition of the self as stranger",
+        "wake_feeling": "Existential questioning about identity, sometimes a sense of having met a neglected part of oneself"
+      },
+      "psychological_significance": {
+        "primary": "The dreamer is confronting aspects of themselves they normally cannot see. The double represents the disowned self: the person they could have been, the qualities they have suppressed, or the shadow they refuse to acknowledge. The dream forces a reckoning with the full complexity of identity.",
+        "jungian": "A direct encounter with the Shadow, the anima/animus, or the Self. The double is always what the ego does not identify with. Fighting the double represents resistance to integration. Embracing the double represents wholeness. These are among the most significant dreams in Jungian analysis.",
+        "developmental": "Appears during identity crises, major life decisions that define who you are, and periods of deep self-examination. Common among people with a strong sense of who they 'should' be versus who they actually are."
+      },
+      "life_stage_correlation": [
+        "Adolescent identity formation",
+        "Midlife when the unlived life demands attention",
+        "After making a major choice that forecloses other paths",
+        "During therapy or deep self-examination",
+        "Identity conflicts (cultural, gender, professional)",
+        "Twins or siblings processing their identity relative to each other"
+      ],
+      "detection_keywords": [
+        "mirror", "reflection", "double", "twin", "copy",
+        "doppelganger", "other me", "another version of me",
+        "looked like me", "my face", "was actually me",
+        "clone", "duplicate", "identical",
+        "reflection moved", "mirror showed", "different reflection",
+        "met myself", "two of me", "parallel",
+        "who am I", "which one is real", "impostor"
+      ],
+      "related_symbols": [
+        "mirror", "reflection", "shadow", "twin",
+        "mask", "photograph", "portrait", "statue",
+        "glass", "water reflection", "window",
+        "doll", "puppet", "mannequin",
+        "parallel world", "alternate self"
+      ]
+    }
+  ],
+
+  "campbells_monomyth": {
+    "description": "Joseph Campbell's Hero's Journey (monomyth) mapped to dream sequences. When a dream follows the Hero's Journey archetype, identifying which stage the dream represents helps pinpoint where the dreamer is in their real-life transition.",
+    "source": "Campbell, Joseph (1949). The Hero with a Thousand Faces.",
+    "stages": [
+      {
+        "stage_number": 1,
+        "name": "The Ordinary World",
+        "name_zh": "日常世界",
+        "description": "The hero's normal life before the adventure begins.",
+        "dream_manifestation": "Dreams of routine, familiar settings, but with a growing sense of restlessness, boredom, or something being not quite right. The kitchen, the office, the daily commute, but the light is wrong, the colors are fading, or something subtle is out of place.",
+        "psychological_meaning": "The dreamer is becoming aware that their current life structure no longer fits. The unconscious is signaling that change is needed before the conscious mind is ready to admit it.",
+        "detection_cues": ["familiar places feeling wrong", "routine with unease", "something missing", "boredom in known setting"]
+      },
+      {
+        "stage_number": 2,
+        "name": "The Call to Adventure",
+        "name_zh": "冒险的召唤",
+        "description": "Something disrupts the ordinary world and beckons the hero toward the unknown.",
+        "dream_manifestation": "Receiving a letter, phone call, or message. A stranger appearing with an urgent request. Discovering a hidden door, a path you never noticed, or hearing a sound from far away that compels you to follow it.",
+        "psychological_meaning": "The unconscious is presenting an opportunity for growth. Something in waking life is calling the dreamer toward expansion, but they may not yet recognize it as an invitation.",
+        "detection_cues": ["mysterious message", "stranger with request", "hidden path discovered", "compelling sound or light in distance"]
+      },
+      {
+        "stage_number": 3,
+        "name": "Refusal of the Call",
+        "name_zh": "拒绝召唤",
+        "description": "The hero hesitates, resists, or tries to return to normal life.",
+        "dream_manifestation": "Ignoring the phone, closing the door, trying to go back to sleep within the dream. Running from the adventure rather than toward it. Making excuses. The call becoming more insistent, the door reappearing, the messenger returning.",
+        "psychological_meaning": "Fear of change is dominant. The dreamer knows something needs to shift but is clinging to safety. The dream often escalates the call if it is refused, showing that avoidance makes things worse.",
+        "detection_cues": ["ignoring summons", "turning back", "excuses", "call repeating with urgency"]
+      },
+      {
+        "stage_number": 4,
+        "name": "Meeting the Mentor",
+        "name_zh": "遇见导师",
+        "description": "The hero encounters a guide who provides wisdom, tools, or encouragement.",
+        "dream_manifestation": "A wise old person, a teacher, a deceased relative, a talking animal, or a luminous figure who gives advice, a weapon, a map, or simply the confidence to proceed. Sometimes the mentor is a book that opens to the right page or a voice that speaks without a body.",
+        "psychological_meaning": "The dreamer is connecting with their own inner wisdom or drawing on accumulated life experience. The mentor represents the internalized voice of guidance. The specific form of the mentor reveals the source of wisdom the dreamer needs.",
+        "detection_cues": ["wise figure giving advice", "receiving a tool or weapon", "teacher or guide appearing", "deceased relative offering help"]
+      },
+      {
+        "stage_number": 5,
+        "name": "Crossing the First Threshold",
+        "name_zh": "跨越第一道门槛",
+        "description": "The hero commits to the adventure and enters the unknown world.",
+        "dream_manifestation": "Walking through a door into a completely different landscape. Diving into water. Entering a forest, cave, or city you have never seen. The moment where the familiar world is definitively left behind and there is no easy way back.",
+        "psychological_meaning": "The dreamer has made or is about to make a commitment to change. The threshold crossing in the dream mirrors a real point of no return in waking life. This is the decisive moment.",
+        "detection_cues": ["crossing into unknown territory", "point of no return", "landscape completely changing", "leaving familiar world behind"]
+      },
+      {
+        "stage_number": 6,
+        "name": "Tests, Allies, and Enemies",
+        "name_zh": "考验、盟友与敌人",
+        "description": "The hero faces challenges, makes friends, and identifies opponents in the new world.",
+        "dream_manifestation": "A series of obstacles, puzzles, or encounters. Meeting helpful strangers and hostile ones. Learning the rules of the new environment. Navigating a strange city, solving riddles, gathering resources, assembling a team.",
+        "psychological_meaning": "The dreamer is learning to operate under new conditions. The tests represent real challenges in the transition period. Allies represent internal resources and supportive people. Enemies represent internal resistance and external opposition.",
+        "detection_cues": ["series of challenges", "meeting helpers and opponents", "learning new rules", "gathering resources"]
+      },
+      {
+        "stage_number": 7,
+        "name": "Approach to the Inmost Cave",
+        "name_zh": "逼近最深处",
+        "description": "The hero approaches the central ordeal, the most dangerous place.",
+        "dream_manifestation": "Descending deeper underground. Walking toward a dark center. The challenges becoming harder and more personal. A sense of approaching something that will change everything. The terrain becoming more surreal, the stakes becoming existential.",
+        "psychological_meaning": "The dreamer is approaching the core issue. All the peripheral challenges have been cleared, and now the fundamental fear, desire, or truth must be faced. This stage often generates intense anxiety.",
+        "detection_cues": ["approaching central danger", "increasing intensity", "stakes becoming personal", "nearing the core of the unknown"]
+      },
+      {
+        "stage_number": 8,
+        "name": "The Ordeal",
+        "name_zh": "严峻考验",
+        "description": "The hero faces their greatest fear or most dangerous opponent. Death and rebirth.",
+        "dream_manifestation": "Confronting the monster, the shadow, the deepest fear. A death experience: dying and coming back, being swallowed and escaping. The climax of the dream where everything is at stake. Often the most emotionally intense part of the dream.",
+        "psychological_meaning": "Ego death and rebirth. The dreamer is confronting whatever they have been most afraid to face. Surviving this ordeal (even if only by waking up) represents the ego's capacity to endure what it thought would destroy it.",
+        "detection_cues": ["facing greatest fear", "death and rebirth imagery", "climactic confrontation", "everything at stake"]
+      },
+      {
+        "stage_number": 9,
+        "name": "The Reward",
+        "name_zh": "获得奖赏",
+        "description": "After surviving the ordeal, the hero gains the treasure, knowledge, or power they sought.",
+        "dream_manifestation": "Finding the treasure, the answer, the cure. A moment of clarity after the battle. Holding something precious: a jewel, a child, a key, a book of wisdom. The feeling of having earned something through suffering.",
+        "psychological_meaning": "The dreamer has gained a new psychological resource. The reward is whatever capacity, insight, or strength was developed through facing the ordeal. This is often the most meaningful part of the dream to interpret.",
+        "detection_cues": ["finding treasure or answer", "moment of clarity after struggle", "holding something precious", "feeling of earned achievement"]
+      },
+      {
+        "stage_number": 10,
+        "name": "The Road Back",
+        "name_zh": "踏上归途",
+        "description": "The hero begins the journey home, but may face new dangers.",
+        "dream_manifestation": "Running with the treasure while being pursued. The journey back is not safe; the old world's forces try to reclaim what was taken. Navigating back through the strange territory, now changed by what you carry.",
+        "psychological_meaning": "Integrating new insight into daily life is itself a challenge. The dreamer may face resistance from others or from their own habits when they try to bring their new understanding back into ordinary reality.",
+        "detection_cues": ["returning with something gained", "pursued on the way back", "journey home is dangerous", "old forces trying to reclaim"]
+      },
+      {
+        "stage_number": 11,
+        "name": "The Resurrection",
+        "name_zh": "复活",
+        "description": "A final test where the hero must use everything they have learned. A climactic purification.",
+        "dream_manifestation": "A second, final confrontation at the border between worlds. Being tested one last time before you can return. The transformation becoming permanent. Shedding the old self and stepping into the new identity.",
+        "psychological_meaning": "The final integration. The dreamer must demonstrate that the transformation is real and permanent, not just a temporary peak experience. This stage ensures the change will persist in waking life.",
+        "detection_cues": ["final test at the boundary", "last confrontation", "permanent transformation", "shedding old self"]
+      },
+      {
+        "stage_number": 12,
+        "name": "Return with the Elixir",
+        "name_zh": "带着灵药归来",
+        "description": "The hero returns to the ordinary world transformed, carrying something that benefits both self and community.",
+        "dream_manifestation": "Arriving home changed. Being recognized as different. Sharing what you found. The ordinary world is the same, but you see it with new eyes. Sometimes a literal scene of teaching, healing, or gift-giving.",
+        "psychological_meaning": "Successful integration. The dreamer has completed the psychological cycle: they left their comfort zone, faced the unknown, gained new capacity, and brought it back into their everyday self. The dream marks completion of a growth process.",
+        "detection_cues": ["returning home transformed", "sharing what was gained", "seeing ordinary world with new eyes", "being recognized as changed"]
+      }
+    ]
+  },
+
+  "bookers_seven_plots": {
+    "description": "Christopher Booker's Seven Basic Plots applied to dream narratives. These universal story structures appear in dreams just as they do in myths and literature. Identifying which plot a dream follows provides a powerful framework for understanding the dream's trajectory and meaning.",
+    "source": "Booker, Christopher (2004). The Seven Basic Plots: Why We Tell Stories.",
+    "plots": [
+      {
+        "id": 1,
+        "name": "Overcoming the Monster",
+        "name_zh": "克服怪兽",
+        "description": "A terrible threatening force arises. The hero must confront and destroy it to restore safety. The monster seems overwhelmingly powerful, but the hero discovers a specific vulnerability.",
+        "dream_pattern": "A threatening entity (shadow figure, animal, natural disaster, machine, disease) dominates the dream. The dreamer feels powerless at first but either finds a weapon, discovers a weakness, or summons unexpected courage. The climax is the confrontation.",
+        "dream_examples": [
+          "A dragon attacks your town and you find a way to defeat it",
+          "A serial killer stalks your neighborhood and you set a trap",
+          "A disease threatens your family and you find the cure",
+          "A corrupt boss or authority figure is brought down by evidence you discover"
+        ],
+        "psychological_interpretation": "The monster represents an external problem or internal complex that has grown to dominating proportions. The dream is rehearsing the dreamer's capacity to confront rather than flee. The vulnerability of the monster reveals the real-world approach the dreamer needs.",
+        "when_it_appears": "When facing intimidating problems: bullying, oppressive authority, health crises, overwhelming debt, addiction",
+        "detection_cues": ["monster or villain", "growing threat", "finding weakness", "confrontation and victory", "rescue"]
+      },
+      {
+        "id": 2,
+        "name": "Rags to Riches",
+        "name_zh": "从贫穷到富有",
+        "description": "The hero begins in a lowly, oppressed, or unrecognized state and rises to fulfillment through the revelation of their true worth. Often involves a period of initial success, then a fall, then the final true achievement.",
+        "dream_pattern": "The dreamer starts in a humble or diminished state: poor, ignored, mocked, or small. Through some catalytic event (a discovery, a gift, a recognition), they rise to a position of power, wealth, respect, or wholeness. The dream emphasizes the contrast between the beginning state and the end.",
+        "dream_examples": [
+          "Being a beggar who finds a fortune or is recognized as royalty",
+          "Being ignored at a gathering then becoming the center of attention",
+          "Starting with nothing and building something magnificent",
+          "Being the only one who can solve a problem everyone else gave up on"
+        ],
+        "psychological_interpretation": "The dreamer feels undervalued or trapped in a diminished self-concept. The dream reveals their latent potential and the psychological gold hidden beneath their current circumstances. It compensates for waking feelings of inadequacy.",
+        "when_it_appears": "During periods of low self-esteem, career stagnation, feeling overlooked or underappreciated. Also common when genuine talent is beginning to emerge but hasn't been recognized yet.",
+        "detection_cues": ["starting low/poor/ignored", "hidden identity or talent", "dramatic rise", "recognition of true worth", "transformation of circumstances"]
+      },
+      {
+        "id": 3,
+        "name": "The Quest",
+        "name_zh": "远征",
+        "description": "The hero learns of a crucial goal far away and must journey through trials and dangers to reach it. The journey is as important as the destination, and companions are essential.",
+        "dream_pattern": "The dreamer must reach a specific destination or find a specific object/person. The journey is long and filled with obstacles: hostile terrain, enemies, wrong turns, and moments of doubt. The dreamer may travel alone or with companions. The destination keeps shifting or proving harder to reach than expected.",
+        "dream_examples": [
+          "Traveling across a vast landscape to reach a distant city of light",
+          "Searching for a person across many locations, always just missing them",
+          "Climbing a mountain that reveals more peaks behind each summit",
+          "Sailing across a dangerous ocean to reach an island"
+        ],
+        "psychological_interpretation": "The dreamer has a deep goal or longing that requires sustained effort and sacrifice. The obstacles on the quest mirror real-life barriers. Companions represent resources and relationships that support the journey. The destination represents the dreamer's deepest aspiration.",
+        "when_it_appears": "When pursuing a long-term goal: education, career building, creative projects, spiritual development. Also during recovery programs and any sustained effort toward transformation.",
+        "detection_cues": ["distant goal", "long journey", "multiple obstacles", "companions on the road", "destination keeps shifting"]
+      },
+      {
+        "id": 4,
+        "name": "Voyage and Return",
+        "name_zh": "远行与归来",
+        "description": "The hero travels to a strange, alien world, experiences its wonders and dangers, and eventually returns home changed by the experience. Unlike the Quest, the goal is not reaching a destination but what the traveler becomes through the experience of otherness.",
+        "dream_pattern": "The dreamer enters a bizarre, surreal, or alien environment: another planet, a parallel world, a place where physics or social rules are completely different. They navigate with fascination and confusion. Eventually they find their way back home, carrying the experience with them.",
+        "dream_examples": [
+          "Falling into a world where everything is upside down or reversed",
+          "Being transported to an alien planet with strange customs",
+          "Entering a painting or movie and living inside it",
+          "Visiting a historical period and experiencing life there",
+          "Going through a wardrobe, rabbit hole, or portal to another reality"
+        ],
+        "psychological_interpretation": "The dreamer needs exposure to radical otherness to gain perspective on their own life. The strange world represents an alternate way of being that challenges assumptions. Returning home changed means integrating the perspective shift into daily life.",
+        "when_it_appears": "During cultural adjustment, travel, or exposure to radically different viewpoints. Also when the dreamer's worldview has become too rigid and the psyche provides an experience of otherness as medicine.",
+        "detection_cues": ["entering strange world", "alien rules and customs", "fascination and confusion", "eventual return home", "changed by the experience"]
+      },
+      {
+        "id": 5,
+        "name": "Comedy",
+        "name_zh": "喜剧",
+        "description": "Characters are thrown into confusion, misunderstanding, and chaos. Identities are mistaken, intentions misread, and complications multiply. But everything resolves happily when the truth comes out and everyone finds their proper place.",
+        "dream_pattern": "The dream is chaotic but ultimately benign. Mix-ups, absurd situations, and misunderstandings dominate. People are in the wrong roles, showing up in the wrong places, or miscommunicating hilariously. Despite the confusion, there is an underlying sense that everything will work out.",
+        "dream_examples": [
+          "Showing up to work in your pajamas but everyone thinks it is a fashion statement",
+          "A wedding where everything goes wrong but everyone ends up happy",
+          "Being at a party where you keep being mistaken for someone else",
+          "A series of absurd miscommunications that somehow produce the perfect result"
+        ],
+        "psychological_interpretation": "The dreamer is taking life too seriously and the unconscious provides comic relief. Confusion in the dream mirrors real-life confusion that is ultimately not as threatening as it seems. The resolution suggests that the dreamer's anxieties will resolve naturally.",
+        "when_it_appears": "During social anxiety, relationship complications, periods of over-seriousness, and when the dreamer needs to lighten up. Also common during periods of genuine chaos that will ultimately resolve.",
+        "detection_cues": ["absurd mix-ups", "mistaken identity", "everything going wrong but working out", "comic confusion", "happy resolution"]
+      },
+      {
+        "id": 6,
+        "name": "Tragedy",
+        "name_zh": "悲剧",
+        "description": "The hero is undone by a fatal flaw: ambition, jealousy, pride, obsession. They rise to a height then fall catastrophically. The audience sees the flaw clearly, but the hero cannot. The destruction is self-inflicted.",
+        "dream_pattern": "The dreamer achieves something great but then loses everything through their own actions or blind spots. The dream has a doomed quality: success breeds overreach, overreach breeds destruction. The dreamer may watch themselves making terrible decisions without being able to stop.",
+        "dream_examples": [
+          "Building something magnificent then watching it crumble because of a mistake you made",
+          "Winning power or wealth then losing everything through arrogance",
+          "Betraying someone and watching the consequences unfold in slow motion",
+          "Flying higher and higher then falling because you went too high"
+        ],
+        "psychological_interpretation": "The unconscious is warning the dreamer about a pattern of self-sabotage. The tragic flaw in the dream represents a real blind spot or destructive habit. These dreams are cautionary: they show the dreamer where their current trajectory leads if they don't change course.",
+        "when_it_appears": "When the dreamer is on a self-destructive path: overwork leading to burnout, arrogance alienating allies, addiction escalating, or ambition overriding values. These are important warning dreams.",
+        "detection_cues": ["rise and fall pattern", "self-caused destruction", "seeing own mistakes unfold", "doomed feeling", "tragic flaw visible"]
+      },
+      {
+        "id": 7,
+        "name": "Rebirth",
+        "name_zh": "重生",
+        "description": "The hero falls under a dark spell, curse, or state of living death (imprisonment, enchantment, frozen state). They remain trapped until a redemptive force (often love) awakens them and they emerge transformed.",
+        "dream_pattern": "The dreamer is frozen, asleep-within-the-dream, cursed, or trapped in a dark repetitive state. Time may seem to stop. Then something breaks the spell: a person's voice, a child's touch, a ray of light, an act of love. The dreamer awakens within the dream into a transformed state.",
+        "dream_examples": [
+          "Being frozen or encased in ice and slowly thawing",
+          "Waking up within the dream to find the world changed",
+          "Being trapped in a dark castle until someone calls your name",
+          "Living the same day over and over until something breaks the cycle",
+          "Being stone or a statue and feeling life return"
+        ],
+        "psychological_interpretation": "The dreamer has been in a psychologically frozen state: depression, numbness, dissociation, going through the motions. The redemptive force represents whatever has the power to reawaken them to full, engaged living. These dreams often precede or mark the beginning of recovery.",
+        "when_it_appears": "During depression, emotional numbness, burnout, or after trauma. When the dreamer has been disconnected from vitality for an extended period. Often appears at the turning point when healing begins.",
+        "detection_cues": ["frozen or trapped state", "curse or spell", "time stopped", "redemptive awakening", "love or connection breaking the spell", "transformation after long darkness"]
+      }
+    ]
+  },
+
+  "narrative_detection_guide": {
+    "description": "Practical guide for the AI to identify which narrative archetype(s) a dream follows.",
+    "instructions": [
+      "A single dream may contain multiple narrative archetypes layered together or transitioning between them.",
+      "Identify the PRIMARY narrative by asking: what is the overall shape or trajectory of the dream? Where does it begin and where does it end?",
+      "Identify SECONDARY narratives by looking at sub-sequences within the dream that follow their own arc.",
+      "The emotional arc is often the most reliable indicator. Match the feeling-progression of the dream to the archetype's emotional arc.",
+      "Detection keywords should be weighted, not used as simple triggers. Multiple keywords from the same archetype strengthen the match.",
+      "Consider the dreamer's life context (if known) to disambiguate between archetypes. A maze dream during career confusion vs. during grief has different primary resonance.",
+      "When presenting the narrative analysis, explain how the dream maps to the archetype in specific terms, citing exact dream elements.",
+      "Do not force a fit. Some dreams are fragmentary and do not follow any clear narrative arc. Say so when this is the case."
+    ],
+    "combination_patterns": [
+      {
+        "combination": ["The Descent / Katabasis", "The Revelation / Epiphany"],
+        "description": "Going down into darkness and finding illumination at the bottom. The classic pattern of wisdom through descent.",
+        "example": "Descending into a deep cave and finding a glowing crystal that reveals an important truth."
+      },
+      {
+        "combination": ["The Chase / Pursuit", "The Metamorphosis"],
+        "description": "Being pursued and transforming to escape or to face the pursuer. The prey becomes something new.",
+        "example": "Being chased by wolves and suddenly growing wings and flying away."
+      },
+      {
+        "combination": ["The Loss / Separation", "The Reunion / Integration"],
+        "description": "The complete grief cycle within a single dream. Losing and then finding again, but transformed.",
+        "example": "Your mother dies in the dream, then you find her in a garden looking young and peaceful."
+      },
+      {
+        "combination": ["The Labyrinth", "The Crossing / Threshold"],
+        "description": "Being lost and then finding the crucial passage. Confusion resolving into decisive transition.",
+        "example": "Wandering endlessly through corridors until you find the one door that leads outside."
+      },
+      {
+        "combination": ["The Trial / Test", "The Hero's Journey"],
+        "description": "The examination as one stage of a larger journey. The test is not the whole story but the crucible at its center.",
+        "example": "Traveling to a distant academy, taking a grueling exam, and returning home with a diploma that opens a new door."
+      },
+      {
+        "combination": ["The Tower / Imprisonment", "The Metamorphosis"],
+        "description": "Trapped in a fixed form and then transforming to break free. Confinement as the pressure that forces evolution.",
+        "example": "Locked in a cell, your body begins to shrink until you can slip through the bars."
+      },
+      {
+        "combination": ["The Flood / Apocalypse", "The Garden / Paradise"],
+        "description": "Destruction followed by paradise. The old world is swept away and the new world is beautiful.",
+        "example": "A tsunami destroys the city, and when the waters recede, everything is green and blooming."
+      },
+      {
+        "combination": ["The Mirror / Double", "The Reunion / Integration"],
+        "description": "Meeting the other self and merging with them. The split personality becomes whole.",
+        "example": "Confronting your double, fighting at first, then embracing and merging into one being that is stronger than either."
+      }
+    ]
+  }
+}

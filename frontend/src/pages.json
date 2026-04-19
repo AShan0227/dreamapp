@@ -1,0 +1,56 @@
+{
+	"pages": [
+		{"path": "pages/index/index", "style": {"navigationBarTitleText": "DreamApp", "navigationStyle": "custom"}},
+		{"path": "pages/record/record", "style": {"navigationBarTitleText": "Record", "navigationStyle": "custom"}},
+		{"path": "pages/plaza/plaza", "style": {"navigationBarTitleText": "Plaza", "navigationStyle": "custom"}},
+		{"path": "pages/archive/archive", "style": {"navigationBarTitleText": "Archive", "navigationStyle": "custom"}},
+		{"path": "pages/dream/dream", "style": {"navigationBarTitleText": "Dream", "navigationStyle": "custom"}},
+		{"path": "pages/health/health", "style": {"navigationBarTitleText": "Health", "navigationStyle": "custom"}},
+		{"path": "pages/ips/ips", "style": {"navigationBarTitleText": "Mythology", "navigationStyle": "custom"}},
+		{"path": "pages/incubation/incubation", "style": {"navigationBarTitleText": "Incubation", "navigationStyle": "custom"}},
+		{"path": "pages/agents/agents", "style": {"navigationBarTitleText": "Agents", "navigationStyle": "custom"}},
+		{"path": "pages/auth/auth", "style": {"navigationBarTitleText": "Sign in", "navigationStyle": "custom"}},
+		{"path": "pages/profile/profile", "style": {"navigationBarTitleText": "Profile", "navigationStyle": "custom"}},
+		{"path": "pages/knowledge/knowledge", "style": {"navigationBarTitleText": "Knowledge", "navigationStyle": "custom"}},
+		{"path": "pages/social/social", "style": {"navigationBarTitleText": "Social", "navigationStyle": "custom"}},
+		{"path": "pages/codream/codream", "style": {"navigationBarTitleText": "Co-Dream", "navigationStyle": "custom"}},
+		{"path": "pages/customize/customize", "style": {"navigationBarTitleText": "Customize", "navigationStyle": "custom"}},
+		{"path": "pages/remix/remix", "style": {"navigationBarTitleText": "Remix", "navigationStyle": "custom"}},
+		{"path": "pages/dejareve/dejareve", "style": {"navigationBarTitleText": "Deja Reve", "navigationStyle": "custom"}},
+		{"path": "pages/temporal/temporal", "style": {"navigationBarTitleText": "Patterns", "navigationStyle": "custom"}},
+		{"path": "pages/vibe/vibe", "style": {"navigationBarTitleText": "Customize App", "navigationStyle": "custom"}},
+		{"path": "pages/agent-store/agent-store", "style": {"navigationBarTitleText": "Agent Store", "navigationStyle": "custom"}},
+		{"path": "pages/subscription/subscription", "style": {"navigationBarTitleText": "Subscription", "navigationStyle": "custom"}},
+		{"path": "pages/wallet/wallet", "style": {"navigationBarTitleText": "Wallet", "navigationStyle": "custom"}},
+		{"path": "pages/therapists/therapists", "style": {"navigationBarTitleText": "Therapists", "navigationStyle": "custom"}},
+		{"path": "pages/challenges/challenges", "style": {"navigationBarTitleText": "Challenges", "navigationStyle": "custom"}},
+		{"path": "pages/lobby/lobby", "style": {"navigationBarTitleText": "Co-Dream Lobby", "navigationStyle": "custom"}},
+		{"path": "pages/sleep/sleep", "style": {"navigationBarTitleText": "Sleep", "navigationStyle": "custom"}},
+		{"path": "pages/inbox/inbox", "style": {"navigationBarTitleText": "Activity", "navigationStyle": "custom"}},
+		{"path": "pages/user/user", "style": {"navigationBarTitleText": "Profile", "navigationStyle": "custom"}},
+		{"path": "pages/dm/dm", "style": {"navigationBarTitleText": "Messages", "navigationStyle": "custom"}},
+		{"path": "pages/foryou/foryou", "style": {"navigationBarTitleText": "For You", "navigationStyle": "custom"}},
+		{"path": "pages/hashtag/hashtag", "style": {"navigationBarTitleText": "Hashtag", "navigationStyle": "custom"}},
+		{"path": "pages/bookmarks/bookmarks", "style": {"navigationBarTitleText": "Bookmarks", "navigationStyle": "custom"}}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "DreamApp",
+		"navigationBarBackgroundColor": "#0a0a1a",
+		"backgroundColor": "#0a0a1a",
+		"backgroundColorTop": "#0a0a1a",
+		"backgroundColorBottom": "#0a0a1a"
+	},
+	"tabBar": {
+		"color": "#666",
+		"selectedColor": "#8b5cf6",
+		"backgroundColor": "#0f0f23",
+		"borderStyle": "black",
+		"list": [
+			{"pagePath": "pages/index/index", "text": "Dreams"},
+			{"pagePath": "pages/record/record", "text": "Record"},
+			{"pagePath": "pages/plaza/plaza", "text": "Plaza"},
+			{"pagePath": "pages/archive/archive", "text": "Archive"}
+		]
+	}
+}

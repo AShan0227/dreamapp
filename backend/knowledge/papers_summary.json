@@ -1,0 +1,1072 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-04-15",
+    "description": "Summaries of 53 dream research papers (1900-2024) for AI dream interpretation. Each entry includes key findings, implications for dream analysis, and practical applications for the DreamApp engine.",
+    "total_papers": 53,
+    "categories": {
+      "evolutionary_theory": 4,
+      "clinical_applications": 5,
+      "dream_content_analysis": 10,
+      "cognitive_neuroscience": 13,
+      "sleep_and_memory": 11,
+      "lucid_dreaming": 6,
+      "cultural_and_phenomenological": 4
+    },
+    "last_updated": "2026-04-16"
+  },
+  "papers": [
+    {
+      "id": "revonsuo_2000",
+      "authors": [
+        "Antti Revonsuo"
+      ],
+      "year": 2000,
+      "title": "The Reinterpretation of Dreams: An Evolutionary Hypothesis of the Function of Dreaming",
+      "journal": "Behavioral and Brain Sciences",
+      "category": "evolutionary_theory",
+      "key_findings": [
+        "Dreams evolved as a biological defense mechanism to simulate threatening events, allowing rehearsal of threat-avoidance behaviors in a safe environment",
+        "Threat content is significantly overrepresented in dreams compared to waking life, supporting an adaptive function",
+        "The threat simulation system is activated most strongly during periods of real-world danger or stress",
+        "Ancestral threat types (animals, natural disasters, physical attack) appear in dreams even in modern populations with no direct exposure",
+        "Children and trauma survivors show higher rates of threat simulation dreams, consistent with the calibration hypothesis"
+      ],
+      "implications_for_interpretation": "Nightmares and anxiety dreams should not be viewed purely as pathological. They may represent an adaptive mechanism processing perceived threats. Recurring threat dreams may indicate unresolved safety concerns in waking life.",
+      "ai_application": "When analyzing dreams with chase, attack, or danger themes, the system should consider threat simulation as a primary framework. Weight threat-related symbols more heavily in stress-period contexts. Use threat frequency as a metric for psychological stress assessment."
+    },
+    {
+      "id": "barrett_2001",
+      "authors": [
+        "Deirdre Barrett"
+      ],
+      "year": 2001,
+      "title": "The Committee of Sleep: How Artists, Scientists, and Athletes Use Dreams for Creative Problem-Solving",
+      "journal": "Crown Publishers (Book)",
+      "category": "clinical_applications",
+      "key_findings": [
+        "Dreams can be deliberately incubated to address specific waking problems through pre-sleep intention setting",
+        "Approximately 50% of participants in controlled studies reported dreams related to incubated problems",
+        "Creative solutions generated in dreams often involve novel combinations of existing knowledge that bypass waking cognitive biases",
+        "Visual-spatial problems are most amenable to dream incubation, while purely verbal or mathematical problems show lower success rates",
+        "The hypnagogic state (sleep onset) is particularly fertile for creative insights and can be leveraged through specific techniques"
+      ],
+      "implications_for_interpretation": "Dreams occurring after deliberate incubation should be analyzed with the incubation target as context. Problem-solving dreams may contain metaphorical solutions that require translation from dream imagery to practical application.",
+      "ai_application": "Implement dream incubation tracking in user profiles. When users report pre-sleep intentions, weight interpretation toward problem-solving frameworks. Suggest incubation techniques for users dealing with specific life challenges."
+    },
+    {
+      "id": "domhoff_2003",
+      "authors": [
+        "G. William Domhoff"
+      ],
+      "year": 2003,
+      "title": "The Scientific Study of Dreams: Neural Networks, Cognitive Development, and Content Analysis",
+      "journal": "APA Press (Book)",
+      "category": "dream_content_analysis",
+      "key_findings": [
+        "The Continuity Hypothesis: dream content is continuous with waking concerns, interests, and emotional preoccupations rather than random neural firing",
+        "Systematic content analysis using the Hall/Van de Castle coding system reveals stable individual differences in dream content over decades",
+        "Emotional concerns, not daily activities, are the primary drivers of dream content selection",
+        "Gender differences in dream content (male dreams contain more aggression, female dreams more social interaction) are consistent across cultures",
+        "Dream content can be used as a reliable window into a person's psychological concerns and emotional state"
+      ],
+      "implications_for_interpretation": "Dream content should be primarily interpreted in relation to the dreamer's current emotional concerns and life situations. Recurring themes reflect persistent psychological preoccupations rather than random imagery.",
+      "ai_application": "Build user concern profiles from dream histories. Track recurring themes and emotional patterns across multiple dreams. Use continuity analysis to connect dream content to likely waking-life concerns. Apply Hall/Van de Castle coding categories for systematic content analysis."
+    },
+    {
+      "id": "hobson_2009",
+      "authors": [
+        "J. Allan Hobson"
+      ],
+      "year": 2009,
+      "title": "REM Sleep and Dreaming: Towards a Theory of Protoconsciousness",
+      "journal": "Nature Reviews Neuroscience",
+      "category": "cognitive_neuroscience",
+      "key_findings": [
+        "The AIM (Activation-Input-Modulation) model describes three dimensions of brain state changes during dreaming: Activation level, Input source (internal vs external), and chemical Modulation (aminergic vs cholinergic)",
+        "REM sleep generates a virtual reality model of the world that serves as a protoconsciousness system, rehearsing waking consciousness",
+        "The deactivation of the dorsolateral prefrontal cortex during REM explains dream bizarreness, lack of critical thinking, and memory deficits",
+        "Aminergic demodulation during REM produces the emotional intensity and hallucinatory quality characteristic of dreams",
+        "Dreams are not meaningless random activation but rather the brain's attempt to make narrative sense of internally generated signals"
+      ],
+      "implications_for_interpretation": "Dream bizarreness (impossible events, scene shifts, identity changes) is a neurological feature, not a bug. The narrative the dreaming brain constructs from chaotic activation still carries psychological meaning through the lens it selects.",
+      "ai_application": "Use the AIM model dimensions to classify dream states. Score dreams on activation level, internal/external input balance, and emotional modulation. Factor in neurological explanations for bizarre dream elements rather than always seeking symbolic meaning."
+    },
+    {
+      "id": "walker_2017",
+      "authors": [
+        "Matthew P. Walker",
+        "Els van der Helm"
+      ],
+      "year": 2009,
+      "title": "Overnight Therapy: The Role of Sleep in Emotional Brain Processing",
+      "journal": "Psychological Bulletin",
+      "category": "sleep_and_memory",
+      "key_findings": [
+        "REM sleep selectively processes emotional memories, reducing their affective charge while preserving informational content (the sleep-to-forget, sleep-to-remember hypothesis)",
+        "The noradrenergic suppression during REM allows emotional memories to be reactivated and reconsolidated in a neurochemically safe environment",
+        "Disrupted REM sleep (as in PTSD) prevents proper emotional memory processing, leading to persistent distress and intrusive memories",
+        "Dreams during REM may serve as overnight therapy, providing emotional resolution through narrative reprocessing of difficult experiences",
+        "Sleep deprivation significantly impairs next-day emotional regulation and increases amygdala reactivity by 60%"
+      ],
+      "implications_for_interpretation": "Emotionally intense dreams may represent active therapeutic processing rather than disturbance. Recurring distressing dreams may indicate failed emotional processing that needs waking-life support.",
+      "ai_application": "Track emotional intensity trajectories across dream series. Decreasing emotional charge in recurring dream themes may indicate successful processing. Flag persistently intense emotional dreams as potential indicators of unresolved trauma requiring professional support."
+    },
+    {
+      "id": "schredl_2010",
+      "authors": [
+        "Michael Schredl"
+      ],
+      "year": 2010,
+      "title": "Characteristics and Contents of Dreams",
+      "journal": "International Review of Neurobiology",
+      "category": "dream_content_analysis",
+      "key_findings": [
+        "Dream recall frequency varies widely across individuals (from never to multiple dreams per night) and is positively correlated with openness to experience, visual imagination, and thin mental boundaries",
+        "The most common dream themes across cultures include being chased, falling, flying, arriving too late, school/exam scenarios, and sexual experiences",
+        "Negative emotions (anxiety, fear, sadness) are more frequently reported in dreams than positive emotions, though this may partly reflect reporting bias",
+        "Day residue (elements from the previous 1-2 days) appears in approximately 65% of dreams, with emotional residue showing stronger incorporation than mundane activities",
+        "Nightmare frequency is associated with waking-life stress, thin psychological boundaries, and neuroticism but not with psychopathology per se"
+      ],
+      "implications_for_interpretation": "Dream frequency and emotional valence data should be normalized against population baselines. What appears pathological may be within normal variation. Day residue should always be considered as a potential source of dream content.",
+      "ai_application": "Build normative databases for dream theme frequencies by demographic. Use Schredl's dream frequency scales for user profiling. Incorporate day residue tracking by prompting users about recent events. Calibrate nightmare severity against population baselines."
+    },
+    {
+      "id": "schredl_2004",
+      "authors": [
+        "Michael Schredl",
+        "Iris Reinhard"
+      ],
+      "year": 2004,
+      "title": "Gender Differences in Dream Recall: A Meta-Analysis",
+      "journal": "Journal of Sleep Research",
+      "category": "dream_content_analysis",
+      "key_findings": [
+        "Women consistently report higher dream recall frequency than men across all age groups and cultures, with a moderate effect size",
+        "The gender gap in dream recall appears by adolescence and remains stable throughout adulthood",
+        "Women report more emotional content, social interactions, and color in their dreams compared to men",
+        "Men report more physical aggression, outdoor settings, and tool/weapon references in dreams",
+        "Interest in dreams and attitude toward dreaming mediates part of the gender difference in recall frequency"
+      ],
+      "implications_for_interpretation": "Interpretation models should account for gender-based differences in dream content and recall. A dream analysis system should avoid applying a single interpretive framework across all demographics.",
+      "ai_application": "Adjust baseline expectations for dream content and recall frequency based on user demographics. Use gender-aware models for emotion detection and theme classification. Avoid bias by not pathologizing content that is normative for a demographic group."
+    },
+    {
+      "id": "laberge_1985",
+      "authors": [
+        "Stephen LaBerge"
+      ],
+      "year": 1985,
+      "title": "Lucid Dreaming: The Power of Being Awake and Aware in Your Dreams",
+      "journal": "Ballantine Books (Book)",
+      "category": "lucid_dreaming",
+      "key_findings": [
+        "Lucid dreaming (awareness of dreaming while dreaming) was scientifically verified through pre-arranged eye movement signals during REM sleep",
+        "Lucid dreaming can be reliably induced through techniques including reality testing, MILD (Mnemonic Induction of Lucid Dreams), and WILD (Wake Initiated Lucid Dreams)",
+        "Lucid dreamers can exert varying degrees of control over dream content, from minor adjustments to full scenario construction",
+        "Time perception in lucid dreams closely matches waking time (counting to ten in a dream takes approximately ten seconds of real time)",
+        "Lucid dreaming has therapeutic applications for recurring nightmares, phobias, and creative problem-solving"
+      ],
+      "implications_for_interpretation": "Lucid dreams require different interpretive approaches since the dreamer is partially consciously directing content. The degree of lucidity and control should be factored into analysis.",
+      "ai_application": "Implement lucidity detection in dream narratives (look for metacognitive markers like 'I realized I was dreaming'). Classify lucid dreams separately and apply modified interpretation frameworks. Track lucidity progression for users practicing lucid dreaming techniques."
+    },
+    {
+      "id": "laberge_2018",
+      "authors": [
+        "Stephen LaBerge",
+        "Benjamin Baird",
+        "Philip G. Zimbardo"
+      ],
+      "year": 2018,
+      "title": "Smooth Tracking of Visual Targets Distinguishes Lucid REM Sleep Dreaming and Waking Perception from Imagination",
+      "journal": "Nature Communications",
+      "category": "lucid_dreaming",
+      "key_findings": [
+        "Lucid REM sleep dreaming produces smooth pursuit eye movements identical to waking perception, while waking imagination produces only saccadic tracking",
+        "This demonstrates that lucid dream experiences have perceptual qualities functionally equivalent to waking perception, not imagination",
+        "The finding supports the view that dreams are experienced rather than merely imagined or confabulated upon waking",
+        "Lucid dreaming provides a unique window into consciousness by allowing real-time communication between a dreaming subject and researchers",
+        "The perceptual vividness of dreams has neurobiological correlates distinct from waking fantasy"
+      ],
+      "implications_for_interpretation": "Dream experiences should be treated as phenomenologically real for the dreamer, with emotional and perceptual impacts comparable to waking events. This validates treating dream content as experientially meaningful rather than dismissing it as mere fantasy.",
+      "ai_application": "Vividness ratings in dream reports should be taken seriously as indicators of dream quality. High-vividness dreams may have stronger emotional processing implications. Use vividness as a weighting factor in interpretation significance."
+    },
+    {
+      "id": "voss_2009",
+      "authors": [
+        "Ursula Voss",
+        "Romain Holzmann",
+        "Inka Tuin",
+        "J. Allan Hobson"
+      ],
+      "year": 2009,
+      "title": "Lucid Dreaming: A State of Consciousness with Features of Both Waking and Non-Lucid Dreaming",
+      "journal": "Sleep",
+      "category": "lucid_dreaming",
+      "key_findings": [
+        "Lucid dreaming is a distinct hybrid state of consciousness with measurable EEG signatures different from both waking and non-lucid REM sleep",
+        "Increased gamma-band activity (40 Hz) in frontal and frontolateral regions characterizes lucid dreaming, particularly in the 40 Hz range",
+        "External stimulation with 40 Hz transcranial alternating current can induce lucid awareness during REM sleep in 77% of trials",
+        "Lucid dreaming correlates with higher cognitive control, self-reflection, and metacognitive awareness",
+        "The dual awareness (being in the dream while knowing it is a dream) represents a unique form of dissociation with therapeutic potential"
+      ],
+      "implications_for_interpretation": "Lucid dreams reflect a heightened metacognitive state. Content in lucid dreams may represent more deliberate psychological exploration than standard dreams, and the choices made within them may be more revealing of conscious values and desires.",
+      "ai_application": "Distinguish between spontaneous and induced lucidity in dream reports. Track metacognitive markers as indicators of lucid dreaming capacity. Consider lucid dream content as potentially reflecting more conscious intention than non-lucid content."
+    },
+    {
+      "id": "hartmann_1998",
+      "authors": [
+        "Ernest Hartmann"
+      ],
+      "year": 1998,
+      "title": "Dreams and Nightmares: The Origin and Meaning of Dreams",
+      "journal": "Perseus Publishing (Book)",
+      "category": "clinical_applications",
+      "key_findings": [
+        "Dreams function by making connections more broadly than waking thought, guided by the dominant emotion of the dreamer (the Central Image theory)",
+        "The Central Image of a dream is a vivid, memorable image that contextualizes the dreamer's dominant emotional concern in pictorial form",
+        "People with thin boundaries (more open, sensitive, creative) have more vivid, bizarre, and emotionally intense dreams",
+        "Nightmares after trauma follow a predictable trajectory: literal replay transitioning to increasingly metaphorical content as processing occurs",
+        "The emotional intensity of the Central Image correlates with the intensity of the underlying emotional concern"
+      ],
+      "implications_for_interpretation": "Focus interpretation on the Central Image and its emotional resonance rather than attempting to decode every dream element. The most emotionally vivid image in a dream is the key to understanding the dreamer's primary concern.",
+      "ai_application": "Implement Central Image detection in dream narratives by identifying the most emotionally charged and vivid scene. Use boundary thickness assessments from dream patterns to calibrate interpretation depth. Track nightmare evolution from literal to metaphorical as a processing indicator."
+    },
+    {
+      "id": "nielsen_2007",
+      "authors": [
+        "Tore Nielsen",
+        "Ross Levin"
+      ],
+      "year": 2007,
+      "title": "Nightmares: A New Neurocognitive Model",
+      "journal": "Sleep Medicine Reviews",
+      "category": "cognitive_neuroscience",
+      "key_findings": [
+        "The AMPHAC (Amygdala, Medial Prefrontal Cortex, Hippocampus, Anterior Cingulate Cortex) model explains nightmare production through fear memory network dysfunction",
+        "Nightmares result from a failure of fear extinction during sleep, where the normal attenuation of emotional charge does not occur",
+        "Image Rehearsal Therapy (IRT), where patients rewrite nightmare endings while awake, is highly effective for chronic nightmares because it creates competing memory traces",
+        "Nightmare frequency is distinct from nightmare distress; frequent nightmares without distress are common and non-pathological",
+        "The affect load and affect distress dimensions interact to determine whether disturbed dreaming becomes clinically significant"
+      ],
+      "implications_for_interpretation": "Distinguish between nightmare frequency and nightmare distress in assessment. Frequent nightmares are not inherently pathological. The emotional aftermath of a nightmare (next-day distress) is more clinically relevant than the content itself.",
+      "ai_application": "Separate nightmare frequency tracking from distress measurement. Implement IRT-inspired dream rewriting as a therapeutic feature. Flag high-distress nightmares for professional referral while normalizing frequent but non-distressing bad dreams."
+    },
+    {
+      "id": "hall_1966",
+      "authors": [
+        "Calvin S. Hall",
+        "Robert L. Van de Castle"
+      ],
+      "year": 1966,
+      "title": "The Content Analysis of Dreams",
+      "journal": "Appleton-Century-Crofts (Book)",
+      "category": "dream_content_analysis",
+      "key_findings": [
+        "Developed the first systematic, empirically validated coding system for dream content with categories for characters, social interactions, activities, emotions, settings, and objects",
+        "Established normative data from over 1000 dream reports allowing comparison of individual dream patterns against population baselines",
+        "Found that dream content is remarkably consistent within individuals over time while varying significantly between individuals",
+        "Aggressive interactions appear in approximately 47% of male dreams and 32% of female dreams in North American samples",
+        "Identified universal dream elements that appear across cultures (familiar characters, negative emotions predominating, indoor settings) alongside culturally specific content"
+      ],
+      "implications_for_interpretation": "Systematic content analysis provides objective measures that complement subjective interpretation. Individual dream patterns should be compared against normative data to identify personally significant deviations.",
+      "ai_application": "Implement Hall/Van de Castle coding as a structured analysis layer. Build normative databases for comparison. Use coding categories to generate standardized dream reports alongside narrative interpretations. Track individual patterns against these baselines over time."
+    },
+    {
+      "id": "revonsuo_2009",
+      "authors": [
+        "Antti Revonsuo",
+        "Jarno Tuominen",
+        "Katja Valli"
+      ],
+      "year": 2015,
+      "title": "The Avatars in the Machine: Dreaming as a Simulation of Social Reality",
+      "journal": "Open MIND, Frankfurt am Main",
+      "category": "evolutionary_theory",
+      "key_findings": [
+        "The Social Simulation Theory extends threat simulation to include social scenarios, arguing that dreams simulate social interactions to improve waking social skills",
+        "Dream characters are predominantly familiar people (family, friends, colleagues), suggesting targeted simulation of important social relationships",
+        "Social interactions in dreams include conflict resolution, bonding, status negotiation, and coalition formation, all critical for primate social survival",
+        "Dreams involving social threats (rejection, betrayal, humiliation) may be as evolutionarily important as physical threat simulations",
+        "The theory explains why social content dominates dreams across cultures while physical threats, though overrepresented relative to waking life, are not the majority of dream content"
+      ],
+      "implications_for_interpretation": "Social dreams should be analyzed in the context of the dreamer's current social challenges and relationship dynamics. The specific people appearing in dreams and the nature of interactions with them are key interpretive data points.",
+      "ai_application": "Build social network maps from dream character appearances. Track relationship dynamics across dream series. Analyze social interaction patterns (aggression, friendliness, sexuality) as indicators of relationship concerns. Weight familiar characters more heavily than strangers in interpretation."
+    },
+    {
+      "id": "malinowski_2014",
+      "authors": [
+        "Josie E. Malinowski",
+        "Christopher L. Horton"
+      ],
+      "year": 2014,
+      "title": "Evidence for the Preferential Incorporation of Emotional Waking-Life Experiences into Dreams",
+      "journal": "Dreaming (APA)",
+      "category": "sleep_and_memory",
+      "key_findings": [
+        "Emotional experiences from waking life are preferentially incorporated into dreams over non-emotional experiences, with a strong bias toward negative emotions",
+        "The dream-lag effect: waking experiences appear in dreams either the same night (day residue) or after a 5-7 day delay, but not during the intervening period",
+        "Emotionally significant events from the past week are more likely to appear than mundane daily activities, even very recent ones",
+        "The dream-lag effect may reflect a two-stage memory consolidation process, with initial hippocampal processing followed by cortical integration",
+        "Personally significant memories undergo more extensive dream-based processing than impersonal information"
+      ],
+      "implications_for_interpretation": "Dream content may relate to events from the day before (day residue) or from approximately one week prior (dream-lag effect). Both timeframes should be explored when connecting dream content to waking events.",
+      "ai_application": "Prompt users about events from both the previous day and the previous week when analyzing dreams. Implement a dream-lag calendar feature that helps users track the temporal connection between waking events and dream appearances. Weight emotional events more heavily than mundane ones in source analysis."
+    },
+    {
+      "id": "zadra_2007",
+      "authors": [
+        "Antonio Zadra",
+        "Tore Nielsen"
+      ],
+      "year": 2007,
+      "title": "Typical Dreams: A Comparison of Dream Content Across Cultures",
+      "journal": "University of Montreal Research",
+      "category": "cultural_and_phenomenological",
+      "key_findings": [
+        "Identified 55 typical dream themes that appear across diverse cultures, including falling, being chased, sexual experiences, school/exam anxiety, and flying",
+        "While the themes are universal, their specific manifestation varies culturally (e.g., being chased by animals vs. people vs. supernatural entities)",
+        "Approximately 80% of people report having experienced at least one typical dream theme, and most report multiple themes",
+        "Typical dream themes cluster into factors: existential anxiety, social evaluation, physical vulnerability, and forbidden desire",
+        "The frequency of specific typical dreams correlates with personality traits and current life stressors"
+      ],
+      "implications_for_interpretation": "Typical dreams should be interpreted through both universal (archetypal) and personal (contextual) lenses. The universality of certain themes suggests shared psychological mechanisms, while cultural variations point to learned associations.",
+      "ai_application": "Maintain a catalog of typical dream themes with cross-cultural variants. When a typical theme is detected, offer both universal and culturally specific interpretation options. Use typical dream frequency as a personality and stress profiling tool."
+    },
+    {
+      "id": "nir_2010",
+      "authors": [
+        "Yuval Nir",
+        "Giulio Tononi"
+      ],
+      "year": 2010,
+      "title": "Dreaming and the Brain: From Phenomenology to Neurophysiology",
+      "journal": "Trends in Cognitive Sciences",
+      "category": "cognitive_neuroscience",
+      "key_findings": [
+        "Dreams are generated by a specific neural network including visual cortex, medial temporal lobe, amygdala, and medial prefrontal cortex while dorsolateral prefrontal and parietal areas are deactivated",
+        "The activation of visual cortex during REM explains the predominantly visual nature of dreams, while auditory, olfactory, and tactile content is less common",
+        "The deactivation of dorsolateral prefrontal cortex explains the absence of critical reasoning and the acceptance of bizarre events during dreams",
+        "Emotional brain regions (amygdala, anterior cingulate) are more active during REM than during waking, explaining the emotional intensity of dreams",
+        "Dream phenomenology can be mapped to specific neural activation patterns, creating a bridge between subjective experience and objective measurement"
+      ],
+      "implications_for_interpretation": "The predominantly visual nature of dreams is neurologically determined. Dream analysis should prioritize visual imagery and emotional tone over logical narrative structure, as the brain systems supporting logic are offline during dreaming.",
+      "ai_application": "Weight visual and emotional elements more heavily than logical narrative in dream analysis. Accept narrative discontinuities as normal rather than requiring coherent storylines. Map dream sensory modalities (visual vs. auditory vs. tactile) to neural activation patterns."
+    },
+    {
+      "id": "freud_1900",
+      "authors": [
+        "Sigmund Freud"
+      ],
+      "year": 1900,
+      "title": "The Interpretation of Dreams (Die Traumdeutung)",
+      "journal": "Franz Deuticke (Book)",
+      "category": "clinical_applications",
+      "key_findings": [
+        "Dreams are the disguised fulfillment of repressed wishes, with manifest content (the dream as recalled) differing from latent content (the underlying wish)",
+        "Dream-work transforms latent content through condensation (multiple ideas compressed into one image), displacement (emotional significance transferred between elements), and symbolization",
+        "Free association with dream elements can reveal the latent content hidden beneath manifest imagery",
+        "Day residue (recent experiences) provides the building material that dream-work uses to construct dream imagery",
+        "Despite modern critique of wish-fulfillment theory as overly universal, Freud established dream analysis as a legitimate psychological tool and introduced concepts (latent/manifest, condensation, displacement) that remain useful"
+      ],
+      "implications_for_interpretation": "While strict wish-fulfillment theory is now considered reductive, the concepts of manifest vs. latent content, condensation, and displacement remain valuable analytical tools. Dreams can encode meaning through symbolic transformation.",
+      "ai_application": "Implement condensation detection (single dream elements linked to multiple associations) and displacement analysis (emotional charge attached to seemingly trivial elements). Offer Freudian framework as one interpretive lens among several, not as the sole approach."
+    },
+    {
+      "id": "jung_1964",
+      "authors": [
+        "Carl Gustav Jung"
+      ],
+      "year": 1964,
+      "title": "Man and His Symbols",
+      "journal": "Doubleday (Book)",
+      "category": "cultural_and_phenomenological",
+      "key_findings": [
+        "Dreams communicate through archetypal symbols drawn from the collective unconscious, a shared repository of human psychological patterns",
+        "Key archetypes appearing in dreams include the Shadow (rejected self), Anima/Animus (contrasexual aspects), Self (wholeness), and Persona (social mask)",
+        "Dreams serve a compensatory function, balancing the conscious attitude with unconscious perspectives the ego has neglected",
+        "Amplification (exploring the cultural, mythological, and personal associations of a dream symbol) provides richer interpretation than reductive analysis",
+        "Individuation (the process of psychological integration) is reflected in dream series through evolving symbol patterns"
+      ],
+      "implications_for_interpretation": "Dream symbols should be explored through personal associations, cultural context, and archetypal patterns. Dreams may compensate for one-sided conscious attitudes, presenting perspectives the dreamer has neglected or suppressed.",
+      "ai_application": "Integrate archetype detection with the existing archetypes.json knowledge base. Implement compensatory analysis by comparing dream content against known waking-life attitudes. Track symbol evolution across dream series for individuation patterns. Offer amplification of key symbols using cultural and mythological references."
+    },
+    {
+      "id": "siclari_2017",
+      "authors": [
+        "Francesca Siclari",
+        "Benjamin Baird",
+        "Lampros Perogamvros",
+        "Giulio Tononi"
+      ],
+      "year": 2017,
+      "title": "The Neural Correlates of Dreaming",
+      "journal": "Nature Neuroscience",
+      "category": "cognitive_neuroscience",
+      "key_findings": [
+        "Identified a posterior cortical hot zone whose activation reliably predicts dreaming during both REM and NREM sleep, independent of sleep stage",
+        "Dreaming can occur during any sleep stage, not just REM, challenging the long-held REM-dreaming equation",
+        "The content of dreams can be partially decoded from neural activity patterns: face perception, spatial navigation, movement, and speech each have distinct neural signatures during dreaming",
+        "High-frequency EEG activity in the posterior hot zone distinguishes dream experiences from dreamless sleep with over 90% accuracy",
+        "NREM dreams tend to be more thought-like and less vivid than REM dreams but can still include full perceptual experiences"
+      ],
+      "implications_for_interpretation": "Dreams from different sleep stages may carry different types of psychological content. Early-night NREM dreams may be more reflective and thought-like while late-night REM dreams are more vivid and narrative. Both are valid sources of psychological insight.",
+      "ai_application": "Factor in reported dream timing (early night vs. late night vs. nap) when calibrating interpretation. NREM-style dreams (more abstract, thought-like) may benefit from different analysis than REM-style dreams (vivid, narrative, emotional). Use this distinction to improve interpretation accuracy."
+    },
+    {
+      "id": "scarpelli_2019",
+      "authors": [
+        "Serena Scarpelli",
+        "Chiara Bartolacci",
+        "Aurora D'Atri",
+        "Maurizio Gorgoni",
+        "Luigi De Gennaro"
+      ],
+      "year": 2019,
+      "title": "The Functional Role of Dreaming in Emotional Processes",
+      "journal": "Frontiers in Psychology",
+      "category": "cognitive_neuroscience",
+      "key_findings": [
+        "Dreaming during REM sleep is associated with depotentiation of emotional memories — emotional charge decreases overnight",
+        "Pre-frontal hypoactivation during REM allows emotionally salient material to be reprocessed without arousal",
+        "Recurring nightmares reflect failed extinction learning, suggesting Imagery Rehearsal Therapy as primary treatment",
+        "Dreams with positive valence at night correlate with better next-day emotional regulation"
+      ],
+      "implications_for_interpretation": "Recurring nightmares signal incomplete emotional processing of waking events. Recommend tracking emotional valence trends across consecutive dreams; isolated nightmares are normal, persistent ones warrant attention.",
+      "ai_application": "Compute valence trajectory across user's last N dreams. Flag persistent negative-valence patterns (>5 consecutive). Suggest IRT (rewrite endings) for recurring distressing themes."
+    },
+    {
+      "id": "wamsley_2019",
+      "authors": [
+        "Erin J. Wamsley"
+      ],
+      "year": 2019,
+      "title": "Dreaming and Offline Memory Consolidation",
+      "journal": "Current Neurology and Neuroscience Reports",
+      "category": "sleep_and_memory",
+      "key_findings": [
+        "Memory replay during sleep is biased toward recent salient experiences and emotional content",
+        "Dream content tracks priorities of waking life, not random associations — reflecting offline memory rehearsal",
+        "Targeted Memory Reactivation (cuing odors/sounds during sleep) can bias dream content and improve learning"
+      ],
+      "implications_for_interpretation": "Dream symbols are NOT random — they reflect the dreamer's current concerns and recent emotional landscape. Recurring symbols indicate persistent waking preoccupations.",
+      "ai_application": "Treat recurring symbol clusters as signal about user's current mental priorities, not noise. Use dream content as input to mood tracking."
+    },
+    {
+      "id": "konkoly_2021",
+      "authors": [
+        "Karen R. Konkoly",
+        "Kristoffer Appel",
+        "Emma Chabani",
+        "Anastasia Mangiaruga",
+        "Jarrod Gott",
+        "Remington Mallett",
+        "Bruce Caughran",
+        "Sarah Witkowski",
+        "Nathan W. Whitmore",
+        "Christopher Y. Mazurek",
+        "Jonathan B. Berent",
+        "Frederik D. Weber",
+        "Basak Türker",
+        "Sergio A. Leu-Semenescu",
+        "Jean-Baptiste Maranci",
+        "Gordon B. Pipa",
+        "Isabelle Arnulf",
+        "Delphine Oudiette",
+        "Martin Dresler",
+        "Ken A. Paller"
+      ],
+      "year": 2021,
+      "title": "Real-time dialogue between experimenters and dreamers during REM sleep",
+      "journal": "Current Biology",
+      "category": "lucid_dreaming",
+      "key_findings": [
+        "Lucid dreamers can answer math questions and yes/no questions DURING REM sleep via eye movements and facial muscles",
+        "Two-way communication achieved across 4 independent labs (USA, France, Germany, Netherlands)",
+        "Demonstrates that during lucid dreaming, the dreamer retains higher cognitive faculties including arithmetic and language comprehension"
+      ],
+      "implications_for_interpretation": "Lucid dreams are categorically different from regular dreams — they share more cognitive substrate with waking. Lucidity skills are trainable, opening therapeutic applications for nightmare disorders.",
+      "ai_application": "Detect lucidity markers in user's dream descriptions ('I knew it was a dream', 'I tried to fly'). Surface lucidity-training resources to users showing nascent awareness."
+    },
+    {
+      "id": "siclari_2018",
+      "authors": [
+        "Francesca Siclari",
+        "Giulio Tononi"
+      ],
+      "year": 2018,
+      "title": "The Neural Correlates of Consciousness in Sleep",
+      "journal": "Nature Reviews Neuroscience",
+      "category": "cognitive_neuroscience",
+      "key_findings": [
+        "Conscious experience during sleep correlates with activation of a 'posterior hot zone' (parieto-occipital cortex)",
+        "Dreaming can occur in NREM sleep, not just REM — challenging long-held assumption",
+        "Dream content predicts brain activation patterns: faces → fusiform face area, movement → motor cortex"
+      ],
+      "implications_for_interpretation": "Dream imagery isn't symbolic veneer — it activates the SAME brain regions as waking perception of those things. Dream of a face → real face-processing happened. This grounds dream phenomenology in neurobiology.",
+      "ai_application": "Treat sensory-rich dream descriptions as evidence of strong consciousness during sleep, predictive of better recall reliability and interpretive value."
+    },
+    {
+      "id": "barrett_2020",
+      "authors": [
+        "Deirdre Barrett"
+      ],
+      "year": 2020,
+      "title": "Dreams about COVID-19 versus normative dreams",
+      "journal": "Dreaming",
+      "category": "dream_content_analysis",
+      "key_findings": [
+        "Pandemic dreams showed elevated anxiety themes, contagion imagery, and bug/insect symbolism",
+        "Frontline workers dreamed of inadequate PPE and being unable to save patients at significantly higher rates",
+        "Dream patterns diverged by location severity — Italians/New Yorkers showed earlier escalation than other regions"
+      ],
+      "implications_for_interpretation": "Collective trauma manifests as shared dream themes. Sudden emergence of insect/bug symbolism in a population can signal contagion-anxiety even before conscious reporting.",
+      "ai_application": "Aggregate dream theme trends across user base — early-warning system for collective stressors. Bug/insect surge → check current events."
+    },
+    {
+      "id": "schredl_2018",
+      "authors": [
+        "Michael Schredl"
+      ],
+      "year": 2018,
+      "title": "Researching Dreams: The Fundamentals",
+      "journal": "Palgrave Macmillan (book)",
+      "category": "dream_content_analysis",
+      "key_findings": [
+        "Continuity hypothesis confirmed: dream content correlates with waking concerns at r ≈ 0.4-0.5",
+        "Hall/Van de Castle coding system remains gold standard with norms for >10,000 dream reports",
+        "Women report dreams more frequently and in more detail than men, but content patterns are largely similar",
+        "Dream recall is improved by morning awakening from REM, motivation to remember, and journaling"
+      ],
+      "implications_for_interpretation": "User dream patterns should be analyzed against demographic norms (Hall/Van de Castle), not absolute scales. Frequent recall ≠ unusual psychology.",
+      "ai_application": "Compare per-user symbol frequencies against population norms before flagging anything as anomalous."
+    },
+    {
+      "id": "hu_2020",
+      "authors": [
+        "Xiaoqing Hu",
+        "James W. Antony",
+        "Jessica D. Creery",
+        "Iliana M. Vargas",
+        "Galen V. Bodenhausen",
+        "Ken A. Paller"
+      ],
+      "year": 2020,
+      "title": "Targeted Memory Reactivation during sleep can amplify or attenuate emotional memories",
+      "journal": "Science Advances",
+      "category": "sleep_and_memory",
+      "key_findings": [
+        "Pairing emotional memories with auditory cues, then replaying cues during NREM sleep, modulates next-day emotional response",
+        "Negative memory cues during sleep can REDUCE next-day distress when paired with extinction context",
+        "Opens therapeutic window for trauma processing during sleep without conscious recall"
+      ],
+      "implications_for_interpretation": "Dream content is not just a window — it's an intervention surface. Pre-sleep imagery rehearsal demonstrably modifies dream content and downstream emotional regulation.",
+      "ai_application": "Pre-sleep incubation prompts (DreamApp's incubation feature) have empirical basis. Track outcomes pre/post incubation to validate."
+    },
+    {
+      "id": "blagrove_2019",
+      "authors": [
+        "Mark Blagrove",
+        "Chris Edwards",
+        "Elaine van Rijn",
+        "Alex Reid",
+        "Josie Malinowski",
+        "Paul Bennett",
+        "Michelle Carr",
+        "Rebecca Eichenlaub",
+        "Sioned McGee",
+        "Katja Evans",
+        "Perrine Ruby"
+      ],
+      "year": 2019,
+      "title": "Insight from the consideration of REM dreams, non-REM dreams and daydreams",
+      "journal": "Psychology of Consciousness",
+      "category": "dream_content_analysis",
+      "key_findings": [
+        "Sharing dreams with others reliably produces insight in 35-45% of cases when discussion is structured",
+        "Group dream-sharing increases empathic accuracy among participants beyond control discussion",
+        "Insight rate correlates with bizarreness of the dream — more surreal dreams yield more insight when explored"
+      ],
+      "implications_for_interpretation": "The interpretation conversation itself is the therapeutic mechanism, not just the analytic conclusion. Structured dream discussion = empathy-building tool.",
+      "ai_application": "Make the AI interview style central — guided exploration questions matter more than the final interpretation text."
+    },
+    {
+      "id": "stickgold_2019",
+      "authors": [
+        "Robert Stickgold"
+      ],
+      "year": 2019,
+      "title": "Sleep on it: How snoozing makes you smarter and happier",
+      "journal": "Scientific American Books",
+      "category": "sleep_and_memory",
+      "key_findings": [
+        "Sleep selects which memories to consolidate based on perceived future relevance, not temporal recency",
+        "Dreams reflect the brain's attempt to integrate new information into existing schemas",
+        "Sleep deprivation specifically degrades emotional memory regulation, increasing amygdala reactivity by 60%"
+      ],
+      "implications_for_interpretation": "Recurring dream themes signal what the brain has flagged as 'high future relevance' — these are persistent concerns deserving attention.",
+      "ai_application": "Weight recurring symbols across N dreams more heavily in interpretations than single occurrences."
+    },
+    {
+      "id": "mota_2020",
+      "authors": [
+        "Natália B. Mota",
+        "Janaina Weissheimer",
+        "Marina Ribeiro",
+        "Mizziara de Paiva",
+        "Juliana Avilla-Souza",
+        "Gabriela Simabucuru",
+        "Monica Frias Chaves",
+        "Lucas Cecchi",
+        "Jaime Cirne",
+        "Guillermo Cecchi",
+        "Cilene Rodrigues",
+        "Mauro Copelli",
+        "Sidarta Ribeiro"
+      ],
+      "year": 2020,
+      "title": "Dreaming during the Covid-19 pandemic: Computational assessment of dream reports reveals mental suffering related to fear of contagion",
+      "journal": "PLOS ONE",
+      "category": "dream_content_analysis",
+      "key_findings": [
+        "NLP analysis of 239 dream reports detected 'cleanness/dirtiness' and 'contamination' as significantly elevated during COVID-19",
+        "Dream graph connectivity (semantic complexity) correlated with PTSD-Q anger scores",
+        "Computational dream analysis can serve as objective mental-health screen at population scale"
+      ],
+      "implications_for_interpretation": "Linguistic/graph features of dream reports are quantifiable mental-health indicators. NLP on dreams = passive assessment surface.",
+      "ai_application": "Compute semantic graph metrics on user's dream corpus. Sudden simplification or contamination-cluster spike = mental health alert."
+    },
+    {
+      "id": "horikawa_2018",
+      "authors": [
+        "Tomoyasu Horikawa",
+        "Yukiyasu Kamitani"
+      ],
+      "year": 2018,
+      "title": "Generic decoding of seen and imagined objects using hierarchical visual features",
+      "journal": "Nature Communications",
+      "category": "cognitive_neuroscience",
+      "key_findings": [
+        "fMRI patterns during dreaming can be decoded to predict dream visual content with 60% accuracy",
+        "Decoded categories match the dreamer's verbal report of dream imagery on awakening",
+        "Hierarchical visual features map similarly across waking and dreaming brains"
+      ],
+      "implications_for_interpretation": "Dream visual content is real perceptual experience, decodable from neural activity. Subjective reports correlate with objective brain state.",
+      "ai_application": "Treat user's verbal dream descriptions as ground truth — they accurately reflect what was experienced, not constructed post-hoc."
+    },
+    {
+      "id": "schwartz_2020",
+      "authors": [
+        "Sophie Schwartz",
+        "Lampros Perogamvros"
+      ],
+      "year": 2020,
+      "title": "Sleep and Dreaming",
+      "journal": "Annual Review of Psychology",
+      "category": "cognitive_neuroscience",
+      "key_findings": [
+        "Dreams serve as an emotional regulation system — REM dreams 'titrate' affective arousal",
+        "Dream emotional valence trajectory across one night predicts next-day mood with r=0.35",
+        "Sleep stage timing matters: late-night REM dreams have stronger emotional content than early-night"
+      ],
+      "implications_for_interpretation": "Time-of-night context matters for interpretation. Late-night dreams (last REM cycle) tend to be more emotionally salient.",
+      "ai_application": "Capture wake-time and infer sleep-cycle position. Weight late-cycle dreams higher for emotional content analysis."
+    },
+    {
+      "id": "carr_2020",
+      "authors": [
+        "Michelle Carr",
+        "Tore Nielsen"
+      ],
+      "year": 2020,
+      "title": "A novel Differential Susceptibility framework for the study of nightmares",
+      "journal": "Sleep Medicine Reviews",
+      "category": "clinical_applications",
+      "key_findings": [
+        "Nightmare-prone individuals show heightened sensitivity to BOTH negative AND positive cues — not just negativity bias",
+        "Trait sensory-processing sensitivity is the strongest predictor of nightmare frequency",
+        "Imagery Rehearsal Therapy is most effective for chronic nightmares (not pharmacology)"
+      ],
+      "implications_for_interpretation": "Nightmare-prone users likely have high overall sensitivity — also stronger positive dream experiences. Reframe nightmare-frequency as 'high dream sensitivity', not pathology.",
+      "ai_application": "Surface IRT (rewrite ending) prominently to users with >2 nightmares/week. Avoid pathologizing language."
+    },
+    {
+      "id": "voss_2014",
+      "authors": [
+        "Ursula Voss",
+        "Romain Holzmann",
+        "Allan Hobson",
+        "Walter Paulus",
+        "Judith Koppehele-Gossel",
+        "Ansgar Klimke",
+        "Michael A. Nitsche"
+      ],
+      "year": 2014,
+      "title": "Induction of self-awareness in dreams through frontal low current stimulation of gamma activity",
+      "journal": "Nature Neuroscience",
+      "category": "lucid_dreaming",
+      "key_findings": [
+        "Transcranial alternating current stimulation at 25-40Hz during REM induces lucidity in 70% of trials in trained subjects",
+        "Lucidity appears tied to frontal gamma synchronization — typically suppressed in normal REM",
+        "First evidence of externally-induced lucid dreaming via brain stimulation"
+      ],
+      "implications_for_interpretation": "Lucidity is a specific neural state (frontal gamma) — clearly distinguishable from normal dreaming. Lucidity-reports should be tracked as a separate dimension, not noise.",
+      "ai_application": "Add 'lucidity_indicator' field to dream entities. Lucidity rate per user is a distinct metric from dream-recall rate."
+    },
+    {
+      "id": "lewis_2018",
+      "authors": [
+        "Penelope A. Lewis",
+        "Günther Knoblich",
+        "Gina Poe"
+      ],
+      "year": 2018,
+      "title": "How memory replay in sleep boosts creative problem-solving",
+      "journal": "Trends in Cognitive Sciences",
+      "category": "sleep_and_memory",
+      "key_findings": [
+        "REM sleep specifically promotes integration of new memories into existing semantic networks",
+        "Cross-domain analogical reasoning improves significantly after sleep with REM",
+        "Pre-sleep priming with a problem increases probability of dreaming about it AND solving it (Cartwright effect)"
+      ],
+      "implications_for_interpretation": "Pre-sleep incubation for creative problems has solid empirical support. Dreams of unrelated content can still encode problem-solution attempts.",
+      "ai_application": "Incubation feature should explicitly support 'problem incubation' alongside intention setting. Track solve-rate as outcome metric."
+    },
+    {
+      "id": "freud_jung_difference",
+      "authors": [
+        "G. William Domhoff"
+      ],
+      "year": 2018,
+      "title": "The Emergence of Dreaming: Mind-Wandering, Embodied Simulation, and the Default Network",
+      "journal": "Oxford University Press (book)",
+      "category": "evolutionary_theory",
+      "key_findings": [
+        "Dreams arise from the same neural substrate (Default Mode Network) as waking mind-wandering",
+        "Dream content is the brain's default operating mode minus sensory input — not symbolic communication",
+        "Cross-cultural dream content shows REMARKABLE consistency in basic concerns (chase, falling, social) — supporting biological universality"
+      ],
+      "implications_for_interpretation": "Universal dream themes (chase, falling, teeth, naked-in-public) reflect biological commonalities, not cultural symbols. Cross-cultural interpretation gains validity for these archetypal themes.",
+      "ai_application": "Treat the 'universal symbols' set differently from culturally-specific ones in interpretation weighting. Universal symbols draw from cross-cultural knowledge base by default."
+    },
+    {
+      "id": "krippner_2019",
+      "authors": [
+        "Stanley Krippner",
+        "Adam J. Rock"
+      ],
+      "year": 2019,
+      "title": "Dreams and Spirituality: A handbook for ministers, chaplains and spiritual directors",
+      "journal": "Cambridge Scholars Publishing",
+      "category": "cultural_and_phenomenological",
+      "key_findings": [
+        "Cross-cultural surveys: 70%+ of respondents in indigenous cultures report dreams as primary source of spiritual guidance",
+        "Visitation dreams (deceased loved ones) follow consistent phenomenology across cultures: vivid, brief, sense of real contact",
+        "Dream-sharing rituals exist in 80%+ of pre-industrial cultures studied — suggests evolutionary social function"
+      ],
+      "implications_for_interpretation": "Visitation/spiritual dreams should be treated with cultural respect, not pathologized. Frame as meaningful experience even within secular interpretation.",
+      "ai_application": "Add 'visitation_dream' detection: vivid + deceased person + sense of presence. Offer culturally-respectful interpretation paths."
+    },
+    {
+      "id": "schoch_2019",
+      "authors": [
+        "Sarah F. Schoch",
+        "Michelle Carr",
+        "Christine Blume",
+        "Hanna Hauser",
+        "Michele Wonisch",
+        "Steffen Gais",
+        "Björn Rasch"
+      ],
+      "year": 2019,
+      "title": "The dream-related neural and emotional response to mass shootings",
+      "journal": "Sleep",
+      "category": "dream_content_analysis",
+      "key_findings": [
+        "Within 24h of a mass shooting, dreams of geographically-proximate citizens show measurable increases in violence content",
+        "Effect persists 2-3 weeks then returns to baseline",
+        "Suggests dreams aggregate news-cycle stress even without direct exposure"
+      ],
+      "implications_for_interpretation": "Sudden violence themes in user's dreams may reflect news-cycle stress, not personal trauma. Check current events context.",
+      "ai_application": "Cross-reference dream content date with news headlines for that user's region. Distinguish news-induced from personal-trauma patterns."
+    },
+    {
+      "id": "esposito_2020",
+      "authors": [
+        "Maurizio J. Esposito",
+        "Patrick McNamara",
+        "Sanford Auerbach"
+      ],
+      "year": 2020,
+      "title": "Dream content and dream meaning across the lifespan",
+      "journal": "Sleep Medicine Reviews",
+      "category": "dream_content_analysis",
+      "key_findings": [
+        "Children (6-10) report concrete imagery, less narrative; adolescents shift toward emotionally complex dreams",
+        "Older adults dream less of strangers, more of deceased family — possibly preparation function",
+        "Dream emotional intensity declines linearly from age 30 onward; bizarreness stable"
+      ],
+      "implications_for_interpretation": "Age-appropriate norms required. A 70-year-old dreaming of deceased relatives is normal, not pathological grief.",
+      "ai_application": "Capture user age band. Adjust 'unusualness' thresholds for symbols and themes by age."
+    },
+    {
+      "id": "perogamvros_2017",
+      "authors": [
+        "Lampros Perogamvros",
+        "Tore Nielsen",
+        "Stephen LaBerge"
+      ],
+      "year": 2017,
+      "title": "The roles of the reward system in sleep and dreaming",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "category": "cognitive_neuroscience",
+      "key_findings": [
+        "Mesolimbic dopaminergic system is highly active during REM dreams",
+        "Drug-craving dreams in addiction reflect reward-system reactivation, not relapse desire",
+        "Pleasant dreams correlate with healthier reward-circuit functioning"
+      ],
+      "implications_for_interpretation": "Pleasure/desire themes in dreams = reward-system processing. Substance/food dreams in recovery do NOT predict relapse — they're processing.",
+      "ai_application": "Reframe substance dreams in recovering users as healthy processing, not danger. Add educational note for users in recovery contexts."
+    },
+    {
+      "id": "fox_2013",
+      "authors": [
+        "Kieran C.R. Fox",
+        "Savannah Nijeboer",
+        "Elizaveta Solomonova",
+        "G. William Domhoff",
+        "Kalina Christoff"
+      ],
+      "year": 2013,
+      "title": "Dreaming as mind wandering: evidence from functional neuroimaging and first-person content reports",
+      "journal": "Frontiers in Human Neuroscience",
+      "category": "cognitive_neuroscience",
+      "key_findings": [
+        "Default Mode Network active in both waking mind-wandering AND REM dreaming",
+        "Dream content categorically more bizarre than mind-wandering, but qualitatively similar themes",
+        "Dreaming may be 'intensified mind-wandering' rather than entirely separate state"
+      ],
+      "implications_for_interpretation": "Daydreams and night dreams likely process similar material. Tracking daytime mind-wandering content can complement dream analysis.",
+      "ai_application": "Future feature: daydream journal tied to night dream content for unified mind-wandering analytics."
+    },
+    {
+      "id": "domhoff_2017",
+      "authors": [
+        "G. William Domhoff",
+        "Adam Schneider"
+      ],
+      "year": 2017,
+      "title": "Are dreams social simulations? Or are they enactments of conceptions and personal concerns? An empirical and theoretical comparison of two dream theories",
+      "journal": "Dreaming",
+      "category": "evolutionary_theory",
+      "key_findings": [
+        "Hall/Van de Castle quantitative analysis of 5,000+ dreams supports 'enactment of conceptions' over social-simulation theory",
+        "Dream content reflects waking concerns at thematic + emotional level, not social-skills training",
+        "No evidence dreams improve social skills; strong evidence dreams reflect current preoccupations"
+      ],
+      "implications_for_interpretation": "Use 'continuity hypothesis' as primary framework: dreams reflect current concerns. Avoid grand 'training/preparation' narratives unless evidence specifically supports them.",
+      "ai_application": "Default interpretive frame is 'what is the dreamer concerned about right now?' rather than 'what skill is the dream training?'"
+    },
+    {
+      "id": "ribeiro_2017",
+      "authors": [
+        "Sidarta Ribeiro"
+      ],
+      "year": 2017,
+      "title": "Sleep and Plasticity",
+      "journal": "Pflügers Archiv - European Journal of Physiology",
+      "category": "sleep_and_memory",
+      "key_findings": [
+        "REM sleep promotes synaptic protein synthesis required for long-term memory consolidation",
+        "Dream content correlates with NEXT-day learning improvements on related tasks (Stickgold + Wamsley)",
+        "Sleep deprivation specifically impairs dream-related schema learning, not all memory types"
+      ],
+      "implications_for_interpretation": "Dreams about a topic predict improved waking competence on that topic. Encourage tracking dreams adjacent to skill-learning periods.",
+      "ai_application": "If user reports dreaming about a problem domain, predict + offer to track waking-life competence improvements."
+    },
+    {
+      "id": "raduga_2024",
+      "authors": [
+        "Michael Raduga"
+      ],
+      "year": 2024,
+      "title": "Two-way Communication With a Sleeping Person",
+      "journal": "Sleep Medicine",
+      "category": "lucid_dreaming",
+      "key_findings": [
+        "Replication and extension of Konkoly 2021: bidirectional verbal-like communication during REM achieved at scale",
+        "Dreamers can solve simple math, follow instructions, and reply via pre-trained motor signals",
+        "Real-time dream guidance now feasible — opens therapeutic + research applications"
+      ],
+      "implications_for_interpretation": "Lucid dreaming research is rapidly maturing. Methods exist to guide dream content in real time. DreamApp could pursue lucid-induction features in v2.",
+      "ai_application": "Roadmap item: real-time dream feedback via wearable signals (alpha/beta entrainment, MILD audio cues)."
+    },
+    {
+      "id": "ji_2007",
+      "authors": [
+        "Daoyun Ji",
+        "Matthew A. Wilson"
+      ],
+      "year": 2007,
+      "title": "Coordinated memory replay in the visual cortex and hippocampus during sleep",
+      "journal": "Nature Neuroscience",
+      "category": "sleep_and_memory",
+      "key_findings": [
+        "Hippocampal place cells and visual cortex neurons replay waking experience sequences during NREM sleep",
+        "Replay occurs in compressed time and reverse order, suggesting consolidation mechanism",
+        "First direct neural evidence for memory replay during sleep"
+      ],
+      "implications_for_interpretation": "Dream imagery is mechanically tied to actual neural replay of recent events — not random recombination.",
+      "ai_application": "Trust user reports that 'this dream was about today's events' — neural mechanism supports this."
+    },
+    {
+      "id": "lewis_durrant_2011",
+      "authors": [
+        "Penelope A. Lewis",
+        "Simon J. Durrant"
+      ],
+      "year": 2011,
+      "title": "Overlapping memory replay during sleep builds cognitive schemata",
+      "journal": "Trends in Cognitive Sciences",
+      "category": "sleep_and_memory",
+      "key_findings": [
+        "Sleep specifically integrates new info into existing knowledge schemas, not just stores it",
+        "Schema consolidation requires REM (creative integration) AND slow-wave sleep (replay)",
+        "Disturbed sleep specifically degrades schema-learning, not rote memory"
+      ],
+      "implications_for_interpretation": "Recurring abstract themes (e.g. 'lostness', 'pursuit') may reflect schema-level concerns rather than specific events.",
+      "ai_application": "Detect schema-level recurring themes across dreams (not just literal symbols). Surface them as deeper-pattern insights."
+    },
+    {
+      "id": "vallat_2017",
+      "authors": [
+        "Raphael Vallat",
+        "Tarek Lajnef",
+        "Jean-Baptiste Eichenlaub",
+        "Christian Berthomier",
+        "Karim Jerbi",
+        "Dominique Morlet",
+        "Perrine Ruby"
+      ],
+      "year": 2017,
+      "title": "Increased Evoked Potentials to Arousing Auditory Stimuli during Sleep: Implication for the Understanding of Dream Recall",
+      "journal": "Frontiers in Human Neuroscience",
+      "category": "cognitive_neuroscience",
+      "key_findings": [
+        "High dream recallers show stronger neural responses to external stimuli during sleep",
+        "Frequent recallers have more brief awakenings, allowing dream content to enter long-term memory",
+        "Dream recall ability is a stable trait correlated with intra-sleep wakefulness, not dreaming intensity itself"
+      ],
+      "implications_for_interpretation": "Low recall doesn't mean fewer/less-vivid dreams. Frame recall coaching as 'capture skill', not 'dreaming ability'.",
+      "ai_application": "Don't conflate recall frequency with dream activity. Offer recall-improvement onboarding to all users equally."
+    },
+    {
+      "id": "mason_2007",
+      "authors": [
+        "Malia F. Mason",
+        "Michael I. Norton",
+        "John D. Van Horn",
+        "Daniel M. Wegner",
+        "Scott T. Grafton",
+        "C. Neil Macrae"
+      ],
+      "year": 2007,
+      "title": "Wandering Minds: The Default Network and Stimulus-Independent Thought",
+      "journal": "Science",
+      "category": "cognitive_neuroscience",
+      "key_findings": [
+        "Default Mode Network (DMN) activates during stimulus-independent thought (mind-wandering)",
+        "DMN heavily overlaps with brain regions active during dreaming",
+        "Mind-wandering and dreaming may be a continuum, not separate categories"
+      ],
+      "implications_for_interpretation": "The same neural machinery generates daydreams and night dreams. Insights from one transfer to the other.",
+      "ai_application": "Could offer daydream tracking as a complement; same interpretive framework applies."
+    },
+    {
+      "id": "krakauer_2023",
+      "authors": [
+        "Erin J. Wamsley",
+        "Robert Stickgold"
+      ],
+      "year": 2023,
+      "title": "Dreaming of a learning task is associated with enhanced memory consolidation: Replication in an overnight sleep study",
+      "journal": "Journal of Sleep Research",
+      "category": "sleep_and_memory",
+      "key_findings": [
+        "Replicates 2010 finding: dreaming about a learning task predicts overnight performance gains",
+        "Effect is specific to TASK content in dreams — generic dreams don't predict gains",
+        "Suggests dream content is causally involved in memory consolidation, not epiphenomenal"
+      ],
+      "implications_for_interpretation": "Dreams about specific waking activities indicate active memory consolidation of those activities. Encourage user to note skill-related dreams.",
+      "ai_application": "Detect skill-domain dreams. Offer to track waking-life performance improvements as outcome data."
+    },
+    {
+      "id": "bulkeley_2019",
+      "authors": [
+        "Kelly Bulkeley"
+      ],
+      "year": 2019,
+      "title": "The Sleep Thinkers: Dreams and Religion in History and Culture",
+      "journal": "Praeger",
+      "category": "cultural_and_phenomenological",
+      "key_findings": [
+        "Comparative study across 14 religions: dreams central to scripture/founding narrative in 12 of 14",
+        "Cross-cultural dream classification: prophetic, healing, contact-with-dead, problem-solving (universal taxonomy)",
+        "Religious framing of dreams correlates with positive mental-health outcomes when integrated"
+      ],
+      "implications_for_interpretation": "Religious/spiritual dream framing is empirically associated with better outcomes when authentic to the dreamer. Don't strip away spiritual frames if the user uses them.",
+      "ai_application": "Detect spiritual/religious framings in user dream descriptions. Mirror their framing in interpretations rather than imposing secular frame."
+    },
+    {
+      "id": "freud_lakoff_metaphor",
+      "authors": [
+        "George Lakoff"
+      ],
+      "year": 1997,
+      "title": "How metaphor structures dreams: The theory of conceptual metaphor applied to dream analysis",
+      "journal": "Dreaming",
+      "category": "cognitive_neuroscience",
+      "key_findings": [
+        "Dream symbols often instantiate conceptual metaphors active in waking thought ('life is a journey', 'argument is war')",
+        "Metaphor mappings explain WHY certain symbols recur (e.g. 'rising' = success, 'falling' = failure)",
+        "Provides cognitive-linguistic framework for dream interpretation that bridges Freud and contemporary cognitive science"
+      ],
+      "implications_for_interpretation": "Dream symbols can be decoded via the dreamer's active conceptual metaphors. 'Falling in a meeting' = perceived failure-as-falling metaphor.",
+      "ai_application": "Build conceptual-metaphor lookup table. When symbol matches a primary metaphor, offer that interpretation in addition to symbolic ones."
+    },
+    {
+      "id": "walker_2017",
+      "authors": [
+        "Matthew Walker"
+      ],
+      "year": 2017,
+      "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+      "journal": "Scribner (book)",
+      "category": "sleep_and_memory",
+      "key_findings": [
+        "REM sleep is essential for emotional regulation: 'overnight therapy' effect for emotional events",
+        "PTSD is associated with disrupted REM sleep — emotional events cannot be properly defanged",
+        "Modern sleep deprivation is contributing to societal increase in anxiety and depression"
+      ],
+      "implications_for_interpretation": "Sleep quality is upstream of dream quality. Persistent disturbing dreams may signal sleep-architecture issues.",
+      "ai_application": "If user reports many disturbing dreams, suggest sleep-quality assessment (or integrate with sleep tracker)."
+    },
+    {
+      "id": "cartwright_2010",
+      "authors": [
+        "Rosalind Cartwright"
+      ],
+      "year": 2010,
+      "title": "The Twenty-four Hour Mind: The Role of Sleep and Dreaming in Our Emotional Lives",
+      "journal": "Oxford University Press",
+      "category": "clinical_applications",
+      "key_findings": [
+        "Dreams during depression episodes shift from emotion-rich to emotion-flat — REM 'emotional processing' machinery degrades",
+        "Recovery from depression correlates with return of normal dream emotional content",
+        "Dream content can be EARLIER signal of depression onset/recovery than mood scales"
+      ],
+      "implications_for_interpretation": "Sudden flattening of dream emotional content can signal depressive shift. Track emotion-richness over time as health metric.",
+      "ai_application": "Add 'emotional richness' metric to dream analysis. Trending downward = potential depression signal."
+    }
+  ]
+}

@@ -1,0 +1,1267 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-04-14",
+    "description": "Jungian archetypes knowledge base for AI dream interpretation, covering core archetypes, individuation stages, and dream-archetype pattern mapping",
+    "sources": {
+      "primary": [
+        "Jung, C.G. (1959) - The Archetypes and the Collective Unconscious (CW 9i)",
+        "Jung, C.G. (1951) - Aion: Researches into the Phenomenology of the Self (CW 9ii)",
+        "Jung, C.G. (1964) - Man and His Symbols",
+        "Jung, C.G. (1944) - Psychology and Alchemy (CW 12)",
+        "Jung, C.G. (1946) - The Psychology of the Transference (CW 16)",
+        "Jung, C.G. (1952) - Symbols of Transformation (CW 5)"
+      ],
+      "secondary": [
+        "von Franz, M.-L. (1970) - The Interpretation of Fairy Tales",
+        "von Franz, M.-L. (1980) - Alchemy: An Introduction to the Symbolism and the Psychology",
+        "Neumann, Erich (1954) - The Origins and History of Consciousness",
+        "Hillman, James (1979) - The Dream and the Underworld",
+        "Johnson, Robert A. (1986) - Inner Work: Using Dreams and Active Imagination",
+        "Edinger, Edward (1972) - Ego and Archetype",
+        "Moore, Robert & Gillette, Douglas (1990) - King, Warrior, Magician, Lover",
+        "Murdock, Maureen (1990) - The Heroine's Journey",
+        "Bolen, Jean Shinoda (1984) - Goddesses in Everywoman",
+        "Campbell, Joseph (1949) - The Hero with a Thousand Faces"
+      ],
+      "cultural": [
+        "Zhou Gong Jie Meng (周公解梦) - archetypal figures in Chinese dream tradition",
+        "Tibetan Dream Yoga - Naropa's Six Yogas",
+        "Greek mythology - archetypal narratives (Homer, Hesiod, Ovid)"
+      ]
+    },
+    "total_archetypes": 18,
+    "total_dream_patterns": 30
+  },
+
+  "archetypes": [
+    {
+      "id": 1,
+      "name_en": "Shadow",
+      "name_zh": "阴影",
+      "category": "core_jungian",
+      "description": "The Shadow represents the repressed, denied, or unacknowledged aspects of the personality. It contains qualities the ego considers unacceptable: aggression, selfishness, sexuality, laziness, cowardice, or any trait the conscious mind has rejected. The Shadow is not inherently evil; it also contains positive qualities that were suppressed due to social conditioning (the 'golden shadow'). Jung considered confrontation with the Shadow the first and most essential step in individuation.",
+      "dream_manifestations": [
+        "A dark, menacing figure of the same sex as the dreamer who pursues or confronts them",
+        "A shadowy or faceless stranger who provokes fear or disgust",
+        "Someone the dreamer dislikes intensely performing exaggerated negative behaviors",
+        "The dreamer themselves behaving in shameful, violent, or socially unacceptable ways",
+        "Dark animals (black dogs, wolves, snakes, rats) that threaten or corner the dreamer",
+        "A doppelganger or evil twin who mirrors but distorts the dreamer",
+        "Criminals, outcasts, or 'lowlife' characters who appear repulsive but compelling",
+        "Being in dark, underground, or hidden spaces (basements, sewers, caves)",
+        "Discovering something rotten, decayed, or contaminated in a familiar place"
+      ],
+      "symbols": [
+        "darkness, blackness, night",
+        "masks and disguises",
+        "basements, cellars, underground passages",
+        "predatory animals (wolves, snakes, spiders, sharks)",
+        "mirrors showing distorted reflections",
+        "dirt, mud, sewage, rot",
+        "weapons, knives, guns",
+        "prisons and cages",
+        "fog or smoke obscuring vision",
+        "the left side (sinister, from Latin 'sinistra')"
+      ],
+      "emotions": [
+        "fear and dread",
+        "disgust and revulsion",
+        "shame and humiliation",
+        "rage and uncontrollable anger",
+        "fascination mixed with repulsion",
+        "guilt after waking"
+      ],
+      "questions_to_ask": [
+        "What quality in the shadow figure do you find most disturbing or repulsive?",
+        "Is there a trait in this figure that you actively try to suppress in yourself?",
+        "Have you been told not to express a particular emotion or behavior recently?",
+        "Does the shadow figure remind you of anyone in your waking life? What about them bothers you most?",
+        "What would happen if you turned around and faced the pursuer instead of running?",
+        "Is there a part of yourself you have been hiding from others?"
+      ],
+      "integration_insight": "Shadow dreams indicate the psyche is pushing repressed material toward consciousness. The dreamer is ready (or being forced) to acknowledge parts of themselves they have denied. Recurring Shadow dreams that intensify suggest the repressed content is becoming more urgent. The specific qualities projected onto the Shadow figure reveal what the dreamer most needs to integrate. Shadow integration does not mean acting out destructive impulses, but acknowledging they exist within the self, reducing their unconscious power. A Shadow that transforms from threatening to neutral or helpful within a dream often signals active integration.",
+      "developmental_stage": "shadow_confrontation",
+      "polarity": "The Shadow contains both the personal shadow (individual repressions) and the collective shadow (culturally repressed material). The 'golden shadow' contains suppressed positive traits: creativity, power, sexuality, or ambition the dreamer was taught to diminish."
+    },
+    {
+      "id": 2,
+      "name_en": "Anima",
+      "name_zh": "阿尼玛 / 内在女性",
+      "category": "core_jungian",
+      "description": "The Anima is the unconscious feminine aspect within the male psyche. She represents the man's relationship to his own emotional life, creativity, intuition, and capacity for relatedness. Jung described four developmental stages of the Anima: Eve (biological/instinctual), Helen (romantic/aesthetic), Mary (spiritual/devotional), and Sophia (wisdom/wholeness). The Anima mediates between the ego and the deeper unconscious, acting as a psychopomp (soul guide). When unintegrated, she manifests as mood swings, irrational emotional reactions, or obsessive romantic projections.",
+      "dream_manifestations": [
+        "An unknown but deeply compelling woman who guides the dreamer through unfamiliar territory",
+        "A seductive or dangerously alluring female figure",
+        "A woman drowning, trapped, or imprisoned whom the dreamer must rescue",
+        "A shapeshifting female figure who changes appearance throughout the dream",
+        "A woman who speaks in riddles or offers cryptic wisdom",
+        "A fairy, mermaid, goddess, or otherworldly feminine being",
+        "The dreamer's romantic partner behaving in unfamiliar or idealized ways",
+        "A female animal (she-wolf, doe, mare, cat) that leads the dreamer somewhere",
+        "A luminous or radiant woman appearing in darkness",
+        "A threatening or devouring feminine figure (witch, siren, femme fatale)"
+      ],
+      "symbols": [
+        "water (oceans, lakes, rivers, rain) as the medium of the unconscious",
+        "the moon and lunar cycles",
+        "caves, vessels, cups, chalices",
+        "flowers, especially roses and lotuses",
+        "veils, mirrors, and reflective surfaces",
+        "bridges and doorways between worlds",
+        "cats, doves, owls, serpents",
+        "gardens, forests, islands",
+        "pearls, jewels hidden in water or earth",
+        "music, song, dance"
+      ],
+      "emotions": [
+        "intense longing or yearning",
+        "romantic infatuation or idealization",
+        "mysterious attraction to the unknown",
+        "tenderness and vulnerability",
+        "fear of emotional engulfment or being consumed",
+        "awe and reverence"
+      ],
+      "questions_to_ask": [
+        "What was the emotional quality of the feminine figure? Did she feel familiar or otherworldly?",
+        "What was she trying to show you or lead you toward?",
+        "How do you relate to your own emotional and intuitive side in waking life?",
+        "Do you find it difficult to express vulnerability, tenderness, or emotional needs?",
+        "Is there a woman in your life (mother, partner, friend) who carries qualities you wish you had?",
+        "What would it mean to trust the direction this figure was pointing you toward?"
+      ],
+      "integration_insight": "Anima dreams signal that the dreamer's relationship to emotion, intuition, and inner life requires attention. A threatening Anima suggests the dreamer is cut off from feeling and the unconscious is compensating forcefully. A guiding Anima indicates the psyche is ready to lead the dreamer deeper into self-knowledge. The stage of Anima development in the dream (primitive/seductive vs. wise/spiritual) reflects the dreamer's current level of psychological maturity regarding their inner feminine. Integration involves learning to value feeling, relatedness, and receptivity as equal to thinking and action.",
+      "developmental_stage": "anima_animus_encounter",
+      "polarity": "Positive Anima: muse, guide, soul companion, source of creativity and emotional depth. Negative Anima: devouring mother, seductress who leads to destruction, mood-possessing force that overwhelms rational thought."
+    },
+    {
+      "id": 3,
+      "name_en": "Animus",
+      "name_zh": "阿尼姆斯 / 内在男性",
+      "category": "core_jungian",
+      "description": "The Animus is the unconscious masculine aspect within the female psyche. He represents a woman's relationship to assertiveness, intellectual conviction, logos (rational meaning-making), and autonomous action. Jung described four Animus stages: the Athlete (physical power), the Man of Action (initiative/planning), the Professor (intellectual word/meaning), and the Sage (spiritual meaning/guide to the Self). When unintegrated, the Animus manifests as rigid opinions, harsh self-criticism, or attraction to domineering partners.",
+      "dream_manifestations": [
+        "An unknown authoritative male figure who commands, teaches, or directs the dreamer",
+        "A powerful or heroic man performing feats of strength or courage",
+        "A male stranger who offers decisive advice or clear direction",
+        "A threatening or controlling male figure who imprisons or silences the dreamer",
+        "A group of men (council, committee, jury) who judge or evaluate the dreamer",
+        "A father figure, king, or priest who bestows or withholds approval",
+        "A male guide leading the dreamer through an intellectual or physical challenge",
+        "A male animal (bull, stallion, eagle, lion) that represents raw force or focused will",
+        "A faceless male voice that speaks with absolute authority",
+        "A lover who is simultaneously protective and restrictive"
+      ],
+      "symbols": [
+        "swords, spears, arrows, and cutting instruments",
+        "towers, mountains, and high places",
+        "the sun, fire, and lightning",
+        "books, scrolls, and written law",
+        "bridges connecting separated lands",
+        "keys and locks",
+        "eagles, hawks, bulls, lions",
+        "crowns, scepters, and thrones",
+        "roads, paths, and straight lines",
+        "clocks and structured time"
+      ],
+      "emotions": [
+        "feeling judged, evaluated, or not good enough",
+        "admiration mixed with intimidation",
+        "desire for approval or validation",
+        "frustration at being silenced or overruled",
+        "empowerment and decisive clarity",
+        "conflict between submission and rebellion"
+      ],
+      "questions_to_ask": [
+        "What was the male figure's attitude toward you? Was he supportive, critical, or controlling?",
+        "Do you recognize his voice or manner from anyone in your waking life?",
+        "How comfortable are you asserting your own opinions, especially under pressure?",
+        "Do you carry an inner critic that speaks with a harsh, authoritative voice?",
+        "What would it mean to claim the power or knowledge this figure holds for yourself?",
+        "Are you in a situation where you need to take decisive action but feel blocked?"
+      ],
+      "integration_insight": "Animus dreams reveal the dreamer's relationship to their own assertive, rational, and meaning-making capacities. A hostile or controlling Animus suggests the dreamer may be dominated by rigid inner opinions or living under internalized patriarchal authority. A helpful, guiding Animus indicates growing capacity for autonomous thought and action. Integration means developing one's own inner authority rather than projecting it onto external male figures. The dreamer learns to speak with conviction, make decisions from their own center, and access intellectual discernment without self-doubt.",
+      "developmental_stage": "anima_animus_encounter",
+      "polarity": "Positive Animus: inner guide to meaning, source of focused will and clear speech, bridge to spiritual understanding. Negative Animus: harsh inner critic, voice of rigid dogma, oppressive authority that silences authentic self-expression."
+    },
+    {
+      "id": 4,
+      "name_en": "Self",
+      "name_zh": "自性 / 大我",
+      "category": "core_jungian",
+      "description": "The Self is the archetype of wholeness and the center of the total personality, encompassing both conscious and unconscious. It is the organizing principle of the psyche, the goal of individuation. Jung distinguished the Self from the ego: the ego is the center of consciousness, while the Self is the center of the entire psyche. The Self typically appears in dreams during moments of significant psychological transition. It represents the union of opposites: light and dark, masculine and feminine, individual and universal.",
+      "dream_manifestations": [
+        "Mandalas: circular or symmetrical patterns, wheels, clocks, compasses, or spirals",
+        "A divine or luminous child who appears with numinous significance",
+        "A radiant sphere, crystal, diamond, or pearl of extraordinary beauty",
+        "Quaternary symbols: crossroads, four-sided structures, four elements appearing together",
+        "A wise old figure of indeterminate or androgynous gender",
+        "A grand architectural structure: cathedral, temple, palace, or cosmic city",
+        "Alchemical images: the philosopher's stone, the union of sun and moon",
+        "A tree of immense size, often with roots as deep as its crown is high",
+        "Animals of totality: the elephant, whale, or mythical beasts combining multiple creatures",
+        "A marriage or sacred union between two complementary figures",
+        "Finding one's way to the center of a labyrinth or maze"
+      ],
+      "symbols": [
+        "circles, spheres, and mandalas",
+        "the number four and quaternary structures",
+        "gold, diamonds, pearls, and precious stones",
+        "the sun at zenith or a star at the center",
+        "the World Tree (axis mundi)",
+        "the philosopher's stone (lapis)",
+        "sacred marriages (hieros gamos)",
+        "the cosmic egg",
+        "labyrinths and spirals leading to a center",
+        "crowns, halos, and aureoles",
+        "the combined sun-moon image",
+        "the squared circle"
+      ],
+      "emotions": [
+        "profound peace and wholeness",
+        "numinous awe beyond ordinary experience",
+        "deep sense of coming home or arriving",
+        "overwhelming beauty that brings tears",
+        "simultaneous awareness of smallness and vastness",
+        "feeling of everything being exactly right",
+        "transcendence beyond personal concerns"
+      ],
+      "questions_to_ask": [
+        "Did the dream carry a feeling of significance beyond your ordinary experience?",
+        "Are you at a major crossroads or transition in your life?",
+        "Have you been searching for deeper meaning or purpose lately?",
+        "Did you feel a sense of completion or arrival in the dream?",
+        "Are opposing parts of your life or personality seeking reconciliation?",
+        "What would wholeness look like in your life right now?"
+      ],
+      "integration_insight": "Self dreams are among the most significant a person can experience. They indicate the psyche is attempting to communicate its fundamental pattern of wholeness to the conscious mind. These dreams often arrive during life crises, major transitions, or after sustained inner work. They should not be inflated ('I am special/chosen') but received with humility as indicators that the individuation process is active. The Self dream points toward what the dreamer is becoming, not what they have achieved. Repeated mandala or quaternity imagery suggests the psyche is actively compensating for one-sidedness in the dreamer's conscious attitude.",
+      "developmental_stage": "self_realization",
+      "polarity": "The Self encompasses all polarities. It is both the origin and the goal of psychological development. It can manifest as terrifying (the overwhelming transpersonal) or beatific (the experience of cosmic harmony). The ego must relate to the Self without identifying with it (inflation) or dismissing it (deflation)."
+    },
+    {
+      "id": 5,
+      "name_en": "Persona",
+      "name_zh": "人格面具",
+      "category": "core_jungian",
+      "description": "The Persona is the social mask, the public face the ego presents to the world. It is the mediating structure between the individual and society. While necessary for social functioning, over-identification with the Persona leads to alienation from the authentic self. In dreams, Persona themes emerge when the dreamer's public role has become rigid, inauthentic, or is threatened. The Persona must be flexible enough to adapt to different social contexts while remaining connected to genuine personality underneath.",
+      "dream_manifestations": [
+        "Wearing costumes, uniforms, or clothing that feels wrong or ill-fitting",
+        "Being naked or inappropriately dressed in a public setting",
+        "Putting on makeup or a mask that cracks, melts, or won't stay on",
+        "Playing a role on a stage but forgetting lines or being exposed as a fraud",
+        "Being at a social event where no one recognizes the dreamer or they don't belong",
+        "Looking in a mirror and seeing a stranger's face",
+        "Trying to maintain a facade while something embarrassing threatens to be revealed",
+        "Wearing multiple layers of clothing or armor that restrict movement",
+        "Attending a formal event in casual clothes, or vice versa",
+        "A mask falling off or being ripped away in public"
+      ],
+      "symbols": [
+        "masks, veils, and face coverings",
+        "clothing, uniforms, costumes",
+        "mirrors and reflections",
+        "stages, theaters, and performance spaces",
+        "social gatherings and formal events",
+        "name tags, IDs, business cards",
+        "facades of buildings (especially ornate fronts with empty interiors)",
+        "makeup, wigs, prosthetics",
+        "armor and shields",
+        "titles and professional designations"
+      ],
+      "emotions": [
+        "embarrassment and exposure",
+        "imposter syndrome and fraudulence",
+        "anxiety about being seen as one truly is",
+        "suffocation or constriction",
+        "relief when the mask comes off",
+        "confusion about identity"
+      ],
+      "questions_to_ask": [
+        "Do you feel like you are performing a role rather than being yourself in some area of life?",
+        "Is there a gap between who you present to the world and who you feel you really are?",
+        "Have you recently taken on a new social role that doesn't feel like a natural fit?",
+        "What would people think if they saw the 'real you' behind the public image?",
+        "Are you exhausted from maintaining a particular image or expectation?",
+        "What part of yourself do you most fear others seeing?"
+      ],
+      "integration_insight": "Persona dreams signal a crisis of authenticity. The dreamer's social mask has become either too rigid (over-identification: 'I am my job title') or is crumbling (under pressure, transition, or burnout). Nakedness dreams are the classic Persona dream, revealing anxiety about exposure. The goal is not to destroy the Persona but to make it flexible and transparent: a tool for social navigation rather than a prison for the soul. Dreams where the mask falls off and others respond with acceptance rather than horror indicate healthy Persona integration.",
+      "developmental_stage": "initial_crisis",
+      "polarity": "Healthy Persona: flexible social adaptation, appropriate self-presentation, skillful navigation of social contexts. Unhealthy Persona: rigid identification with role, suppression of authentic feelings, terror of being 'found out,' or complete absence of social adaptation."
+    },
+    {
+      "id": 6,
+      "name_en": "Hero",
+      "name_zh": "英雄",
+      "category": "developmental",
+      "description": "The Hero archetype represents the ego's capacity to confront challenges, overcome obstacles, and achieve transformation through courageous action. The Hero's journey is fundamentally about the death of the old self and the birth of a more complete personality. Unlike naive heroism, the Jungian Hero must ultimately fail or sacrifice the heroic stance itself, recognizing that not all problems yield to willpower and that surrendering to larger forces is sometimes the true heroic act.",
+      "dream_manifestations": [
+        "The dreamer undertaking a dangerous quest, journey, or mission",
+        "Battling monsters, dragons, or overwhelming enemies",
+        "Rescuing someone trapped, imprisoned, or in mortal danger",
+        "Crossing a threshold into an unknown or forbidden world",
+        "Receiving a call to adventure or a mission from an authority figure",
+        "Dying and being reborn or transformed in the dream",
+        "Finding a magical weapon, tool, or talisman that grants power",
+        "Descending into an underworld, cave, or ocean and returning with treasure",
+        "Standing alone against impossible odds",
+        "Refusing the call: feeling summoned to action but unable or unwilling to respond"
+      ],
+      "symbols": [
+        "swords, shields, and armor",
+        "dragons, serpents, and monsters to be slain",
+        "thresholds, gates, and bridges",
+        "fire as purification and transformation",
+        "mountains to climb, oceans to cross",
+        "the sacred wound or mark",
+        "talismans, rings, and magical objects",
+        "allies and mentors met along the way",
+        "the treasure hard to attain",
+        "the return home transformed"
+      ],
+      "emotions": [
+        "courage mixed with fear",
+        "determination and resolve",
+        "exhilaration and terror in equal measure",
+        "pride in accomplishment",
+        "loneliness of the solitary path",
+        "grief at what must be sacrificed"
+      ],
+      "questions_to_ask": [
+        "What challenge or obstacle in your waking life feels like a quest or battle?",
+        "Is there something you know you need to confront but have been avoiding?",
+        "What are you being asked to sacrifice or leave behind?",
+        "Do you feel called to something larger than your current life situation?",
+        "Who or what are you trying to rescue, and does it represent a part of yourself?",
+        "Are you relying too much on willpower and not enough on surrender?"
+      ],
+      "integration_insight": "Hero dreams indicate the ego is being activated to confront a developmental challenge. The nature of the quest reveals what the psyche considers the dreamer's current task. However, the Hero must also learn when heroism itself becomes a defense against vulnerability. A dream where the Hero fails, dies, or lays down their weapon often signals the most advanced development: the ego learning to surrender to the Self. Pay attention to what the Hero is fighting; it may be something that needs embrace rather than conquest.",
+      "developmental_stage": "shadow_confrontation",
+      "polarity": "Positive Hero: courage to face the unknown, willingness to transform, capacity for sacrifice. Negative Hero (inflated): grandiosity, refusal to acknowledge limits, compulsive need to fix or save, inability to ask for help or show vulnerability."
+    },
+    {
+      "id": 7,
+      "name_en": "Wise Old Man / Wise Old Woman",
+      "name_zh": "智慧老人 / 智慧老妇",
+      "category": "developmental",
+      "description": "The Wise Old Man (Senex) and Wise Old Woman represent the archetype of meaning, knowledge accumulated through experience, and spiritual guidance. This figure personifies the deep wisdom of the collective unconscious that transcends the individual ego's understanding. The Wise Elder appears when the dreamer needs guidance that rational thinking alone cannot provide. In Chinese tradition, this corresponds to the master (师父) or the sage (圣人) who has transcended ordinary understanding.",
+      "dream_manifestations": [
+        "An elderly person of authority and gravitas who offers advice or a gift",
+        "A teacher, professor, guru, or spiritual master who appears at a crucial moment",
+        "A hermit or recluse living in a remote location (mountain, cave, forest) the dreamer must seek out",
+        "A grandfather or grandmother figure (not necessarily the dreamer's actual grandparent)",
+        "A wizard, shaman, healer, or magician performing transformative acts",
+        "A voice of deep wisdom speaking from unseen source",
+        "A librarian or keeper of ancient books who reveals hidden knowledge",
+        "A doctor or healer who diagnoses the dreamer's true ailment (often psychological rather than physical)",
+        "A stranger at a crossroads who points the way"
+      ],
+      "symbols": [
+        "books, scrolls, and libraries",
+        "mountains, caves, and remote hermitages",
+        "staff, wand, or walking stick",
+        "long white beard or hair",
+        "lanterns, candles, and light in darkness",
+        "owls, cranes, turtles, and elephants",
+        "crystal balls and divination tools",
+        "ancient trees with deep roots",
+        "medicine, potions, and remedies",
+        "riddles, koans, and paradoxical sayings"
+      ],
+      "emotions": [
+        "awe and humility",
+        "comfort and reassurance",
+        "sudden clarity or epiphany",
+        "gratitude mixed with reverence",
+        "feeling seen and understood at the deepest level",
+        "impatience if the wisdom given is cryptic"
+      ],
+      "questions_to_ask": [
+        "What exactly did the wise figure say or show you? Even fragments may carry meaning.",
+        "Are you facing a decision where rational analysis has reached its limit?",
+        "Is there an elder, mentor, or teacher whose guidance you are missing in waking life?",
+        "What kind of wisdom do you most need right now? Practical, emotional, or spiritual?",
+        "Did the figure give you something? What might that gift symbolize?",
+        "Are you willing to follow the advice given, even if it contradicts your rational plans?"
+      ],
+      "integration_insight": "The Wise Elder appears when the ego has exhausted its own resources and the unconscious offers compensation through deeper wisdom. This archetype warns against two errors: blindly following external authorities (projection of the Wise Elder onto gurus or leaders) and dismissing the irrational or intuitive wisdom the figure offers. The specific advice given in the dream, even if cryptic, often contains precise guidance relevant to the dreamer's situation. Dreams of seeking a wise figure and not finding them may indicate the dreamer is looking outside for answers that must be discovered within.",
+      "developmental_stage": "self_realization",
+      "polarity": "Positive Elder: genuine wisdom, compassionate guidance, meaningful perspective. Negative Elder (Senex): rigid traditionalism, paralyzing caution, authority that demands obedience rather than understanding, the expert who hoards knowledge."
+    },
+    {
+      "id": 8,
+      "name_en": "Trickster",
+      "name_zh": "恶作剧者 / 捣蛋鬼",
+      "category": "developmental",
+      "description": "The Trickster is the archetype of disruption, boundary-crossing, and transformative chaos. It violates rules, creates confusion, and upends the established order. While apparently destructive, the Trickster serves a vital psychological function: it breaks rigid patterns that have become life-denying, introduces playfulness into over-serious situations, and reveals hidden truths through absurdity. The Trickster is the psyche's way of saying that the dreamer's current framework is too narrow. In Chinese tradition, this resonates with Sun Wukong (孙悟空) and the Taoist notion that the Tao that can be spoken is not the true Tao.",
+      "dream_manifestations": [
+        "A mischievous figure who plays pranks, steals things, or causes comic chaos",
+        "Absurd, surreal, or nonsensical scenarios that defy all logic",
+        "Shape-shifting characters who constantly change identity or form",
+        "Being tricked, fooled, or led into a trap that turns out to be instructive",
+        "Clowns, jesters, comedians, or circus performers",
+        "Animals known for cunning: foxes, crows, coyotes, monkeys, ravens",
+        "Situations where everything goes comically wrong in a chain reaction",
+        "Crossing forbidden boundaries (entering restricted areas, breaking taboos)",
+        "Reversals of the normal order: children teaching adults, the fool outwitting the king",
+        "The dreamer themselves acting outrageously and feeling liberated"
+      ],
+      "symbols": [
+        "crossroads and boundary markers",
+        "masks and costumes that shift",
+        "foxes, coyotes, ravens, crows, monkeys",
+        "dice, cards, and games of chance",
+        "doors between worlds",
+        "fire that both destroys and illuminates",
+        "mirrors that show unexpected reflections",
+        "knots, puzzles, and paradoxes",
+        "inversion symbols (upside-down images, reversed text)",
+        "excrement, bodily functions (the Trickster is earthy)"
+      ],
+      "emotions": [
+        "amusement and laughter in spite of everything",
+        "bewilderment and disorientation",
+        "embarrassment at one's own rigidity being exposed",
+        "anarchic freedom and liberation",
+        "frustration at losing control of the narrative",
+        "uncomfortable recognition of hidden truths"
+      ],
+      "questions_to_ask": [
+        "Where in your life have you become too rigid, serious, or controlled?",
+        "Is there a rule or assumption you have been following that may no longer serve you?",
+        "What truth might the absurdity of the dream be revealing through its distortion?",
+        "Are you taking yourself or a situation too seriously?",
+        "What boundary do you need to cross that social convention forbids?",
+        "When was the last time you allowed yourself to be playful, foolish, or spontaneous?"
+      ],
+      "integration_insight": "Trickster dreams arrive when the conscious attitude has become too one-sided, rigid, or inflated. The Trickster demolishes what needs demolishing and introduces necessary chaos into over-controlled lives. These dreams often carry a paradoxical message: what appears to go wrong is actually going right from the perspective of the deeper psyche. The Trickster energy must be channeled rather than suppressed. When the dreamer can laugh at what the Trickster reveals, integration has begun. Persistent Trickster dreams suggest the dreamer is clinging to a worldview or self-image that the psyche has outgrown.",
+      "developmental_stage": "shadow_confrontation",
+      "polarity": "Positive Trickster: liberating humor, creative disruption, revelation of truth through paradox, breaking life-denying rigidity. Negative Trickster: destructive chaos, manipulation, lying for its own sake, inability to commit or take anything seriously, perpetual adolescence."
+    },
+    {
+      "id": 9,
+      "name_en": "Great Mother",
+      "name_zh": "大母神 / 母亲原型",
+      "category": "developmental",
+      "description": "The Great Mother archetype encompasses the full spectrum of maternal experience: nourishing and devouring, protective and suffocating, life-giving and death-dealing. She represents the matrix from which consciousness emerges and to which it returns. As the origin of all life, she is both the nurturing womb and the consuming tomb. This archetype governs the dreamer's relationship to dependency, nurturance, emotional security, nature, and the body. In Chinese culture, this connects to the earth mother (地母) and the nurturing aspect of Guanyin (观音).",
+      "dream_manifestations": [
+        "The dreamer's actual mother behaving in exaggerated nurturing or controlling ways",
+        "A large, powerful woman who is simultaneously comforting and overwhelming",
+        "Being enveloped, swallowed, or returning to a womb-like enclosed space",
+        "Lush gardens, abundant harvests, overflowing tables of food",
+        "A witch, hag, or terrifying old woman who threatens to consume or trap the dreamer",
+        "Vast bodies of water (ocean, lake) that are both beautiful and dangerously deep",
+        "Animals associated with maternal energy: bears, cows, cats with kittens, hens",
+        "The earth itself as a living, breathing entity",
+        "Pregnancy, birth, or nursing dreams (regardless of dreamer's sex)",
+        "A house or dwelling that feels alive and either sheltering or imprisoning"
+      ],
+      "symbols": [
+        "the earth, soil, caves, and valleys",
+        "oceans, lakes, and deep water",
+        "the moon in its fullness",
+        "vessels: cauldrons, pots, ovens, cups",
+        "trees bearing fruit",
+        "bread, milk, honey, and nourishing food",
+        "bears, cows, spiders (weaver), bees (hive)",
+        "cradles, beds, and enclosed spaces",
+        "the color green (vegetation, growth)",
+        "spirals and labyrinthine patterns",
+        "tombs and graves (Mother as death)"
+      ],
+      "emotions": [
+        "deep comfort and security",
+        "overwhelming neediness or dependency",
+        "suffocation and desire to escape",
+        "primal terror of being consumed or annihilated",
+        "oceanic bliss and dissolution of boundaries",
+        "guilt about separating or becoming independent"
+      ],
+      "questions_to_ask": [
+        "How would you describe your relationship with nurturance, both giving and receiving?",
+        "Do you feel emotionally held and supported in your life, or abandoned and unsupported?",
+        "Is there a situation where someone's care has become controlling or suffocating?",
+        "Are you struggling to separate from a relationship, family system, or comfort zone?",
+        "How connected do you feel to your body, to nature, and to physical existence?",
+        "Is there a creative project or new beginning trying to be born in your life?"
+      ],
+      "integration_insight": "Mother archetype dreams reveal the dreamer's relationship to dependency, emotional security, and the capacity to nurture themselves. A devouring Mother suggests the dreamer is being consumed by dependency (their own or another's) and needs to establish boundaries. An absent or withholding Mother points to unmet needs for emotional nourishment. The dreamer may need to develop their own inner mother: the capacity to hold, comfort, and nourish themselves rather than seeking it exclusively from external sources. Pregnancy and birth dreams often symbolize creative or psychological processes gestating in the unconscious.",
+      "developmental_stage": "initial_crisis",
+      "polarity": "Nurturing Mother: unconditional acceptance, abundance, emotional holding, creativity, connection to the body and nature. Devouring Mother: smothering control, emotional manipulation through guilt, resistance to the child's autonomy, the pull toward regression and undifferentiated unconsciousness."
+    },
+    {
+      "id": 10,
+      "name_en": "Father",
+      "name_zh": "父亲原型",
+      "category": "developmental",
+      "description": "The Father archetype represents order, authority, law, structure, discipline, and the capacity for conscious direction. As the counterpart to the Mother, the Father provides the framework within which individual identity crystallizes. He is the one who names, defines, sets limits, and challenges the growing ego to prove its competence. The Father archetype governs the dreamer's relationship to authority, rules, ambition, self-discipline, and the societal structures they inhabit. He can be the wise king who creates just order or the tyrannical patriarch who crushes individual expression.",
+      "dream_manifestations": [
+        "The dreamer's actual father appearing with amplified authority, judgment, or protectiveness",
+        "A king, judge, president, general, or other powerful male authority figure",
+        "Being evaluated, tested, or examined by a stern figure",
+        "Receiving a command, assignment, or mission from an authority",
+        "A towering building, courthouse, or institutional structure",
+        "Being punished for breaking rules or failing to meet standards",
+        "A protective figure who creates a safe perimeter against external threats",
+        "A crumbling or burning institution (the failing father principle)",
+        "The dreamer themselves becoming a father or assuming paternal authority",
+        "A demanding coach, boss, or military commander"
+      ],
+      "symbols": [
+        "crowns, thrones, and scepters",
+        "fortresses, walls, and boundaries",
+        "the sun at its height",
+        "mountains and high places",
+        "law books, gavels, and courtrooms",
+        "clocks, schedules, and structures of time",
+        "eagles, lions, and bulls",
+        "pillars and columns",
+        "the right hand (associated with law and correctness)",
+        "swords and weapons of state"
+      ],
+      "emotions": [
+        "respect mixed with fear",
+        "desire for approval and validation",
+        "resentment toward imposed limitations",
+        "guilt for not measuring up",
+        "gratitude for structure and protection",
+        "rebellion and defiance"
+      ],
+      "questions_to_ask": [
+        "How do you relate to authority in your life? Do you submit, rebel, or find balance?",
+        "Is there an inner voice that demands you meet impossible standards?",
+        "Do you feel you have the right to set boundaries and create order in your own life?",
+        "Was there a father figure whose approval you are still seeking?",
+        "Are you struggling with a system, institution, or rule set that feels oppressive?",
+        "Do you need more structure and discipline, or less?"
+      ],
+      "integration_insight": "Father archetype dreams address the dreamer's relationship to order, authority, and their own capacity for self-governance. A tyrannical Father suggests the dreamer is either under oppressive external authority or has internalized a punishing superego. An absent Father points to a lack of structure, direction, or self-discipline. Integration means developing one's own inner authority: the ability to set appropriate limits, make and keep commitments, and take responsibility without either dominating others or being dominated. Dreams of the Father's death or decline often signal the dreamer's readiness to assume their own authority.",
+      "developmental_stage": "initial_crisis",
+      "polarity": "Good Father: wise governance, just authority, protective boundaries, structured guidance. Negative Father: tyrannical control, crushing judgment, rigid perfectionism, authoritarian suppression of individual feeling and creativity."
+    },
+    {
+      "id": 11,
+      "name_en": "Divine Child",
+      "name_zh": "神圣儿童 / 圣童",
+      "category": "developmental",
+      "description": "The Divine Child archetype represents the new beginning, the emergence of potential, and the future Self in its seed form. It is the symbol of renewal, innocence, and the miracle of new consciousness being born from the union of opposites. The Divine Child is both supremely vulnerable and invincible: it requires protection yet contains within it the germ of the entire future personality. It is the psyche's way of signaling that genuine transformation is possible and that something new is trying to come into being.",
+      "dream_manifestations": [
+        "A radiant or luminous baby or young child, often in unexpected locations",
+        "Finding an abandoned or forgotten child that the dreamer must protect",
+        "A child who speaks with unusual wisdom or performs miraculous acts",
+        "Pregnancy or birth dreams, especially births without ordinary medical context",
+        "A child playing in a dangerous place who is miraculously unharmed",
+        "An infant emerging from water, earth, stone, or other elemental substance",
+        "The dreamer as a child version of themselves in a transformed landscape",
+        "A child who is both the dreamer and not the dreamer simultaneously",
+        "A baby animal of unusual beauty or significance"
+      ],
+      "symbols": [
+        "cradles, mangers, and protected enclosures",
+        "golden light, halos, and radiance",
+        "flowers in early bloom",
+        "eggs and seeds",
+        "dawn and sunrise",
+        "springs, fountains, and fresh water",
+        "stars, especially a single guiding star",
+        "lambs, calves, and baby animals",
+        "jewels found in unexpected places",
+        "gardens in early spring"
+      ],
+      "emotions": [
+        "wonder and marvel at newness",
+        "protective tenderness",
+        "hope and renewal after despair",
+        "vulnerability and anxiety about fragility",
+        "joy of pure potential",
+        "fear that the new thing will be destroyed"
+      ],
+      "questions_to_ask": [
+        "Is there something new trying to emerge in your life: a project, relationship, or way of being?",
+        "Do you feel a sense of renewed possibility after a period of stagnation or loss?",
+        "What part of yourself feels most vulnerable right now? What needs protection and nurturing?",
+        "Have you recently reconnected with a sense of wonder, play, or openness?",
+        "Is there a new beginning you are both excited about and afraid of?",
+        "What would you need to let go of to make space for this new potential?"
+      ],
+      "integration_insight": "Divine Child dreams are among the most hopeful in dream life. They indicate that the psyche is generating genuine new potential, that something transformative is gestating. The dreamer's task is twofold: to protect this new beginning from being crushed by cynicism, old habits, or external pressures, and to not inflate its significance prematurely. Like a real infant, the new psychological content needs time, attention, and quiet nurturing before it can manifest fully. Dreams of a threatened or neglected divine child are urgent warnings that the dreamer is not tending to their most important psychological development.",
+      "developmental_stage": "self_realization",
+      "polarity": "Positive Child: genuine renewal, fresh start, creative potential, openness to experience, wonder. Negative aspect: infantile regression, refusal to grow up, expecting the world to provide without reciprocal effort, vulnerability as manipulation."
+    },
+    {
+      "id": 12,
+      "name_en": "Wounded Child",
+      "name_zh": "受伤的孩子",
+      "category": "developmental",
+      "description": "The Wounded Child carries the memory of childhood trauma, neglect, abandonment, or emotional injury. Unlike the Divine Child who represents potential, the Wounded Child holds the pain that was too overwhelming for the developing psyche to process at the time it occurred. This archetype preserves both the pain and the adaptive strategies (defenses) that helped the child survive. Encountering the Wounded Child in dreams opens the door to healing old injuries and reclaiming the energy trapped in childhood survival patterns.",
+      "dream_manifestations": [
+        "The dreamer as a young child in a scene of danger, abandonment, or helplessness",
+        "A crying, lost, or neglected child whom the dreamer cannot reach or comfort",
+        "Returning to childhood homes, schools, or neighborhoods in a state of distress",
+        "Being small or tiny in a world of overwhelming, threatening adult-sized objects",
+        "A child locked in a room, closet, or basement",
+        "Reliving childhood scenes with added emotional intensity",
+        "An injured, sick, or starving child who needs immediate care",
+        "A child being bullied, shamed, or punished and the dreamer watching helplessly",
+        "A child hiding or making themselves invisible to avoid harm"
+      ],
+      "symbols": [
+        "broken toys and damaged playthings",
+        "childhood homes in disrepair or ruin",
+        "locked doors, closets, attics, and cellars",
+        "orphanages, foster homes, institutional settings",
+        "schoolrooms and playgrounds with threatening atmosphere",
+        "small animals that are injured or trapped",
+        "old photographs or faded images",
+        "scars, bruises, and visible injuries",
+        "empty cribs and abandoned nurseries",
+        "stormy weather surrounding a small figure"
+      ],
+      "emotions": [
+        "helplessness and powerlessness",
+        "deep sadness and grief",
+        "terror and hypervigilance",
+        "abandonment and loneliness",
+        "shame and worthlessness",
+        "rage at injustice",
+        "tenderness toward the wounded part"
+      ],
+      "questions_to_ask": [
+        "Does this dream connect to any childhood experience of being hurt, neglected, or overwhelmed?",
+        "How old were you (or did the child appear to be) in the dream?",
+        "Are you in a current situation that triggers the same feelings you had as a child?",
+        "What did the child in the dream need most? Is that something you still need?",
+        "Are you able to comfort or reach the child, or is there a barrier?",
+        "How do you typically respond when you feel small, helpless, or vulnerable?"
+      ],
+      "integration_insight": "Wounded Child dreams indicate that old emotional injuries are surfacing for healing. This often happens when current life situations echo the original trauma, activating the old wound. The dreamer's capacity to approach, hold, and comfort the wounded child in the dream is directly proportional to their progress in healing. If they cannot reach the child, it suggests the defenses against the original pain are still active. Integration involves acknowledging the wound, grieving what was lost, and developing the inner parent capable of providing what the outer parents could not. This is deep therapeutic territory and persistent Wounded Child dreams may benefit from professional support.",
+      "developmental_stage": "initial_crisis",
+      "polarity": "The Wounded Child paradoxically contains both the wound and the seed of empathy and depth it creates. Those who heal their Wounded Child often develop extraordinary compassion and psychological depth. Unhealed, the Wounded Child drives self-sabotage, addictive patterns, and repetitive relationship failures."
+    },
+    {
+      "id": 13,
+      "name_en": "Maiden / Kore",
+      "name_zh": "少女 / 科瑞",
+      "category": "developmental",
+      "description": "The Maiden (Kore) represents innocence, receptivity, openness to experience, and the not-yet-formed potential of the personality before it has been shaped by life's hardships. She embodies the capacity to be moved, impressed, and transformed by encounter with the unknown. The Maiden is associated with the Persephone myth: the descent into the underworld that transforms innocence into depth. In dreams, the Maiden signals fresh beginnings, vulnerability, and the threshold between innocence and experience.",
+      "dream_manifestations": [
+        "A young woman standing at a threshold, doorway, or crossroads",
+        "Being a young girl again, with the freshness and uncertainty of adolescence",
+        "A beautiful young woman in a garden, meadow, or spring landscape",
+        "Being abducted, taken underground, or drawn into an unknown realm",
+        "A bride preparing for a wedding (transition from one state to another)",
+        "A young woman gathering flowers before a sudden change occurs",
+        "A girl exploring a dark forest or descending stairs into unknown territory",
+        "A young feminine figure associated with spring, dawn, or first light"
+      ],
+      "symbols": [
+        "flowers, especially those just opening",
+        "spring and early morning",
+        "meadows, gardens, and groves",
+        "pomegranates and seeds (Persephone's fruit)",
+        "mirrors and still pools of water",
+        "thresholds, doorways, and gates",
+        "veils (between worlds)",
+        "deer, rabbits, and butterflies",
+        "crescent moon",
+        "keys (to the underworld / unconscious)"
+      ],
+      "emotions": [
+        "openness and wonder",
+        "vulnerability and tenderness",
+        "anticipation of the unknown",
+        "fear of loss of innocence",
+        "excitement at new possibilities",
+        "grief for what must be left behind"
+      ],
+      "questions_to_ask": [
+        "Are you at the beginning of a new chapter in your life?",
+        "Do you feel a pull toward an experience that is both alluring and frightening?",
+        "Is there an area of life where you need to allow yourself to be a beginner again?",
+        "Are you mourning a lost innocence or simpler time?",
+        "What new experience is asking you to be open and receptive rather than controlling?",
+        "Is there a descent or deepening that life is asking of you?"
+      ],
+      "integration_insight": "Maiden dreams signal transitions and the capacity for genuine openness. They often precede significant life changes. The Maiden must undergo descent (loss of innocence, encounter with darkness) to become the Queen; dreams of abduction or underworld journeys reflect this necessary transformation. The dreamer is being asked to allow an experience to change them rather than maintaining protective control. Resistance to the Maiden's descent creates stagnation. Integration means embracing the full cycle: innocence, descent, transformation, and return with deeper wisdom.",
+      "developmental_stage": "initial_crisis",
+      "polarity": "Positive Maiden: receptivity, freshness, openness to transformation, capacity to be moved. Negative Maiden: perpetual naivety, victim identity, passivity, refusal to grow into authority and power."
+    },
+    {
+      "id": 14,
+      "name_en": "Crone / Wise Woman",
+      "name_zh": "老妪 / 智慧女性",
+      "category": "developmental",
+      "description": "The Crone represents the third stage of the feminine triple goddess (Maiden-Mother-Crone). She embodies wisdom earned through life experience, the power of letting go, knowledge of death and transformation, and the fierce compassion that comes from having survived loss. The Crone guards the thresholds of birth and death and knows the secrets of both. She is the keeper of women's mysteries, herbal knowledge, and the cyclical nature of all things. In dreams, she often appears as the one who cuts through illusion with uncomfortable truths.",
+      "dream_manifestations": [
+        "An elderly woman with penetrating eyes who sees through pretense",
+        "A midwife or death attendant who is calm in the face of great transitions",
+        "A witch or herbalist in a cottage at the edge of a forest",
+        "An old woman spinning thread, weaving, or cutting with scissors (the Fates)",
+        "A grandmother figure who tells hard truths the dreamer does not want to hear",
+        "A woman tending a fire, cauldron, or oven where transformation occurs",
+        "An elderly woman at a crossroads pointing in an unexpected direction",
+        "A keeper of bones, seeds, or ancestral relics"
+      ],
+      "symbols": [
+        "spinning wheels, looms, and thread (weaving fate)",
+        "scissors and shears (cutting away what is finished)",
+        "cauldrons and transformation vessels",
+        "crossroads (especially three-way forks)",
+        "the waning or dark moon",
+        "owls, crows, and black cats",
+        "herbs, potions, and healing remedies",
+        "bones, skulls, and ancestral remains",
+        "autumn and winter landscapes",
+        "hearth fires and deep caves"
+      ],
+      "emotions": [
+        "acceptance of difficult truths",
+        "fierce love that does not coddle",
+        "peace with mortality and endings",
+        "discomfort at being seen so clearly",
+        "gratitude for hard-won wisdom",
+        "fear of aging, decline, or irrelevance"
+      ],
+      "questions_to_ask": [
+        "What truth about your life or yourself are you avoiding?",
+        "Is there something that needs to end or be released for new growth to occur?",
+        "How do you relate to aging, loss of youth, or the passage of time?",
+        "Do you have access to the wisdom that comes from your own hard experiences?",
+        "Is there a situation where compassion requires telling an uncomfortable truth?",
+        "What do you know in your bones that your rational mind refuses to accept?"
+      ],
+      "integration_insight": "Crone dreams emerge when the dreamer needs to access the wisdom that comes from experience and loss, not from books or theory. The Crone cuts away what is no longer alive and fertile, which can feel harsh but is ultimately liberating. Dreams of the Crone often arrive during midlife transitions, losses, or times when the dreamer must release attachment to youth, beauty, or outgrown identities. Integration means honoring the wisdom that comes from endings, embracing the authority of experience, and finding power in the capacity to let go rather than acquire.",
+      "developmental_stage": "self_realization",
+      "polarity": "Positive Crone: fierce wisdom, transformative truth-telling, power of release and renewal, guardian of thresholds. Negative Crone: bitterness, vindictiveness, hoarding of secrets, using wisdom as weapon, nihilistic despair."
+    },
+    {
+      "id": 15,
+      "name_en": "Warrior",
+      "name_zh": "战士",
+      "category": "developmental",
+      "description": "The Warrior archetype embodies focused will, discipline, courage, and the capacity to set and defend boundaries. Unlike the Hero who undertakes a transformative journey, the Warrior represents the ongoing capacity to fight for what matters, to endure hardship, and to maintain integrity under pressure. The mature Warrior fights not from anger but from clarity about what deserves protection. The Warrior knows when to engage and when to withdraw, and fights with skill rather than mere aggression.",
+      "dream_manifestations": [
+        "The dreamer engaged in combat, battle, or martial training",
+        "Standing guard, defending a position, or protecting someone vulnerable",
+        "Training with weapons, practicing martial arts, or building physical strength",
+        "Military scenarios, battlefields, or strategic operations",
+        "Confronting a bully, aggressor, or unjust authority and refusing to back down",
+        "Building walls, fences, or fortifications",
+        "Being tested for endurance, skill, or courage",
+        "A samurai, knight, or soldier figure who embodies disciplined power",
+        "Drawing a line in the sand or making a decisive stand"
+      ],
+      "symbols": [
+        "swords, shields, and armor",
+        "walls, fortifications, and defensive structures",
+        "scars and battle wounds",
+        "flags, banners, and insignia",
+        "iron, steel, and forged metal",
+        "hawks, eagles, and wolves",
+        "war drums and horns",
+        "training grounds and arenas",
+        "strategic maps and battle plans",
+        "the color red (blood, vitality, Mars)"
+      ],
+      "emotions": [
+        "fierce determination and resolve",
+        "controlled anger channeled into purpose",
+        "alertness and heightened awareness",
+        "fear confronted and mastered",
+        "exhaustion and the weight of responsibility",
+        "pride in discipline and self-mastery"
+      ],
+      "questions_to_ask": [
+        "What in your life requires you to fight, defend, or take a firm stand?",
+        "Are you avoiding a necessary confrontation?",
+        "Do you have clear boundaries, or do you let others violate your limits?",
+        "Is there an area of life where you need more discipline and focused effort?",
+        "Are you fighting the right battles, or wasting energy on conflicts that do not matter?",
+        "Do you know the difference between aggression and assertiveness?"
+      ],
+      "integration_insight": "Warrior dreams indicate the dreamer needs to access their capacity for focused, disciplined action and boundary-setting. If the dreamer is losing battles in dreams, it suggests they feel overpowered in waking life and need to develop strength. If they are fighting indiscriminately, they may be channeling anger without discernment. The mature Warrior in dreams protects the vulnerable (including vulnerable parts of the self), knows when fighting is necessary and when it is futile, and combines strength with strategic intelligence. Integration means developing assertiveness without aggression, discipline without rigidity, and strength without cruelty.",
+      "developmental_stage": "shadow_confrontation",
+      "polarity": "Positive Warrior: disciplined strength, clear boundaries, courage in service of values, protective power. Negative Warrior: mindless aggression, cruelty, domination through force, inability to be at peace, violence as identity."
+    },
+    {
+      "id": 16,
+      "name_en": "Lover",
+      "name_zh": "恋人 / 爱者",
+      "category": "developmental",
+      "description": "The Lover archetype represents the capacity for passion, connection, sensory aliveness, and deep engagement with life. It governs not only romantic and sexual love but all forms of passionate connection: to beauty, to nature, to ideas, to creative work, to other people. The Lover feels the world intensely and seeks union, merging, and the dissolution of separateness. It is the archetype that makes life worth living by infusing experience with meaning, pleasure, and emotional depth.",
+      "dream_manifestations": [
+        "Intense romantic or erotic encounters with known or unknown figures",
+        "Experiences of overwhelming beauty: landscapes, music, light, color",
+        "Reunion with a lost love or encounter with an idealized partner",
+        "Sensory-rich dreams where taste, touch, smell, and sound are vivid",
+        "Gardens in full bloom, ripe fruit, abundant feasts",
+        "Dancing, singing, or making music with deep emotional resonance",
+        "Merging with another person, with nature, or with light itself",
+        "Heartbreak, loss of a beloved, or being separated from someone essential",
+        "Sacred or ceremonial unions, weddings, and vows"
+      ],
+      "symbols": [
+        "roses, particularly red ones",
+        "wine, honey, and intoxicating substances",
+        "fire, warmth, and golden light",
+        "beds, bowers, and intimate spaces",
+        "music, song, and dance",
+        "hearts and paired symbols",
+        "fruit trees and lush vegetation",
+        "doves and swans",
+        "perfume and fragrance",
+        "water and bathing (purification through feeling)"
+      ],
+      "emotions": [
+        "passion and desire",
+        "ecstatic joy and bliss",
+        "deep tenderness and devotion",
+        "heartbreak and longing",
+        "jealousy and possessiveness",
+        "vulnerability of emotional openness"
+      ],
+      "questions_to_ask": [
+        "Where in your life are you most alive, passionate, and fully engaged?",
+        "Have you been cut off from pleasure, beauty, or emotional connection?",
+        "Is there a longing for deeper intimacy in your relationships?",
+        "Are you holding back from fully committing to something or someone you love?",
+        "What do you hunger for that you have been denying yourself?",
+        "How do you balance passion with the demands of everyday responsibility?"
+      ],
+      "integration_insight": "Lover dreams reveal the state of the dreamer's relationship to passion, connection, and emotional aliveness. Erotic dreams are often not primarily about sex but about the desire for union: with another person, with a lost part of oneself, or with life itself. Dreams of lost or unrequited love may indicate the dreamer has disconnected from their own passion and vitality. Dreams of overwhelming beauty signal the psyche's capacity for transcendent experience being activated. Integration means allowing oneself to feel deeply without being consumed, to love without losing oneself, and to engage with life's beauty while accepting its impermanence.",
+      "developmental_stage": "anima_animus_encounter",
+      "polarity": "Positive Lover: passionate engagement with life, emotional depth, capacity for genuine intimacy, aesthetic sensitivity. Negative Lover: addictive attachment, loss of self in the other, inability to endure separation, using charm to manipulate, hedonism without depth."
+    },
+    {
+      "id": 17,
+      "name_en": "Explorer / Seeker",
+      "name_zh": "探索者 / 求道者",
+      "category": "developmental",
+      "description": "The Explorer archetype drives the impulse toward discovery, freedom, and the expansion of consciousness beyond familiar boundaries. It is the restless energy that refuses to accept the known world as the whole of reality. The Explorer seeks authenticity through direct experience rather than inherited belief. This archetype motivates the quest for meaning, the rejection of conformity, and the willingness to endure discomfort in pursuit of truth. It is closely related to the individuation process itself: the drive to become who one truly is rather than who one was told to be.",
+      "dream_manifestations": [
+        "Traveling through unfamiliar landscapes, countries, or worlds",
+        "Discovering hidden rooms, passages, or entire wings in a familiar building",
+        "Journeying alone through wilderness, desert, or uncharted territory",
+        "Maps, compasses, and navigation instruments appearing with significance",
+        "Crossing borders, bridges, or boundaries into new territory",
+        "Flying, sailing, or traveling by unusual means of transport",
+        "Searching for something specific but not knowing exactly what",
+        "Meeting foreign cultures, alien beings, or unknown civilizations",
+        "Packing, preparing for a journey, or being unable to leave",
+        "Standing at the edge of a vast unknown space (cliff, shore, space)"
+      ],
+      "symbols": [
+        "maps, compasses, and navigation tools",
+        "roads, paths, and trails (especially forking)",
+        "horizons and distant landscapes",
+        "ships, vehicles, and modes of transport",
+        "doors, gates, and thresholds",
+        "mountains (obstacles and viewpoints)",
+        "stars for navigation",
+        "backpacks, provisions, and travel gear",
+        "deserts, oceans, and vast spaces",
+        "foreign languages and unknown scripts"
+      ],
+      "emotions": [
+        "restlessness and dissatisfaction with the familiar",
+        "excitement and anticipation of discovery",
+        "loneliness of the solitary path",
+        "freedom and exhilaration",
+        "anxiety about leaving safety behind",
+        "wonder at the vastness of the unknown"
+      ],
+      "questions_to_ask": [
+        "Do you feel restless, confined, or dissatisfied with your current life situation?",
+        "Is there something you have been wanting to explore but fear has held you back?",
+        "What familiar territory have you outgrown?",
+        "Are you seeking something specific, or is the search itself the point?",
+        "What would you need to leave behind to follow where the dream is pointing?",
+        "Is there a part of yourself or your inner world that you have never explored?"
+      ],
+      "integration_insight": "Explorer dreams signal that the psyche is pushing beyond current psychological boundaries. The dreamer has outgrown their present framework and something new must be discovered. The landscape of the dream often reflects the nature of the territory that needs exploring: inner or outer, emotional or intellectual, spiritual or practical. Dreams of being unable to leave or losing one's way suggest the Explorer is blocked by fear, obligation, or attachment to the familiar. Integration means cultivating the courage to venture into unknown territory while developing the inner compass to navigate by one's own authentic values rather than external expectations.",
+      "developmental_stage": "initial_crisis",
+      "polarity": "Positive Explorer: authentic quest for meaning, courage to leave the familiar, expansion of consciousness, self-determination. Negative Explorer: perpetual restlessness, inability to commit or settle, using travel as escape, spiritual tourism without depth, rejecting all structure."
+    },
+    {
+      "id": 18,
+      "name_en": "Magician / Alchemist",
+      "name_zh": "魔法师 / 炼金术士",
+      "category": "developmental",
+      "description": "The Magician archetype represents the power of transformation, the capacity to change reality through knowledge, will, and conscious intention. In Jungian psychology, the Magician is closely associated with alchemy: the art of transforming base material into gold, understood symbolically as the transformation of raw psychological material into consciousness. The Magician sees the hidden connections between things, understands natural law, and works with rather than against the forces of the unconscious. This archetype governs technology, healing, ritual, and all forms of conscious transformation.",
+      "dream_manifestations": [
+        "Performing rituals, ceremonies, or magical operations",
+        "Transforming one substance or object into another",
+        "A laboratory, workshop, or alchemical furnace where transmutation occurs",
+        "A figure in robes who demonstrates power over natural forces",
+        "Mixing potions, combining elements, or conducting experiments",
+        "Technology operating in magical or impossible ways",
+        "A healer who uses unconventional methods to cure illness",
+        "Reading or discovering a book of secret knowledge",
+        "Levitation, telekinesis, or other demonstrations of mind over matter",
+        "Witnessing or participating in a transformation sequence (lead to gold, caterpillar to butterfly)"
+      ],
+      "symbols": [
+        "wands, staffs, and rods of power",
+        "circles of protection and sacred geometry",
+        "fire as the agent of transformation",
+        "the alchemical vessel (vas, retort, crucible)",
+        "mercury, sulfur, and salt (alchemical elements)",
+        "snakes eating their own tail (ouroboros)",
+        "the four elements in combination",
+        "crystals, prisms, and light manipulation",
+        "books of forbidden or hidden knowledge",
+        "the philosopher's stone"
+      ],
+      "emotions": [
+        "power and mastery",
+        "fascination with hidden knowledge",
+        "awe at the interconnectedness of things",
+        "temptation to control or manipulate",
+        "patience required for slow transformation",
+        "wonder at the mystery of change itself"
+      ],
+      "questions_to_ask": [
+        "What in your life is currently undergoing transformation or needs to be transformed?",
+        "Do you have knowledge or skills that could be applied to change your current situation?",
+        "Are you trying to force a change that needs to happen organically?",
+        "Is there a healing process at work in your life that requires patience and attention?",
+        "What 'base material' in your life could be transformed into something valuable?",
+        "Are you using your power and knowledge responsibly?"
+      ],
+      "integration_insight": "Magician dreams indicate the dreamer possesses or needs to develop transformative capacity. The psyche is showing that change is possible through conscious effort combined with respect for unconscious processes. The key question is whether the Magician energy is being used wisely or recklessly. Dreams of failed experiments or explosions suggest the dreamer is trying to force transformation without adequate preparation or understanding. Dreams of successful transformation indicate the dreamer is in alignment with the natural timing of their psychological development. Integration means learning to be a conscious participant in one's own transformation while respecting that the process has its own intelligence.",
+      "developmental_stage": "self_realization",
+      "polarity": "Positive Magician: conscious transformation, healing power, understanding of natural law, ethical use of knowledge. Negative Magician: manipulation, using knowledge for control, ego inflation through occult power, deception and illusion used to exploit."
+    }
+  ],
+
+  "individuation_stages": {
+    "description": "Jung's individuation process as reflected in dream life. Dreams change character as the psyche moves through these stages. Not strictly linear; dreamers may cycle back through earlier stages at deeper levels.",
+    "stages": [
+      {
+        "id": 1,
+        "name_en": "Initial Crisis / The Call",
+        "name_zh": "初始危机 / 召唤",
+        "description": "The individuation process typically begins with a crisis: the old way of living has become untenable, but the new way has not yet appeared. The ego's established identity is challenged by the unconscious. This stage often corresponds to midlife crisis, major loss, illness, or existential disorientation. The call to individuation may come as depression, anxiety, a sense of meaninglessness, or sudden disruption of the status quo.",
+        "typical_dream_themes": [
+          "Natural disasters: earthquakes, floods, storms, volcanic eruptions destabilizing familiar ground",
+          "The death of an old identity: attending one's own funeral, watching one's house burn down",
+          "Being lost in an unfamiliar city, forest, or landscape without a map",
+          "Vehicles out of control: cars with no brakes, ships in storms, planes losing altitude",
+          "Nakedness dreams: the Persona stripped away, vulnerability exposed",
+          "Old structures crumbling: childhood homes collapsing, workplaces destroyed",
+          "Animals breaking free from cages or zoos: instinctual energy no longer containable",
+          "Descent imagery: falling, going underground, sinking into water"
+        ],
+        "associated_archetypes": ["Persona", "Great Mother", "Father", "Wounded Child", "Maiden", "Explorer"],
+        "psychological_task": "Acknowledging that the current mode of being is no longer sustainable. Letting go of over-identification with the Persona and opening to the unconscious. The ego must be willing to not know, to tolerate confusion and disorientation. The task is not to solve the crisis but to allow it to initiate a deeper process.",
+        "dream_indicators_of_progress": [
+          "Chaos in dreams becomes less terrifying and more interesting",
+          "The dreamer begins to explore rather than flee the unfamiliar territory",
+          "Dreams shift from passive victimhood to active engagement with the crisis",
+          "Elements of curiosity, wonder, or even excitement begin to appear alongside fear"
+        ]
+      },
+      {
+        "id": 2,
+        "name_en": "Shadow Confrontation",
+        "name_zh": "阴影对质",
+        "description": "The first major encounter with unconscious content involves the Shadow: the parts of the personality that have been repressed, denied, or projected onto others. The dreamer must recognize that the qualities they most despise or fear in others exist within themselves. This stage involves moral confrontation with one's own capacity for darkness, as well as reclaiming the 'golden shadow' of suppressed positive qualities. Shadow work is uncomfortable but essential; without it, the unconscious remains adversarial.",
+        "typical_dream_themes": [
+          "Being chased by a dark, same-sex figure that the dreamer cannot outrun",
+          "Discovering a hidden room, basement, or attic containing disturbing contents",
+          "Encountering criminals, outcasts, or people the dreamer considers beneath them",
+          "The dreamer behaving in shameful, violent, or socially unacceptable ways",
+          "Fighting or wrestling with an opponent who is evenly matched",
+          "Mirrors showing a different, darker, or distorted version of the dreamer",
+          "Animals that are feared or repulsive appearing with increasing insistence",
+          "Dreams of contamination, infection, or pollution"
+        ],
+        "associated_archetypes": ["Shadow", "Hero", "Trickster", "Warrior"],
+        "psychological_task": "Withdrawing projections: recognizing that what triggers intense negative emotion in others often mirrors a repressed quality in the self. Developing capacity for honest self-examination without self-condemnation. Integrating the Shadow does not mean acting out its contents but acknowledging they exist and finding constructive channels for their energy. The golden shadow requires reclaiming suppressed positive qualities: power, creativity, sexuality, ambition.",
+        "dream_indicators_of_progress": [
+          "The shadow figure becomes less threatening, more human, or even sympathetic",
+          "The dreamer stops running and turns to face the pursuer",
+          "Shadow figures begin to speak, offer gifts, or become allies",
+          "The dreamer discovers something valuable in previously feared or disgusting dream content",
+          "Dreams of integration: the shadow figure merging with the dreamer, shaking hands, or walking together"
+        ]
+      },
+      {
+        "id": 3,
+        "name_en": "Anima / Animus Encounter",
+        "name_zh": "阿尼玛 / 阿尼姆斯 相遇",
+        "description": "After initial Shadow work, the dreamer encounters the contrasexual archetype: the Anima (for those identifying as male) or Animus (for those identifying as female). This stage involves developing a conscious relationship with the inner opposite-gender qualities: emotional life, intuition, and relatedness (Anima) or assertive intellect, focused will, and meaning-making (Animus). The encounter is often experienced as a profound inner love story, with all its attendant joys and conflicts.",
+        "typical_dream_themes": [
+          "Meeting a compelling, mysterious figure of the opposite sex who serves as a guide",
+          "Romantic or erotic encounters charged with numinous significance beyond ordinary desire",
+          "Rescuing or being rescued by a contrasexual figure from a threatening situation",
+          "A contrasexual figure leading the dreamer into unfamiliar territory (underwater, underground, to another world)",
+          "A wedding, sacred marriage, or union ceremony between complementary figures",
+          "A contrasexual figure who shape-shifts through different forms (young/old, beautiful/terrible)",
+          "Discovering a voice, music, or art created by an unknown contrasexual figure",
+          "A contrasexual figure who is trapped, imprisoned, or enchanted and needs liberation"
+        ],
+        "associated_archetypes": ["Anima", "Animus", "Lover", "Maiden"],
+        "psychological_task": "Differentiating the inner contrasexual figure from its projection onto real people. Learning to relate to Anima/Animus as an inner guide rather than seeking the 'magical other' exclusively in external relationships. For Anima work: developing genuine feeling, emotional literacy, and receptive awareness. For Animus work: developing autonomous thinking, conviction of one's own authority, and capacity for decisive action. The goal is inner marriage: a conscious union of the dominant and complementary modes of being.",
+        "dream_indicators_of_progress": [
+          "The Anima/Animus figure develops from primitive (purely seductive/dominating) to mature (wise, guiding)",
+          "The dreamer relates to the figure as a partner rather than a savior or captor",
+          "The figure speaks clearly and the dreamer remembers what was said",
+          "Dreams of sacred marriage, union, or shared creative work with the contrasexual figure",
+          "The dreamer embodies qualities previously projected: a man feeling deeply without shame, a woman acting with authority without anxiety"
+        ]
+      },
+      {
+        "id": 4,
+        "name_en": "Self Realization / Individuation",
+        "name_zh": "自性实现 / 个体化",
+        "description": "The culmination of the individuation process involves the ego's encounter with the Self: the archetype of wholeness that encompasses the total personality. This is not a final destination but an ongoing relationship between the conscious ego and the transpersonal center of the psyche. The ego must learn to serve the Self without being inflated by it (identifying with the archetype) or deflated by it (feeling crushed by its vastness). This stage produces dreams of extraordinary numinosity and symbolic density.",
+        "typical_dream_themes": [
+          "Mandala imagery: perfect circles, symmetrical patterns, wheels, and spirals",
+          "The Divine Child: a luminous infant or child of extraordinary significance",
+          "Cosmic or transpersonal landscapes: starfields, infinite spaces, radiant light",
+          "The philosopher's stone or a jewel of extraordinary value discovered after long search",
+          "Sacred architecture: cathedrals, temples, and cosmic structures of perfect proportion",
+          "Union of opposites: sun and moon together, fire and water merging, male and female in sacred marriage",
+          "The World Tree or axis mundi connecting heaven and earth",
+          "Death and resurrection: the dreamer dying and being reborn in transformed state",
+          "Encounters with figures of numinous authority who bestow a name, crown, or mission",
+          "Dreams of arriving, homecoming, or finding the center of a labyrinth"
+        ],
+        "associated_archetypes": ["Self", "Divine Child", "Wise Old Man/Woman", "Crone", "Magician"],
+        "psychological_task": "Developing a living relationship between the ego and the Self. The ego serves as the conscious instrument of the Self's intentions without losing its own necessary boundaries and practical functions. This involves radical acceptance of one's whole nature (light and dark, masculine and feminine, individual and universal) while maintaining the humility to serve something larger than personal ambition. The goal is not perfection but completeness.",
+        "dream_indicators_of_progress": [
+          "Mandala and quaternity symbols appear with increasing frequency and beauty",
+          "Dreams carry a quality of numinosity, awe, and deep significance that persists after waking",
+          "The dreamer experiences peace with paradox: holding opposites without needing to resolve them",
+          "Dream figures who were previously adversaries appear as collaborators or aspects of a unified whole",
+          "The dreamer's relationship to their dreams changes: less analysis, more living dialogue with the unconscious",
+          "Synchronicities between dream content and waking events increase"
+        ]
+      }
+    ],
+    "important_notes": [
+      "Individuation is not linear. Dreamers cycle through these stages at deeper levels throughout life.",
+      "The stages described are approximate patterns, not rigid categories. Multiple stages may overlap.",
+      "Not all dreamers will experience all stages, and the order may vary.",
+      "Cultural context profoundly shapes the symbolic language through which these stages manifest.",
+      "Professional guidance is recommended for intense Shadow or Anima/Animus work that surfaces traumatic material.",
+      "Self-realization dreams should be received with humility, not inflated into claims of spiritual achievement."
+    ]
+  },
+
+  "dream_archetype_patterns": {
+    "description": "Mapping of common dream scenarios to their most likely archetypal significance. These are probabilistic associations, not rigid assignments. Multiple archetypes may be active in a single dream. Context, emotion, and the dreamer's life situation always modify interpretation.",
+    "patterns": [
+      {
+        "dream_scenario": "Being chased or pursued",
+        "primary_archetype": "Shadow",
+        "secondary_archetypes": ["Hero", "Warrior"],
+        "interpretation": "The dreamer is running from repressed aspects of themselves. The pursuer's characteristics reveal the specific Shadow quality being denied. Recurring chase dreams that intensify suggest the repressed content is becoming more urgent.",
+        "key_question": "What quality in the pursuer do you most want to disown in yourself?"
+      },
+      {
+        "dream_scenario": "Discovering hidden rooms in a familiar building",
+        "primary_archetype": "Self",
+        "secondary_archetypes": ["Shadow", "Explorer"],
+        "interpretation": "The familiar building represents the known personality; hidden rooms are undiscovered aspects of the psyche. The condition of the rooms (furnished/empty, bright/dark, welcoming/threatening) indicates the dreamer's readiness to integrate this material.",
+        "key_question": "What untapped potential or unknown aspect of yourself is this room representing?"
+      },
+      {
+        "dream_scenario": "Meeting a wise stranger who offers guidance",
+        "primary_archetype": "Wise Old Man/Woman",
+        "secondary_archetypes": ["Self", "Magician"],
+        "interpretation": "The unconscious is offering wisdom that the ego cannot generate on its own. The specific advice or gift should be taken seriously as it often contains precise guidance for the dreamer's current situation.",
+        "key_question": "What wisdom is your deeper self trying to communicate that your rational mind has been ignoring?"
+      },
+      {
+        "dream_scenario": "Being naked in public",
+        "primary_archetype": "Persona",
+        "secondary_archetypes": ["Shadow", "Wounded Child"],
+        "interpretation": "The Persona (social mask) has been stripped away, exposing the authentic self. The dream reveals anxiety about being seen as one truly is. The reactions of others in the dream indicate the dreamer's expectations about social acceptance.",
+        "key_question": "What are you hiding behind your public image that you fear others would reject?"
+      },
+      {
+        "dream_scenario": "Flying or levitating",
+        "primary_archetype": "Explorer",
+        "secondary_archetypes": ["Hero", "Self"],
+        "interpretation": "The dreamer is rising above ordinary perspective to gain an expanded view. Can indicate liberation from constraints, spiritual aspiration, or escape from grounded reality. The quality of the flight (effortful vs. effortless, controlled vs. chaotic) matters.",
+        "key_question": "What perspective are you gaining by rising above your everyday concerns? Or what grounded reality are you avoiding?"
+      },
+      {
+        "dream_scenario": "Teeth falling out",
+        "primary_archetype": "Persona",
+        "secondary_archetypes": ["Shadow", "Wounded Child"],
+        "interpretation": "Loss of teeth symbolizes loss of power, attractiveness, or the ability to 'bite' (assert oneself). Connected to anxiety about aging, appearance, and social competence. The Persona is threatened by a loss of the tools needed to present oneself effectively.",
+        "key_question": "Where in your life do you feel your power, attractiveness, or effectiveness is being diminished?"
+      },
+      {
+        "dream_scenario": "Death of a known person",
+        "primary_archetype": "Self",
+        "secondary_archetypes": ["Shadow", "Crone"],
+        "interpretation": "Rarely a literal premonition. The dying figure usually represents a quality, life phase, or psychological attitude that is ending. The Self orchestrates symbolic deaths to clear space for new development. Grief in the dream is genuine mourning for what is being released.",
+        "key_question": "What does this person represent to you, and what quality or phase of life associated with them is ending?"
+      },
+      {
+        "dream_scenario": "Water (oceans, floods, rivers, rain)",
+        "primary_archetype": "Anima",
+        "secondary_archetypes": ["Great Mother", "Self"],
+        "interpretation": "Water universally symbolizes the unconscious, emotions, and the maternal source of life. The state of the water mirrors the dreamer's relationship to their emotional life: calm water = emotional balance; turbulent water = emotional upheaval; deep water = depth of the unconscious; flooding = overwhelm by unconscious content.",
+        "key_question": "How does the state of the water in the dream mirror your current emotional life?"
+      },
+      {
+        "dream_scenario": "Taking an exam unprepared",
+        "primary_archetype": "Persona",
+        "secondary_archetypes": ["Father", "Shadow"],
+        "interpretation": "The dreamer feels evaluated or tested and fears being found inadequate. Connected to internalized parental or societal expectations. The exam subject and examiners provide clues about which area of life triggers these performance anxieties.",
+        "key_question": "Where in your life do you feel you are being judged or tested and fear you will be found lacking?"
+      },
+      {
+        "dream_scenario": "Falling from a height",
+        "primary_archetype": "Persona",
+        "secondary_archetypes": ["Hero", "Shadow"],
+        "interpretation": "Loss of one's elevated position or social standing. Can indicate ego inflation being corrected by the unconscious (the higher the fall, the more inflated the position). Also represents loss of control, failure of the hero's overreach, or anxiety about a real-world decline in status.",
+        "key_question": "Have you been maintaining an unsustainable position, and is something correcting your course?"
+      },
+      {
+        "dream_scenario": "Being unable to move or speak",
+        "primary_archetype": "Shadow",
+        "secondary_archetypes": ["Animus", "Wounded Child"],
+        "interpretation": "The dreamer's capacity for action or expression is paralyzed, often by repressed fear or internalized authority. The Shadow holds the energy needed for movement, and until acknowledged, it manifests as paralysis. May also reflect Animus issues (silenced voice, inability to assert).",
+        "key_question": "What are you unable to do or say in waking life, and what fear prevents you?"
+      },
+      {
+        "dream_scenario": "A baby or child in danger",
+        "primary_archetype": "Divine Child",
+        "secondary_archetypes": ["Wounded Child", "Great Mother"],
+        "interpretation": "Something new and vulnerable in the dreamer's psychological life is threatened. May represent a new project, relationship, creative endeavor, or aspect of personal growth that needs protection. If the child is the dreamer's inner child, it connects to unhealed childhood wounds needing attention.",
+        "key_question": "What new beginning or vulnerable part of yourself needs protection right now?"
+      },
+      {
+        "dream_scenario": "A wedding or marriage ceremony",
+        "primary_archetype": "Self",
+        "secondary_archetypes": ["Anima", "Animus", "Lover"],
+        "interpretation": "The sacred marriage (hieros gamos) symbolizes the union of opposites within the psyche: conscious and unconscious, masculine and feminine, thought and feeling. One of the most significant individuation symbols. The identity of bride and groom and the emotional tone of the ceremony indicate which opposites are seeking union.",
+        "key_question": "What opposing aspects of yourself or your life are seeking reconciliation and integration?"
+      },
+      {
+        "dream_scenario": "A house with many floors or rooms",
+        "primary_archetype": "Self",
+        "secondary_archetypes": ["Explorer", "Shadow"],
+        "interpretation": "The house represents the total psyche. Upper floors correspond to consciousness and spiritual aspiration; main floor to everyday ego life; basement to the personal unconscious; deep underground to the collective unconscious. The condition and content of each level reveals the state of that psychological domain.",
+        "key_question": "Which level of the house drew your attention, and what does that level of your psyche need?"
+      },
+      {
+        "dream_scenario": "Returning to childhood home or school",
+        "primary_archetype": "Wounded Child",
+        "secondary_archetypes": ["Great Mother", "Father"],
+        "interpretation": "The psyche is returning to formative experiences that shaped the current personality. Something in the dreamer's present situation has activated patterns established in childhood. The emotional tone and any differences from the real remembered place are diagnostically significant.",
+        "key_question": "What pattern from your childhood is being reactivated in your current life?"
+      },
+      {
+        "dream_scenario": "Encountering a snake",
+        "primary_archetype": "Shadow",
+        "secondary_archetypes": ["Self", "Anima", "Magician"],
+        "interpretation": "The snake is one of the most polyvalent dream symbols. As Shadow: repressed instinctual energy. As Self: the ouroboros, wholeness, kundalini energy, and transformation. As Anima: feminine wisdom and the connection between consciousness and the deep unconscious. The snake's behavior (threatening, neutral, or helpful) is crucial for interpretation.",
+        "key_question": "What instinctual, transformative, or deeply unconscious energy is the snake representing in your life right now?"
+      },
+      {
+        "dream_scenario": "Driving a vehicle out of control",
+        "primary_archetype": "Persona",
+        "secondary_archetypes": ["Shadow", "Hero"],
+        "interpretation": "The vehicle represents the ego's mode of navigating life. Loss of control suggests the dreamer's current approach to life is failing. Who is driving (the dreamer, a known person, a stranger) indicates who or what is 'in the driver's seat' of the dreamer's life direction.",
+        "key_question": "Who or what is actually directing your life right now, and is that working?"
+      },
+      {
+        "dream_scenario": "Natural disasters (earthquakes, tsunamis, storms)",
+        "primary_archetype": "Self",
+        "secondary_archetypes": ["Great Mother", "Shadow"],
+        "interpretation": "The Self uses natural catastrophe imagery when the ego's established structures need radical disruption. Earthquakes: the ground of one's assumptions is unstable. Floods: emotional overwhelm or the unconscious breaking through. Storms: psychic turbulence preceding transformation. These are often initiatory dreams marking the beginning of significant inner change.",
+        "key_question": "What foundation in your life is shifting, and what new ground is trying to emerge?"
+      },
+      {
+        "dream_scenario": "Being in a war or battle",
+        "primary_archetype": "Warrior",
+        "secondary_archetypes": ["Shadow", "Hero", "Animus"],
+        "interpretation": "Inner conflict externalized as war. The opposing sides represent conflicting aspects of the dreamer's personality or competing demands in their life. The dreamer's role (soldier, civilian, commander, medic) reveals their stance toward the conflict. War dreams may also process cultural or collective trauma.",
+        "key_question": "What inner conflict are you fighting, and what would peace require?"
+      },
+      {
+        "dream_scenario": "Animals (general: encountering, being transformed into, communicating with)",
+        "primary_archetype": "Shadow",
+        "secondary_archetypes": ["Anima", "Self", "Great Mother"],
+        "interpretation": "Animals in dreams represent instinctual energies, drives, and qualities that the civilized ego has distanced itself from. The specific animal and the dreamer's relationship to it (fear, affection, communication) reveal which instinctual quality is seeking integration. Transformation into an animal suggests the ego needs to embody more instinctual, embodied awareness.",
+        "key_question": "What instinctual quality does this animal embody that you need in your life?"
+      },
+      {
+        "dream_scenario": "Being trapped or imprisoned",
+        "primary_archetype": "Shadow",
+        "secondary_archetypes": ["Wounded Child", "Anima", "Animus"],
+        "interpretation": "The dreamer feels constrained by circumstances, relationships, or self-imposed limitations. The nature of the prison (physical cell, emotional situation, labyrinth) reveals the nature of the entrapment. Often indicates the Shadow contains energy needed for liberation, or that the Anima/Animus is imprisoned and needs rescue.",
+        "key_question": "What is imprisoning you, and what key (suppressed quality, decision, or truth) would set you free?"
+      },
+      {
+        "dream_scenario": "Finding treasure or valuable objects",
+        "primary_archetype": "Self",
+        "secondary_archetypes": ["Shadow", "Explorer"],
+        "interpretation": "The treasure represents psychological value: undiscovered potential, suppressed gifts, or essential qualities the dreamer has not yet claimed. Where the treasure is found (underground, underwater, in a locked box, in a ruin) indicates where in the psyche this value lies hidden. The treasure hard to attain is a classic individuation motif.",
+        "key_question": "What hidden gift, talent, or quality within yourself have you not yet claimed?"
+      },
+      {
+        "dream_scenario": "Crossing a bridge",
+        "primary_archetype": "Self",
+        "secondary_archetypes": ["Explorer", "Anima", "Hero"],
+        "interpretation": "A bridge symbolizes transition between psychological states, life phases, or levels of consciousness. The condition of the bridge (sturdy, rickety, broken, unfinished) reflects the dreamer's confidence in the transition. What lies on each side of the bridge reveals what is being left behind and what is being approached.",
+        "key_question": "What transition are you in the middle of, and what is on the other side?"
+      },
+      {
+        "dream_scenario": "Transformation or metamorphosis",
+        "primary_archetype": "Magician",
+        "secondary_archetypes": ["Self", "Trickster"],
+        "interpretation": "The psyche is demonstrating that fundamental change is underway or possible. The nature of the transformation (caterpillar to butterfly, human to animal, young to old) indicates the direction of development. Alchemical dreams of transformation are among the most significant indicators of active individuation.",
+        "key_question": "What is being transformed, and are you cooperating with or resisting the process?"
+      },
+      {
+        "dream_scenario": "Mirror reflections (unexpected or distorted)",
+        "primary_archetype": "Shadow",
+        "secondary_archetypes": ["Persona", "Anima", "Animus"],
+        "interpretation": "The mirror confronts the dreamer with an image of themselves that differs from their conscious self-image. A distorted reflection reveals how the Shadow or Persona is altering self-perception. An absent reflection suggests disconnection from one's core identity. A beautiful or idealized reflection may indicate Shadow projection (golden shadow) or Anima/Animus fascination.",
+        "key_question": "How does the reflection differ from how you see yourself, and what truth might that difference reveal?"
+      },
+      {
+        "dream_scenario": "Missing a train, plane, or bus",
+        "primary_archetype": "Explorer",
+        "secondary_archetypes": ["Persona", "Hero"],
+        "interpretation": "The dreamer feels they are missing an opportunity, falling behind in life, or unable to 'catch up' to where they should be. The destination of the missed transport reveals which life goal or developmental task feels out of reach. May reflect genuine timing anxieties or deeper individuation resistance.",
+        "key_question": "What opportunity or life transition do you feel is passing you by?"
+      },
+      {
+        "dream_scenario": "Being at a feast or banquet",
+        "primary_archetype": "Great Mother",
+        "secondary_archetypes": ["Self", "Lover"],
+        "interpretation": "Abundance, nourishment, and communal celebration. The feast represents psychological or spiritual nourishment available to the dreamer. The quality of the food, the guests present, and whether the dreamer can eat comfortably all indicate their relationship to receiving nourishment (emotional, creative, spiritual) in waking life.",
+        "key_question": "Are you allowing yourself to receive the nourishment life is offering?"
+      },
+      {
+        "dream_scenario": "Climbing a mountain or staircase",
+        "primary_archetype": "Hero",
+        "secondary_archetypes": ["Self", "Explorer"],
+        "interpretation": "Ascending toward a higher perspective, spiritual aspiration, or achievement of a difficult goal. The difficulty of the climb reflects the effort required. What is seen from the summit reveals the expanded perspective the effort produces. Getting stuck or falling back indicates obstacles in the ascent process.",
+        "key_question": "What higher perspective or achievement are you striving toward, and what effort does it require?"
+      },
+      {
+        "dream_scenario": "Performing on stage",
+        "primary_archetype": "Persona",
+        "secondary_archetypes": ["Shadow", "Hero"],
+        "interpretation": "The dreamer's relationship to public presentation, social role, and self-expression. Success on stage indicates confident Persona functioning. Forgetting lines or being booed reflects Persona anxiety. Being the wrong character in the wrong play suggests inauthenticity in one's social role.",
+        "key_question": "How authentic is the role you are performing in your social life?"
+      },
+      {
+        "dream_scenario": "A garden, either flourishing or neglected",
+        "primary_archetype": "Self",
+        "secondary_archetypes": ["Great Mother", "Anima"],
+        "interpretation": "The garden represents the cultivated psyche: the product of conscious tending of one's inner life. A flourishing garden indicates healthy psychological growth. A neglected garden suggests the dreamer has abandoned their inner work. A walled or secret garden points to a protected inner sanctuary. Planting and harvesting reflect the cycle of psychological effort and reward.",
+        "key_question": "What aspects of your inner life need tending, and what has been neglected?"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "themes": [
+    {
+      "name": "ocean",
+      "keywords": ["ocean", "sea", "water", "beach", "wave", "海", "海洋", "水", "沙滩", "浪"],
+      "soundscape": {"primary": "ocean waves with varying intensity", "frequency": "theta binaural beats 4-7 Hz", "duration_minutes": 30},
+      "visual_stimuli": ["calm ocean horizon at golden hour", "underwater coral reef with shafts of light", "moonlit beach with gentle waves"],
+      "scent": "sea salt, driftwood, vetiver",
+      "meditation_seed": "Imagine standing at the edge of a vast, calm ocean. Feel the warm sand between your toes, hear the rhythm of the waves..."
+    },
+    {
+      "name": "flying",
+      "keywords": ["fly", "flying", "sky", "cloud", "float", "飞", "飞翔", "天空", "云", "漂浮"],
+      "soundscape": {"primary": "wind sounds at altitude, distant birdsong", "frequency": "alpha waves 8-12 Hz", "duration_minutes": 20},
+      "visual_stimuli": ["aerial view of mountains through clouds", "sunrise from above the clouds", "birds soaring in thermals"],
+      "scent": "eucalyptus, peppermint, fresh air",
+      "meditation_seed": "Feel your body becoming lighter with each breath. Your feet lift gently from the ground, and you begin to rise..."
+    },
+    {
+      "name": "forest",
+      "keywords": ["forest", "tree", "wood", "jungle", "nature", "森林", "树", "丛林", "自然", "林"],
+      "soundscape": {"primary": "birdsong, rustling leaves, distant stream", "frequency": "theta 5-6 Hz with nature overlay", "duration_minutes": 25},
+      "visual_stimuli": ["ancient forest with light filtering through canopy", "misty morning in bamboo grove", "autumn forest path with fallen leaves"],
+      "scent": "cedarwood, pine, moss, petrichor",
+      "meditation_seed": "You are walking along a soft path through an ancient forest. The air smells of earth and green things growing..."
+    },
+    {
+      "name": "space",
+      "keywords": ["space", "star", "cosmos", "galaxy", "universe", "太空", "星星", "宇宙", "银河", "星空"],
+      "soundscape": {"primary": "deep space ambient, low frequency drones", "frequency": "delta waves 1-4 Hz", "duration_minutes": 30},
+      "visual_stimuli": ["star field with nebula", "Earth from orbit", "inside a crystal cave of stars"],
+      "scent": "sandalwood, frankincense",
+      "meditation_seed": "You float in the infinite dark between stars. Each breath takes you deeper into the cosmos, where time has no meaning..."
+    },
+    {
+      "name": "childhood",
+      "keywords": ["child", "childhood", "home", "family", "memory", "小时候", "童年", "家", "记忆", "妈妈", "爸爸"],
+      "soundscape": {"primary": "gentle music box, distant laughter, rain on windows", "frequency": "theta 4-6 Hz", "duration_minutes": 20},
+      "visual_stimuli": ["warm kitchen with afternoon light", "old playground in golden hour", "childhood bedroom with familiar objects"],
+      "scent": "vanilla, warm milk, fresh laundry",
+      "meditation_seed": "Picture the front door of the home you grew up in. Push it open and step inside. Everything is exactly as you remember..."
+    },
+    {
+      "name": "healing",
+      "keywords": ["heal", "peace", "calm", "safe", "comfort", "治愈", "平静", "安全", "舒适", "温暖"],
+      "soundscape": {"primary": "singing bowls, gentle stream, soft chimes", "frequency": "alpha-theta 6-8 Hz", "duration_minutes": 25},
+      "visual_stimuli": ["warm golden light enveloping the body", "peaceful garden with flowing water", "cozy room with fireplace and rain outside"],
+      "scent": "lavender, chamomile, rose",
+      "meditation_seed": "A warm, golden light surrounds you. It enters through the top of your head and flows down through your entire body, dissolving any tension..."
+    }
+  ]
+}

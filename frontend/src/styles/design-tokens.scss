@@ -1,0 +1,396 @@
+/* DreamApp Design System — Dark Dream Theme
+ * Inspired by: agency-agents UI Designer methodology
+ * Theme: Deep space + bioluminescent + aurora
+ */
+
+/* === Color Tokens === */
+:root {
+  /* Primary — Aurora Purple */
+  --dream-primary-50: #f5f3ff;
+  --dream-primary-100: #ede9fe;
+  --dream-primary-200: #ddd6fe;
+  --dream-primary-300: #c4b5fd;
+  --dream-primary-400: #a78bfa;
+  --dream-primary-500: #8b5cf6;
+  --dream-primary-600: #7c3aed;
+  --dream-primary-700: #6d28d9;
+  --dream-primary-800: #5b21b6;
+  --dream-primary-900: #4c1d95;
+
+  /* Accent — Bioluminescent Teal */
+  --dream-accent-400: #2dd4bf;
+  --dream-accent-500: #14b8a6;
+  --dream-accent-600: #0d9488;
+
+  /* Background — Deep Space */
+  --dream-bg-primary: #060612;
+  --dream-bg-secondary: #0c0c20;
+  --dream-bg-card: #12122a;
+  --dream-bg-card-hover: #1a1a3e;
+  --dream-bg-input: #1e1e3a;
+  --dream-bg-elevated: #16163a;
+
+  /* Surface — Glass morphism */
+  --dream-glass: rgba(18, 18, 42, 0.7);
+  --dream-glass-border: rgba(139, 92, 246, 0.15);
+  --dream-glass-glow: rgba(139, 92, 246, 0.08);
+
+  /* Text */
+  --dream-text-primary: #f0f0f5;
+  --dream-text-secondary: #a0a0b8;
+  --dream-text-muted: #6b6b85;
+  --dream-text-accent: var(--dream-primary-300);
+
+  /* Border */
+  --dream-border-subtle: rgba(255, 255, 255, 0.06);
+  --dream-border-default: rgba(255, 255, 255, 0.1);
+  --dream-border-focus: var(--dream-primary-500);
+
+  /* Semantic */
+  --dream-success: #10b981;
+  --dream-warning: #f59e0b;
+  --dream-error: #ef4444;
+  --dream-info: #3b82f6;
+
+  /* Gradients */
+  --dream-gradient-primary: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+  --dream-gradient-glow: linear-gradient(135deg, rgba(124, 58, 237, 0.4) 0%, rgba(91, 33, 182, 0.1) 100%);
+  --dream-gradient-header: linear-gradient(180deg, #0f0f2e 0%, var(--dream-bg-primary) 100%);
+  --dream-gradient-aurora: linear-gradient(135deg, #7c3aed 0%, #2dd4bf 50%, #818cf8 100%);
+  --dream-gradient-sunset: linear-gradient(135deg, #f59e0b 0%, #ef4444 50%, #8b5cf6 100%);
+
+  /* Typography */
+  --dream-font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --dream-font-mono: 'SF Mono', 'JetBrains Mono', 'Fira Code', monospace;
+
+  --dream-text-xs: 22rpx;
+  --dream-text-sm: 24rpx;
+  --dream-text-base: 28rpx;
+  --dream-text-md: 30rpx;
+  --dream-text-lg: 34rpx;
+  --dream-text-xl: 40rpx;
+  --dream-text-2xl: 48rpx;
+  --dream-text-3xl: 56rpx;
+
+  /* Spacing */
+  --dream-space-1: 8rpx;
+  --dream-space-2: 12rpx;
+  --dream-space-3: 16rpx;
+  --dream-space-4: 24rpx;
+  --dream-space-5: 32rpx;
+  --dream-space-6: 40rpx;
+  --dream-space-8: 56rpx;
+  --dream-space-10: 80rpx;
+
+  /* Radius */
+  --dream-radius-sm: 12rpx;
+  --dream-radius-md: 16rpx;
+  --dream-radius-lg: 24rpx;
+  --dream-radius-xl: 32rpx;
+  --dream-radius-full: 9999px;
+
+  /* Shadows */
+  --dream-shadow-sm: 0 2rpx 8rpx rgba(0, 0, 0, 0.3);
+  --dream-shadow-md: 0 8rpx 24rpx rgba(0, 0, 0, 0.4);
+  --dream-shadow-lg: 0 16rpx 48rpx rgba(0, 0, 0, 0.5);
+  --dream-shadow-glow: 0 0 40rpx rgba(139, 92, 246, 0.15);
+  --dream-shadow-glow-strong: 0 0 60rpx rgba(139, 92, 246, 0.3);
+
+  /* Transitions */
+  --dream-transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --dream-transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --dream-transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  --dream-transition-bounce: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Z-index */
+  --dream-z-base: 0;
+  --dream-z-dropdown: 10;
+  --dream-z-sticky: 20;
+  --dream-z-modal: 30;
+  --dream-z-toast: 40;
+
+  /* === Dream Cinema layer ================================================
+   * Adds film-grade atmosphere on top of the base dark-dream system.
+   * Palette references — see src/styles/dream-cinema.md for film cues.
+   * =====================================================================*/
+
+  /* Aurora (multi-hue across nebula / twilight / lantern) */
+  --dc-aurora-violet: #8b5cf6;
+  --dc-aurora-magenta: #ec4899;
+  --dc-aurora-cyan: #06b6d4;
+  --dc-aurora-amber: #f59e0b;
+  --dc-aurora-lavender: #a78bfa;
+  --dc-aurora-rose: #fb7185;
+  --dc-aurora-mint: #6ee7b7;
+
+  /* Void palette — deeper than --dream-bg-primary; for cinematic fades */
+  --dc-void: #030210;
+  --dc-void-indigo: #0a0820;
+  --dc-midnight: #140a36;
+  --dc-nebula: #2d1b5e;
+
+  /* Film palette — quoting reference works */
+  --dc-inception-blue: #1e3a5f;
+  --dc-inception-amber: #c77f3a;
+  --dc-paprika-pink: #ff3b8b;
+  --dc-paprika-acid: #b4ff39;
+  --dc-mulholland-red: #6b0f1a;
+  --dc-spirited-lantern: #f9a03f;
+  --dc-spirited-twilight: #3c1a5b;
+  --dc-shinkai-gold: #f9d26e;
+  --dc-shinkai-violet: #6c5ce7;
+  --dc-solaris-teal: #3a6a6f;
+  --dc-solaris-pearl: #f8f4ff;
+  --dc-dune-ochre: #c89b4a;
+  --dc-dune-cobalt: #3b62a3;
+
+  /* Signature gradients — named by film */
+  --dc-grad-aurora: linear-gradient(135deg, #8b5cf6 0%, #ec4899 45%, #06b6d4 100%);
+  --dc-grad-inception: linear-gradient(135deg, #1e3a5f 0%, #4a3065 55%, #c77f3a 100%);
+  --dc-grad-paprika: linear-gradient(135deg, #ff3b8b 0%, #f59e0b 50%, #b4ff39 100%);
+  --dc-grad-spirited: linear-gradient(180deg, #3c1a5b 0%, #7a3a8e 50%, #f9a03f 100%);
+  --dc-grad-mulholland: linear-gradient(180deg, #000000 0%, #1a0812 50%, #6b0f1a 100%);
+  --dc-grad-shinkai: linear-gradient(180deg, #1a1147 0%, #6c5ce7 50%, #f9d26e 100%);
+  --dc-grad-solaris: linear-gradient(180deg, #0a0820 0%, #1e3a5f 60%, #3a6a6f 100%);
+  --dc-grad-dune: linear-gradient(135deg, #0a0820 0%, #3b62a3 40%, #c89b4a 100%);
+  --dc-grad-void-fade: radial-gradient(ellipse at center top, #2d1b5e 0%, #0a0820 50%, #030210 100%);
+  --dc-grad-moonrise: radial-gradient(circle at 50% 120%, #a78bfa 0%, #4c1d95 25%, #140a36 55%, #030210 100%);
+
+  /* Glow / halo presets */
+  --dc-halo-violet: 0 0 60rpx rgba(167, 139, 250, 0.45), 0 0 120rpx rgba(139, 92, 246, 0.25);
+  --dc-halo-amber: 0 0 60rpx rgba(249, 160, 63, 0.4), 0 0 120rpx rgba(249, 160, 63, 0.18);
+  --dc-halo-moonlight: 0 0 40rpx rgba(248, 244, 255, 0.3), 0 0 80rpx rgba(196, 181, 253, 0.15);
+  --dc-halo-cyan: 0 0 60rpx rgba(6, 182, 212, 0.35);
+
+  /* Atmospheric tokens */
+  --dc-grain-opacity: 0.035;         /* film grain over screens */
+  --dc-grain-opacity-strong: 0.07;   /* for hero sections */
+  --dc-vignette-outer: rgba(0, 0, 0, 0.55);
+  --dc-chromatic-offset: 0.6rpx;     /* subtle RGB split */
+
+  /* Motion — breathing REM cycle */
+  --dc-breath: 4800ms cubic-bezier(0.45, 0, 0.55, 1);
+  --dc-drift: 18000ms linear;
+  --dc-pulse: 2400ms cubic-bezier(0.4, 0, 0.6, 1);
+
+  /* Typography — cinematic display */
+  --dc-font-display: 'Cormorant Garamond', 'Songti SC', 'STSong', 'Noto Serif SC', Georgia, serif;
+  --dc-font-narrative: 'Cormorant Garamond', 'Songti SC', 'KaiTi', 'STKaiti', serif;
+  --dc-font-caption: 'JetBrains Mono', 'SF Mono', 'Courier New', monospace;
+
+  /* Letter-spacing for display type — cinematic titles need air */
+  --dc-tracking-display: 0.04em;
+  --dc-tracking-wide: 0.1em;
+  --dc-tracking-caption: 0.18em;
+}
+
+/* === Dream Cinema — Reusable utility classes ============================ */
+
+/* Film grain — place as `::after` or standalone layer, pointer-events:none */
+.dc-grain {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: var(--dc-grain-opacity);
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.9'/></svg>");
+  background-size: 320rpx 320rpx;
+  animation: dc-grain-shift 900ms steps(4) infinite;
+  z-index: 2;
+}
+.dc-grain-strong { opacity: var(--dc-grain-opacity-strong); }
+
+@keyframes dc-grain-shift {
+  0%   { transform: translate(0, 0); }
+  25%  { transform: translate(-6%, 3%); }
+  50%  { transform: translate(4%, -5%); }
+  75%  { transform: translate(-3%, 6%); }
+  100% { transform: translate(0, 0); }
+}
+
+/* Aurora gradient band — use as fixed hero backdrop */
+.dc-aurora-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 60% 40% at 20% 10%, rgba(236, 72, 153, 0.28), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 80% 20%, rgba(6, 182, 212, 0.22), transparent 65%),
+    radial-gradient(ellipse 80% 60% at 50% 100%, rgba(139, 92, 246, 0.32), transparent 70%),
+    var(--dc-grad-moonrise);
+  filter: saturate(1.1);
+  animation: dc-aurora-shift 24s ease-in-out infinite;
+  z-index: 0;
+}
+
+@keyframes dc-aurora-shift {
+  0%, 100% { filter: saturate(1.1) hue-rotate(0deg); }
+  50%      { filter: saturate(1.25) hue-rotate(12deg); }
+}
+
+/* Vignette */
+.dc-vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, transparent 35%, var(--dc-vignette-outer) 100%);
+  z-index: 3;
+}
+
+/* Breathing pulse animation — for orbs, CTAs */
+.dc-breathe {
+  animation: dc-breathe var(--dc-breath) ease-in-out infinite;
+}
+@keyframes dc-breathe {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50%      { transform: scale(1.03); opacity: 0.92; }
+}
+
+/* Moon halo element */
+.dc-moon {
+  position: relative;
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #f8f4ff 0%, #e0d6ff 35%, #a78bfa 75%, #6d28d9 100%);
+  box-shadow: var(--dc-halo-moonlight), inset -20rpx -10rpx 40rpx rgba(76, 29, 149, 0.4);
+}
+.dc-moon::before {
+  content: '';
+  position: absolute;
+  inset: -40rpx;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(196, 181, 253, 0.18), transparent 65%);
+  animation: dc-breathe var(--dc-breath) ease-in-out infinite;
+  z-index: -1;
+}
+
+/* Portal CTA — arch-shaped button, the main primary action on hero pages */
+.dc-portal {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 420rpx;
+  padding: 32rpx 56rpx;
+  border: none;
+  border-radius: 240rpx 240rpx 24rpx 24rpx;  /* top arch + bottom flat */
+  background: var(--dc-grad-aurora);
+  color: var(--dream-pearl, #f8f4ff);
+  font-family: var(--dc-font-display);
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: var(--dc-tracking-display);
+  box-shadow: var(--dc-halo-violet);
+  overflow: hidden;
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+.dc-portal::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.18) 0%, transparent 40%);
+  pointer-events: none;
+}
+.dc-portal::after {
+  content: '';
+  position: absolute;
+  inset: -50%;
+  background: conic-gradient(from 0deg, transparent 0deg, rgba(255,255,255,0.12) 40deg, transparent 80deg);
+  animation: dc-portal-rotate 6s linear infinite;
+  pointer-events: none;
+}
+.dc-portal:active {
+  transform: scale(0.98);
+  box-shadow: var(--dc-halo-violet), inset 0 0 40rpx rgba(0,0,0,0.3);
+}
+@keyframes dc-portal-rotate {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.dc-portal-ghost {
+  background: transparent;
+  border: 1rpx solid rgba(196, 181, 253, 0.35);
+  color: var(--dc-solaris-pearl);
+  box-shadow: none;
+}
+.dc-portal-ghost::after { display: none; }
+
+/* Display headline — cinematic title type */
+.dc-display {
+  font-family: var(--dc-font-display);
+  font-weight: 500;
+  letter-spacing: var(--dc-tracking-display);
+  background: linear-gradient(180deg, #ffffff 0%, #c4b5fd 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 60rpx rgba(167, 139, 250, 0.35);
+}
+
+.dc-eyebrow {
+  font-family: var(--dc-font-caption);
+  font-size: 22rpx;
+  letter-spacing: var(--dc-tracking-caption);
+  text-transform: uppercase;
+  color: var(--dc-aurora-lavender);
+  opacity: 0.75;
+}
+
+.dc-narrative {
+  font-family: var(--dc-font-narrative);
+  font-style: italic;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
+/* Torn paper / film-strip divider */
+.dc-divider {
+  position: relative;
+  height: 2rpx;
+  margin: 48rpx 0;
+  background: linear-gradient(90deg, transparent, rgba(196,181,253,0.3), transparent);
+}
+.dc-divider::before {
+  content: '◈';
+  position: absolute;
+  top: -18rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--dc-aurora-lavender);
+  background: var(--dream-bg-primary);
+  padding: 0 16rpx;
+  font-size: 20rpx;
+}
+
+/* Floating pollen — use uni view with .dc-pollen particles */
+.dc-pollen {
+  position: absolute;
+  width: 4rpx;
+  height: 4rpx;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fef3c7 0%, rgba(249, 210, 110, 0.6) 50%, transparent 100%);
+  box-shadow: 0 0 8rpx rgba(249, 210, 110, 0.6);
+  animation: dc-pollen-drift var(--dc-drift) linear infinite;
+  pointer-events: none;
+}
+@keyframes dc-pollen-drift {
+  0%   { transform: translate(0, 0) scale(1); opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 0.6; }
+  100% { transform: translate(var(--dc-pollen-dx, 40rpx), var(--dc-pollen-dy, -80vh)) scale(0.5); opacity: 0; }
+}
+
+/* Screen-level cinematic wrapper */
+.dc-screen {
+  position: relative;
+  min-height: 100vh;
+  background: var(--dream-bg-primary);
+  overflow-x: hidden;
+}
+.dc-screen > .dc-aurora-bg,
+.dc-screen > .dc-grain,
+.dc-screen > .dc-vignette {
+  position: fixed;
+}

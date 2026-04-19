@@ -1,0 +1,287 @@
+/* DreamApp Component Library
+ * Reusable component styles using design tokens
+ */
+
+/* === Glass Card === */
+.glass-card {
+  background: var(--dream-glass);
+  backdrop-filter: blur(20rpx);
+  -webkit-backdrop-filter: blur(20rpx);
+  border: 1rpx solid var(--dream-glass-border);
+  border-radius: var(--dream-radius-lg);
+  transition: all var(--dream-transition-normal);
+}
+
+.glass-card:active {
+  transform: scale(0.98);
+  background: var(--dream-bg-card-hover);
+}
+
+/* === Buttons === */
+.btn-dream {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--dream-space-2);
+  padding: var(--dream-space-4) var(--dream-space-5);
+  border-radius: var(--dream-radius-md);
+  font-size: var(--dream-text-base);
+  font-weight: 600;
+  color: var(--dream-text-primary);
+  transition: all var(--dream-transition-fast);
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-dream::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(255,255,255,0.1), transparent);
+  opacity: 0;
+  transition: opacity var(--dream-transition-fast);
+}
+
+.btn-dream:active::after {
+  opacity: 1;
+}
+
+.btn-primary-dream {
+  background: var(--dream-gradient-primary);
+  box-shadow: var(--dream-shadow-glow);
+}
+
+.btn-primary-dream:active {
+  transform: scale(0.96);
+  box-shadow: var(--dream-shadow-glow-strong);
+}
+
+.btn-ghost-dream {
+  background: transparent;
+  border: 1rpx solid var(--dream-border-default);
+  color: var(--dream-text-secondary);
+}
+
+.btn-ghost-dream:active {
+  background: var(--dream-bg-input);
+  border-color: var(--dream-primary-500);
+}
+
+/* === Tags / Chips === */
+.chip-dream {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--dream-space-1);
+  padding: var(--dream-space-1) var(--dream-space-3);
+  border-radius: var(--dream-radius-full);
+  font-size: var(--dream-text-xs);
+  font-weight: 500;
+  background: rgba(139, 92, 246, 0.15);
+  color: var(--dream-primary-300);
+  border: 1rpx solid rgba(139, 92, 246, 0.2);
+}
+
+.chip-emotion {
+  background: rgba(45, 212, 191, 0.12);
+  color: var(--dream-accent-400);
+  border-color: rgba(45, 212, 191, 0.2);
+}
+
+.chip-active {
+  background: var(--dream-primary-600);
+  color: white;
+  border-color: var(--dream-primary-500);
+}
+
+/* === Input === */
+.input-dream {
+  width: 100%;
+  background: var(--dream-bg-input);
+  border: 1rpx solid var(--dream-border-subtle);
+  border-radius: var(--dream-radius-md);
+  padding: var(--dream-space-4);
+  color: var(--dream-text-primary);
+  font-size: var(--dream-text-base);
+  transition: all var(--dream-transition-fast);
+}
+
+.input-dream:focus {
+  border-color: var(--dream-primary-500);
+  box-shadow: 0 0 0 4rpx rgba(139, 92, 246, 0.15);
+}
+
+/* === Section Headers === */
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: var(--dream-space-2);
+  margin-bottom: var(--dream-space-4);
+}
+
+.section-title-dream {
+  font-size: var(--dream-text-sm);
+  font-weight: 700;
+  color: var(--dream-primary-400);
+  text-transform: uppercase;
+  letter-spacing: 2rpx;
+}
+
+/* === Page Header === */
+.page-header {
+  padding: 100rpx var(--dream-space-6) var(--dream-space-5);
+  background: var(--dream-gradient-header);
+  position: relative;
+}
+
+.page-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2rpx;
+  background: var(--dream-gradient-aurora);
+  opacity: 0.3;
+}
+
+.page-title {
+  font-size: var(--dream-text-2xl);
+  font-weight: 800;
+  color: var(--dream-text-primary);
+  letter-spacing: -1rpx;
+}
+
+.page-subtitle {
+  font-size: var(--dream-text-sm);
+  color: var(--dream-text-muted);
+  margin-top: var(--dream-space-1);
+}
+
+/* === Skeleton Loading === */
+.skeleton {
+  background: linear-gradient(90deg, var(--dream-bg-card) 25%, var(--dream-bg-card-hover) 50%, var(--dream-bg-card) 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s infinite;
+  border-radius: var(--dream-radius-sm);
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* === Floating Action Button === */
+.fab-dream {
+  position: fixed;
+  right: var(--dream-space-6);
+  bottom: 180rpx;
+  width: 112rpx;
+  height: 112rpx;
+  background: var(--dream-gradient-primary);
+  border-radius: var(--dream-radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--dream-shadow-glow-strong);
+  transition: all var(--dream-transition-bounce);
+  z-index: var(--dream-z-sticky);
+}
+
+.fab-dream:active {
+  transform: scale(0.9);
+}
+
+/* === Badge === */
+.badge-dream {
+  padding: var(--dream-space-1) var(--dream-space-3);
+  border-radius: var(--dream-radius-full);
+  font-size: var(--dream-text-xs);
+  font-weight: 600;
+}
+
+.badge-completed { background: rgba(16, 185, 129, 0.15); color: var(--dream-success); }
+.badge-generating { background: rgba(245, 158, 11, 0.15); color: var(--dream-warning); }
+.badge-scripted { background: rgba(139, 92, 246, 0.15); color: var(--dream-primary-400); }
+.badge-interviewing { background: rgba(107, 107, 133, 0.15); color: var(--dream-text-muted); }
+
+/* === Dot indicators === */
+.dot-pulse {
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: var(--dream-radius-full);
+  animation: dot-pulse 2s ease-in-out infinite;
+}
+
+@keyframes dot-pulse {
+  0%, 100% { opacity: 0.4; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+/* === Tab bar enhancements === */
+.tab-dream {
+  position: relative;
+  padding: var(--dream-space-4) 0;
+  text-align: center;
+  transition: all var(--dream-transition-fast);
+}
+
+.tab-dream-active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  right: 30%;
+  height: 4rpx;
+  background: var(--dream-gradient-primary);
+  border-radius: var(--dream-radius-full);
+}
+
+/* === Empty state === */
+.empty-dream {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--dream-space-10) var(--dream-space-6);
+  gap: var(--dream-space-4);
+}
+
+.empty-icon-dream {
+  font-size: 120rpx;
+  opacity: 0.6;
+  animation: float-gentle 4s ease-in-out infinite;
+}
+
+@keyframes float-gentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-16rpx); }
+}
+
+/* === Progress bar === */
+.progress-dream {
+  height: 8rpx;
+  background: var(--dream-bg-input);
+  border-radius: var(--dream-radius-full);
+  overflow: hidden;
+}
+
+.progress-fill-dream {
+  height: 100%;
+  background: var(--dream-gradient-aurora);
+  border-radius: var(--dream-radius-full);
+  transition: width var(--dream-transition-slow);
+}
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+  width: 6rpx;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--dream-border-default);
+  border-radius: var(--dream-radius-full);
+}

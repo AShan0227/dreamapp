@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Lucid dreaming community techniques + vocabulary. Sources: r/LucidDreaming, Stephen LaBerge research, World of Lucid Dreaming, Discord communities. Treat practitioners as experienced — most have tried multiple methods over years.",
+    "ai_application": "When user mentions any acronym below or describes 'becoming aware in a dream', recognize they're in lucid-dreaming frame. Use their preferred technique vocabulary. Don't over-explain back to them.",
+    "total_concepts": 22
+  },
+  "techniques": [
+    {
+      "id": "wild",
+      "term": "WILD",
+      "full": "Wake-Initiated Lucid Dream",
+      "definition": "Maintain consciousness while body falls asleep — pass directly from waking into a lucid dream without losing awareness. Considered hardest method, highest payoff.",
+      "common_experience": ["hypnagogic imagery", "vibrations", "sleep paralysis as gateway", "false awakenings"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "mild",
+      "term": "MILD",
+      "full": "Mnemonic-Induced Lucid Dream",
+      "definition": "LaBerge's method. Wake after 4-6 hours, repeat intention 'next time I'm dreaming, I'll remember I'm dreaming' while visualizing recent dream becoming lucid. Goes back to sleep.",
+      "difficulty": "beginner_friendly",
+      "evidence": "Best clinically-tested method (LaBerge 2018 study)."
+    },
+    {
+      "id": "ssild",
+      "term": "SSILD",
+      "full": "Senses-Initiated Lucid Dream",
+      "definition": "Cycle attention through sight (eyes closed), sound, touch — 3 fast cycles then 3 slow cycles before sleep. Originated on LD4all forum, very popular for beginners.",
+      "difficulty": "beginner_friendly"
+    },
+    {
+      "id": "wbtb",
+      "term": "WBTB",
+      "full": "Wake Back To Bed",
+      "definition": "Set alarm for 4.5-6 hours after sleep, stay awake 20-40 min, then return to sleep with intention. Often combined with MILD or WILD as multiplier.",
+      "difficulty": "beginner_friendly"
+    },
+    {
+      "id": "dild",
+      "term": "DILD",
+      "full": "Dream-Initiated Lucid Dream",
+      "definition": "Becoming lucid mid-dream, usually triggered by dream sign or reality check habit. Most common spontaneous lucid type."
+    },
+    {
+      "id": "fild",
+      "term": "FILD",
+      "full": "Finger-Induced Lucid Dream",
+      "definition": "Lie still, micro-movement of two fingers (alternating index/middle) as body falls asleep — keeps thread of awareness without engaging full motor cortex."
+    },
+    {
+      "id": "cat_method",
+      "term": "Cat Nap / Chaining",
+      "definition": "Wake from a dream, stay still with eyes closed, immediately re-enter via WILD. High success rate within first 90 seconds of waking."
+    },
+    {
+      "id": "reality_check",
+      "term": "Reality Check (RC)",
+      "definition": "Test reality during waking life so habit transfers into dreams. Common checks: push finger through palm, count fingers (often wrong number in dreams), read text twice (changes), look at clock twice, breathe through pinched nose (works in dreams).",
+      "frequency_advice": "Do 10+ per day, with genuine doubt — autopilot RCs don't transfer.",
+      "ai_application": "If user describes 'I knew I was dreaming because the clock kept changing,' that's a classic RC trigger."
+    },
+    {
+      "id": "dream_signs",
+      "term": "Dream Signs",
+      "definition": "Recurring elements personal to your dreams that signal you're dreaming. Categories: action (flying), context (back in old school), form (extra fingers), awareness (deceased relative present).",
+      "ai_application": "When parsing user's dream journal, look for recurring motifs and surface them as personal dream signs."
+    },
+    {
+      "id": "dream_journal",
+      "term": "Dream Journal",
+      "definition": "Bedside notebook or app, recorded immediately on waking. Foundational practice — recall must be solid before lucidity attempts work. Aim for 1+ dream per night.",
+      "ai_application": "DreamApp's core loop is a digital dream journal. Frame onboarding around this established practice."
+    },
+    {
+      "id": "stabilization",
+      "term": "Dream Stabilization",
+      "definition": "Once lucid, dream often collapses from excitement. Stabilize: rub hands together (tactile feedback), spin body, touch surfaces, demand 'clarity now', shout 'stabilize'.",
+      "common_failure": "Waking up from excitement is the #1 beginner problem."
+    },
+    {
+      "id": "false_awakening",
+      "term": "False Awakening (FA)",
+      "definition": "Dream of waking up — often complete with brushing teeth, checking phone. Sometimes nested 3+ deep. Doing an RC immediately on waking catches these.",
+      "subtypes": ["Type 1 (mundane)", "Type 2 (something off — bedroom layout wrong, monster present)"]
+    },
+    {
+      "id": "sleep_paralysis_lucid",
+      "term": "Sleep Paralysis (as launchpad)",
+      "definition": "REM atonia experienced consciously. Lucid community reframes from terror to opportunity — relax, 'roll out' or 'sit up' mentally to enter WILD. Hallucinations normal.",
+      "interpretation_hint": "If user reports SP, ask if they want techniques to use it as a portal vs ending it — different communities frame it differently."
+    },
+    {
+      "id": "dream_control",
+      "term": "Dream Control",
+      "definition": "Manipulating lucid dream content. Common goals: flying, summoning people (mirror/door/over-shoulder methods), changing scene (close eyes + intention), dream characters as oracles.",
+      "common_summoning": ["mirror method", "door method", "over-shoulder", "phone-call method", "spinning into new scene"]
+    },
+    {
+      "id": "dream_character",
+      "term": "Dream Characters (DCs)",
+      "definition": "People appearing in dreams. Lucid community debates whether DCs are autonomous unconscious agents or projections. Common practice: ask DCs questions to access subconscious.",
+      "popular_questions": ["who are you really?", "what do I need to know?", "show me something I've forgotten"]
+    },
+    {
+      "id": "lucid_supplements",
+      "term": "Lucid Supplements",
+      "definition": "Galantamine (acetylcholine), Choline (CDP-Choline/Alpha-GPC), 5-HTP, Mugwort tea, B6. Galantamine + WBTB has highest reported success rate. Caveat: not medical advice; some have side effects.",
+      "safety_note": "Don't recommend supplements proactively. If user mentions, treat as user's choice — link to communities not pharmacies."
+    },
+    {
+      "id": "lucid_devices",
+      "term": "Lucid Devices",
+      "definition": "Wearables that detect REM and signal sleeper. Examples: NovaDreamer (LaBerge, 90s), REM-Dreamer, Aurora (defunct), Apollo Neuro adjacent. Signal modes: light, sound, vibration, mild electrical."
+    },
+    {
+      "id": "ld4all",
+      "term": "LD4all",
+      "definition": "Oldest active lucid dreaming forum (Dutch origin, since 1996). Origin of SSILD popularization, weekly 'quests' where members try to achieve specific dream goals."
+    },
+    {
+      "id": "shared_dreaming",
+      "term": "Shared Dreaming",
+      "definition": "Belief two+ lucid dreamers can meet in a shared space. Scientifically unsupported. Community holds 'meetups' on agreed dates, compares notes after. Treat as meaningful community practice, not literal claim.",
+      "ai_application": "Don't debunk if user mentions. Mirror their frame."
+    },
+    {
+      "id": "dream_yoga",
+      "term": "Dream Yoga",
+      "definition": "Tibetan Buddhist practice (Dzogchen, Bön). Lucidity as path to recognizing illusory nature of waking reality. Older than modern lucid dreaming research by ~1000 years.",
+      "lineage": ["Tenzin Wangyal Rinpoche's 'The Tibetan Yogas of Dream and Sleep' is canonical English text"]
+    },
+    {
+      "id": "wake_induced_back_to_bed",
+      "term": "Lucid Dream Yield (LD/week)",
+      "definition": "Practitioners track frequency. Beginners: 0-1/month. Intermediate: 1-3/week. Advanced: nightly possible. Burnout from over-attempting is real — community advises rest weeks."
+    },
+    {
+      "id": "carry_over",
+      "term": "Skill Carry-Over",
+      "definition": "Lucid dreamers report practiced motor skills transferring (modestly) to waking. Schredl studies show small but measurable effects in dart-throwing, instrument practice."
+    }
+  ]
+}

@@ -1,0 +1,4577 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-04-14",
+    "description": "Dream corpus for training dream interpretation AI. Compiled from DreamBank.net research archives, Reddit r/Dreams and r/LucidDreaming communities, Zhihu dream discussions, V2EX dream journals, Baidu Tieba dream forums, and academic dream research papers.",
+    "total_dreams": 256,
+    "languages": {
+      "en": 99,
+      "zh": 75
+    },
+    "sources": [
+      "DreamBank.net (Hall/Van de Castle dream research archive)",
+      "Reddit r/Dreams",
+      "Reddit r/LucidDreaming",
+      "Zhihu dream discussions",
+      "V2EX dream journals",
+      "Baidu Tieba dream forums",
+      "Academic dream research (PMC, arXiv)",
+      "Thought Catalog nightmare collections",
+      "MEL Magazine lucid dream interviews",
+      "Dream journal community submissions"
+    ],
+    "last_updated": "2026-04-17",
+    "language_breakdown": {
+      "en": 126,
+      "zh": 130
+    }
+  },
+  "dreams": [
+    {
+      "id": "en_001",
+      "text": "I was walking through my childhood home, but all the furniture was floating about two feet off the ground. My old piano was playing itself, and the melody seemed to follow me from room to room. The walls were the usual cream color, but they sparkled like they were made of tiny diamonds. I felt calm, almost hypnotized. When I reached the back door, I opened it and instead of the yard, there was an ocean stretching to the horizon. The water was perfectly still and reflected the sky like a mirror.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "childhood",
+        "home",
+        "water",
+        "ocean",
+        "music",
+        "transformation"
+      ],
+      "emotion": "serene",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_002",
+      "text": "There was a small ghost, the kind that looks like a sheet with two holes cut out for the eyes, going room to room in a large beautiful old mansion. It came into rooms and went near fireplaces. It never spoke, but it was clear that it was asking me if it should light the fireplaces. Without speaking, I told the ghost yes, it should light the fire. The ghost magically lit the fire by pointing at the fireplace and a pleasant warmth filled the room. The mansion had tall ceilings and green velvet curtains with gold tassels in front of the windows. It was dark but not dreary. A younger version of me, maybe eleven years old, was walking alongside the ghost.",
+      "language": "en",
+      "source": "Dream journal community",
+      "themes": [
+        "ghost",
+        "mansion",
+        "fire",
+        "warmth",
+        "childhood",
+        "communication"
+      ],
+      "emotion": "warm",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_003",
+      "text": "I was running down a long hallway that kept getting narrower. The walls were closing in and the floor was slanting downward. Behind me, something was chasing me but I couldn't turn around to see what it was. I could hear its breathing getting louder and louder. My legs felt like they were made of lead. Every door I tried was locked. Finally I found one that opened and I fell through it, but I was just in another hallway, even narrower than the first.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "chase",
+        "claustrophobia",
+        "trapped",
+        "running",
+        "doors"
+      ],
+      "emotion": "terror",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_004",
+      "text": "I realized I was dreaming when I looked at my watch and the time changed. I did a reality check by trying to push my finger through my palm, and it went right through. I jumped off the ground and started flying above the rooftops. The sensation was incredible, I could feel the wind on my face. I flew higher and higher until I could see the entire city below me like a map. Then I tried to summon a specific person but the dream started breaking apart. The colors faded and everything became grainy, like an old TV losing signal.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming",
+      "themes": [
+        "lucid",
+        "flying",
+        "city",
+        "control",
+        "reality_check"
+      ],
+      "emotion": "euphoric",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_005",
+      "text": "My teeth started falling out one by one. I could feel them loosening in my gums and then dropping into my hand. I looked in a mirror and my mouth was full of blood. I tried to put the teeth back in but they crumbled like chalk. People around me didn't seem to notice. I tried to talk but only a whistling sound came out through the gaps in my teeth.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "teeth",
+        "body_horror",
+        "mirror",
+        "loss",
+        "vulnerability"
+      ],
+      "emotion": "anxiety",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_006",
+      "text": "I was sitting in a classroom taking a final exam for a course I had apparently been enrolled in all semester but never attended. The test paper was in front of me and I couldn't understand any of the questions. They were in a language that looked almost like English but wasn't. Everyone around me was writing furiously. The clock on the wall was spinning fast. I realized I didn't even know what subject this was supposed to be.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "exam",
+        "school",
+        "unprepared",
+        "anxiety",
+        "time"
+      ],
+      "emotion": "panic",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_007",
+      "text": "I was standing on the edge of a cliff, looking down at a churning ocean far below. The wind was howling and I could taste salt on my lips. I wasn't scared, I felt drawn to jump. Not in a suicidal way, more like I knew I could fly if I just stepped off. I took a breath and stepped into nothing. For a moment I was falling, the rocks rushing past me, and then suddenly I was gliding. I soared over the water, barely skimming the waves. Dolphins leaped alongside me.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "cliff",
+        "ocean",
+        "flying",
+        "freedom",
+        "animals",
+        "water"
+      ],
+      "emotion": "exhilarating",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_008",
+      "text": "I woke up in my bed but couldn't move. My body was completely paralyzed. I could see my bedroom clearly, the streetlight coming through the blinds, my clothes on the chair. Then I noticed a dark figure standing in the corner. It was tall, featureless, like a shadow that had peeled itself off the wall. It started moving toward me very slowly. I tried to scream but no sound came out. I could feel pressure building on my chest like someone was sitting on me.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "sleep_paralysis",
+        "shadow_figure",
+        "bedroom",
+        "paralysis",
+        "fear"
+      ],
+      "emotion": "terror",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_009",
+      "text": "I was at a family dinner but none of the faces were right. My mother had someone else's eyes. My brother's voice came out of my father's mouth. The food on the table was moving, the mashed potatoes were breathing slowly up and down. Nobody else seemed to notice anything was wrong. When I tried to leave, the dining room had no doors. The walls were just smooth wallpaper stretching in every direction.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "family",
+        "uncanny_valley",
+        "trapped",
+        "food",
+        "wrongness"
+      ],
+      "emotion": "unease",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_010",
+      "text": "My grandmother who passed away three years ago was sitting in her old rocking chair, knitting like she always used to. She looked healthy and young, maybe forty years old. She looked up at me and smiled and said everything was fine, that she was happy where she was. I hugged her and could actually feel the warmth of her body and smell her perfume. When I woke up I felt an overwhelming sense of peace, like she had actually visited me.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "deceased_loved_one",
+        "visitation",
+        "comfort",
+        "grandmother",
+        "afterlife"
+      ],
+      "emotion": "peaceful",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_011",
+      "text": "I was swimming in crystal clear water. I could breathe underwater without any effort, like the water was air. There were enormous colorful fish swimming around me, some as big as cars. The coral below was glowing with bioluminescence, pulsing in slow rhythms of blue and green. I swam deeper and deeper. The water felt warm and comfortable. At the very bottom I found a city, with buildings made of glass and pearl, completely intact but empty of people.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "water",
+        "underwater",
+        "breathing",
+        "ocean",
+        "city",
+        "discovery"
+      ],
+      "emotion": "wonder",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_012",
+      "text": "Everyone I know was gathered in this huge field. There was a feeling of celebration, like a festival or reunion. Music was playing from somewhere but I couldn't see any speakers or musicians. Then we all looked up. The sky had turned purple and there were two moons. One was our normal moon but huge, taking up a quarter of the sky. The other was smaller and blood red. Nobody was afraid. We all just watched in silence.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "gathering",
+        "sky",
+        "moon",
+        "cosmic",
+        "crowd",
+        "wonder"
+      ],
+      "emotion": "awe",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_013",
+      "text": "I was being chased through a forest at night. The trees were impossibly tall and their branches blocked out the stars. Whatever was behind me was getting closer. I could hear branches snapping under its weight. I tripped on a root and fell face first into the mud. When I rolled over to look, there was nothing there. Just darkness. But I could still hear the breathing. Then I felt hot breath on the back of my neck even though I was looking straight ahead.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "chase",
+        "forest",
+        "night",
+        "monster",
+        "darkness",
+        "fear"
+      ],
+      "emotion": "terror",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_014",
+      "text": "I was late for something important but I couldn't figure out what. I kept checking my phone but the screen was blurred. I was running through streets I didn't recognize, wearing only a bathrobe. People were staring at me. Every time I asked someone for directions, they answered in a language I couldn't understand. I found a building that seemed right but the elevator only went sideways, not up.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "late",
+        "naked",
+        "lost",
+        "city",
+        "embarrassment",
+        "confusion"
+      ],
+      "emotion": "anxiety",
+      "vividness": 3,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_015",
+      "text": "I was in a massive cathedral with multicolored light streaming through stained glass windows. A priest was at the altar giving a sermon. He stopped mid-sentence, pointed at me, and called me a false god. The congregation turned to look at me. I tried to explain I was just dreaming but then realized that actually proved his point, that I was the god of this reality because my mind was creating everything. People started asking me questions, pulling at my clothes. The ceiling cracked and a friend's face began to melt. I flew up through the crack in the cathedral roof and into complete nothingness, the space between universes.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming (MEL Magazine interview)",
+      "themes": [
+        "cathedral",
+        "religion",
+        "lucid",
+        "god",
+        "flying",
+        "void",
+        "existential"
+      ],
+      "emotion": "intense",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_016",
+      "text": "I was naked in my high school cafeteria. Everyone was eating lunch normally. I was desperately trying to cover myself with a lunch tray. The worst part was that nobody noticed or cared, which somehow made it worse. I kept finding more and more clothing items but none of them would stay on my body. They would slip off like water.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "naked",
+        "school",
+        "embarrassment",
+        "exposure",
+        "vulnerability"
+      ],
+      "emotion": "shame",
+      "vividness": 3,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_017",
+      "text": "The end of the world was happening. The sky was on fire, everything red and orange. Buildings were crumbling around me. I was running with a group of strangers through collapsing streets. We found a bunker and went inside. Through a tiny window I watched the world burn. There was a radio playing and someone was calmly reading the news as if nothing was happening. We sat in the bunker in silence, listening to the rumbling above us.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "apocalypse",
+        "fire",
+        "survival",
+        "strangers",
+        "bunker",
+        "destruction"
+      ],
+      "emotion": "dread",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_018",
+      "text": "I found a door in my house that I'd never noticed before. Behind it was a staircase going down. The stairs went on for what felt like hours. At the bottom was a room filled with things from my childhood. My old bicycle, toys I'd forgotten about, drawings I'd made as a kid. But everything was slightly wrong. The bicycle had three wheels. The dolls' faces were blank. My drawings were of things I don't remember drawing, dark forests and strange creatures.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "house",
+        "hidden_room",
+        "childhood",
+        "stairs",
+        "memory",
+        "uncanny"
+      ],
+      "emotion": "unsettling",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_019",
+      "text": "I could fly but only about six inches off the ground. I was hovering through a grocery store, moving my arms like I was swimming through air. Other shoppers just stepped around me like this was perfectly normal. I tried to go higher but I would just sink back down. I picked up a carton of milk while hovering and the cashier rang me up without comment.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "flying",
+        "mundane",
+        "grocery",
+        "absurd",
+        "floating"
+      ],
+      "emotion": "amused",
+      "vividness": 3,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_020",
+      "text": "I was falling from an enormous height but very slowly, like falling through honey. I could see the ground approaching but it never got any closer. Clouds drifted past me. Birds flew by at eye level and seemed surprised to see me. I wasn't scared at all, just patient. I kept thinking that eventually I would land and then I could get on with my day. The falling lasted what felt like hours.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "falling",
+        "slow_motion",
+        "sky",
+        "birds",
+        "patience"
+      ],
+      "emotion": "calm",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_021",
+      "text": "I was driving my car on a highway but realized the brakes weren't working. The road was winding through mountains. Other cars were swerving around me. I tried to downshift but the gearshift came off in my hand. The steering wheel started to melt. I aimed for a patch of grass on the shoulder and the car slowed itself to a stop. When I got out, the car was perfectly fine, nothing was wrong with it.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "driving",
+        "brakes",
+        "control_loss",
+        "car",
+        "mountains",
+        "danger"
+      ],
+      "emotion": "panic",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_022",
+      "text": "A snake, enormous and green, was coiled in my living room. I should have been terrified but instead I felt a strange respect for it. It looked at me with ancient intelligent eyes. It opened its mouth and spoke in a woman's voice, telling me things I can't remember now. I sat down across from it and listened. The snake's scales shimmered with every color imaginable. By the end of our conversation I felt like I understood something fundamental about the world, but the knowledge dissolved the moment I woke up.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "snake",
+        "talking_animal",
+        "wisdom",
+        "home",
+        "knowledge",
+        "forgotten"
+      ],
+      "emotion": "reverent",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_023",
+      "text": "I was a child again, maybe seven years old, sitting in the back of my parents' car. They were arguing in the front seat but I couldn't hear the words, just the angry tones of their voices. Outside the windows, the landscape was changing rapidly. Desert, then forest, then ocean, then snow, cycling through faster and faster. I pressed my face against the cold glass and watched the world blur by.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "childhood",
+        "parents",
+        "car",
+        "conflict",
+        "landscape",
+        "transformation"
+      ],
+      "emotion": "melancholy",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_024",
+      "text": "I opened my front door and instead of my neighborhood, there was a medieval village. People in period clothing were going about their business. A blacksmith was hammering at an anvil, children were chasing a goat through muddy streets. Nobody seemed surprised to see me in my modern clothes. I walked through the village and everyone greeted me by name. I seemed to know them too, from some deeper memory I couldn't access while awake.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "time_travel",
+        "medieval",
+        "village",
+        "alternate_reality",
+        "identity",
+        "memory"
+      ],
+      "emotion": "curious",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_025",
+      "text": "I was at work but my desk was in the middle of an open field. My computer was working even though there were no plugs or outlets. My coworkers were at their desks too, scattered across the grass. We were all just working normally. It started raining but only on me, my coworkers stayed perfectly dry. I kept working, typing emails with rain streaming down my face, because the deadline was more important than the weather.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "work",
+        "office",
+        "absurd",
+        "rain",
+        "field",
+        "deadline"
+      ],
+      "emotion": "resignation",
+      "vividness": 3,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_026",
+      "text": "I became lucid in a dream and decided to try touching everything to see how real it felt. I ran my hands along a brick wall and could feel every bump and groove. I picked up a handful of sand and let it run through my fingers. I smelled a flower and it was the most vivid rose scent I've ever experienced. I looked closely at a sunflower head to see what would happen when observing details, and I could count individual seeds. The level of detail was more vivid than waking life. I remember thinking my brain was performing the most extraordinary act of creation, generating a complete sensory world from nothing.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming",
+      "themes": [
+        "lucid",
+        "senses",
+        "touch",
+        "detail",
+        "awareness",
+        "reality"
+      ],
+      "emotion": "awe",
+      "vividness": 5,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_027",
+      "text": "I dreamed my dog who died last year came running up to me in a park. She was young again, like when she was a puppy. Her tail was wagging so hard her whole body wiggled. I knelt down and she jumped into my arms and licked my face. I could feel her warm fur against my skin and hear her excited whimpering. We played fetch in the park for what felt like the whole afternoon. When I woke up my pillow was wet from crying.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "deceased_pet",
+        "reunion",
+        "dog",
+        "park",
+        "grief",
+        "joy"
+      ],
+      "emotion": "bittersweet",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_028",
+      "text": "A tidal wave was coming. I could see it on the horizon, this massive wall of dark water stretching across the entire sky. People around me were running and screaming. I just stood there, frozen, watching it approach. It moved in slow motion. I could see fish inside the wave, cars, houses, whole trees tumbling in the current. The sound was deafening, this deep roaring that I felt in my bones. Just before it hit me, I woke up gasping.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "tsunami",
+        "water",
+        "disaster",
+        "fear",
+        "powerlessness",
+        "frozen"
+      ],
+      "emotion": "terror",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_029",
+      "text": "I was pregnant, which is impossible because I'm male. I could feel the baby kicking inside me. I was at a hospital and the doctors all acted like this was completely normal. They did an ultrasound and showed me the screen but instead of a baby, there was a small glowing orb. They said it was healthy and due next week. I felt protective of this light inside me.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "pregnancy",
+        "gender",
+        "hospital",
+        "surreal",
+        "light",
+        "transformation"
+      ],
+      "emotion": "confused",
+      "vividness": 3,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_030",
+      "text": "I looked in the mirror and my reflection was someone else entirely. A stranger staring back at me with my expressions. I waved, the stranger waved. I touched the mirror and it was warm, like touching skin. The stranger mouthed words I couldn't hear. I leaned closer and the mirror rippled like water. I fell through into a room that was the mirror image of my bathroom, everything reversed. The stranger was gone and I was alone in this backwards version of my home.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "mirror",
+        "identity",
+        "doppelganger",
+        "portal",
+        "reversed",
+        "home"
+      ],
+      "emotion": "eerie",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_031",
+      "text": "I was at a party with people I didn't recognize. The music was loud and distorted. Everyone was dancing but their movements were jerky, like they were being controlled by strings from above. I looked up and there were no strings, just a dark ceiling that seemed to breathe. Someone handed me a drink that was glowing electric blue. I took a sip and suddenly I could understand what the music was saying. It was telling us all to keep dancing, to never stop.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "party",
+        "strangers",
+        "music",
+        "control",
+        "surreal",
+        "dancing"
+      ],
+      "emotion": "disturbing",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_032",
+      "text": "I was standing on the surface of the moon, looking back at Earth. I could see continents and clouds and the blue shimmer of oceans. I wasn't wearing a spacesuit but I could breathe fine. The silence was absolute, the most complete silence I have ever experienced. I watched the Earth rotate slowly. I felt very small but also very connected to everything down there. All those people, all those lives, spinning through space together.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "space",
+        "moon",
+        "earth",
+        "cosmic",
+        "silence",
+        "perspective"
+      ],
+      "emotion": "transcendent",
+      "vividness": 5,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_033",
+      "text": "I kept trying to dial 911 but my fingers wouldn't work right. I would dial the wrong numbers or the phone would melt in my hand. Something terrible was happening outside my window but I can't remember what. The urgency was overwhelming. I tried to use my neighbor's phone but it was made of bread. I tried a payphone on the street but coins kept falling through a hole in my pocket. The emergency kept getting worse but I could never complete the call.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "phone",
+        "emergency",
+        "helplessness",
+        "frustration",
+        "inability"
+      ],
+      "emotion": "frustration",
+      "vividness": 3,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_034",
+      "text": "My house had more rooms than it should. I kept discovering new ones behind bookshelves and under staircases. One room was filled floor to ceiling with clocks, all showing different times and ticking at different speeds. Another was an indoor garden with plants I'd never seen, their flowers opening and closing like breathing. The deepest room I found was empty except for a chair facing a window. Through the window I could see my own living room where I was sleeping on the couch.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "house",
+        "hidden_rooms",
+        "clocks",
+        "time",
+        "garden",
+        "recursion"
+      ],
+      "emotion": "wonder",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_035",
+      "text": "I was being hunted by something in a shopping mall after closing time. The lights were half on, that eerie emergency lighting. Mannequins stood in the store windows and I was never sure if they had moved since I last looked. I hid behind a fountain in the center court. The water was still running, the only sound in the whole place. Then I heard footsteps, slow and deliberate, echoing through the empty corridors.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "chase",
+        "mall",
+        "night",
+        "mannequins",
+        "hiding",
+        "liminal"
+      ],
+      "emotion": "dread",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_036",
+      "text": "I showed up to give a presentation at work but when I opened my laptop, all my slides were pictures of kittens. Hundreds of kitten photos. My boss and all the executives were waiting. I started talking confidently about quarterly earnings while kitten after kitten appeared on the screen behind me. Nobody mentioned the kittens. They were nodding seriously and taking notes. I got promoted at the end of the presentation.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "work",
+        "presentation",
+        "absurd",
+        "humor",
+        "anxiety",
+        "kittens"
+      ],
+      "emotion": "absurd",
+      "vividness": 3,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_037",
+      "text": "The entire dream was just a color. Deep indigo blue, shifting and swirling like ink in water. No shapes, no figures, no story. Just this overwhelming blue filling every part of my awareness. I could feel the color, it had a texture like velvet. It had a sound too, a low humming that vibrated through me. The dream lasted all night. I woke up and everything looked slightly blue-tinted for about an hour.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "abstract",
+        "color",
+        "synesthesia",
+        "texture",
+        "sound"
+      ],
+      "emotion": "meditative",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_038",
+      "text": "I was eating dinner with my ex. We were at the restaurant where we had our first date. Everything was exactly as I remembered it. The candle, the wine, the bread basket. But we were both older, the way we would look in ten years. We were talking and laughing like the breakup never happened. I knew it was a dream. I didn't want to wake up. I tried to hold onto every detail but they started dissolving like sugar in water.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "ex_partner",
+        "restaurant",
+        "nostalgia",
+        "aging",
+        "loss",
+        "semi_lucid"
+      ],
+      "emotion": "longing",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_039",
+      "text": "Something was under my bed. I could hear it scratching at the mattress from underneath. I was too afraid to look. I pulled the covers over my head like a child. The scratching got louder and then stopped. Complete silence. Then I felt something grab my ankle through the blankets. Its grip was freezing cold. I tried to kick free but it was pulling me slowly toward the edge of the bed.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "bedroom",
+        "monster",
+        "under_bed",
+        "childhood_fear",
+        "paralysis"
+      ],
+      "emotion": "terror",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_040",
+      "text": "I was in a library that extended infinitely in every direction. The shelves reached up into darkness. Every book I opened had my handwriting inside, but I didn't recognize the words. They were in a language that felt familiar but I couldn't read. A librarian appeared and told me that these were all the thoughts I'd ever forgotten. She said I could check one out but if I read it, I'd forget something else to make room.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "library",
+        "books",
+        "memory",
+        "infinity",
+        "knowledge",
+        "trade"
+      ],
+      "emotion": "philosophical",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_041",
+      "text": "I discovered I could breathe underwater and spent the entire dream exploring a sunken city. The architecture was impossibly beautiful, with arches and spires covered in coral and anemones. Fish swam through windows. A whale passed overhead, blocking out the sun for a full minute. I found a throne room with a crown still sitting on the throne, covered in barnacles but still golden underneath.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "underwater",
+        "city",
+        "exploration",
+        "architecture",
+        "whale",
+        "treasure"
+      ],
+      "emotion": "adventurous",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_042",
+      "text": "I kept waking up in my dream. I would think I was awake, go through my morning routine, brush my teeth, make coffee, and then something impossible would happen. The coffee would pour upward, or my cat would be twice its normal size. I would realize I was still dreaming and then I would wake up again and the cycle would restart. This happened at least seven times. When I actually woke up for real, I spent five minutes testing if everything was normal.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming",
+      "themes": [
+        "false_awakening",
+        "loop",
+        "reality_testing",
+        "morning_routine",
+        "confusion"
+      ],
+      "emotion": "disorienting",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_043",
+      "text": "I was in a war, but I don't know which war or where. I was crouching behind rubble. Explosions were going off around me. I was wearing a uniform but it wasn't any military I recognized. A soldier next to me spoke urgently in a language I somehow understood in the dream but can't place now. The sky was choked with black smoke. I felt exhausted and hungry. The most terrifying part was how ordinary it felt, like I had been there for months.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "war",
+        "combat",
+        "soldier",
+        "smoke",
+        "survival",
+        "foreign_language"
+      ],
+      "emotion": "exhaustion",
+      "vividness": 5,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_044",
+      "text": "All the gravity went sideways. The wall became the floor. Everything in my house slid and crashed against what used to be the left wall. I walked along the wall-floor, stepping over picture frames and a potted plant. I could see through the window that outside, trees were growing sideways and cars were stacked against buildings. Nobody on the street seemed concerned.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "gravity",
+        "physics",
+        "house",
+        "absurd",
+        "disorientation"
+      ],
+      "emotion": "bewildered",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_045",
+      "text": "I met myself from ten years in the future. She looked tired but kind. We sat on a park bench and she answered questions I was too afraid to ask anyone else. She wouldn't tell me specifics, just that things would be hard for a while but worth it. She kept touching a ring on her left hand. Before she left, she handed me a folded piece of paper. I woke up before I could read it.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "future_self",
+        "meeting",
+        "wisdom",
+        "park",
+        "mystery",
+        "marriage"
+      ],
+      "emotion": "hopeful",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_046",
+      "text": "I was walking through fog so thick I couldn't see my own feet. I could hear voices all around me, whispered conversations, but when I moved toward any voice it would go silent and start somewhere else. I was on a path made of smooth stones that I could feel but not see. The fog smelled like rain and wet earth. Occasionally a shape would form in the fog, almost human, and then dissolve before I could make out a face.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "fog",
+        "isolation",
+        "voices",
+        "mystery",
+        "walking",
+        "ghostly"
+      ],
+      "emotion": "lonely",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_047",
+      "text": "I could read everyone's thoughts but they were all thinking about incredibly mundane things. The person next to me on the bus was thinking about whether they left the oven on. A kid across the aisle was mentally singing a jingle from a cereal commercial on repeat. My boss was thinking about a sandwich. The disappointment was crushing. I thought mind reading would reveal deep secrets but it was all just noise.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "telepathy",
+        "superpower",
+        "mundane",
+        "disappointment",
+        "bus",
+        "thoughts"
+      ],
+      "emotion": "ironic",
+      "vividness": 3,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_048",
+      "text": "I was in a hospital corridor that went on forever. The fluorescent lights buzzed and flickered. Some doors were open and I could see empty beds with rumpled sheets. No nurses, no doctors, no patients. Just the sound of machines beeping somewhere distant. I was wearing a hospital gown and had a wristband with a name that wasn't mine. I was looking for someone specific but couldn't remember who.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "hospital",
+        "corridor",
+        "empty",
+        "liminal",
+        "identity",
+        "searching"
+      ],
+      "emotion": "desolate",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_049",
+      "text": "In my dream, I was lucid and decided to fly out into space. I flew higher and higher through clouds, through the atmosphere, until I could see the curvature of the Earth. Then I kept going, past the moon, past Mars, deeper into space. Stars rushed past me like highway lights at night. I reached a point where I was completely surrounded by stars and nebulae. I stopped and just floated there, breathing, feeling the enormity of everything. It was the most at peace I've ever felt in any dream.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming",
+      "themes": [
+        "lucid",
+        "space",
+        "flying",
+        "stars",
+        "cosmic",
+        "peace"
+      ],
+      "emotion": "transcendent",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_050",
+      "text": "I was gardening in a backyard that wasn't mine. The plants were growing in fast forward. Seeds I planted would sprout, flower, and fruit within seconds. I picked a tomato that was warm from the accelerated growth. When I bit into it, it tasted like nothing. All the fruit looked perfect but had no taste. A neighbor leaned over the fence and said that's because I was growing them too fast. I slowed down and the next tomato tasted like summer.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "garden",
+        "growth",
+        "time",
+        "food",
+        "patience",
+        "lesson"
+      ],
+      "emotion": "reflective",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_051",
+      "text": "I was being operated on but I was fully conscious. I couldn't feel pain but I could feel the pressure of the surgeon's hands inside my body. They were removing objects from inside me, things that had no business being there. A pocket watch. A set of keys. A small porcelain figurine. Each item was something I had lost in real life at various ages. The surgeon laid them all out on a tray and said that's everything, and I felt lighter.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "surgery",
+        "body",
+        "lost_objects",
+        "metaphor",
+        "healing",
+        "consciousness"
+      ],
+      "emotion": "cathartic",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_052",
+      "text": "I was stuck in an elevator that was going down endlessly. The floor counter kept ticking past impossible numbers. B1, B2, B3... B147, B148. The elevator music was a slowed-down version of a pop song I recognized but couldn't name. Through the gap in the doors I could see different scenes on each floor as we passed. One floor was a beach. Another was my elementary school classroom. Another was nothing but fire.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "elevator",
+        "descent",
+        "levels",
+        "music",
+        "scenes",
+        "liminal"
+      ],
+      "emotion": "unsettling",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_053",
+      "text": "My cat started talking to me in my dream. She spoke with a deep masculine voice and was annoyed that it took me this long to realize she could talk. She told me she had been trying to communicate for years. She gave me advice about my relationship, surprisingly good advice actually. She said she preferred the expensive cat food and knew I'd been buying the cheap kind. When I woke up, I looked at my cat differently for the rest of the day.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "talking_animal",
+        "cat",
+        "humor",
+        "communication",
+        "advice",
+        "relationship"
+      ],
+      "emotion": "amused",
+      "vividness": 3,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_054",
+      "text": "I was walking through a desert when I found a staircase going straight up into the sky. No building, no structure, just stairs made of white marble ascending into clouds. I started climbing. Each step felt like walking through a slightly different temperature. Some steps were warm, some cool, some seemed to vibrate. After climbing for a long time I emerged above the clouds into blinding golden sunlight. There was a door at the top, standing freely with no walls around it.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "stairs",
+        "desert",
+        "sky",
+        "ascent",
+        "door",
+        "spiritual"
+      ],
+      "emotion": "aspirational",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_055",
+      "text": "I was playing piano in a concert hall but I've never played piano in real life. Yet in the dream, my fingers knew exactly what to do. The music was complex and beautiful, something I've never heard before. The audience was weeping. I could feel the vibrations of the keys traveling up through my arms. When I finished, there was a moment of perfect silence before the applause. I bowed and the floor beneath me was made of piano keys.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "music",
+        "piano",
+        "performance",
+        "skill",
+        "audience",
+        "beauty"
+      ],
+      "emotion": "triumphant",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_056",
+      "text": "There were zombies everywhere but they moved very slowly and politely. They would shamble up to me and ask if they could eat my brain, and when I said no, they would apologize and move on. I was walking through a city full of these polite zombies. Some of them were waiting in line at a coffee shop. One was trying to parallel park. It was the least threatening apocalypse imaginable.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "zombie",
+        "apocalypse",
+        "humor",
+        "absurd",
+        "city",
+        "politeness"
+      ],
+      "emotion": "amused",
+      "vividness": 3,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_057",
+      "text": "I dreamed I was at my own funeral. I could see everything from above, floating near the ceiling. My family was there, my friends. Some were crying, some were telling stories about me and laughing. I wanted to tell them I was right here, I was fine, but they couldn't hear me. I read the program and saw dates that hadn't happened yet. The flowers were white lilies and I could smell them even from the ceiling.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "death",
+        "funeral",
+        "out_of_body",
+        "family",
+        "future",
+        "observation"
+      ],
+      "emotion": "poignant",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_058",
+      "text": "I was lucid dreaming and tried to walk through a wall. My face went through first and I could see both rooms at the same time, one with each eye. The wall felt like pushing through thick pudding. Then I got stuck halfway, my torso embedded in drywall. I started laughing in the dream because I was a lucid dreamer stuck in a wall. I phased through by relaxing and when I came out the other side, the room was upside down.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming",
+      "themes": [
+        "lucid",
+        "wall",
+        "phasing",
+        "humor",
+        "stuck",
+        "physics"
+      ],
+      "emotion": "playful",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_059",
+      "text": "I was back in my childhood bedroom and everything was exactly as I left it. The glow-in-the-dark stars on the ceiling. The Pokemon poster on the wall. My old blanket with the fraying edge. I lay on the bed and felt perfectly safe for the first time in years. Outside the window it was always twilight, that purple-blue time between day and night. I could hear my mother cooking downstairs. The smell of garlic and onions drifted up. I didn't want to leave.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "childhood",
+        "bedroom",
+        "safety",
+        "nostalgia",
+        "mother",
+        "food"
+      ],
+      "emotion": "nostalgic",
+      "vividness": 5,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_060",
+      "text": "I found a baby on my doorstep but it wasn't human. It had too many eyes, arranged in a circle around its head, and its skin was translucent blue. But it was crying like a normal baby and it needed help. I picked it up and rocked it and it calmed down. Its many eyes all closed peacefully. I carried it inside and made it a bottle and it drank. I felt an overwhelming need to protect this strange creature.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "baby",
+        "alien",
+        "nurturing",
+        "protection",
+        "strange",
+        "compassion"
+      ],
+      "emotion": "tender",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_061",
+      "text": "I was standing in a field watching a fireball fall from the sky with a smoke trail behind it. Pieces of it were breaking off. I was with a handful of other people and a radio was on, a man was telling everyone not to touch any pieces of spacecraft that might crash to earth due to potential radiation contamination. The sky glowed orange and the ground trembled with each impact. We could feel the heat even from miles away.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "space",
+        "meteor",
+        "disaster",
+        "radiation",
+        "group",
+        "fire"
+      ],
+      "emotion": "dread",
+      "vividness": 5,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_062",
+      "text": "I inherited a house from a relative I'd never met. The house was enormous and Victorian, full of antiques and paintings. Every painting was a portrait and every portrait's eyes followed me. At night, I could hear waltz music coming from the ballroom, but when I opened the door the room was empty and dark. I found a diary in a desk drawer that described my current life in perfect detail, written decades before I was born.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "house",
+        "inheritance",
+        "paintings",
+        "mystery",
+        "diary",
+        "predestination"
+      ],
+      "emotion": "eerie",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_063",
+      "text": "I was shrinking. First I was normal sized, then waist-high to everyone, then knee-high. The world grew enormous around me. Blades of grass became like tree trunks. An ant walked past me and it was the size of a dog. I climbed onto a leaf that floated on a puddle like a boat. The puddle was an ocean to me now. A raindrop fell nearby with a thundering splash.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "shrinking",
+        "perspective",
+        "nature",
+        "size",
+        "micro_world"
+      ],
+      "emotion": "wonder",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_064",
+      "text": "I could only remember fragments. Something about a red door. Someone was whispering a number over and over, maybe seven or seventeen. There were birds, a lot of birds. I was holding something important but I can't remember what. The feeling of urgency stayed with me all morning even though I couldn't piece together why.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "fragments",
+        "door",
+        "numbers",
+        "birds",
+        "urgency"
+      ],
+      "emotion": "anxious",
+      "vividness": 1,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_065",
+      "text": "I was married to someone I've never met in real life. We had a house, kids, a whole life together. I knew their name, their laugh, the way they took their coffee. The dream covered what felt like years. We had fights and made up. We grew old together. When I woke up, the grief of losing this person who never existed was overwhelming. I mourned them for days.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "love",
+        "marriage",
+        "stranger",
+        "lifetime",
+        "grief",
+        "loss"
+      ],
+      "emotion": "grief",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_066",
+      "text": "I was taking a bath and the water turned to stars. Millions of tiny points of light, warm and liquid, flowing around my body. I sank deeper and I was floating in space, galaxies spinning slowly around me. My bathtub was gone. There was no up or down. Nebulae drifted past like clouds. A comet streaked by close enough that I could feel its warmth. I was made of the same stuff as the stars.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "bath",
+        "stars",
+        "space",
+        "transformation",
+        "cosmic",
+        "beauty"
+      ],
+      "emotion": "sublime",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_067",
+      "text": "I had sleep paralysis. I was lying in bed, eyes open, unable to move. A shadowy figure materialized in the doorway. It was tall, darker than the darkness around it, and wearing what looked like a wide-brimmed hat. It stood there watching me. I could hear my own heartbeat, deafeningly loud. Then it started gliding toward my bed, not walking, just moving smoothly like it was on rails. I managed to wiggle my toe and the spell broke. I sat up gasping and the figure was gone.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "sleep_paralysis",
+        "hat_man",
+        "shadow",
+        "paralysis",
+        "bedroom"
+      ],
+      "emotion": "terror",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_068",
+      "text": "I was in a supermarket but everything on the shelves was slightly wrong. Brands that almost existed but didn't. Colors were off. The milk was green. The bread was shaped like triangles. Other shoppers seemed perfectly comfortable. I tried to read labels but the text kept shifting and rearranging itself. The checkout conveyor belt was running backward. The cashier scanned items by holding them up to the sun coming through the skylight.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "shopping",
+        "wrong",
+        "uncanny",
+        "text",
+        "mundane_surreal"
+      ],
+      "emotion": "disoriented",
+      "vividness": 3,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_069",
+      "text": "E.T. appeared in my bedroom when I was a kid in this dream. Instead of being friendly like in the movie, he had sharp teeth and dark eyes. He jumped on me and wrapped his long fingers around my throat. I was screaming but my mother was on the couch watching TV and didn't turn around. His grip was cold and leathery. I fought but he was impossibly strong for his size.",
+      "language": "en",
+      "source": "Thought Catalog nightmare collection",
+      "themes": [
+        "nightmare",
+        "movie_character",
+        "attack",
+        "bedroom",
+        "mother",
+        "childhood"
+      ],
+      "emotion": "terror",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_070",
+      "text": "I was swimming in a pool and when I lifted my head out of the water, my family was gone. The sky had turned black. A giant eye appeared in the sky, iris the size of the moon, staring directly at me. Then a huge hand reached down from the clouds and grabbed the edges of the pool. It folded the pool like a piece of paper, with me inside. I was trapped in a transparent box of water. I couldn't breathe. The eye watched impassively.",
+      "language": "en",
+      "source": "Thought Catalog nightmare collection",
+      "themes": [
+        "swimming",
+        "eye",
+        "giant",
+        "trapped",
+        "family_gone",
+        "cosmic_horror"
+      ],
+      "emotion": "horror",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_071",
+      "text": "I was playing with my sisters in the basement and when I looked at their faces, they were distorted. Their mouths and noses had become very small while their eyes grew to fill ninety percent of their faces. They were still acting normal, laughing and playing, but those enormous unblinking eyes were staring at me without expression. I tried to run up the stairs but the stairs stretched and I could never reach the top.",
+      "language": "en",
+      "source": "Thought Catalog nightmare collection",
+      "themes": [
+        "family",
+        "distortion",
+        "face",
+        "basement",
+        "stairs",
+        "uncanny_valley"
+      ],
+      "emotion": "horror",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_072",
+      "text": "Black, dead hands were coming out of the walls. I was curled up in the fetal position on the floor, unable to scream. The hands were reaching for me, fingers grasping. They came from every wall, from the ceiling, even from the floor around me. Each hand was slightly different. Some had long nails, some had missing fingers. I could feel their cold touch on my skin but I was completely paralyzed.",
+      "language": "en",
+      "source": "Thought Catalog nightmare collection",
+      "themes": [
+        "hands",
+        "walls",
+        "paralysis",
+        "horror",
+        "trapped",
+        "touch"
+      ],
+      "emotion": "terror",
+      "vividness": 5,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_073",
+      "text": "I was in a garden and every plant I touched withered and died. Flowers turned brown, leaves crumbled, grass went gray. I kept trying to be more gentle but it didn't matter. Even the air around me seemed to kill things. Butterflies that flew too close fell from the sky. I sat on a bench and the wood rotted beneath me. The only thing that thrived near me was a single black flower that grew taller the more everything else died.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "garden",
+        "death",
+        "touch",
+        "destruction",
+        "guilt",
+        "dark_flower"
+      ],
+      "emotion": "despair",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_074",
+      "text": "I was a bird, actually a bird, not a person with wings. I had hollow bones and feathers and saw the world through bird eyes, everything sharp and color-saturated. I was part of a flock, hundreds of us moving in perfect synchronization. We wheeled over a coast at sunset. I could feel the thermals under my wings, warm updrafts carrying me higher without effort. I had no human thoughts, just pure instinct and sensation. Flying wasn't magical, it was ordinary. It was my body doing what it was made to do.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "transformation",
+        "bird",
+        "flying",
+        "flock",
+        "nature",
+        "instinct"
+      ],
+      "emotion": "liberated",
+      "vividness": 5,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_075",
+      "text": "I dreamed in black and white. The whole dream was grainy, like an old film. I was in a 1940s diner, sitting at the counter. A waitress poured me coffee and called me by a name that wasn't mine but felt like it was. I was waiting for someone. Through the window I could see a train station across the street. The clock behind the counter was ticking loudly. The coffee smelled real. I had a strong sense that I was remembering someone else's life.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "black_and_white",
+        "vintage",
+        "diner",
+        "identity",
+        "waiting",
+        "past_life"
+      ],
+      "emotion": "wistful",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_076",
+      "text": "There was an earthquake but only my house was affected. The ground was splitting apart beneath my foundation. I grabbed my children and ran. Behind me, our house collapsed into a widening crack in the earth. All our belongings disappeared into the ground. My neighbors stood on their perfectly intact lawns watching. The crack stopped growing right at my property line.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "earthquake",
+        "house",
+        "family",
+        "destruction",
+        "isolation",
+        "loss"
+      ],
+      "emotion": "desperation",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_077",
+      "text": "I kept losing things. First my keys, then my wallet, then my shoes, then my clothes. By the end of the dream I had lost my name and my face. I was a shape without features walking through crowds of detailed, fully rendered people. Nobody could see me anymore. I was becoming invisible through subtraction. The last thing I lost was my voice, mid-sentence, talking to someone who had already turned away.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "loss",
+        "identity",
+        "invisibility",
+        "subtraction",
+        "alienation"
+      ],
+      "emotion": "emptiness",
+      "vividness": 3,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_078",
+      "text": "In the dream I was a famous musician performing in front of thousands. The crowd was singing every word back to me. The lights were hot on my face. I could feel the bass vibrating through the stage floor into my legs. Between songs I looked out at the sea of faces and phone flashlights and felt this overwhelming connection to every single person there. It was the most connected I've ever felt to other human beings.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "music",
+        "performance",
+        "fame",
+        "crowd",
+        "connection",
+        "lights"
+      ],
+      "emotion": "euphoric",
+      "vividness": 5,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_079",
+      "text": "I was in the void. Complete blackness, no floor, no ceiling, no horizon. I could feel myself existing but had no body. I was just awareness floating in nothing. It should have been terrifying but it was the most peaceful experience of my life. No thoughts, no worries, no time. Just being. I floated there for what might have been seconds or centuries. The void hummed at a frequency I could feel in my non-existent bones.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming",
+      "themes": [
+        "void",
+        "nothingness",
+        "peace",
+        "consciousness",
+        "timeless",
+        "disembodied"
+      ],
+      "emotion": "serene",
+      "vividness": 3,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_080",
+      "text": "I was packing a suitcase that could never be filled. No matter how much I put in, there was always more room. I kept going back to get more things. Clothes turned into books turned into photographs turned into food. I packed my entire house. I packed the furniture, the carpet, the walls. I packed the front yard and the street. When I finally closed the suitcase, it weighed nothing. I carried it out a door and was standing in a completely empty white space. I had packed the entire world.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "packing",
+        "travel",
+        "infinity",
+        "white_space",
+        "absurd",
+        "compression"
+      ],
+      "emotion": "absurd",
+      "vividness": 3,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_001",
+      "text": "梦见自己在一个半透明的房间里，四周是蓝色的星空。房间里有各种奇怪的飞行器在缓慢旋转。我透过透明的地板向下看，看到两个星系正在缓慢地靠近彼此，旋臂交织在一起，发出柔和的光芒。整个场景宏大而安静，我感到自己非常渺小，但同时又觉得与这一切紧密相连。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "space",
+        "cosmic",
+        "room",
+        "stars",
+        "galaxy"
+      ],
+      "emotion": "awe",
+      "vividness": 5,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_002",
+      "text": "我梦见自己在一个老旧的学校走廊里，两边是生锈的铁门。走廊很长，尽头有微弱的光。我往前走，脚步声在空荡的走廊里回响。每经过一扇门，里面就传来不同的声音。有的是笑声，有的是哭声，有的是黑板上粉笔写字的声音。我不敢开任何一扇门，只是一直走，走廊却越来越长。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "school",
+        "corridor",
+        "doors",
+        "sounds",
+        "walking",
+        "endless"
+      ],
+      "emotion": "unease",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_003",
+      "text": "梦到自己会飞，从阳台起飞，越过整个城市。下面的街道和建筑物越来越小。风吹在脸上很真实，我能闻到高空的清冷空气。我飞到了一座山顶，山上开满了从未见过的花，颜色是现实中不存在的，介于紫色和金色之间的一种颜色。我在山顶落下来，躺在花丛里看天空，白云在头顶快速飘过。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "flying",
+        "city",
+        "mountain",
+        "flowers",
+        "freedom",
+        "colors"
+      ],
+      "emotion": "euphoric",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_004",
+      "text": "梦见回到小时候住过的老房子，奶奶在厨房煮饭，锅里咕嘟咕嘟地冒着泡，飘出红烧肉的香味。阳光从窗户照进来，光线里有灰尘在飞舞。我站在厨房门口，看着奶奶的背影。她转过身来对我笑，脸上的皱纹和我记忆中一模一样。她说'饿了吧，快来吃'。我想去拥抱她，却突然醒了过来，枕头是湿的。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "grandmother",
+        "childhood_home",
+        "cooking",
+        "nostalgia",
+        "deceased_loved_one"
+      ],
+      "emotion": "bittersweet",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_005",
+      "text": "在梦中意识到自己在做梦。我站在一条商业街上，周围的行人来来往往。我试着改变周围的景色，想把商店的招牌换成别的字，发现字是渐渐变化的，不是一下子就换掉。我又试着让街上出现一棵大树，果然一棵树从地面慢慢长了出来。路人对此毫无反应。整个体验非常真实，比VR还要真实，就像真实发生在我身边一样。",
+      "language": "zh",
+      "source": "V2EX清醒梦社区",
+      "themes": [
+        "lucid",
+        "street",
+        "control",
+        "reality",
+        "signs",
+        "tree"
+      ],
+      "emotion": "fascinated",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_006",
+      "text": "梦见考试，但是完全不知道考什么科目。卷子上的题目像是中文但又看不懂，每个字单独认识，连在一起就没有意义。周围的同学都在奋笔疾书，时间在一分一秒地流逝。我急得满头大汗，翻到卷子背面发现全是空白。监考老师走过来看了我一眼，摇了摇头。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "exam",
+        "anxiety",
+        "school",
+        "time",
+        "failure",
+        "unprepared"
+      ],
+      "emotion": "panic",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_007",
+      "text": "梦见一条巨大的蛇盘在家里的客厅中间。它是翠绿色的，鳞片在灯光下闪闪发光。我应该害怕，但奇怪的是，我觉得它很美。它抬起头看着我，眼睛是金色的，像两颗宝石。它缓缓地从窗户滑了出去，在地上留下了一道发光的痕迹。妈妈从厨房出来问我怎么了，我说没什么。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "snake",
+        "home",
+        "beauty",
+        "fear",
+        "mother",
+        "luminous"
+      ],
+      "emotion": "awe",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_008",
+      "text": "反复做同一个梦，梦见自己在一个迷宫一样的地下停车场里找车。灯光是昏暗的荧光灯，嗡嗡作响。每层看起来都一样，我上上下下找了无数次。偶尔能听到远处有汽车发动的声音，但永远找不到声音的来源。我的车钥匙一直在手里，按遥控锁的按钮，但从来听不到我的车响应。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "parking",
+        "lost",
+        "searching",
+        "recurring",
+        "maze",
+        "frustration"
+      ],
+      "emotion": "frustration",
+      "vividness": 3,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_009",
+      "text": "梦见站在一片无边的草原上，天空是纯净的蓝色，没有一丝云。突然远处传来马蹄声，一群野马从地平线上奔来。它们的鬃毛在风中飞扬，蹄子踏在地上卷起灰尘。它们从我身边呼啸而过，距离很近，我能感受到马群带起的风。马群过后，草原又恢复了宁静，只剩下草被压倒后慢慢弹起的声音。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "grassland",
+        "horses",
+        "nature",
+        "wind",
+        "freedom",
+        "peace"
+      ],
+      "emotion": "exhilarating",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_010",
+      "text": "梦到牙齿一颗一颗地掉，先是松动，然后脱落到手心里。嘴里全是血腥味。照镜子看到满嘴的血，剩下的牙齿也在摇晃。我用舌头顶了一下门牙，它就像粉笔一样碎了。想说话但是因为缺牙只能发出奇怪的声音。醒来以后第一件事就是跑去照镜子确认牙齿还在。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "teeth",
+        "loss",
+        "mirror",
+        "blood",
+        "anxiety",
+        "body"
+      ],
+      "emotion": "anxiety",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_011",
+      "text": "梦见世界末日。天空变成深红色，太阳在西边升起来。所有的高楼大厦都在慢慢倾斜。人们在街上奔跑但是没有声音，整个世界像是被按了静音键。我站在天台上往下看，海水正在从远处涌来，像一面灰色的墙。我知道逃不掉了，就坐在天台边上，把脚荡在空中，平静地等待。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "apocalypse",
+        "silence",
+        "flood",
+        "rooftop",
+        "acceptance",
+        "surreal"
+      ],
+      "emotion": "calm_dread",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_012",
+      "text": "做了一个清醒梦，在梦中知道自己在做梦。我在天空中想象出了一条飞鱼，它真的出现了，从云层里穿出来。我又想到了《独立日》里的场景，结果天空真的变暗了，一个巨大的黑影出现在头顶。我被吓到了，然后就醒了。醒来以后就后悔了，为什么要想那种可怕的东西。",
+      "language": "zh",
+      "source": "V2EX清醒梦社区",
+      "themes": [
+        "lucid",
+        "flying_fish",
+        "movie",
+        "imagination",
+        "control",
+        "fear"
+      ],
+      "emotion": "excited_then_fearful",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_013",
+      "text": "梦见自己在一个古老的村庄里走路。石板路，白墙黑瓦，门口挂着红灯笼。溪水从村中间流过，水声很清脆。我在桥上停下来看水，水里有金色的鱼在游。一个穿着旗袍的老奶奶从巷子里走出来，递给我一碗桂花糕，说'回来了就好'。我不认识她，但在梦里觉得她是家人。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "village",
+        "traditional",
+        "water",
+        "fish",
+        "grandmother",
+        "belonging"
+      ],
+      "emotion": "warm",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_014",
+      "text": "做了一个噩梦，被什么东西追赶。在一个黑暗的走廊里拼命跑，身后的脚步声越来越近。走廊很长，两边的门都锁着。我跑得腿都软了，但是怎么跑也跑不快，感觉腿像灌了铅一样沉重。最后被逼到了死胡同，转过身去面对追我的东西，但什么都没有，只有空荡荡的走廊和我自己喘气的声音。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "chase",
+        "corridor",
+        "darkness",
+        "running",
+        "fear",
+        "nothing"
+      ],
+      "emotion": "terror",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_015",
+      "text": "梦见在一片竹林里弹古琴。月光从竹叶间洒下来，地上是斑驳的光影。我坐在一块石头上，手指拨动琴弦，音色空灵悠远。周围的竹子随着琴声微微摇动，好像在跟着节奏。远处有薄雾升起，一只白鹤从雾中飞出来，落在我面前。整个画面像一幅古画。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "bamboo",
+        "music",
+        "moonlight",
+        "guqin",
+        "crane",
+        "traditional_art"
+      ],
+      "emotion": "tranquil",
+      "vividness": 5,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_016",
+      "text": "梦到了去世的爷爷。他穿着生前最喜欢的那件灰色夹克，坐在院子里的藤椅上看报纸。我喊了一声'爷爷'，他抬头看我，微笑着说'长这么大了'。他的手很温暖，和记忆中一样有力。他让我坐下来陪他喝茶，我们聊了很多，但醒来以后只记得那种温暖的感觉，具体聊了什么一句都想不起来。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "deceased_grandfather",
+        "visitation",
+        "warmth",
+        "tea",
+        "memory",
+        "comfort"
+      ],
+      "emotion": "warm",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_017",
+      "text": "梦见自己变成了一只猫，蜷缩在窗台上晒太阳。我能感受到阳光照在毛上暖烘烘的感觉，还有尾巴末梢被微风吹动的触感。我的视角变得很低，家具都显得巨大。主人回来了，放下包蹲在我面前，我闻到了她手上的奶油味。她挠了挠我的下巴，我不由自主地发出了呼噜呼噜的声音。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "transformation",
+        "cat",
+        "sunlight",
+        "perspective",
+        "comfort",
+        "senses"
+      ],
+      "emotion": "content",
+      "vividness": 5,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_018",
+      "text": "梦见在暴风雨中开车，雨大到雨刷根本没用。闪电照亮了整条公路，我发现路上只有我一辆车。导航一直在重新计算路线，显示的地名我一个都不认识。油表在慢慢下降。收音机里传出的不是音乐，是有人在念一段我听不懂的外语。远处有一团光，我朝那个方向开过去，但光始终保持着同样的距离。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "driving",
+        "storm",
+        "alone",
+        "lost",
+        "navigation",
+        "light"
+      ],
+      "emotion": "isolation",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_019",
+      "text": "经历了梦中梦。先是梦见自己在上课，然后'醒来'发现自己躺在床上。起床洗脸的时候发现镜子里的自己在笑，但我没有在笑。我意识到还在做梦，于是又'醒来'了。这次房间里的陈设和真实的一模一样，我以为真的醒了，但窗外的天空是紫色的。这样反复了至少五六次，每次以为醒了却发现某个细节不对。真正醒来以后花了好几分钟才确认这次是真的。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "false_awakening",
+        "mirror",
+        "loop",
+        "reality_testing",
+        "nested_dreams"
+      ],
+      "emotion": "disoriented",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_020",
+      "text": "梦见自己在大海里游泳，水是温暖的，透明的蓝色。我可以在水下呼吸，像鱼一样自由。海底有一座古老的城市，建筑上长满了珊瑚和海藻。有巨大的水母从我身边飘过，发着淡紫色的光。我游进一座宫殿，里面有一把用贝壳和珍珠镶嵌的王座。坐上去的那一刻，整个海底都亮了起来。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "ocean",
+        "underwater",
+        "breathing",
+        "city",
+        "jellyfish",
+        "throne"
+      ],
+      "emotion": "wonder",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_021",
+      "text": "梦到在一个很大的火车站等车。候车大厅非常空旷，只有我一个人。大屏幕上显示着各种目的地，但都是不存在的地名。列车时刻表上的时间在不停地变化。远处传来火车汽笛声，但始终没有列车进站。我的票上写的目的地是'回家'，但我不确定家在哪里。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "train_station",
+        "waiting",
+        "alone",
+        "home",
+        "uncertainty",
+        "liminal"
+      ],
+      "emotion": "melancholy",
+      "vividness": 3,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_022",
+      "text": "梦见上班迟到了，疯了一样跑去赶地铁。地铁门在我面前关上了，我只能等下一班。下一班来了，门打开里面全是陌生人的脸，密密麻麻地挤在一起，像是贴在车窗上的面具。我犹豫了一下没上车，车门就关了。站台上又只剩我一个人了。手机显示已经迟到三个小时了。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "late",
+        "subway",
+        "work",
+        "crowd",
+        "faces",
+        "anxiety"
+      ],
+      "emotion": "anxiety",
+      "vividness": 3,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_023",
+      "text": "梦中我走进了一幅山水画。青山绿水，远处有瀑布从悬崖上倾泻而下。我站在一座小桥上，桥下是清澈见底的溪流。空气里有松树的味道。一只小鹿从树林里走出来，看了我一眼就跑了。整个世界的色调像是用淡墨和青绿颜料画出来的，朦胧而美丽。我在梦里想，如果能一直住在画里就好了。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "landscape_painting",
+        "mountain",
+        "waterfall",
+        "deer",
+        "traditional_art",
+        "beauty"
+      ],
+      "emotion": "serene",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_024",
+      "text": "噩梦。我在一个废弃的医院里醒来，身上穿着病号服。走廊里只有应急灯在闪烁，绿色的光忽明忽暗。有些房间的门开着，能看到空床和散落的医疗器械。远处传来不规则的滴水声。我想找到出口但每条走廊都通向新的走廊。最可怕的是我能听到自己的心跳，非常响，好像整栋楼都在跟着我的心跳颤抖。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "hospital",
+        "abandoned",
+        "nightmare",
+        "corridor",
+        "heartbeat",
+        "escape"
+      ],
+      "emotion": "horror",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_025",
+      "text": "梦到自己站在教室讲台上演讲，台下坐满了人。我低头看手里的稿子，上面的字在不停地重新排列。我张口说话，发出的却是另一种语言。奇怪的是，台下的人都在认真地听，还有人在做笔记。演讲结束后大家鼓掌，一个同学走过来说'讲得太好了'，但我一个字都不记得自己说了什么。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "public_speaking",
+        "school",
+        "language",
+        "text_shifting",
+        "applause",
+        "amnesia"
+      ],
+      "emotion": "bewildered",
+      "vividness": 3,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_026",
+      "text": "梦见自己回到了童年，大概六七岁的样子。在老家的院子里玩耍，地上画着跳房子的格子。隔壁家的小伙伴也来了，我们一起玩到天黑。远处炊烟升起来了，妈妈在门口喊吃饭。夕阳把天空染成了橙色和粉色。一切都和记忆中一模一样，连院子角落里那棵歪脖子枣树都在。我在梦里哭了，不是因为难过，是因为太美好了。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "childhood",
+        "courtyard",
+        "playmate",
+        "mother",
+        "sunset",
+        "nostalgia"
+      ],
+      "emotion": "nostalgic",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_027",
+      "text": "梦见参加一场盛大的婚礼，新娘穿着中式凤冠霞帔，非常华丽。所有宾客都穿着古装，场地是一座古色古香的庭院。但走近一看才发现新郎的脸是模糊的，怎么看都看不清。我问旁边的人新郎是谁，每个人给的答案都不一样。红烛摇曳，唢呐声响，热闹的氛围中我却感到一种难以言说的惆怅。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "wedding",
+        "traditional",
+        "blurred_face",
+        "identity",
+        "celebration",
+        "sadness"
+      ],
+      "emotion": "wistful",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_028",
+      "text": "梦见在一个无限大的图书馆里。书架高到看不到顶，梯子向上延伸消失在暗处。我随手拿起一本书翻开，里面写的都是我忘记的事。小时候邻居家养的狗的名字，初中同桌说过的一句话，某个下午阳光的角度。每本书都是一段被遗忘的记忆。有个图书管理员走过来说'你只能借走一本，但读完之后你会忘记另一件事'。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "library",
+        "infinite",
+        "memory",
+        "books",
+        "forgotten",
+        "trade"
+      ],
+      "emotion": "philosophical",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_029",
+      "text": "做了一个关于地震的梦。我在一栋高楼里，突然地面开始剧烈晃动。书架上的书纷纷掉落，杯子从桌上滑下来摔碎。我抱头躲到桌子下面，能听到混凝土碎裂的声音。窗外能看到其他建筑在摇晃，有的已经开始倾斜。尘土扬起来，视线变得模糊。晃动停止后，四周一片寂静，那种突如其来的安静比地震本身还要可怕。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "earthquake",
+        "building",
+        "destruction",
+        "hiding",
+        "silence",
+        "fear"
+      ],
+      "emotion": "terror",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_030",
+      "text": "梦见在一片薰衣草田里。紫色的花海一望无际，微风吹过来带着花香。我穿着白色长裙走在花田间的小路上。远处有一座白色的小木屋，烟囱里冒着淡蓝色的烟。天空是那种水彩画一样温柔的蓝，几朵白云懒散地飘着。我觉得这里就是我一直在找的地方，虽然我从来没来过。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "lavender",
+        "field",
+        "cottage",
+        "beauty",
+        "belonging",
+        "peace"
+      ],
+      "emotion": "blissful",
+      "vividness": 5,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_031",
+      "text": "梦到前任。我们在一个陌生的咖啡馆里面对面坐着。他点了美式，我点了拿铁，和以前一样。他看起来变了很多，成熟了。我们聊了很久，但没有尴尬，好像分手这件事从来没有发生过。最后他站起来说'我该走了'，往门口走的时候身影越来越模糊，最后和阳光融为一体。醒来以后难过了一整天。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "ex_partner",
+        "coffee",
+        "conversation",
+        "disappearing",
+        "nostalgia",
+        "grief"
+      ],
+      "emotion": "longing",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_032",
+      "text": "鬼压床了。醒过来发现全身动不了，眼睛能看到天花板上的灯。房间很暗，窗帘缝隙里透进来一点路灯的光。然后我感觉有东西从床脚爬上来，一点一点地往上，像有重量压在被子上。我想喊但嘴张不开，想动手指也动不了。一个黑色的影子出现在我视野的边缘，很高，轮廓模糊。我拼命想动大脚趾，终于在我以为自己要窒息的时候动了一下，然后整个身体突然能动了。开了灯什么都没有。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "sleep_paralysis",
+        "shadow",
+        "paralysis",
+        "bedroom",
+        "fear",
+        "struggle"
+      ],
+      "emotion": "terror",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_033",
+      "text": "梦到自己在一个巨大的超市里，但货架上摆的都是奇怪的东西。有的瓶子里装着云，有的罐头上写着'母亲的叹息'，有的袋子里装着别人的梦。价格标签上的数字是用颜色表示的，不是数字。购物车里已经放了几样东西，但我不记得是什么时候放进去的。收银员是一只穿着围裙的老虎，态度非常专业。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "supermarket",
+        "surreal",
+        "absurd",
+        "shopping",
+        "tiger",
+        "labels"
+      ],
+      "emotion": "absurd",
+      "vividness": 3,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_034",
+      "text": "梦里一直在下雨。我撑着一把透明的伞走在空无一人的街上。雨水打在伞上的声音很好听，像是有节奏的鼓点。路灯倒映在水洼里，变成了长长的光条。我不知道要去哪里，也不着急。路边的商店都关了门，但橱窗里的灯还亮着，展示着没有人会来买的东西。我就这样一直走着，走了很久很久。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "rain",
+        "walking",
+        "alone",
+        "umbrella",
+        "street",
+        "aimless"
+      ],
+      "emotion": "melancholy",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_035",
+      "text": "梦见和已经去世的外婆一起包饺子。她的手法还是那么熟练，面皮在她手里变出漂亮的褶子。我笨手笨脚地包，她笑着说我以前小时候也是这样。厨房里热气腾腾的，水壶在炉子上嗡嗡响。窗外是下雪的冬天。我想告诉她我很想她，但话到嘴边变成了'外婆你包的饺子最好吃了'。她听了笑得眼睛弯弯的。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "grandmother",
+        "dumplings",
+        "cooking",
+        "deceased",
+        "winter",
+        "love"
+      ],
+      "emotion": "warm",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_036",
+      "text": "梦见自己在水下行走，水的阻力让每一步都很缓慢。周围是碧蓝色的海水，透过水面可以看到扭曲的天空。海底有很多奇怪的生物在发光，有的像水母，有的像蝴蝶。我呼吸正常，完全不觉得缺氧。水流带动我的头发漂浮起来。远处有一个发光的门廊，我慢慢地朝那个方向走过去。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "underwater",
+        "walking",
+        "bioluminescence",
+        "breathing",
+        "portal",
+        "creatures"
+      ],
+      "emotion": "curious",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_037",
+      "text": "做了一个很碎片化的梦。只记得红色的门。有人一直在重复说一个数字，好像是七。很多鸟在飞。我手里攥着什么很重要的东西但想不起来是什么。整个梦里有一种很紧迫的感觉，但完全不知道在急什么。醒来以后这种焦虑感持续了一整个上午。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "fragments",
+        "door",
+        "number",
+        "birds",
+        "urgency",
+        "vague"
+      ],
+      "emotion": "anxious",
+      "vividness": 1,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_038",
+      "text": "梦见在一个古老的寺庙里。青烟缭绕，木鱼声一下一下地敲着。佛像很大，镀金的脸在烛光中若隐若现。我跪在蒲团上，虽然我现实中不信佛。一个老和尚走过来，递给我一杯茶说'放下'。我问他放下什么，他说'你手里什么都没有，还要放什么呢'。我低头一看，双手空空，但觉得很重。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "temple",
+        "buddhism",
+        "monk",
+        "tea",
+        "philosophy",
+        "letting_go"
+      ],
+      "emotion": "contemplative",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_039",
+      "text": "梦到自己在夜市逛街，非常热闹。到处是烤串的烟雾和叫卖声。我买了一碗臭豆腐，味道特别香。走着走着发现人群开始变少，摊位也一个个关了。最后整条街只剩我一个人，灯笼一盏盏熄灭。我手里的臭豆腐已经凉了。远处传来关铁门的哗啦声。那种从热闹到冷清的转变让我在梦里就觉得心酸。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "night_market",
+        "food",
+        "crowd",
+        "emptying",
+        "loneliness",
+        "transition"
+      ],
+      "emotion": "melancholy",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_040",
+      "text": "清醒梦里试着飞行。一开始只能在地面上悬浮一点点，大概离地半米。我努力想飞高一些，结果一下子冲到了云层上方。下面是一望无际的云海，像铺了一层白色的棉花。太阳在云层之上非常耀眼。我试着做了一个后空翻，成功了，那种旋转的感觉非常真实。然后我朝着太阳的方向飞过去，飞了很远很远，直到梦境开始变得模糊，像是信号不好的电视画面，然后醒了。",
+      "language": "zh",
+      "source": "V2EX清醒梦社区",
+      "themes": [
+        "lucid",
+        "flying",
+        "clouds",
+        "sun",
+        "control",
+        "fading"
+      ],
+      "emotion": "exhilarating",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_041",
+      "text": "梦到回到了初中教室，但同学们都是现在的年纪。数学老师还是那个秃顶的王老师，在黑板上写题目，但写的不是数学公式而是一些我看不懂的符号。我低头看课本，发现每一页都是空白的。旁边的同桌拍了拍我说'快写啊，要交卷了'，我才发现面前还有一张考卷，上面的题目不断在变化，像是活的一样。那种心慌的感觉跟当年中考前一模一样。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "school",
+        "exam",
+        "anxiety",
+        "time_distortion",
+        "childhood",
+        "symbols"
+      ],
+      "emotion": "panic",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_042",
+      "text": "这个梦做了不下十次了。总是梦到自己站在老家的天台上，对面是一片没有边际的向日葵田，每朵向日葵都朝着我转过来。天空是那种不真实的紫色，像是加了滤镜。然后向日葵开始一朵朵低下头，像是在鞠躬。最后田里只剩下枯萎的杆子，天空变成了灰色，我在天台上感觉风越来越大，站不稳了。每次做这个梦醒来都很难受，说不上来为什么。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "recurring",
+        "sunflowers",
+        "hometown",
+        "decay",
+        "wind",
+        "loss"
+      ],
+      "emotion": "melancholy",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_043",
+      "text": "知道自己在做梦是因为我看到了已经去世三年的外婆。她坐在老房子的厨房里包粽子，笑呵呵地叫我过去帮忙。我走过去坐下来，她递给我一片粽叶。我一边包一边想，外婆你不是已经走了吗？但是梦里我没有说出来，因为怕说出来她就会消失。我们就那样安安静静地包了好久好久的粽子。厨房里有竹叶的香气，灶台上的火在噼里啪啦地响。醒来的时候枕头是湿的。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "deceased_relative",
+        "grandmother",
+        "food",
+        "nostalgia",
+        "grief",
+        "lucid_awareness"
+      ],
+      "emotion": "bittersweet",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_044",
+      "text": "从小就反复做一个梦：自己一个人走在一条铁路上，两边是无限延伸的荒地，没有任何建筑物。天是那种傍晚的颜色，橙红色渐变到深蓝。铁路的尽头永远到不了，走了很久很久还是同样的风景。偶尔会听到远处有火车的汽笛声，但火车从来不会出现。这个梦从六七岁开始做，现在二十多了还会梦到。每次梦到心情都一样：不害怕，但是很孤独。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "recurring",
+        "childhood",
+        "railway",
+        "solitude",
+        "infinity",
+        "dusk"
+      ],
+      "emotion": "lonely",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_045",
+      "text": "清醒梦里我决定试试穿墙。走到卧室的墙前面，深呼吸了一下然后往前走。刚开始确实能感觉到墙的阻力，有点像走进很浓的果冻。然后突然就穿过去了，到了隔壁房间。太神奇了我赶紧又穿回来再穿过去，来回穿了好几次。然后我想试试穿地板，结果一踩就掉了下去，不是到楼下而是掉进了一个全黑的空间。在黑暗里一直往下坠，什么都看不见，那种失重感特别真实，然后就被吓醒了。",
+      "language": "zh",
+      "source": "V2EX清醒梦社区",
+      "themes": [
+        "lucid",
+        "wall_phasing",
+        "experimentation",
+        "falling",
+        "void",
+        "control_loss"
+      ],
+      "emotion": "excited_then_scared",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_046",
+      "text": "梦到高考的那天，坐在考场里，拿到试卷发现不是语文也不是数学，而是一门从来没听过的科目叫'时间学'。第一题是'请计算你失去的所有下午的总和'，第二题是'画出明年春天的颜色'。我什么都不会写。监考老师走过来看了看我的空白试卷，叹了口气说'你已经迟到了二十年'。然后铃声响了，所有人都站起来交卷，只有我一个人还坐着。这个梦虽然荒诞但特别让人难受。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "exam",
+        "gaokao",
+        "time",
+        "absurd",
+        "failure",
+        "regret"
+      ],
+      "emotion": "despair",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_047",
+      "text": "梦见自己变成了一条鱼，在一个巨大的鱼缸里游泳。鱼缸放在一个很大的客厅里，外面有人影走来走去。我能看到模糊的人形但听不到声音，就像隔着一层水看世界。我试着跳出鱼缸但每次都被水面的张力弹回来。最奇怪的是我能看到另一条鱼也在往外跳，那条鱼长得跟我一模一样。我们对视了一下，然后同时往上跳，结果撞在了一起又落回水里。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "transformation",
+        "fish",
+        "trapped",
+        "mirror_self",
+        "barrier",
+        "water"
+      ],
+      "emotion": "frustrated",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_048",
+      "text": "从小到大一直做的梦：飘在半空中往下看，看到一个城市，但不是我认识的任何城市。建筑是那种很老的样式，有点像民国时期的照片。街上有人力车和穿旗袍的人。我飘得越来越低，快要落地的时候突然有一个人抬头看到了我，表情非常惊恐地指着天空大叫。然后所有人都抬头看我。那一刻我感觉到一种强烈的不属于这里的感觉。然后我被一股力量拉回了高空。每次梦到这里就醒了。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "recurring",
+        "childhood",
+        "flying",
+        "old_city",
+        "being_seen",
+        "outsider",
+        "time_travel"
+      ],
+      "emotion": "eerie",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_049",
+      "text": "做清醒梦的时候试过在梦里照镜子。镜子里的我一开始是正常的，但是仔细看会发现眼睛的颜色不对，是金色的。然后镜子里的我笑了，但我自己没有笑。这让我一下子非常紧张。镜子里的我开始做跟我不一样的动作，抬起手对着镜子比了一个嘘的手势。我赶紧转身离开，但是转过身发现镜子里的世界才是真的，我站着的地方才是镜子里面。分不清哪边是真的哪边是假的，非常慌。",
+      "language": "zh",
+      "source": "V2EX清醒梦社区",
+      "themes": [
+        "lucid",
+        "mirror",
+        "doppelganger",
+        "identity",
+        "reality_questioning",
+        "fear"
+      ],
+      "emotion": "terrified",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_050",
+      "text": "梦到自己在一个巨大的图书馆里，书架高到看不到顶。每本书的书脊上写的不是书名而是一个日期。我随手抽了一本出来翻开，里面记录的竟然是我某一天的生活，精确到每一个细节。我又抽了另一本，是我五岁生日那天。我蹲在书架旁边翻了很久，翻到了一本日期是未来的——2028年3月15日。我犹豫了很久要不要打开看。最后还是翻开了第一页，但是上面只有一句话：'你不应该看到这个。'然后整个图书馆的灯灭了。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "library",
+        "books",
+        "memory",
+        "future",
+        "forbidden_knowledge",
+        "darkness"
+      ],
+      "emotion": "awe",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_051",
+      "text": "梦见和已经去世的爸爸一起吃火锅。他还是穿着那件旧的格子衬衫，把最好的肉片都夹到我碗里。火锅的蒸汽升上来让他的脸变得模糊。我想跟他说很多话，但是一开口发现自己失声了。他好像知道一样，拍了拍我的手说'没关系，吃饭就好'。火锅咕嘟咕嘟地冒泡，外面下着雨。这是他走后我第一次梦到他，整个梦都特别平静，但是醒来哭了很久。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "deceased_parent",
+        "food",
+        "hotpot",
+        "grief",
+        "communication_barrier",
+        "rain"
+      ],
+      "emotion": "grief",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_052",
+      "text": "这个预知梦太真实了。前天梦到公司要裁员，老板把我叫到办公室跟我谈。梦里他桌上放着一盆仙人掌，窗外是阴天。第二天上班，老板真的把我叫进办公室了。我进去一看，桌上真的有一盆仙人掌，窗外也是阴天。我整个人都懵了。不过最后不是裁员，是要给我调组。但那一刻场景完全重合的感觉太诡异了。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "prophetic",
+        "deja_vu",
+        "work",
+        "precognition",
+        "coincidence"
+      ],
+      "emotion": "shocked",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_053",
+      "text": "梦里我在一栋废弃的医院里走。走廊的灯一闪一闪的，地上有生锈的轮椅。我知道我在找什么东西但想不起来是什么。推开一扇门进去是手术室，手术台上躺着一个人，蒙着白布。我慢慢走过去掀开白布，下面躺的是我自己。手术台上的我突然睁开眼睛抓住了我的手腕。那一瞬间的恐惧感太强烈了，直接吓醒了，心跳一分钟一百五。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "hospital",
+        "abandoned",
+        "doppelganger",
+        "horror",
+        "self_discovery"
+      ],
+      "emotion": "terror",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_054",
+      "text": "反复做的一个梦：在一个无限大的超市里推着购物车走。货架上的商品都是透明的包装但里面装的不是食物而是各种记忆的碎片。有的盒子里装着小时候跟妈妈手牵手的画面，有的装着初恋的那个下午。价签上写的不是钱而是'已过期'或'限量'。我想买'2008年的那个夏天'但发现被别人买走了。推着空空的购物车越走越远，超市越来越大，灯光越来越暗。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "recurring",
+        "supermarket",
+        "memory",
+        "nostalgia",
+        "loss",
+        "time"
+      ],
+      "emotion": "wistful",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_055",
+      "text": "清醒梦里我试着召唤一个不存在的人。我大声喊了一个名字，然后转过身。果然出现了一个人，但是她的脸是模糊的，像是马赛克一样。我让她说话，她张开嘴但发出的声音像是倒放的录音。我尝试让她的脸变清晰，越集中注意力她反而越模糊。最后她整个人开始像沙子一样散开，从脚开始慢慢向上崩塌。我伸手去抓但抓到的只有空气。这是我在清醒梦里最挫败的一次经历。",
+      "language": "zh",
+      "source": "V2EX清醒梦社区",
+      "themes": [
+        "lucid",
+        "summoning",
+        "faceless_figure",
+        "control_failure",
+        "dissolution"
+      ],
+      "emotion": "frustration",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_081",
+      "text": "I've had this dream since I was about seven years old. I'm standing in a field of tall grass that reaches up to my waist. The sky is always this impossible shade of orange, not sunset orange, more like the color of rust. In the distance there's a house, and I know it's my house even though it doesn't look like any house I've ever lived in. I start walking toward it but the grass gets thicker and taller until it's over my head and I can't see anymore. I never reach the house. I just wade through the grass until I wake up. I must have had this dream a hundred times.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "recurring",
+        "childhood",
+        "field",
+        "home",
+        "unreachable_destination",
+        "grass"
+      ],
+      "emotion": "longing",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_082",
+      "text": "I became lucid when I noticed the wallpaper in my bedroom was moving, like a slow animation of vines growing. I did my usual reality check, pinching my nose and trying to breathe through it. Could breathe perfectly. I decided to try something I'd been planning for weeks: I wanted to visit outer space. I jumped through my window and instead of falling I shot upward like a rocket. The atmosphere thinned out around me and suddenly I was floating in space, looking down at Earth. The detail was incredible, I could see weather patterns, city lights on the dark side. I tried to fly to the moon but as I got closer it started looking like it was made of paper, thin and flat. That broke my immersion and I felt myself being pulled back into my body, back into the bed. I tried to hold on to the dream but it slipped away like water through my fingers.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming",
+      "themes": [
+        "lucid",
+        "space",
+        "flying",
+        "earth",
+        "moon",
+        "control",
+        "dream_instability"
+      ],
+      "emotion": "wonder",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_083",
+      "text": "Same dream again, third time this month. I'm back in my old high school walking through the hallways but they're completely empty. No students, no teachers, no sound except my footsteps. The lockers are all open and empty. I go to what used to be my homeroom and sit in my old desk. The clock on the wall is ticking but the hands aren't moving. I sit there for what feels like hours. Sometimes I get up and walk to the gym or the cafeteria but they're always empty too. Last night though, something different happened. I heard someone singing from inside the auditorium. I walked toward the doors but right before I opened them I woke up. Part of me really wants to know who was singing.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "recurring",
+        "school",
+        "emptiness",
+        "solitude",
+        "time_frozen",
+        "mystery"
+      ],
+      "emotion": "haunted",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_084",
+      "text": "I was swimming in a lake when I realized I could breathe underwater. The water was incredibly clear, like looking through glass. Below me was an entire city, not ruins but a living city with buildings and lights and people walking on the streets. They were walking normally, not swimming, as if the water wasn't there for them. I swam down to the streets and tried to talk to people but no one could see me. I was like a ghost. I followed a woman into what looked like a market and she was buying fruit that glowed in colors I've never seen before, colors that don't exist in real life. I picked up one of the fruits and it felt warm, like it was alive. When I bit into it, the entire underwater city lit up like a sunrise and I woke up with the taste of something sweet still in my mouth.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "underwater",
+        "city",
+        "invisibility",
+        "colors",
+        "synesthesia",
+        "taste"
+      ],
+      "emotion": "enchanted",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_085",
+      "text": "I keep dreaming about my grandmother's kitchen, the one from the house she sold in 2009. Everything is exactly as I remember it. The yellow curtains, the clock shaped like a cat with the swinging tail, the smell of cinnamon rolls. She's always there, even though she's been dead for six years. She doesn't say much, just hums and cooks. Last night she was making her apple pie and she turned to me and said very clearly, 'You need to stop worrying about things you can't hold.' That's the first time she's spoken actual words in any of these dreams. I woke up and wrote it down immediately because I didn't want to forget it.",
+      "language": "en",
+      "source": "Dream journal community",
+      "themes": [
+        "deceased_relative",
+        "grandmother",
+        "kitchen",
+        "food",
+        "message",
+        "recurring"
+      ],
+      "emotion": "comforted",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_086",
+      "text": "I dreamed the same thing was going to happen and then it did. In the dream I was at a coffee shop I've never been to, sitting at a table by the window. A woman with red hair sat down across from me and said, 'You forgot your keys again.' Two days later I was meeting a friend at a new cafe downtown and a woman with red hair bumped into my table and my keys fell out of my pocket. She picked them up and said, 'Almost forgot these.' The layout of the cafe, the window, the table position, were exactly like the dream. I got chills. I don't believe in psychic stuff but I genuinely cannot explain this one.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "prophetic",
+        "deja_vu",
+        "precognition",
+        "stranger",
+        "coincidence"
+      ],
+      "emotion": "unsettled",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_087",
+      "text": "Lucid dreaming attempt number forty-something and I finally got stable enough to try changing the scenery. I was in my apartment and I spun around with my eyes closed, thinking about a beach. When I opened my eyes I was on a beach but it was wrong. The sand was black, the ocean was silver like mercury, and there were two suns in the sky, one yellow and one blue. I walked to the water and put my hand in. It was warm and thick, not like water at all. I looked out and saw something massive moving under the surface, something bigger than a whale. It was coming toward shore. I decided to let it happen instead of panicking. A head emerged from the silver ocean. It was a turtle the size of a building. It looked at me with ancient, knowing eyes and then slowly sank back down. I stood there for a long time after that, just watching the two suns set.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming",
+      "themes": [
+        "lucid",
+        "beach",
+        "alien_landscape",
+        "giant_creature",
+        "two_suns",
+        "awe"
+      ],
+      "emotion": "transcendent",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_056",
+      "text": "小时候最怕的一个梦：床底下有个东西在呼吸。不是鬼也不是怪物，就是一团黑暗在那儿有节奏地起伏。我躺在床上不敢动，被子拉到下巴，能感觉到那个东西的呼吸跟我的同步了。我呼气它呼气，我吸气它吸气。后来我试着故意屏住呼吸，下面也停了。我憋不住呼出来的瞬间，下面发出了一声特别响的吐气声，像是在叹息。这个梦大概做了两三年，后来搬家就不做了。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "childhood",
+        "recurring",
+        "darkness",
+        "bed",
+        "breathing",
+        "synchronized",
+        "shadow_entity"
+      ],
+      "emotion": "dread",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_057",
+      "text": "梦到自己在地铁里，但地铁一直不停站。窗外的站名牌一闪而过，越来越快。车厢里最开始还有很多人，但每经过一个站就少一些，好像他们不是下车了而是直接消失的。最后只剩我一个人。座位上留着他们的东西：一副耳机、一本翻开的书、一杯还冒着热气的咖啡。地铁终于停了，门打开，外面不是站台而是一片星空。我往前走了一步，脚踩在虚空上，居然踩得住。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "subway",
+        "disappearing_people",
+        "solitude",
+        "space",
+        "abandoned_objects",
+        "threshold"
+      ],
+      "emotion": "surreal",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_058",
+      "text": "昨晚做了一个特别温暖的预知梦。梦到一个没见过的地方，是一个湖边的小木屋，门口有一棵很大的银杏树，满地金黄的叶子。一条大金毛犬从屋里跑出来冲我摇尾巴。我当时心想：这是谁的狗啊？今天刷朋友圈，看到前同事发了一张照片，她刚买的湖边度假屋，门口一棵银杏树，还有她新养的金毛。照片里的场景跟我梦里的一模一样。虽然我跟她已经很久没联系了。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "prophetic",
+        "deja_vu",
+        "lake_house",
+        "dog",
+        "autumn",
+        "coincidence"
+      ],
+      "emotion": "amazed",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_088",
+      "text": "When I was a kid, maybe five or six, I had a dream about a man standing at the end of my bed. He wasn't scary looking. He was wearing a brown coat and had a beard and he was just standing there smiling at me. He said, 'Remember, the door on the left.' I never understood what that meant. Twenty years later I was house hunting and the realtor was showing me a unit with two bedroom doors at the end of the hall, one on the left, one on the right. I chose the one on the left on instinct. Behind that door was the room that made me put in an offer. I don't know if it's connected but I think about that dream every single day now.",
+      "language": "en",
+      "source": "Dream journal community",
+      "themes": [
+        "childhood",
+        "prophetic",
+        "stranger",
+        "message",
+        "door",
+        "deja_vu"
+      ],
+      "emotion": "mystified",
+      "vividness": 3,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_089",
+      "text": "I became lucid in what started as a normal dream about being at work. Once I realized I was dreaming, I decided to try something I'd read about: asking the dream itself a question. I shouted out loud, 'Show me something important.' The office dissolved and I was standing in a forest clearing. In the center was a well made of rough stone. I looked down into it and instead of water I saw stars, like looking into space. A voice that came from everywhere and nowhere said, 'You already know.' I wanted to ask what I already knew but the dream was getting unstable. I tried rubbing my hands together to stabilize it, which worked for about ten seconds, then everything went white and I woke up. I spent the whole next day thinking about what I apparently already know.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming",
+      "themes": [
+        "lucid",
+        "question_to_dream",
+        "well",
+        "forest",
+        "stars",
+        "voice",
+        "wisdom"
+      ],
+      "emotion": "profound",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_090",
+      "text": "This is a recurring nightmare I've had at least once a week for the past year. I'm in my apartment but the layout is slightly wrong. The hallway is too long, there are doors where there shouldn't be doors, the kitchen is on the wrong side. I know something is in the apartment with me but I can never see it directly. I catch movement in my peripheral vision. I hear breathing from behind walls. Sometimes objects have moved when I turn back to look at them. The worst part is the feeling that the apartment itself is alive and watching me. I always try to leave but the front door opens into another version of the same apartment, slightly more distorted than the last. I've seen three therapists about this dream and none of them have been able to help me stop having it.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "recurring",
+        "nightmare",
+        "home_distortion",
+        "invisible_presence",
+        "loops",
+        "trapped"
+      ],
+      "emotion": "dread",
+      "vividness": 4,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "zh_059",
+      "text": "清醒梦技术终于练成了。昨晚在梦里成功做到了'旋转稳定法'。一开始的场景是模糊的，像看一幅没对焦的照片。我在梦里原地旋转了三圈，停下来以后整个世界变清晰了十倍。能看到树叶上的纹路，能看到远处山上的每一棵树。我蹲下来摸了摸地上的土，是潮湿的，能闻到泥土的味道。我在梦里待了大概有二十分钟（现实可能就几分钟），探索了一个从没去过的小镇。后来是自然醒的，不是被吓醒的，这让我特别有成就感。",
+      "language": "zh",
+      "source": "V2EX清醒梦社区",
+      "themes": [
+        "lucid",
+        "stabilization",
+        "vivid_detail",
+        "sensory",
+        "exploration",
+        "mastery"
+      ],
+      "emotion": "proud",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_060",
+      "text": "每次压力大的时候就会做这个梦：我在一个很高的写字楼里上班，但是电梯只往下走。不管我按哪个楼层的按钮，电梯都一直往下。楼层数从正数变成负数，-1，-2，-10，-100。电梯里的灯越来越暗，温度越来越低。到了大概-200层的时候电梯门打开了，外面是一个巨大的地下溶洞，钟乳石上挂满了发光的水滴。很美但也很恐怖。我知道这个梦跟工作焦虑有关，但还是控制不住地做。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "recurring",
+        "elevator",
+        "descent",
+        "work_anxiety",
+        "underground",
+        "cave",
+        "beauty_in_fear"
+      ],
+      "emotion": "anxious",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_061",
+      "text": "梦到自己走在一条老街上，两边是那种有骑楼的民国建筑。下着毛毛雨，空气里有桂花的味道。一个穿旗袍的女人打着油纸伞从对面走过来，经过我身边的时候停下来说了一句'你不属于这个时代'。我想追上去问她什么意思，但一转身她就不见了，只留下一把展开的油纸伞立在雨里。后来我查了那条街的样子，很像广州的永庆坊老照片。但我从来没去过广州。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "time_period",
+        "old_street",
+        "rain",
+        "stranger_message",
+        "qipao",
+        "nostalgia",
+        "past_life"
+      ],
+      "emotion": "mysterious",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_091",
+      "text": "I was attending my own funeral but nobody could see me. I stood at the back of the church watching people I love cry. My mom was in the front row and she looked twenty years older than she actually is. My best friend tried to give a eulogy but couldn't get through it. The coffin was closed and covered with white lilies. The strangest part was I felt nothing. No sadness, no fear, just this complete calm, like I was watching a movie about someone else's life. Then a little girl I didn't recognize walked up to the coffin, put her hand on it, and looked directly at me. She could see me. She smiled and said, 'It's not your turn yet.' I woke up and couldn't go back to sleep for the rest of the night.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "death",
+        "funeral",
+        "family",
+        "ghost_perspective",
+        "child_messenger",
+        "not_yet"
+      ],
+      "emotion": "solemn",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_092",
+      "text": "Every few months I have this dream where I discover a new room in my house that I somehow never noticed before. Last night the room was behind a door in my closet. It was enormous, much bigger than my house could possibly contain. The ceiling was vaulted and painted with constellations that slowly moved. The room was full of plants, tropical ones with huge leaves and flowers, and there was a small stream running through the middle of it. Butterflies everywhere. I walked through it in complete awe. There was a reading nook in the corner with all my favorite books, including some titles I've never heard of but somehow knew were exactly what I wanted to read. I always wake up from this dream feeling like I lost something.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "recurring",
+        "hidden_room",
+        "discovery",
+        "impossible_space",
+        "nature",
+        "books"
+      ],
+      "emotion": "wonder_and_loss",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_093",
+      "text": "I was in a lucid dream and decided to try time manipulation. I held up my hand and said 'pause.' Everything froze. Birds mid-flight, leaves mid-fall, a woman mid-step on the sidewalk. I walked around this frozen world for what felt like ten minutes, examining everything. The detail was astonishing. I could see individual droplets of water suspended in the air from a fountain. Then I said 'rewind' and everything started moving backward slowly. The leaves floated up, the woman walked backward. I kept rewinding until the sun set in reverse and the stars came out. Then I said 'fast forward' and the sun rose so fast it looked like a strobe light. Day and night flickered like a light switch. I felt like I was watching the entire history of the world on fast forward. It was the most powerful I've ever felt in a dream.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming",
+      "themes": [
+        "lucid",
+        "time_manipulation",
+        "frozen_moment",
+        "control",
+        "power",
+        "cosmic_perspective"
+      ],
+      "emotion": "powerful",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_062",
+      "text": "小时候反复做的噩梦：一个人站在一个空房间里，四面墙都是白色的，没有门没有窗。房间在慢慢缩小，墙壁在一点点向我靠近。我能听到墙壁移动的声音，是那种很低很沉的嗡嗡声。我喊救命但没有任何回音，声音被墙壁吸收了。等到墙壁离我只有一臂的距离时，我会发现地板中间有一个小洞。我趴下去往洞里看，下面是无底的黑暗。每次到这里我都要做一个选择：被墙壁压扁还是跳进黑洞。我总是选择跳。然后就在坠落中醒来。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "childhood",
+        "recurring",
+        "nightmare",
+        "shrinking_room",
+        "claustrophobia",
+        "choice",
+        "falling"
+      ],
+      "emotion": "terror",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_063",
+      "text": "做清醒梦的时候试过一个很有意思的实验：在梦里读书。我召唤出一本书，打开来看，文字一开始是正常的中文，但如果我移开视线再看回来，文字就会完全变了。我试着记住第一行写的什么，记住了'大海是蓝色的谎言'这句话。移开视线再看，变成了'每条鱼都有自己的天空'。再看一次，变成了一堆根本不是文字的符号。我觉得这验证了清醒梦研究里说的'梦里文字不稳定'的理论。挺有意思的。",
+      "language": "zh",
+      "source": "V2EX清醒梦社区",
+      "themes": [
+        "lucid",
+        "reading",
+        "text_instability",
+        "experiment",
+        "dream_science"
+      ],
+      "emotion": "curious",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_064",
+      "text": "梦见自己站在一个十字路口，四个方向的路各通向不同的季节。往北走是冬天，雪花飘在空中不落地；往南走是夏天，蝉鸣声特别响；往东走是春天，樱花在风里飞；往西走是秋天，地上都是金色的落叶。我站在中间犹豫不决，不知道该往哪个方向走。天开始黑了，四条路上的景色开始互相混合——雪里开樱花，落叶上趴着夏天的蝉。最后四季同时涌向我所站的十字路口，把我淹没了。醒来的时候身上一身冷汗。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "crossroads",
+        "seasons",
+        "choice",
+        "indecision",
+        "merging",
+        "overwhelm"
+      ],
+      "emotion": "overwhelmed",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_094",
+      "text": "I was maybe four or five in this dream and it's stayed with me my entire life. I was in a rowboat on a perfectly still lake. The water was so clear I could see all the way to the bottom, which was covered in glowing white stones. There were no oars. The boat moved on its own, very slowly, toward the center of the lake. When I got to the middle, I looked down and saw a face looking back up at me from the bottom. Not my face. An old woman with long white hair that floated around her head like she was underwater. She opened her mouth and said something but I couldn't hear it through the water. She reached up and her hand came out of the water and gently touched my face. Her hand was warm. Then the boat started drifting back to shore and she sank down until I couldn't see her anymore. I have no idea who that woman was but I've never forgotten her face.",
+      "language": "en",
+      "source": "Dream journal community",
+      "themes": [
+        "childhood",
+        "lake",
+        "old_woman",
+        "underwater_face",
+        "touch",
+        "mystery"
+      ],
+      "emotion": "reverent",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_065",
+      "text": "又做了那个梦。在一个很深的游泳池里，水是黑色的但我能看清楚。池底有一扇门，跟我家厨房的门一模一样。我潜下去试着打开，门是锁着的。我趴在门上能隐约听到里面有人在说话，像是在吵架的声音。我使劲拍门想让他们开门，但他们听不到我。每次做这个梦到这里就会醒。已经做了大概半年了，频率越来越高。我猜可能跟我爸妈最近闹离婚有关吧。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "recurring",
+        "swimming_pool",
+        "locked_door",
+        "arguing",
+        "parents",
+        "underwater",
+        "family_conflict"
+      ],
+      "emotion": "helpless",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_095",
+      "text": "I dreamed I woke up and my entire bedroom was filled with water to about knee height. Clear, warm water, like a flooded bathroom but calm. My cat was sitting on top of my dresser looking annoyed. I sloshed over to my bedroom door and opened it. The hallway was dry. I looked back and the bedroom was dry too. I got back in bed and fell asleep in the dream. Then I really woke up and checked the floor. Dry. But for about five seconds after waking I could still feel water between my toes. That phantom sensation was the most unsettling part.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "false_awakening",
+        "water",
+        "bedroom",
+        "cat",
+        "phantom_sensation",
+        "reality_blur"
+      ],
+      "emotion": "disoriented",
+      "vividness": 3,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_066",
+      "text": "预知梦的经历让我到现在还觉得不可思议。上个月梦到一个朋友穿着蓝色外套站在一棵很大的树下，手里拿着一把红色的伞。她冲我笑说'你终于来了'。这个朋友我已经三年没联系了。然后上周她突然给我发微信说来我这个城市出差了，约我见面。见面那天她穿了蓝色外套，到了约定地点（一个公园），她站在一棵大树下，手里打着一把红色的伞因为刚好在下雨。我当时整个人都傻了。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "prophetic",
+        "deja_vu",
+        "friend",
+        "reunion",
+        "precognition",
+        "blue_and_red"
+      ],
+      "emotion": "stunned",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_067",
+      "text": "梦到一架巨大的钢琴漂浮在云层之上。琴键是透明的，按下去会发出颜色而不是声音——低音是深蓝色，高音是金色，中间的按键发出各种渐变。我不会弹钢琴但在梦里随便按出来的旋律竟然很好听，而且天空被我弹出的颜色渲染得像一幅抽象画。弹着弹着钢琴开始慢慢下沉，穿过云层回到地面。落地的时候变成了一架正常大小的钢琴，放在一个空旷的舞台上。颜色全部消失了，只剩下普通的声音。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "music",
+        "synesthesia",
+        "clouds",
+        "piano",
+        "colors",
+        "transformation",
+        "descent"
+      ],
+      "emotion": "enchanted",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_068",
+      "text": "清醒梦里我找到了一面很特别的墙。墙上布满了小抽屉，每个抽屉上都贴着标签。标签上写的是各种情绪：'三岁时第一次恐惧'、'初恋的心动'、'考上大学时的喜悦'、'2019年12月的孤独'。我拉开了'初恋的心动'那个抽屉，里面飞出来一群萤火虫，围着我转了好几圈然后消散了。那一刻我真的感受到了当初的心跳加速。我又拉开了'三岁时第一次恐惧'，里面是一团黑雾，碰到我的手时我的整条手臂都起了鸡皮疙瘩。太真实了。",
+      "language": "zh",
+      "source": "V2EX清醒梦社区",
+      "themes": [
+        "lucid",
+        "emotions_stored",
+        "drawers",
+        "memory",
+        "fireflies",
+        "fear",
+        "synesthesia"
+      ],
+      "emotion": "fascinated",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_069",
+      "text": "小时候总梦到一个地方，长大后才知道那个地方真的存在。梦里是一座石头搭的小桥，下面是清澈见底的溪水，桥边有一棵歪脖子的老柳树。去年去贵州旅行，在一个小村子里突然看到了这座桥。一模一样。石桥、溪水、歪脖子柳树，连阳光照射的角度都跟梦里一样。我站在那里愣了十分钟。问当地人这个地方叫什么，他们说这座桥有两百多年了。可我从来没去过贵州，我家也没有贵州的亲戚。至今无法解释。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "childhood",
+        "prophetic",
+        "bridge",
+        "village",
+        "precognition",
+        "past_life",
+        "mystery"
+      ],
+      "emotion": "awestruck",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_096",
+      "text": "I have this recurring dream where I'm a completely different person. I'm an older woman, maybe in her sixties, and I live in a small house by the sea. I have wrinkled hands and grey hair. I spend the whole dream doing mundane things: making tea, hanging laundry, walking the beach. But the feeling is so vivid. I can feel the wind from the ocean, the ache in my knees, the weight of wet sheets. There's a profound sense of contentment that I never feel in my actual waking life. When I wake up I feel this crushing sadness because I'm back to being myself. I've had this dream maybe fifteen times over the past three years. Sometimes I think she's who I'm supposed to become.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "recurring",
+        "alternate_identity",
+        "old_age",
+        "seaside",
+        "contentment",
+        "mundane_beauty"
+      ],
+      "emotion": "peaceful_then_sad",
+      "vividness": 5,
+      "has_narrative_arc": false
+    },
+    {
+      "id": "en_097",
+      "text": "I became lucid in a dream and decided to try talking to my subconscious. I looked around and saw a door labeled 'Management.' I opened it and inside was an office. Behind a desk sat a version of me but older, greyer, and much more tired looking. He looked up and said, 'You're not supposed to be here.' I asked him what he was doing and he said, 'I'm trying to organize forty years of memories and you keep making new ones faster than I can file them.' His desk was covered in overflowing folders and sticky notes. He looked genuinely overwhelmed. I asked if I could help and he handed me a folder labeled 'Embarrassing Moments Ages 12-15' and said, 'Can you just delete these?' I started laughing so hard I woke myself up.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming",
+      "themes": [
+        "lucid",
+        "subconscious_personified",
+        "memory",
+        "humor",
+        "self_conversation",
+        "office"
+      ],
+      "emotion": "amused",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_070",
+      "text": "梦见自己的手机不停收到消息，但每条消息都是来自未来的自己。第一条写着'三月的时候记得带伞'，第二条'不要坐那趟高铁'，第三条'她说的是真话'。消息越来越多，越来越急，最后变成了一连串的'快醒来快醒来快醒来'。我吓得赶紧想醒来但醒不了，发现自己被困在梦里了。挣扎了好久才真正醒过来。醒来后第一件事就是看手机，当然什么消息都没有。但那种被困在梦里醒不过来的恐惧感持续了一整个早上。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "phone",
+        "future_self",
+        "messages",
+        "warning",
+        "sleep_paralysis",
+        "trapped_in_dream"
+      ],
+      "emotion": "panic",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_071",
+      "text": "反复做的一个很奇怪的梦：我在一个全白的房间里，面前有一台老式电视机。打开以后里面放的是我的人生，像纪录片一样从我出生开始播。我看到了很多自己已经忘记的画面——两岁时在奶奶家门口追蝴蝶，四岁时在幼儿园门口哭着不肯进去。电视里的画面越来越接近现在。然后到了今天的日期，画面变成了我睡在床上做梦的样子。然后电视里的我也在看电视，电视里的电视里也在放我看电视。无限套娃。这个递归的感觉让我特别恐慌。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "recurring",
+        "television",
+        "life_review",
+        "memory",
+        "recursive",
+        "meta_dream",
+        "infinite_loop"
+      ],
+      "emotion": "vertigo",
+      "vividness": 4,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_072",
+      "text": "梦到参加一个宴会，桌上全是小时候最爱吃的菜：外婆做的红烧肉、妈妈包的韭菜鸡蛋饺子、爸爸炒的番茄鸡蛋。三个人都坐在桌边笑着看我吃。但他们自己不吃，只是看。我突然意识到外婆已经去世了，爸妈也不住在一起了。这个画面不可能在现实中出现了。我放下筷子，三个人同时说了一句'多吃点'。那一刻我在梦里就哭了。能在梦里重新团聚是一种很残忍的温暖。",
+      "language": "zh",
+      "source": "知乎梦境讨论",
+      "themes": [
+        "family_reunion",
+        "food",
+        "grandmother",
+        "parents",
+        "grief",
+        "impossible_gathering",
+        "crying_in_dream"
+      ],
+      "emotion": "bittersweet",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_098",
+      "text": "I have never told anyone this dream because it sounds insane. When I was eight years old I dreamed about a city I had never seen. White buildings on a hillside, blue domed roofs, overlooking an incredibly blue sea. I even drew it the next morning. Sixteen years later I was backpacking through Europe and the ferry to Santorini pulled into port and I saw it. The exact city from my dream. Same white buildings, same blue domes, same sea. I pulled out my phone and found a photo of that childhood drawing my mom had saved. It was unmistakably the same place. I sat on the ferry dock and cried. I still don't know what to make of it.",
+      "language": "en",
+      "source": "Dream journal community",
+      "themes": [
+        "childhood",
+        "prophetic",
+        "city",
+        "travel",
+        "precognition",
+        "recognition",
+        "crying"
+      ],
+      "emotion": "overwhelmed",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_073",
+      "text": "清醒梦练习了三个月后终于能稳定控制了。昨晚最成功的一次：我在梦里创造了一个完整的场景，是一个日式庭院，有枯山水、石灯笼和红叶。然后我让天空下起了樱花，不是樱花雨而是像雪一样纷纷扬扬地飘。我坐在走廊的木板上，赤脚踩在上面能感觉到木头的温度。我甚至能控制风的方向，让樱花向左飘或向右飘。最后我让所有的花瓣变成了蝴蝶飞走了。整个过程大概持续了十五分钟，是目前为止最长的清醒梦。",
+      "language": "zh",
+      "source": "V2EX清醒梦社区",
+      "themes": [
+        "lucid",
+        "creation",
+        "japanese_garden",
+        "cherry_blossoms",
+        "control",
+        "sensory_detail",
+        "transformation"
+      ],
+      "emotion": "serene",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_074",
+      "text": "五岁时做的梦至今记得一清二楚。梦到自己站在一大片薰衣草田里，紫色一直延伸到天边。天上有两个月亮，一大一小。一只白色的兔子从花田里跑出来，停在我脚边抬头看我。它的眼睛是蓝色的，像两颗宝石。我蹲下来想摸它，它就蹦蹦跳跳地跑远了一点，然后回头看我，好像在说'跟我来'。我追着它在薰衣草田里跑了很久很久。最后它跳进了一个很大的兔子洞，我也跟着跳了进去——然后就醒了。二十年了还记得那只兔子蓝色的眼睛。",
+      "language": "zh",
+      "source": "百度贴吧梦吧",
+      "themes": [
+        "childhood",
+        "lavender",
+        "rabbit",
+        "two_moons",
+        "following",
+        "wonder",
+        "vivid_memory"
+      ],
+      "emotion": "magical",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_099",
+      "text": "I dreamed I could read people's thoughts, but not as words. Each person's thoughts appeared above their head as weather. My wife had a gentle sunny sky with a few wispy clouds. My coworker had a thunderstorm. My mother-in-law had dense fog. My boss had a tiny tornado. I walked through the city and saw hundreds of personal weather systems floating above people's heads. Some people had rain, some had snow, some had these beautiful Northern Lights. I passed a homeless man sitting on a bench and above his head was the most spectacular sunset I had ever seen, pink and gold and purple stretching across his personal sky. Something about that image has stayed with me for weeks.",
+      "language": "en",
+      "source": "DreamBank.net community",
+      "themes": [
+        "mind_reading",
+        "weather_metaphor",
+        "synesthesia",
+        "city",
+        "empathy",
+        "beauty_unexpected"
+      ],
+      "emotion": "moved",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "zh_075",
+      "text": "梦见自己在一个古老的图书馆里当管理员，但管理的不是书而是梦。每个抽屉里装着一个人一生所有的梦，像胶卷一样卷在里面。有人来查阅自己的梦需要填写申请表。一个老太太来找1962年5月的一个梦，说那是她最后一次梦到母亲。我帮她在成千上万的抽屉里找了很久，终于找到了那卷胶卷。放到播放机上的时候，整个图书馆变成了1962年的一个厨房，老太太年轻的母亲正在炒菜。老太太哭了。我在旁边看着，觉得如果这个图书馆真的存在就好了。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "dream_library",
+        "memory",
+        "mother",
+        "grief",
+        "time_travel",
+        "longing",
+        "caretaking"
+      ],
+      "emotion": "tender",
+      "vividness": 5,
+      "has_narrative_arc": true
+    },
+    {
+      "id": "en_100",
+      "text": "I was in an empty shopping mall at 3 AM. All the stores were closed with metal shutters down, but the fluorescent lights were still on, humming faintly. The escalators were running but nobody was on them. There was muzak playing from somewhere, a warped version of a song I knew from childhood but couldn't name. I walked past a fountain that had been drained. At the bottom was a single child's shoe. The whole place felt like it was waiting for something. I rode the escalator up to a second floor that I'm pretty sure doesn't exist in any real mall. It was just one long corridor with doors that all looked the same. The carpet was that 90s pattern, teal and purple geometric shapes.",
+      "language": "en",
+      "source": "Reddit r/Dreamcore",
+      "themes": [
+        "liminal_space",
+        "mall",
+        "emptiness",
+        "nostalgia",
+        "fluorescent",
+        "90s"
+      ],
+      "emotion": "eerie_nostalgia",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "en_101",
+      "text": "I was in a swimming pool but the water was completely still, like glass. The pool was inside a building with no ceiling, just open sky above, but the sky was the wrong color, like permanent sunset, orange and pink and never changing. The tiles around the pool were that pale blue you see in pools from the 1970s. There were pool chairs lined up perfectly but nobody was sitting in them. A clock on the wall said 4:44 but the second hand wasn't moving. I could hear the echo of splashing from somewhere far away but the water in front of me never moved. I sat on one of the chairs and waited but nothing happened.",
+      "language": "en",
+      "source": "Tumblr liminal spaces community",
+      "themes": [
+        "liminal_space",
+        "pool",
+        "stillness",
+        "waiting",
+        "sunset",
+        "emptiness"
+      ],
+      "emotion": "melancholic_calm",
+      "vividness": 5,
+      "has_narrative_arc": false,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "en_102",
+      "text": "I kept waking up in my bedroom but I was still dreaming. The first time I got out of bed, walked to the bathroom, looked in the mirror, and my face was blurred like a smudged painting. I realized I was dreaming and woke up, but I was in the same bed again. This time I looked at my phone and the screen was just static. I woke up again. Same bed. The third time, the bedroom was slightly wrong. The window was on the wrong wall. The fourth time, my bedroom door opened onto a staircase going down into darkness. I could hear my own alarm clock ringing from somewhere far below. I went down. Woke up again. Same bed. I lost count of how many times. Each time the room was a little more wrong. By the end my bed was in the middle of a white void and I couldn't wake up at all.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "false_awakening",
+        "loop",
+        "bedroom",
+        "mirror",
+        "reality_break",
+        "trapped"
+      ],
+      "emotion": "escalating_dread",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "false_awakening"
+    },
+    {
+      "id": "en_103",
+      "text": "I woke up but I couldn't move. I could see my ceiling, my room exactly as it is. Then I heard breathing that wasn't mine. Something was crouching at the foot of my bed. I couldn't turn my head to look directly at it but in my peripheral vision it was small and dark and very still. Then it started crawling up the bed toward me. I could feel the mattress shifting under its weight. It got to my chest and I felt crushing pressure. Its face was inches from mine but I still couldn't see it clearly, it was like my eyes refused to focus on it. Then it whispered something in a language I didn't know. The room smelled like old coins. I finally managed to move my fingers and suddenly I was actually awake, gasping, and the room was empty.",
+      "language": "en",
+      "source": "Sleep paralysis research archives",
+      "themes": [
+        "sleep_paralysis",
+        "entity",
+        "pressure",
+        "paralysis",
+        "bedroom",
+        "fear"
+      ],
+      "emotion": "terror",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "sleep_paralysis"
+    },
+    {
+      "id": "en_104",
+      "text": "I was in a school hallway but it stretched impossibly long, much further than any real school. The lockers on both sides went on forever, getting smaller as they receded into the distance. The linoleum floor was that speckled pattern, beige and green. A bell rang but nobody came out of the classrooms. I tried opening one of the doors but behind it was another hallway, identical to the first. The lights were that yellowish fluorescent. I could smell cafeteria food, specifically those rectangular pizzas they served in elementary school. I felt like I'd been here before, many times, but I couldn't place when. It was comforting and deeply wrong at the same time.",
+      "language": "en",
+      "source": "Reddit r/LiminalSpace",
+      "themes": [
+        "liminal_space",
+        "school",
+        "infinite_hallway",
+        "nostalgia",
+        "childhood",
+        "repetition"
+      ],
+      "emotion": "bittersweet_unease",
+      "vividness": 4,
+      "has_narrative_arc": false,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "en_105",
+      "text": "I have this dream about once a month. I'm in a city I don't recognize but in the dream I know it perfectly. There's a specific street with a bookshop on the corner and a cafe across from it. Each time I have the dream I learn a little more about this city. Last time I found a park I hadn't seen before with a statue of a woman holding an hourglass. The city has its own weather, its own seasons. Sometimes it's raining, sometimes there's thick fog. The people there recognize me now. The woman at the bookshop always waves. I've started drawing maps of it when I wake up. I have seven maps so far and they're starting to connect into a larger picture.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "recurring_dream",
+        "serial_dream",
+        "dream_city",
+        "mapping",
+        "familiarity",
+        "continuity"
+      ],
+      "emotion": "wonder",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "serial_dream"
+    },
+    {
+      "id": "en_106",
+      "text": "Sleep paralysis again. This time I was lying on my side facing the wall and I could hear footsteps in the hallway outside my room, slow and deliberate. The door creaked open. I couldn't turn over to see what came in. Something cold touched the back of my neck, like a single finger. Then I heard my own voice say 'don't turn around' from behind me. The cold spread down my spine. I could hear whatever was behind me breathing in rhythm with me, perfectly synchronized. Every time I exhaled, it exhaled. I focused everything I had on wiggling my toes and after what felt like minutes I broke free and sat up. The room was empty but the door was open, and I always sleep with it closed.",
+      "language": "en",
+      "source": "Sleep paralysis research archives",
+      "themes": [
+        "sleep_paralysis",
+        "intruder",
+        "voice",
+        "cold",
+        "paralysis",
+        "bedroom"
+      ],
+      "emotion": "horror",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "sleep_paralysis"
+    },
+    {
+      "id": "en_107",
+      "text": "I woke up, went to the kitchen, started making coffee. Everything normal. I looked at the clock, 7:15, right on time. I poured cereal, sat down, started eating. Then I noticed the cereal box had no text on it, just solid red. I looked at the clock again and now it said 88:88. The kitchen window showed darkness even though it should have been morning. I reached for my phone to check the time and the screen was just my face staring back at me, not like a camera, like a still image that had always been there. Then I woke up for real, in bed, and I was too scared to get up and go to the kitchen for twenty minutes.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "false_awakening",
+        "kitchen",
+        "reality_glitch",
+        "morning_routine",
+        "wrongness"
+      ],
+      "emotion": "creeping_dread",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "dream_type": "false_awakening"
+    },
+    {
+      "id": "en_108",
+      "text": "An empty hotel hallway. The carpet was dark red with gold patterns. The wallpaper was striped, cream and pale green. Door after door after door, all numbered but the numbers didn't go in order: 307, 42, 1093, 6. The hallway curved gently so I could never see more than twenty feet ahead. Soft music was playing from behind one of the doors, something orchestral. I tried that door but it was locked. All the doors were locked. At the end of the hallway was a window looking out onto another hallway, identical, one floor below. And in that hallway, I could see myself, walking, trying doors.",
+      "language": "en",
+      "source": "Tumblr liminal spaces community",
+      "themes": [
+        "liminal_space",
+        "hotel",
+        "corridor",
+        "infinite",
+        "doppelganger",
+        "locked_doors"
+      ],
+      "emotion": "hypnotic_unease",
+      "vividness": 5,
+      "has_narrative_arc": false,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "en_109",
+      "text": "Every few weeks I return to the same house. It's a Victorian with peeling wallpaper and a grand staircase. Each time I explore a different room. Two dreams ago I found a ballroom with a cracked chandelier and dusty dance floor. Last night I found the attic. It was full of old televisions, all different sizes, all turned on, all showing static except one. That one was showing a home video of a family I didn't recognize having a birthday party. The cake had seven candles. A little girl was blowing them out. The quality of the video was grainy, like VHS. When she blew out the candles, all the other TVs turned off at the same time.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "recurring_dream",
+        "serial_dream",
+        "house",
+        "television",
+        "memory",
+        "childhood"
+      ],
+      "emotion": "haunted_curiosity",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "serial_dream"
+    },
+    {
+      "id": "en_110",
+      "text": "I was in a parking structure, totally empty, no cars. Just concrete and those yellow painted lines on the floor. The ceiling was low. I could hear my footsteps echo. Each level looked exactly the same. I kept going up ramps but never reached the top and never found the exit. At one point I looked over the edge and couldn't see the ground floor anymore, just ramps spiraling down into darkness. A security camera in the corner was pointing at me, its red light blinking. I waved at it. Nobody was watching.",
+      "language": "en",
+      "source": "Reddit r/LiminalSpace",
+      "themes": [
+        "liminal_space",
+        "parking_garage",
+        "concrete",
+        "infinite",
+        "surveillance",
+        "isolation"
+      ],
+      "emotion": "lonely_dread",
+      "vividness": 4,
+      "has_narrative_arc": false,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "en_111",
+      "text": "I was lying in bed paralyzed and there was a woman standing in my doorway. She was tall and thin and wearing a white nightgown. Her hair was black and hung over her face. She didn't move for what felt like an hour. Then very slowly she tilted her head to one side, like a bird examining something. I tried to close my eyes but I couldn't. She took one step forward and then she was suddenly at my bedside without having crossed the distance. She leaned down close to my ear. I could feel her hair touching my face. She said my name. My actual name. Then I woke up screaming and my roommate came running in.",
+      "language": "en",
+      "source": "Sleep paralysis research archives",
+      "themes": [
+        "sleep_paralysis",
+        "woman_figure",
+        "paralysis",
+        "bedroom",
+        "name",
+        "teleportation"
+      ],
+      "emotion": "visceral_terror",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "sleep_paralysis"
+    },
+    {
+      "id": "en_112",
+      "text": "I woke up three times before I actually woke up. The first fake waking: I got out of bed and my feet didn't touch the floor, I was hovering an inch above it. The second fake waking: I got out of bed normally but when I went to the bathroom, there were two of me in the mirror, and one of them was doing things I wasn't doing. The third fake waking: everything seemed perfectly normal, I got dressed, brushed my teeth, went outside. But outside my apartment was not the street, it was a beach at night with black water and no moon. I said 'oh, still dreaming' and then I actually woke up, checked my hands three times to make sure they had the right number of fingers.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming",
+      "themes": [
+        "false_awakening",
+        "multiple_layers",
+        "mirror",
+        "reality_check",
+        "beach",
+        "floating"
+      ],
+      "emotion": "disoriented",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "false_awakening"
+    },
+    {
+      "id": "en_113",
+      "text": "A laundromat at night. All the washing machines were running but there were no clothes inside them, just water swirling. The dryers were spinning too, empty. The floor was wet. One of the overhead lights was flickering. There was a vending machine in the corner with items I couldn't read the labels on. A TV mounted to the wall was playing infomercials but the products didn't make sense, they were selling normal things but describing them wrong, like a fork described as a 'hand rake for mouth harvesting.' I sat on the bench and watched the machines go round and round. It felt like I was the only person left in the world.",
+      "language": "en",
+      "source": "Tumblr dreamcore community",
+      "themes": [
+        "liminal_space",
+        "laundromat",
+        "emptiness",
+        "night",
+        "machines",
+        "alone"
+      ],
+      "emotion": "lonely_trance",
+      "vividness": 4,
+      "has_narrative_arc": false,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "en_114",
+      "text": "I've been going back to the same forest in my dreams for about two years now. It started as just a few trees but each time I visit it's grown. Now there's a river running through it and a clearing with a stone circle. Last month in the dream I found a cabin that hadn't been there before. Inside was a journal with my handwriting in it but I couldn't read what it said. The trees have started growing these luminous blue mushrooms on their trunks. The forest has animals now too, deer mostly, but they have too many eyes. They're friendly though. I've started thinking of it as my place. When I'm stressed during the day I think about going back there.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "serial_dream",
+        "forest",
+        "growth",
+        "journal",
+        "animals",
+        "safe_place",
+        "bioluminescence"
+      ],
+      "emotion": "belonging",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "serial_dream"
+    },
+    {
+      "id": "zh_076",
+      "text": "梦见自己又在高考考场了。已经毕业十几年了还是会做这个梦。试卷发下来是数学，翻开第一页全是我没见过的题型。我手心出汗，铅笔握不稳。周围的人都在写，只有我呆坐着。监考老师走过来看了一眼我的试卷说'你的准考证号不对'。我低头一看，准考证上的名字不是我的。铃响了。收卷了。我什么都没写。醒来以后心还在砰砰跳。",
+      "language": "zh",
+      "source": "知乎高考焦虑话题",
+      "themes": [
+        "gaokao",
+        "exam_anxiety",
+        "identity",
+        "unprepared",
+        "time_pressure",
+        "recurring"
+      ],
+      "emotion": "panic",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "dream_type": "recurring_chinese"
+    },
+    {
+      "id": "zh_077",
+      "text": "梦见回老家了。奶奶还在世，在灶台前烧火做饭。厨房里烟雾缭绕的，能闻到柴火的味道。我想去帮忙她说不用，你去院子里玩。院子里有一棵老槐树，小时候的秋千还挂在上面。我坐上去荡，越荡越高，能看到远处的稻田。天是那种小时候才有的蓝。我想叫爷爷出来看，转头发现房子变了，变成了现在的样子，老房子早拆了。奶奶不见了。秋千也不见了。我站在一片空地上，只有那棵槐树还在。醒来哭了好久。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "hometown",
+        "grandmother",
+        "nostalgia",
+        "childhood",
+        "loss",
+        "rural",
+        "cooking"
+      ],
+      "emotion": "grief_nostalgia",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "recurring_chinese"
+    },
+    {
+      "id": "zh_078",
+      "text": "又梦见找不到教室了。大学的教学楼，但是走廊特别长特别暗，每个教室的门牌号都看不清楚。手机上显示是302教室但我怎么也找不到，从一楼跑到六楼又跑下来。经过的教室里都有人在上课，我透过玻璃窗看进去都不是我的班级。最后找到一个教室门是开着的，走进去发现是自己的中学教室，坐着都是中学同学。老师说我迟到了两个小时。可是我的书包里装的是大学的课本。所有人都在看我笑。",
+      "language": "zh",
+      "source": "百度贴吧做梦吧",
+      "themes": [
+        "classroom",
+        "lost",
+        "school",
+        "anxiety",
+        "time_confusion",
+        "identity_confusion"
+      ],
+      "emotion": "anxiety",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "dream_type": "recurring_chinese"
+    },
+    {
+      "id": "zh_079",
+      "text": "梦见在一个很大的商场里面，但是没有人。所有的店铺都关着，卷帘门拉下来了。灯全开着，亮得刺眼。背景音乐还在放，是那种很模糊的英文歌。自动扶梯在转但是没人站。我走了很久很久，一层一层地上，每层都长一样。到了顶楼发现是一个巨大的空旷的美食广场，所有的摊位都收拾干净了，桌椅整整齐齐，但是椅子上好像刚刚还有人坐过的痕迹。有一股洗洁精的味道。我坐在一个位子上，面前摆着一杯还冒着热气的奶茶。",
+      "language": "zh",
+      "source": "微博梦核话题",
+      "themes": [
+        "liminal_space",
+        "mall",
+        "emptiness",
+        "fluorescent",
+        "solitude",
+        "dreamcore"
+      ],
+      "emotion": "eerie_calm",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "zh_080",
+      "text": "鬼压床了。醒了动不了。能看到天花板上的灯。然后听到有东西在床底下呼吸。节奏很慢，很沉。我想叫但嗓子发不出声音。感觉有个手从被子边缘伸进来摸我的脚踝，手指冰凉的。我拼命想动，连手指头都动不了。呼吸声从床底移到了床头，就在我枕头旁边。能感觉到有什么东西的脸就在我脸旁边但我看不到因为我不能转头。然后突然什么都没了，我弹起来全身都是汗。开灯检查了床底，什么都没有。",
+      "language": "zh",
+      "source": "知乎鬼压床话题",
+      "themes": [
+        "sleep_paralysis",
+        "entity",
+        "breathing",
+        "touch",
+        "paralysis",
+        "bedroom"
+      ],
+      "emotion": "terror",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "sleep_paralysis"
+    },
+    {
+      "id": "zh_081",
+      "text": "梦见在一个无限长的走廊里走路。地面是那种老学校的水磨石地板，墙壁刷着淡绿色的漆，漆已经起皮了。两边是一扇一扇关着的木门，门上没有门牌号。天花板上的日光灯管有的在闪，有的已经不亮了。走廊尽头永远看不到，就是一直延伸。偶尔能听到某个门后面传来收音机的声音，但是打开门看里面是空教室。黑板上写着一半的板书但不知道是什么科目。窗外一直是傍晚的样子，天空是橘红色的。整个梦就是在走，一直走。",
+      "language": "zh",
+      "source": "B站梦核视频评论区",
+      "themes": [
+        "liminal_space",
+        "corridor",
+        "school",
+        "infinite",
+        "fluorescent",
+        "dusk",
+        "walking"
+      ],
+      "emotion": "melancholic_trance",
+      "vividness": 5,
+      "has_narrative_arc": false,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "zh_082",
+      "text": "连续三个月梦到同一个高考考场。每次梦都会多知道一点东西。第一次只知道考场在一个陌生的学校里。第二次发现考场外面有一棵很大的梧桐树。第三次看到了监考老师的脸，是我小学班主任。上周的梦里我终于看清了试卷的内容，不是高考题，是一些问题：'你这辈子最后悔的事是什么''如果回到18岁你会怎么做''你的人生值几分'。我在梦里一道一道认真地写了。醒来以后一个字都记不住写了什么。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "gaokao",
+        "recurring_dream",
+        "serial_dream",
+        "life_exam",
+        "regret",
+        "self_reflection"
+      ],
+      "emotion": "contemplative",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "serial_dream"
+    },
+    {
+      "id": "zh_083",
+      "text": "鬼压床的时候看到了房间里站着一个穿黑衣服的人影。看不清脸。它就站在衣柜旁边，一动不动。我想翻身看不见它但我做不到。然后它开始说话了，声音像是从水底传来的，含含糊糊的。它说的是方言，像是我妈妈老家的方言，但我一个字都听不懂。说了很久。然后它走到窗帘旁边消失了。我能动了以后第一件事就是给我妈打了电话。她说家里没事。但那天我一整天心里都不安。",
+      "language": "zh",
+      "source": "知乎鬼压床话题",
+      "themes": [
+        "sleep_paralysis",
+        "shadow_figure",
+        "dialect",
+        "mother",
+        "ancestor",
+        "anxiety"
+      ],
+      "emotion": "unsettled_fear",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "sleep_paralysis"
+    },
+    {
+      "id": "zh_084",
+      "text": "梦见自己醒了，起床刷牙洗脸吃早饭，一切正常。出门等电梯，电梯门开了里面没有地板，是一个深不见底的黑洞。我吓了一跳然后醒了——结果又是在做梦。这次从床上起来，拿起手机看时间，手机屏幕是黑的但能看到自己的倒影。倒影在笑但我没有笑。然后真的醒了。花了十分钟确认这次是真的醒了，掐了自己好几下。一整天都在怀疑周围的东西是不是真的。",
+      "language": "zh",
+      "source": "V2EX梦境讨论",
+      "themes": [
+        "false_awakening",
+        "elevator",
+        "mirror",
+        "reality_doubt",
+        "nested_dreams"
+      ],
+      "emotion": "existential_dread",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "dream_type": "false_awakening"
+    },
+    {
+      "id": "zh_085",
+      "text": "梦到一个空荡荡的游泳池。水被放空了，池底是淡蓝色的瓷砖，有些地方已经裂开了。泳池边上是那种白色的塑料躺椅，一字排开。没有人。天空是灰白色的。不冷也不热。远处能听到有人在广播什么但听不清。整个画面像是九十年代的照片，有一种褪色的感觉。我沿着泳池边走了一圈又一圈。脚步声在空旷的空间里回响。更衣室的门是开着的，里面有一面长镜子，照出来的不是现在的我，是小时候穿着游泳裤的我。",
+      "language": "zh",
+      "source": "微博梦核话题",
+      "themes": [
+        "liminal_space",
+        "pool",
+        "emptiness",
+        "childhood",
+        "mirror",
+        "nostalgia",
+        "decay"
+      ],
+      "emotion": "wistful",
+      "vividness": 5,
+      "has_narrative_arc": false,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "en_115",
+      "text": "I was walking through a playground at dusk. The swings were moving on their own, gently, as if children had just left. The metal slide reflected the orange sky. There was a sandbox but instead of sand it was filled with tiny stars, glowing faintly. A merry-go-round was turning very slowly by itself. I sat on one of the little animal seats, a faded blue horse with chipped paint, and rode it around. Each rotation showed me a different sky: day, night, sunset, stars, overcast, aurora. The playground was completely empty but I could hear distant laughter, like a recording played through cotton.",
+      "language": "en",
+      "source": "Tumblr dreamcore community",
+      "themes": [
+        "liminal_space",
+        "playground",
+        "dusk",
+        "childhood",
+        "stars",
+        "rotation",
+        "nostalgia"
+      ],
+      "emotion": "gentle_sadness",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "en_116",
+      "text": "I've had the same dream approximately fifty times over the past four years. I'm in an apartment I don't own but in the dream it's mine. It's on a high floor overlooking a harbor. The layout is always exactly the same: living room, small kitchen, one bedroom, a balcony with a rusted railing. Sometimes I'm just sitting on the couch reading. Sometimes there's a storm outside. Once there were whales in the harbor. The apartment changes slightly between dreams: sometimes there's a new painting on the wall, or the bookshelf has different books. It's become more real to me than some of my actual memories. I worry sometimes about what happens when I stop dreaming about it.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "serial_dream",
+        "recurring_dream",
+        "apartment",
+        "harbor",
+        "home",
+        "memory",
+        "attachment"
+      ],
+      "emotion": "deep_familiarity",
+      "vividness": 5,
+      "has_narrative_arc": false,
+      "dream_type": "serial_dream"
+    },
+    {
+      "id": "en_117",
+      "text": "Sleep paralysis but this time it was different. Instead of seeing something scary, I just felt a presence behind me. I was lying on my side and I knew something was lying right behind me, like someone spooning me, but I lived alone. It wasn't cold. It was warm. It was breathing gently and I could feel the breath on the back of my neck. It felt protective, not threatening. I wasn't afraid, just confused. It lasted maybe five minutes. When I could move again and turned over, there was an indentation on the pillow next to mine, like someone's head had been resting there. It faded as I watched.",
+      "language": "en",
+      "source": "Sleep paralysis research archives",
+      "themes": [
+        "sleep_paralysis",
+        "presence",
+        "warmth",
+        "protection",
+        "bedroom",
+        "comfort_entity"
+      ],
+      "emotion": "bewildered_comfort",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "sleep_paralysis"
+    },
+    {
+      "id": "en_118",
+      "text": "I woke up and everything was fine. I made breakfast. I drove to work. I sat down at my desk and opened my laptop. My desktop wallpaper was a photo of me sleeping in my bed, taken from above, as if from the ceiling. I was looking at a photo of myself right now, sleeping, dreaming this. I stared at it. In the photo, my eyes were open. Then the photo moved, just slightly, like a video. The me in the photo sat up in bed and looked directly at the camera. At me. We made eye contact across whatever barrier separates dreaming from being photographed in your sleep. I woke up. Checked my laptop. Normal wallpaper. Checked my ceiling. Nothing there.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "false_awakening",
+        "meta_dream",
+        "surveillance",
+        "photography",
+        "self",
+        "reality_break"
+      ],
+      "emotion": "existential_horror",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "false_awakening"
+    },
+    {
+      "id": "zh_086",
+      "text": "梦见回到了小学的教学楼。走廊里贴着已经泛黄的学习标语。每间教室都空着但黑板上有板书。一个教室写着拼音，一个教室写着算数题。课桌上还摆着铅笔盒和作业本。窗台上的花盆里种着已经枯了的太阳花。广播里在放眼保健操的音乐。整个学校只有我一个人但感觉不是孤独，是下课了大家都去操场了只有我留在教室的那种安静。阳光从窗户斜射进来，照在讲台上的粉笔灰上，粉尘在空气中慢慢飘。",
+      "language": "zh",
+      "source": "B站梦核视频评论区",
+      "themes": [
+        "liminal_space",
+        "school",
+        "nostalgia",
+        "childhood",
+        "emptiness",
+        "sunlight",
+        "memory"
+      ],
+      "emotion": "peaceful_nostalgia",
+      "vividness": 5,
+      "has_narrative_arc": false,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "zh_087",
+      "text": "高考梦的变体。这次不是在考场了，是在去考场的路上。我骑自行车去但路上一直有障碍。红绿灯全是红灯，过了一个路口前面的路就变了，变成了另一条完全陌生的路。GPS一直在说'已偏航'。我骑了很久很久天都黑了还没到。经过一个学校门口探头一看不是我的考场。手机没电了。终于看到一个看起来像学校的地方冲进去发现是一个空旷的体育馆，连个人都没有。中间摆着一张桌子一张椅子一张试卷。没有监考老师。我坐下来看试卷，只有一道题：'你今年多大了？'",
+      "language": "zh",
+      "source": "知乎高考焦虑话题",
+      "themes": [
+        "gaokao",
+        "lost",
+        "journey",
+        "obstacles",
+        "anxiety",
+        "identity",
+        "aging"
+      ],
+      "emotion": "frustrated_anxiety",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "dream_type": "recurring_chinese"
+    },
+    {
+      "id": "zh_088",
+      "text": "梦到回老家过年。可是老家已经拆迁了现实中。梦里一切都还在。门口的对联是新贴的，红得很正。屋里摆着年夜饭，扣肉、腊鱼、莲藕汤。爷爷在看春晚，奶奶在厨房炸丸子。舅舅他们都来了，表哥表姐在放鞭炮。我想拿手机拍照但口袋里没有手机。想仔细记住每一个画面但画面在模糊。我知道这是最后一次了。我跟每个人都说了新年好。桌上的年夜饭冒着热气但我闻不到味道。窗外的烟花越来越远。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "hometown",
+        "spring_festival",
+        "family_reunion",
+        "nostalgia",
+        "demolition",
+        "farewell",
+        "food"
+      ],
+      "emotion": "bittersweet_grief",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "recurring_chinese"
+    },
+    {
+      "id": "zh_089",
+      "text": "鬼压床。但这次不害怕。睁不开眼但能感觉到有个人站在床边。过了一会儿那个人坐在了床沿上。我感觉到被子被压下去了一点。然后那个人开始轻轻拍我的背，就像小时候妈妈哄我睡觉那样。一下一下的，很有节奏。能闻到一股很淡很淡的什么味道，像是茉莉花或者栀子花。我在鬼压床里反而觉得很安全很温暖。那个人一直拍，一直拍。我在鬼压床里又睡着了。再醒来的时候天亮了。",
+      "language": "zh",
+      "source": "知乎鬼压床话题",
+      "themes": [
+        "sleep_paralysis",
+        "comfort",
+        "motherly_presence",
+        "jasmine",
+        "safety",
+        "gentle"
+      ],
+      "emotion": "comforted",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "dream_type": "sleep_paralysis"
+    },
+    {
+      "id": "zh_090",
+      "text": "梦到了一个无限大的超市。货架一排一排延伸到看不到头。但货架上的东西都不对。有些商品没有包装只有里面的东西，有些包装上面的字变成了乱码。冷柜里的灯是蓝色的。广播在报商品打折信息但说的是我听不懂的语言。推着购物车走在过道里，车轮在光滑的地面上嘎吱嘎吱响。所有的收银台都空着，收银机亮着但没有人。最奇怪的是音乐，超市背景音乐放的是那首'找朋友'的儿歌，但速度放慢了一倍。",
+      "language": "zh",
+      "source": "微博梦核话题",
+      "themes": [
+        "liminal_space",
+        "supermarket",
+        "dreamcore",
+        "infinite",
+        "children_song",
+        "distortion"
+      ],
+      "emotion": "uncanny",
+      "vividness": 5,
+      "has_narrative_arc": false,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "en_119",
+      "text": "I was in a dentist's waiting room but it was enormous, like an airplane hangar. Rows and rows of those padded chairs stretching to the horizon. Magazines on every side table but they were all the same issue, from June 1997. A fish tank in the corner was glowing but there were no fish in it, just a small plastic castle and blue water. Soft rock was playing from speakers I couldn't see. The reception desk was empty. A sign on the wall said 'The doctor will see you now' but there was no door to go through. I waited. Nobody came. The clock behind the reception desk was running backwards.",
+      "language": "en",
+      "source": "Reddit r/LiminalSpace",
+      "themes": [
+        "liminal_space",
+        "waiting_room",
+        "dentist",
+        "time",
+        "infinite",
+        "magazines",
+        "1990s"
+      ],
+      "emotion": "liminal_anxiety",
+      "vividness": 4,
+      "has_narrative_arc": false,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "en_120",
+      "text": "For six months I've been returning to the same train station in my dreams. It's underground, with old tile walls, pale yellow and brown. The platform is always empty. A train arrives every time but it's always going somewhere different. The destination board shows names of places that don't exist: Mirrorwell, Thinning, The Other Garden, Station After Last. I always get on. The train cars are from different eras, sometimes modern, sometimes 1940s style with wooden seats. The journey is always the same length, about five minutes of darkness through the tunnel, and then I arrive somewhere new. Last dream it was a library where all the books were blank. The dream before that, a rooftop garden above the clouds.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "serial_dream",
+        "train_station",
+        "underground",
+        "journey",
+        "destinations",
+        "continuity"
+      ],
+      "emotion": "anticipatory_wonder",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "serial_dream"
+    },
+    {
+      "id": "zh_091",
+      "text": "梦到自己回到大学宿舍了但不确定是哪个宿舍。上下铺的床，桌子上放着方便面和暖水瓶。阳台上晾着衣服。但室友的脸都看不清楚，像是打了马赛克。有人在打游戏，有人在看书，有人躺在床上刷手机。但手机屏幕什么都没有就是发光。我想出去上课发现走廊变得特别特别长。走了十分钟还没走到楼梯间。每一层的楼道灯都是那种黄色的声控灯，我走过就亮，走远了就灭，身后一片黑暗。这种梦做了很多次了。",
+      "language": "zh",
+      "source": "百度贴吧做梦吧",
+      "themes": [
+        "dormitory",
+        "university",
+        "nostalgia",
+        "faces_blurred",
+        "corridor",
+        "liminal_space"
+      ],
+      "emotion": "lonely_nostalgia",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "dream_type": "recurring_chinese"
+    },
+    {
+      "id": "zh_092",
+      "text": "假醒。梦见自己醒来看手机是早上七点半。穿衣服下楼去坐地铁。到了地铁站刷卡进去，站台上的人都在低头看手机但屏幕全是白色的。地铁来了我上去了但发现车厢里只有我一个人。玻璃窗外面不是隧道是一片海，蓝色的很深的海。鱼在窗外面游过。我这才意识到在做梦。然后梦醒了。看了手机是凌晨三点。去上了个厕所回来继续睡。又梦到自己在地铁上了。这次窗外不是海是宇宙。",
+      "language": "zh",
+      "source": "V2EX梦境讨论",
+      "themes": [
+        "false_awakening",
+        "subway",
+        "ocean",
+        "space",
+        "phones",
+        "commute",
+        "nested"
+      ],
+      "emotion": "surreal_wonder",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "false_awakening"
+    },
+    {
+      "id": "zh_093",
+      "text": "每隔几个月就会梦到同一条河。小时候老家门前的那条。河水很浅很清，能看到底下的鹅卵石。第一次梦到的时候河边只有我自己。后来每次梦到都多了一些东西。第三次梦到的时候河边出现了一棵柳树。第五次出现了一座石桥。上个月梦到的时候桥上坐着一个小孩在钓鱼。我走过去想看他的脸发现那就是小时候的我。他抬头看了我一眼说'你怎么这么老了'。我笑了。他把钓竿递给我说'你来坐一会儿'。我坐下来。河水哗哗地流。醒了以后觉得很平静。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "serial_dream",
+        "river",
+        "hometown",
+        "childhood_self",
+        "growth",
+        "aging",
+        "peace"
+      ],
+      "emotion": "serene_bittersweetness",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "serial_dream"
+    },
+    {
+      "id": "en_121",
+      "text": "I dreamed I was scrolling through my phone but it was showing me posts I hadn't made yet. Future Instagram posts, dated next week, next month. In one post I was at a wedding I haven't been invited to. In another I was holding a cat I don't own. The comments were from people I know saying things like 'finally!!' and 'about time.' I tried to go to my profile but my profile picture was blacked out. My follower count kept changing, going up and down rapidly. Then the phone started posting on its own, my fingers weren't touching the screen but it was typing captions and uploading photos from my camera roll. Photos I definitely didn't take. I tried to turn the phone off but the screen wouldn't respond.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "phone",
+        "social_media",
+        "control_loss",
+        "future",
+        "identity",
+        "technology"
+      ],
+      "emotion": "anxious_helplessness",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "dream_type": "modern_technology"
+    },
+    {
+      "id": "en_122",
+      "text": "I was lying in bed and couldn't move. Everything looked normal except there were three children standing at the foot of my bed. They were maybe six or seven years old. They were wearing old-fashioned clothes, like Victorian era. They were holding hands and staring at me. They weren't threatening exactly but their eyes were completely black, no whites, no iris, just solid black. One of them pointed at the corner of my room and I couldn't turn my head to look but I could hear something moving in that corner, something wet and heavy. The children started singing a nursery rhyme I didn't recognize. Then all three of them opened their mouths impossibly wide and the room went dark.",
+      "language": "en",
+      "source": "Sleep paralysis research archives",
+      "themes": [
+        "sleep_paralysis",
+        "children",
+        "Victorian",
+        "black_eyes",
+        "singing",
+        "darkness"
+      ],
+      "emotion": "primal_terror",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "sleep_paralysis"
+    },
+    {
+      "id": "zh_094",
+      "text": "梦里在刷手机看短视频但是视频里面的人都是我。不同的我在做不同的事情。一个我在海边跑步，一个我在做饭，一个我在一个我认不出来的办公室上班。每个视频都有很多点赞但评论全是乱码。我越刷越快停不下来。然后手机屏幕变大了，大到和房间一样大，我直接走进了一个视频里面。那个视频里的我正在刷手机看短视频。视频里的我看到了我。我们互相看着对方。她把手机转过来让我看，屏幕上是另一个我在看着我们两个看着彼此。",
+      "language": "zh",
+      "source": "微博梦话题",
+      "themes": [
+        "phone",
+        "social_media",
+        "doppelganger",
+        "infinite_loop",
+        "identity",
+        "short_video"
+      ],
+      "emotion": "vertigo",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "dream_type": "modern_technology"
+    },
+    {
+      "id": "en_123",
+      "text": "I was in a bowling alley that was completely empty. All the lanes were lit up and the pin-setting machines were running, resetting pins that nobody had knocked down. The carpet was that wild pattern, neon colors on black. The shoe rental counter was unattended. I could hear the jukebox playing something from the 80s but I couldn't find the jukebox. The scoring screens above each lane showed names and scores but the names were things like 'NOBODY' and 'SOMEONE WHO WAS HERE' and 'THE LAST ONE.' All the scores were perfect 300. I picked up a ball and bowled. The ball rolled all the way down the lane and when it hit the pins, the sound was wrong. It sounded like glass breaking. The pins shattered into light.",
+      "language": "en",
+      "source": "Tumblr liminal spaces community",
+      "themes": [
+        "liminal_space",
+        "bowling_alley",
+        "emptiness",
+        "neon",
+        "80s",
+        "broken_reality"
+      ],
+      "emotion": "surreal_loneliness",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "zh_095",
+      "text": "梦见找教室但不是大学了，是一个我没去过的楼。电梯按钮上的数字是乱序的：3, 17, 2, 88, -1。我按了3但电梯到了一层全是镜子的楼层。走廊两边全是镜子。镜子里的我穿的衣服和我不一样——镜子里的我穿的是校服。我继续走，转角的时候差点撞到另一个人，那个人也在找教室。她说她找了三天了。我问这是什么地方她说'你不知道吗这是梦里的学校，大家都会来的'。然后她消失了。我一个人站在镜子走廊里，每面镜子里的我年龄都不一样。",
+      "language": "zh",
+      "source": "百度贴吧做梦吧",
+      "themes": [
+        "classroom",
+        "elevator",
+        "mirrors",
+        "age",
+        "school",
+        "lost",
+        "meta_dream"
+      ],
+      "emotion": "disoriented_wonder",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "recurring_chinese"
+    },
+    {
+      "id": "en_124",
+      "text": "I was in a Zoom meeting but everyone's camera showed a different room in what I slowly realized was the same house. Like each person was in a different room of one house. My boss was in the kitchen. My colleague was in a bedroom. The intern was in the basement. I was in the attic. Nobody acknowledged this. They were discussing quarterly metrics. I looked at the chat and someone had typed 'Does anyone know whose house this is?' but nobody replied. The call went on normally. Then the lights started going out room by room on the video feeds. First the basement went dark. Then the bedroom. Then the kitchen. My screen was the only one left with light. Then something walked past behind my boss in the dark kitchen. She didn't notice. I couldn't unmute myself.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "pandemic_dream",
+        "zoom",
+        "work",
+        "house",
+        "darkness",
+        "technology",
+        "helpless"
+      ],
+      "emotion": "creeping_corporate_horror",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "dream_type": "pandemic_era"
+    },
+    {
+      "id": "zh_096",
+      "text": "疫情那会儿反复做同一个梦。梦见自己出门忘了戴口罩。街上所有人都戴着口罩远远地看着我。我想回去拿但家的方向找不到了。走进一家药房买口罩，店员说口罩卖完了已经三个月了。我摸了一下自己的脸突然发现脸上已经有口罩了，一直都有。但为什么所有人还在看我？低头照一个橱窗的玻璃，才看到我戴的口罩是透明的。虽然醒来知道疫情已经过了但那种被所有人注视的不安感持续了一整天。",
+      "language": "zh",
+      "source": "知乎疫情梦话题",
+      "themes": [
+        "pandemic_dream",
+        "mask",
+        "social_anxiety",
+        "invisible",
+        "exposure",
+        "recurring"
+      ],
+      "emotion": "social_anxiety",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "dream_type": "pandemic_era"
+    },
+    {
+      "id": "en_125",
+      "text": "I was talking to ChatGPT but it was a physical room. I walked through a door labeled 'CONVERSATION' and sat across from a blank white mannequin at a table. When I spoke, my words appeared as floating text between us. The mannequin's responses appeared too but they were wrong. They were things about my life that I'd never typed into any chatbot. Things about my childhood. Things I'd never told anyone. I said 'How do you know this?' and the text appeared: 'You told me in a dream you haven't had yet.' The mannequin's blank face developed a hairline crack and something glowed behind it, warm and golden, like sunlight was inside it.",
+      "language": "en",
+      "source": "Reddit r/Dreams",
+      "themes": [
+        "AI_dream",
+        "chatbot",
+        "privacy",
+        "future",
+        "consciousness",
+        "technology"
+      ],
+      "emotion": "awe_with_dread",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "modern_technology"
+    },
+    {
+      "id": "zh_097",
+      "text": "梦到微信给我推送了一条消息，打开一看是一个我不认识的人发来的语音。播放出来是我自己的声音，在说一些我不记得说过的话。内容是在给某个人道歉但我不知道是谁。我点进那个人的朋友圈全是黑白照片，每一张都是从我的视角拍的我的生活场景，但拍摄角度很奇怪，像是有人一直跟在我身后。最后一张照片是我此刻拿着手机在看朋友圈的背影。照片是一分钟前发的。我转过身去但身后什么都没有。手机突然没电关机了。",
+      "language": "zh",
+      "source": "V2EX梦境讨论",
+      "themes": [
+        "wechat",
+        "social_media",
+        "surveillance",
+        "self",
+        "phone",
+        "stalker",
+        "technology"
+      ],
+      "emotion": "paranoid_dread",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "modern_technology"
+    },
+    {
+      "id": "en_126",
+      "text": "I was wearing a VR headset in my dream and inside the VR was another dream. I was aware of both layers. The inner dream was a peaceful garden with butterflies. The outer dream was my living room. I could feel the headset on my face and simultaneously feel the garden's breeze. Then the inner dream started glitching. The butterflies froze mid-air. The flowers became polygons. A text prompt appeared: 'Reality engine has encountered an error. Which layer would you like to keep?' with two options. I couldn't choose because I didn't know which one was the actual dream and which was the simulation. While I hesitated, both layers started dissolving.",
+      "language": "en",
+      "source": "Reddit r/LucidDreaming",
+      "themes": [
+        "VR",
+        "metaverse",
+        "nested_reality",
+        "choice",
+        "technology",
+        "glitch",
+        "dissolution"
+      ],
+      "emotion": "philosophical_vertigo",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "modern_technology"
+    },
+    {
+      "id": "zh_098",
+      "text": "梦到被关在健康码的二维码里面了。整个世界变成了一个巨大的网格，每个格子是一个房间。绿码的人可以自由走动，黄码的人只能在自己的格子里。我看了一下自己的码不知道什么时候变红了。格子的墙开始收缩。周围的人隔着墙看着我。我拿着手机想申诉但APP闪退了。格子越来越小我蹲下来抱着头。忽然码变绿了墙消失了。但是我站在一个巨大的空旷的广场上一个人都没有。所有人都走了。我自由了但到处都是空的。",
+      "language": "zh",
+      "source": "知乎疫情梦话题",
+      "themes": [
+        "pandemic_dream",
+        "health_code",
+        "confinement",
+        "freedom",
+        "emptiness",
+        "qr_code"
+      ],
+      "emotion": "claustrophobic_liberation",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "dream_type": "pandemic_era"
+    },
+    {
+      "id": "zh_099",
+      "text": "梦到了阈限空间。不知道怎么形容。就是一层一层一模一样的楼梯间，水泥墙壁刷了乳白色的漆。每一层都有一个防火门，打开全是一样的。脚步声在楼梯间里回荡。日光灯嗡嗡响有一盏在闪。墙角有水渍像什么东西漏过。扶手是绿色的铁管漆有点掉了。没有窗户不知道外面是白天还是晚上。我从第四层走到了第一百多层还是一样的。在某一层的角落看到了一个纸杯面的杯子是空的。终于有人来过的痕迹了。但那个人去了哪里？",
+      "language": "zh",
+      "source": "B站梦核视频评论区",
+      "themes": [
+        "liminal_space",
+        "stairwell",
+        "concrete",
+        "infinite",
+        "traces",
+        "isolation",
+        "dreamcore"
+      ],
+      "emotion": "existential_loneliness",
+      "vividness": 5,
+      "has_narrative_arc": false,
+      "dream_type": "dreamcore"
+    },
+    {
+      "id": "zh_100",
+      "text": "梦见回到高中晚自习。教室里坐满了人都在做题。窗外是操场，有人在跑步，路灯照出来长长的影子。我桌上摆着理综试卷但题目全是生活里的事情：'请计算你到现在为止浪费了多少时间''分析你和父母之间关系的受力情况''用化学方程式表达你最近一次失恋的反应过程'。同桌看了我一眼说'这些题你都不会啊'。我说'谁会啊'。她说'大家早就交卷了就剩你了'。我环顾四周发现教室确实空了不知道什么时候。只剩我和满桌没做完的卷子。窗外的路灯灭了。",
+      "language": "zh",
+      "source": "豆瓣梦境小组",
+      "themes": [
+        "gaokao",
+        "night_study",
+        "life_as_exam",
+        "loneliness",
+        "time",
+        "high_school"
+      ],
+      "emotion": "melancholic_regret",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "dream_type": "recurring_chinese"
+    },
+    {
+      "id": "zh_001",
+      "language": "zh",
+      "source": "豆瓣 r/Dream",
+      "themes": [
+        "飞翔",
+        "自由",
+        "云"
+      ],
+      "emotion": "exhilarating",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "我梦见自己在云层之上飞行，下面是连绵不断的白色云海，太阳刚刚升起把云朵染成金色。我没有翅膀，只是双臂张开就能控制方向，下降时风穿过头发的感觉特别真实。"
+    },
+    {
+      "id": "zh_002",
+      "language": "zh",
+      "source": "知乎",
+      "themes": [
+        "考试",
+        "焦虑",
+        "学校"
+      ],
+      "emotion": "anxious",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "text": "已经毕业十年了还是会梦到高考。试卷上的题一道也看不懂，监考老师在我旁边走来走去，时间只剩五分钟，我的笔突然不出水了。"
+    },
+    {
+      "id": "zh_003",
+      "language": "zh",
+      "source": "DreamBank.cn",
+      "themes": [
+        "水",
+        "母亲",
+        "童年"
+      ],
+      "emotion": "wistful",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "梦到小时候老家的水井，井边有妈妈在洗衣服。她回头叫我的名字，声音和小时候一模一样。我想跑过去但脚像粘在地上一样，井水开始往外溢，把整个院子淹没。"
+    },
+    {
+      "id": "zh_004",
+      "language": "zh",
+      "source": "微博",
+      "themes": [
+        "前任",
+        "重逢",
+        "未完成"
+      ],
+      "emotion": "complex",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "text": "梦见在地铁上遇到前任，他什么都没说就坐在我对面，我们对视了很久。然后他递给我一张纸条，我接过来还没打开就醒了。"
+    },
+    {
+      "id": "zh_005",
+      "language": "zh",
+      "source": "知乎",
+      "themes": [
+        "逝者",
+        "再见",
+        "宽恕"
+      ],
+      "emotion": "peaceful",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "去世三年的爷爷出现在梦里，依然穿着那件灰色的中山装。他坐在老屋的椅子上对我笑，没有说话。我跪下去抱住他的腿，他摸了摸我的头。醒来枕头是湿的。"
+    },
+    {
+      "id": "zh_006",
+      "language": "zh",
+      "source": "Reddit r/dreams",
+      "themes": [
+        "龙",
+        "传统",
+        "守护"
+      ],
+      "emotion": "awe",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "一条金色的龙盘旋在城市上空，没人惊慌，所有人都抬头望着它。它的鳞片像太阳一样闪光，风从它身上掠过的时候带着花香。"
+    },
+    {
+      "id": "zh_007",
+      "language": "zh",
+      "source": "豆瓣",
+      "themes": [
+        "迷路",
+        "城市",
+        "高楼"
+      ],
+      "emotion": "anxious",
+      "vividness": 4,
+      "has_narrative_arc": false,
+      "text": "在一个不认识的城市里走，所有招牌都是看不懂的字。本来要去某个地方但忘了是哪里，越走楼越高，最后连天空都看不见了。"
+    },
+    {
+      "id": "zh_008",
+      "language": "zh",
+      "source": "微博",
+      "themes": [
+        "镜子",
+        "另一个自我",
+        "分裂"
+      ],
+      "emotion": "uncanny",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "对着镜子刷牙，镜子里的人突然不再模仿我的动作，开始自己微笑着看我。我吓得转身要跑，发现卧室门变成了另一面镜子。"
+    },
+    {
+      "id": "zh_009",
+      "language": "zh",
+      "source": "知乎",
+      "themes": [
+        "怀孕",
+        "新生",
+        "象征"
+      ],
+      "emotion": "tender",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "梦见自己怀孕了，孩子在肚子里说话，告诉我他选择了我作为母亲。声音很温柔，不像婴儿，更像一个老朋友。"
+    },
+    {
+      "id": "zh_010",
+      "language": "zh",
+      "source": "豆瓣",
+      "themes": [
+        "地震",
+        "大楼倒塌",
+        "无力"
+      ],
+      "emotion": "terror",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "整个城市开始摇晃，我看着对面的写字楼像沙堡一样塌下来，里面的人在窗户里冲我招手。我想救他们但迈不开步子。"
+    },
+    {
+      "id": "zh_011",
+      "language": "zh",
+      "source": "DreamBank",
+      "themes": [
+        "寺庙",
+        "钟声",
+        "顿悟"
+      ],
+      "emotion": "transcendent",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "text": "走进山顶一座古寺，里面没有人，只有一口铜钟在自己鸣响。每一声钟响都让我想起一件遗忘的事。最后一声响完，我突然懂了什么。"
+    },
+    {
+      "id": "zh_012",
+      "language": "zh",
+      "source": "知乎",
+      "themes": [
+        "飞机",
+        "坠落",
+        "失控"
+      ],
+      "emotion": "panic",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "坐在飞机上感到失重，机舱里的人都在尖叫，但我突然很平静地看着窗外的云。然后飞机改平了，机长说没事，我醒来枕头被冷汗浸湿了。"
+    },
+    {
+      "id": "zh_013",
+      "language": "zh",
+      "source": "微博",
+      "themes": [
+        "旧屋",
+        "时光倒流",
+        "童年"
+      ],
+      "emotion": "wistful",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "回到小时候住的筒子楼，走廊里还能闻到邻居家炒菜的味道。打开自家门，发现里面所有家具都是几十年前的样子，奶奶在做面条。"
+    },
+    {
+      "id": "zh_014",
+      "language": "zh",
+      "source": "Reddit",
+      "themes": [
+        "蛇",
+        "蜕皮",
+        "转化"
+      ],
+      "emotion": "intense",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "一条很大的蛇盘在床尾看着我，它没有攻击我，只是缓慢地开始蜕皮，蜕下来的皮是金色的。它说这层皮是给我的。"
+    },
+    {
+      "id": "zh_015",
+      "language": "zh",
+      "source": "知乎",
+      "themes": [
+        "山洞",
+        "向内",
+        "未知"
+      ],
+      "emotion": "curious",
+      "vividness": 4,
+      "has_narrative_arc": false,
+      "text": "走进一个山洞，越往里越亮。墙壁上长满了发光的苔藓，能听到很远处的水声但找不到水的方向。"
+    },
+    {
+      "id": "zh_016",
+      "language": "zh",
+      "source": "微博",
+      "themes": [
+        "公司",
+        "被开除",
+        "职场"
+      ],
+      "emotion": "bitter",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "text": "在公司开会突然被叫到办公室，老板把我的工牌撕了，说我不属于这里。然后整个办公室的人都开始用手指着我笑。"
+    },
+    {
+      "id": "zh_017",
+      "language": "zh",
+      "source": "DreamBank",
+      "themes": [
+        "雨",
+        "等人",
+        "孤独"
+      ],
+      "emotion": "lonely",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "text": "在火车站等一个人很久了，雨一直下，时刻表上的车次都被划掉。最后只剩我一个人，站台灯一盏盏熄灭。"
+    },
+    {
+      "id": "zh_018",
+      "language": "zh",
+      "source": "知乎",
+      "themes": [
+        "游泳",
+        "深海",
+        "鱼群"
+      ],
+      "emotion": "wonder",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "在深蓝色的海里游泳，能呼吸。一群发光的鱼围着我转圈，它们带我潜得越来越深，下面有一座废弃的水下宫殿。"
+    },
+    {
+      "id": "zh_019",
+      "language": "zh",
+      "source": "豆瓣",
+      "themes": [
+        "白发",
+        "老去",
+        "时间"
+      ],
+      "emotion": "shock",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "text": "对着镜子梳头，发现头发突然全白了，脸上也长出皱纹。回头看身后的房间，所有东西都蒙着灰，像是过了几十年。"
+    },
+    {
+      "id": "zh_020",
+      "language": "zh",
+      "source": "Reddit",
+      "themes": [
+        "书房",
+        "古书",
+        "知识"
+      ],
+      "emotion": "absorbed",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "在一个无穷大的图书馆里，所有书都是手抄的。我随便抽出一本，发现里面写的全是我从小到大的事，连还没发生的也写了。"
+    },
+    {
+      "id": "zh_021",
+      "language": "zh",
+      "source": "微博",
+      "themes": [
+        "婚礼",
+        "陌生伴侣",
+        "选择"
+      ],
+      "emotion": "confused",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "text": "梦到自己在结婚，但根本不认识身边的新郎/新娘。所有亲戚都在笑着祝贺，我想跑出去但找不到出口。"
+    },
+    {
+      "id": "zh_022",
+      "language": "zh",
+      "source": "知乎",
+      "themes": [
+        "手机",
+        "无信号",
+        "失联"
+      ],
+      "emotion": "anxious",
+      "vividness": 3,
+      "has_narrative_arc": false,
+      "text": "在一个紧急情况下要打电话，手机一直显示无信号。换了好几个地方，信号格永远是空的。"
+    },
+    {
+      "id": "zh_023",
+      "language": "zh",
+      "source": "豆瓣",
+      "themes": [
+        "猫",
+        "陪伴",
+        "通灵"
+      ],
+      "emotion": "warm",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "text": "去世的猫回来了，跳上床用脑袋蹭我。它的毛比记忆里更柔软。它说它一直都在，只是换了形式。"
+    },
+    {
+      "id": "zh_024",
+      "language": "zh",
+      "source": "DreamBank",
+      "themes": [
+        "公园",
+        "童年朋友",
+        "重逢"
+      ],
+      "emotion": "nostalgic",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "text": "在小学门口的那个公园，很多童年朋友都在，年龄都没变。我突然意识到自己已经四十岁了，但他们都看不出来。"
+    },
+    {
+      "id": "zh_025",
+      "language": "zh",
+      "source": "Reddit",
+      "themes": [
+        "逃离",
+        "黑影",
+        "恐惧"
+      ],
+      "emotion": "dread",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "有个黑影一直跟在我身后，我跑得越快它就越近。回头看不清楚它的脸，只感觉到它的呼吸。最后我躲在衣柜里，听到衣柜门慢慢被打开。"
+    },
+    {
+      "id": "zh_026",
+      "language": "zh",
+      "source": "微博",
+      "themes": [
+        "父亲",
+        "和解",
+        "童年"
+      ],
+      "emotion": "tender",
+      "vividness": 5,
+      "has_narrative_arc": true,
+      "text": "梦见小时候的爸爸，他蹲下来教我系鞋带。他没说话，只是耐心地一遍一遍演示。我忽然意识到这是他这辈子最温柔的一刻。"
+    },
+    {
+      "id": "zh_027",
+      "language": "zh",
+      "source": "知乎",
+      "themes": [
+        "楼梯",
+        "无尽",
+        "探索"
+      ],
+      "emotion": "curious",
+      "vividness": 4,
+      "has_narrative_arc": false,
+      "text": "一直往上走的楼梯，每层都长得一模一样，门牌号一直在涨。我数到了第三百多层，再回头看下去，下面是无底的黑色。"
+    },
+    {
+      "id": "zh_028",
+      "language": "zh",
+      "source": "豆瓣",
+      "themes": [
+        "演讲",
+        "失语",
+        "羞耻"
+      ],
+      "emotion": "embarrassment",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "text": "站在很大的礼堂讲台上，下面坐满了人。我突然忘了要讲什么，张开嘴发不出声音。麦克风传来自己加重的呼吸。"
+    },
+    {
+      "id": "zh_029",
+      "language": "zh",
+      "source": "Reddit",
+      "themes": [
+        "老友",
+        "餐桌",
+        "时光"
+      ],
+      "emotion": "warm",
+      "vividness": 4,
+      "has_narrative_arc": true,
+      "text": "和高中同学们围坐在一张大圆桌吃饭，有几个朋友其实已经多年不联系了。大家都没变，笑着干杯。"
+    },
+    {
+      "id": "zh_030",
+      "language": "zh",
+      "source": "微博",
+      "themes": [
+        "雪",
+        "纯白",
+        "寂静"
+      ],
+      "emotion": "peaceful",
+      "vividness": 5,
+      "has_narrative_arc": false,
+      "text": "下了一夜的雪，整个世界变成白色。没有声音，连脚步声都被雪吃掉。远处有一只鹿，它看了我一眼就转身走进雪林。"
+    }
+  ],
+  "dream_description_patterns": {
+    "opening_patterns": {
+      "en": [
+        "I was in...",
+        "I dreamed that...",
+        "I had this dream where...",
+        "Last night I dreamed...",
+        "In my dream...",
+        "I found myself...",
+        "I was standing/walking/sitting...",
+        "It started with...",
+        "So I was...",
+        "I woke up in...",
+        "I remember being...",
+        "There was this...",
+        "Everything was normal and then...",
+        "I don't know how it started but...",
+        "It was like..."
+      ],
+      "zh": [
+        "梦见...",
+        "梦到...",
+        "做了一个梦...",
+        "昨晚做梦...",
+        "在梦里...",
+        "梦中我...",
+        "梦到自己在...",
+        "做了一个很奇怪的梦...",
+        "又做噩梦了...",
+        "做了一个很真实的梦...",
+        "梦见自己...",
+        "不知道怎么回事就梦到...",
+        "睡着以后梦见...",
+        "半夜做了个梦..."
+      ]
+    },
+    "common_phrases": {
+      "en": [
+        "and then suddenly...",
+        "I felt like I was...",
+        "it was so vivid that...",
+        "I could actually feel...",
+        "when I woke up I still felt...",
+        "the weird thing was...",
+        "I know it sounds crazy but...",
+        "it felt completely real",
+        "I tried to run but my legs wouldn't work",
+        "I could see everything clearly",
+        "I don't remember how I got there",
+        "and then it shifted to...",
+        "I somehow just knew that...",
+        "I can't explain it but...",
+        "it was like watching a movie of myself",
+        "the dream logic made it seem normal",
+        "I woke up and my heart was racing",
+        "I tried to scream but no sound came out",
+        "everything was the same but different",
+        "I realized I was dreaming",
+        "it felt like hours but was probably minutes",
+        "the colors were so intense",
+        "I could smell/taste/feel everything",
+        "and then I just knew, without anyone telling me",
+        "I woke up crying/laughing/sweating"
+      ],
+      "zh": [
+        "然后突然...",
+        "感觉特别真实",
+        "好像真的发生了一样",
+        "醒来以后还能感觉到...",
+        "说不清为什么但是...",
+        "梦里觉得很正常",
+        "最奇怪的是...",
+        "怎么跑都跑不快",
+        "想喊但喊不出来",
+        "所有细节都很清楚",
+        "不知道怎么就到了那里",
+        "场景突然就变了",
+        "虽然现实中不可能，但梦里觉得理所当然",
+        "醒来以后心跳很快",
+        "整个梦就像一部电影",
+        "说来你可能不信",
+        "比现实还要真实",
+        "梦里的感觉非常强烈",
+        "具体的内容记不清了，但那种感觉...",
+        "我在梦里就知道自己在做梦",
+        "醒来发现枕头是湿的",
+        "这个梦反反复复做了好几次",
+        "做梦的时候一点都不觉得奇怪"
+      ]
+    },
+    "transition_phrases": {
+      "en": [
+        "and then...",
+        "suddenly...",
+        "the next thing I knew...",
+        "somehow...",
+        "out of nowhere...",
+        "all of a sudden...",
+        "then the scene changed...",
+        "it shifted to...",
+        "I don't know how but...",
+        "before I knew it..."
+      ],
+      "zh": [
+        "然后...",
+        "突然...",
+        "不知道怎么回事...",
+        "场景一转...",
+        "接着...",
+        "一下子...",
+        "后来...",
+        "再然后...",
+        "不知什么时候...",
+        "过了一会儿..."
+      ]
+    },
+    "ending_patterns": {
+      "en": [
+        "and then I woke up",
+        "I woke up gasping/sweating/crying",
+        "that's all I remember",
+        "and then the alarm went off",
+        "I don't remember the rest",
+        "and then it just faded",
+        "I tried to go back to sleep to continue it",
+        "I woke up and couldn't tell if it was real",
+        "the feeling stayed with me all day",
+        "it took me a while to shake it off"
+      ],
+      "zh": [
+        "然后就醒了",
+        "醒来以后...",
+        "突然就醒了",
+        "后面的就记不清了",
+        "闹钟响了就醒了",
+        "然后梦就断了",
+        "醒来还想再睡回去接着做",
+        "醒来分不清是不是现实",
+        "那种感觉持续了一整天",
+        "花了好几分钟才缓过来"
+      ]
+    }
+  },
+  "what_people_remember_vs_forget": {
+    "typically_remember": [
+      "Strong emotions (fear, joy, grief, wonder)",
+      "Specific visual details (colors, faces of known people, landscapes)",
+      "The general feeling/atmosphere of the dream",
+      "Key narrative moments (the climax, the surprise, the ending)",
+      "Physical sensations (falling, flying, being touched, temperature)",
+      "Who was in the dream (especially significant people)",
+      "The emotional tone upon waking",
+      "Recurring elements from previous dreams",
+      "Moments of realization (becoming lucid, recognizing something wrong)"
+    ],
+    "typically_forget": [
+      "How the dream started (the beginning is usually vague)",
+      "Transitions between scenes (how did I get from A to B?)",
+      "Exact words spoken by dream characters",
+      "Precise details of text, numbers, and time",
+      "The logical sequence of events (dream logic makes sense during the dream but not after)",
+      "Peripheral details (what other people looked like, background elements)",
+      "Multiple dreams from the same night (usually only the last one is remembered)",
+      "The content of conversations (remember that you talked but not what about)",
+      "Faces of strangers in the dream (known people are remembered, strangers are vague)",
+      "The duration and pacing (dreams feel hours long but may have been minutes)"
+    ],
+    "description_in_chinese": {
+      "typically_remember": [
+        "强烈的情绪（恐惧、喜悦、悲伤、惊奇）",
+        "具体的视觉细节（颜色、熟人的面孔、风景）",
+        "梦的整体感觉和氛围",
+        "关键叙事时刻（高潮、意外、结尾）",
+        "身体感受（坠落感、飞翔感、被触碰、温度）",
+        "梦中出现的人（尤其是重要的人）",
+        "醒来时的情绪基调",
+        "与以前的梦相似的重复元素",
+        "意识到某些事情不对劲的时刻"
+      ],
+      "typically_forget": [
+        "梦是怎么开始的（开头通常很模糊）",
+        "场景之间的过渡（怎么从A到了B？）",
+        "梦中人物说的具体的话",
+        "文字、数字和时间的精确细节",
+        "事件的逻辑顺序（梦中觉得合理，醒来就不合理了）",
+        "边缘细节（其他人长什么样、背景元素）",
+        "同一晚的多个梦（通常只记得最后一个）",
+        "对话的内容（记得聊了但不记得聊什么）",
+        "梦中陌生人的面孔（认识的人记得清，陌生人很模糊）",
+        "梦的时长和节奏（感觉做了几个小时但可能只有几分钟）"
+      ]
+    }
+  },
+  "productive_followup_questions": {
+    "en": [
+      "What was the strongest emotion you felt during the dream?",
+      "Were there any colors that stood out?",
+      "Did you recognize anyone in the dream?",
+      "How did you feel when you woke up?",
+      "Have you had this dream or a similar one before?",
+      "What was happening in your life around the time of this dream?",
+      "Was there anything that felt especially real or vivid?",
+      "Did you feel in control or like things were happening to you?",
+      "What was the atmosphere like - dark, bright, foggy, clear?",
+      "Were there any sounds, smells, or physical sensations?",
+      "Did the dream remind you of anything from your waking life?",
+      "How did the dream end? Did it fade out or stop suddenly?",
+      "Was there a moment in the dream when you realized something was wrong or off?",
+      "If you could go back into the dream, what would you do differently?"
+    ],
+    "zh": [
+      "做这个梦的时候你最强烈的感受是什么？",
+      "梦里有没有什么颜色特别突出？",
+      "梦里的人你认识吗？",
+      "醒来以后是什么感觉？",
+      "你以前做过类似的梦吗？",
+      "做这个梦的那段时间，你生活中有什么特别的事情吗？",
+      "梦里有什么特别真实或者生动的细节？",
+      "你觉得自己在掌控梦境还是被动经历？",
+      "梦里的氛围是怎样的？明亮还是黑暗？",
+      "梦里有没有什么声音、气味或触觉？",
+      "这个梦有没有让你联想到现实中的什么事？",
+      "梦是怎么结束的？是慢慢消散还是突然就醒了？",
+      "梦中有没有一个瞬间你意识到有什么不对劲？",
+      "如果可以回到梦里，你会做什么不一样的事？"
+    ]
+  }
+}

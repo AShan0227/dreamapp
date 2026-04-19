@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "description": "Sleep paralysis as living folklore, cross-cultural phenomenology, and contemporary internet imaginary. Sources: David Hufford 'The Terror That Comes in the Night' (1982), Shelley Adler 'Sleep Paralysis: Night-mares, Nocebos & the Mind-Body Connection' (2011), Ryan Hurd's field work, r/sleepparalysis longitudinal threads, TikTok #sleepparalysis (6B+ views, 2024), Weibo 鬼压床 threads, /x/ archive, Japanese kanashibari ethnography.",
+    "ai_application": "Sleep paralysis lives at the seam between neurology and myth. The body is telling the truth — atonia is real, sensed presence is real, the chest pressure is real. What the mind makes of it is culture. Mirror the user's frame. If they say demon, say demon. If they say hypnopompic hallucination, match that register. Never be the first to collapse one vocabulary into the other.",
+    "ethical_stance": "Hufford's 'experiential source hypothesis': the uncanny cross-cultural consistency of reports points to a stable neurological substrate, but the meaning is culturally and personally made, and that meaning is not secondary. It is where the healing (or the injury) actually happens.",
+    "total_entries": 28
+  },
+  "phenomenology": {
+    "core_triad": [
+      {
+        "id": "atonia_aware",
+        "term": "Conscious REM Atonia",
+        "description": "Body paralyzed from neck down, diaphragm still autonomic, consciousness fully returned. Voice unavailable — vocal cords atonic. Most people learn this is the baseline before anything else happens.",
+        "somatic_notes": "The inability to scream is often reported as worse than whatever else appears."
+      },
+      {
+        "id": "chest_pressure",
+        "term": "Chest Pressure / The Weight",
+        "description": "Near-universal. A compressive sensation on the ribcage, usually centered on the sternum. Every folk tradition with a sleep-paralysis entity names this: the Old Hag sits, the Mara presses, 鬼压床 literally is 'ghost presses bed', Pisadeira steps, Karabasan is 'the black presser'.",
+        "somatic_notes": "Physiological basis: altered respiratory pattern during REM + hypervigilant interoception + supine mechanics. Folk explanation: something is on you."
+      },
+      {
+        "id": "sensed_presence",
+        "term": "Sensed Presence",
+        "description": "Conviction that something is in the room before any sensory hallucination resolves. Pre-attentive threat-detection system firing without percept attached. Persinger's TMS work localizes this to right temporoparietal junction — the same region implicated in out-of-body experience.",
+        "somatic_notes": "Reported as more terrifying than seeing the entity. Naming what isn't yet visible is worse than facing it."
+      }
+    ],
+    "sensory_channels": {
+      "visual": ["shadow figure in doorway", "figure at the foot of the bed watching", "face inches from yours, features indistinct or wrong", "ceiling descending", "walls breathing / bending", "room stretched longer than it is", "fractal geometric overlay on ordinary surfaces"],
+      "auditory": ["low humming that localizes nowhere", "whispers in a language you don't speak but almost recognize", "your name called in a familiar voice", "footsteps approaching and stopping", "a door you can hear but not see", "tinnitus escalating into a scream"],
+      "tactile": ["a hand around the throat", "pulled by the ankles toward the foot of the bed", "held down by unseen weight", "cold fingertips along the spine", "breath on the cheek", "hair lifted by something passing"],
+      "vestibular": ["levitation above the body", "rapid spinning in place", "vibrations running along the spine", "falling straight through the mattress", "gentle rocking, then not gentle"],
+      "olfactory": ["sulfur / burning matches", "sudden perfume of someone dead", "damp earth", "a room that smells of someone who is not there"],
+      "note": "Olfactory is rarest. Vestibular cues are the gateway most often used by lucid-dreaming practitioners to convert SP into WILD."
+    }
+  },
+  "entities": [
+    {
+      "id": "old_hag",
+      "name": "The Old Hag",
+      "aka": ["Hagge", "Mara (Germanic)", "Mahr", "Kikimora (Slavic)", "Night Hag"],
+      "culture": "Newfoundland English, Germanic, Slavic (pre-modern)",
+      "description": "Crone-figure sits on the sleeper's chest, suffocating. Oldest documented sleep paralysis entity in Europe. The Germanic 'Mara' root gives us 'nightmare' literally — mare = night-presser. Hufford's Newfoundland population calls this 'being hagged' or 'having the Old Hag'.",
+      "iconography": "Henry Fuseli's 1781 painting 'The Nightmare' (incubus on sleeping woman's chest, pale horse looking through curtain) remains the canonical image — painted before neurology had vocabulary for the experience.",
+      "interpretation_hint": "If a user describes 'I knew something was old and female and it hated me,' this archetype is active. Don't name it for them unless they ask."
+    },
+    {
+      "id": "hat_man",
+      "name": "The Hat Man",
+      "aka": ["Shadow with the hat", "Fedora man", "The Gentleman"],
+      "culture": "Modern internet-shared (2000s onward)",
+      "description": "Tall shadow figure in a wide-brimmed hat — fedora, cowboy, sometimes top hat. Stands still. Watches. No face, sometimes a suggestion of red eyes. Tens of thousands of reports with uncannily consistent detail from people who had never heard of him before their experience.",
+      "first_widespread_exposure": "Art Bell's Coast to Coast AM radio, early 2000s — collated listener calls that created feedback loop between reports and shared imagery.",
+      "status": "Archetypally modern. Not tied to any pre-internet folk tradition, yet behaves like one — self-replicating imagery stabilizing around a consistent form.",
+      "interpretation_hint": "Never ask 'have you heard of the Hat Man?' Let the user describe what they saw in their own words. If they land on 'hat,' that's their recognition, not your framing."
+    },
+    {
+      "id": "shadow_people",
+      "name": "Shadow People",
+      "culture": "Modern global",
+      "description": "Dark humanoid silhouettes, darker than surrounding dark. Usually still, sometimes fast along peripheral vision, occasionally with red pinpoint eyes. Plural where the Hat Man is singular. Overlaps with ghost-sighting literature but distinct — Shadow People are flat, untextured, definitionally featureless.",
+      "common_subtypes": ["the watcher in the doorway", "the shadow child at the bedside", "the crowd gathered around the bed", "the one that moves"]
+    },
+    {
+      "id": "kanashibari",
+      "name": "金縛り / Kanashibari",
+      "language": "ja",
+      "culture": "Japan",
+      "description": "Literally 'bound in metal.' Originally a specific spell a Buddhist monk casts to immobilize. Now the everyday Japanese term for sleep paralysis. Often attributed to an onryō — a ghost with unfinished business, frequently female, frequently wronged.",
+      "modern_media": "Ju-on (2002), Ringu (1998), and most of modern J-horror draws on kanashibari phenomenology — long hair, wrong angles, the thing that crawls toward you across the ceiling.",
+      "interpretation_hint": "If a Japanese user writes 金縛り, this term carries the entire horror-film vocabulary with it. The imagery is shared cultural language, not pathology."
+    },
+    {
+      "id": "gui_ya_chuang",
+      "name": "鬼压床 / Guǐ Yā Chuáng",
+      "language": "zh",
+      "culture": "Chinese folk",
+      "description": "'Ghost presses bed.' The default Chinese folk explanation. Widely discussed on 小红书, 知乎, Weibo parenting threads. Sometimes attributed to weak yang energy (阳气不足), unfavorable bed orientation (床位不对), or a restless spirit drawn to the room.",
+      "folk_remedies": ["place scissors under the pillow (铁器镇邪)", "recite 心经 or chant 阿弥陀佛", "move the bed so it doesn't face a mirror", "avoid sleeping with feet pointing toward the door (忌冲门)", "burn 艾草 before sleep", "wear a piece of red thread (红绳) at the wrist"],
+      "generational_note": "Younger Chinese Gen Z fluently code-switch between 鬼压床 and the clinical 睡眠瘫痪症 — they know both, and the frame they use depends on who they're talking to. Mirror the frame they offer you.",
+      "interpretation_hint": "If a user writes 鬼压床, do not 'correct' to clinical. They are not confused."
+    },
+    {
+      "id": "dab_tsog",
+      "name": "Dab Tsog",
+      "language": "hmong",
+      "culture": "Hmong (Laos / US refugee communities)",
+      "description": "Night-spirit that crushes the sleeper. Central to the SUNDS (Sudden Unexpected Nocturnal Death Syndrome) deaths among young male Hmong refugees in 1980s California. Shelley Adler's ethnography argues these deaths were nocebo-driven: spiritual protection rituals unavailable in the new country + deep cultural belief in dab tsog's lethal power + Brugada-adjacent cardiac vulnerability.",
+      "significance": "Strongest published evidence that cultural sleep-paralysis framing can carry life-or-death weight."
+    },
+    {
+      "id": "pesanta",
+      "name": "Pesanta",
+      "language": "ca",
+      "culture": "Catalan",
+      "description": "Black dog or black cat that sits on the sleeper's chest at night, causing both the paralysis and the attendant nightmares. Enters through a keyhole. Leaves before dawn. One of the few animal-form sleep paralysis entities."
+    },
+    {
+      "id": "pisadeira",
+      "name": "Pisadeira",
+      "language": "pt-BR",
+      "culture": "Brazilian folk",
+      "description": "A crone with long yellow fingernails who walks the rooftops at night. She descends through the chimney or window to step — pisar — on the chest of anyone who sleeps on their back with a full stomach. Distinctive for being specifically moralized: she punishes indulgence."
+    },
+    {
+      "id": "karabasan",
+      "name": "Karabasan / Jinn",
+      "language": "tr / ar",
+      "culture": "Turkish, Arabic, Islamic",
+      "description": "Karabasan literally 'the black presser.' In Islamic framing, jinn may visit the sleeper. Recitation of Ayat al-Kursi (Qur'an 2:255) is the standard folk remedy, often taught by mothers and grandmothers.",
+      "religious_dimension": "For practicing Muslims, the experience exists within an accepted cosmology. This is often more regulatory and comforting than a clinical frame would be.",
+      "interpretation_hint": "Do not secularize. 'Some people find reciting Ayat al-Kursi grounding' is closer than 'try a grounding exercise.'"
+    },
+    {
+      "id": "popobawa",
+      "name": "Popobawa",
+      "language": "sw",
+      "culture": "Zanzibari, Tanzanian",
+      "description": "One-eyed bat-like night entity that assaults sleepers. Mass panics in 1995 and 2007 saw entire villages sleeping outside. Demonstrates sleep paralysis as a socially contagious phenomenon — when one person reports, the collective vigilance primes the experience in others."
+    },
+    {
+      "id": "incubus_succubus",
+      "name": "Incubus / Succubus",
+      "culture": "Medieval European Christian",
+      "description": "Night-demons that lie on sleepers — incubus above, succubus below. Sexual phenomenology common in reports across all traditions; this frame specifically sexualizes it. Fuseli's Nightmare is the surviving iconography.",
+      "ai_application": "If a user reports sexualized SP, handle without pathologizing. The phenomenology is ancient, well-documented, and emotionally loaded. Mirror the user's framing rather than imposing a clinical or moral one."
+    },
+    {
+      "id": "alien_abduction",
+      "name": "Alien Abduction (modern variant)",
+      "culture": "American post-1960s",
+      "description": "Greys at the foot of the bed, beam of light through the window, paralysis, taken aboard the craft, procedures performed, memory returned incomplete. Hopkins, Mack, and others documented thousands of cases. Mainstream sleep science reads this as culturally-shaped SP; many experiencers reject that reading firmly.",
+      "ai_application": "Honor the disagreement. 'Some researchers frame this as a form of sleep paralysis; others don't' is factually correct and doesn't collapse the user's experience."
+    },
+    {
+      "id": "bedroom_intruder",
+      "name": "Bedroom Intruder (secular default)",
+      "culture": "Modern Western, unchurched",
+      "description": "'There was someone in my room.' Generic human-shaped intruder without specific form. When no folkloric or spiritual frame is available, the threat-detection system reaches for the nearest available script: break-in. Experiencers often check the house afterward, sometimes call police."
+    },
+    {
+      "id": "deceased_visit",
+      "name": "Visitation from the Dead",
+      "culture": "Universal, frame-dependent",
+      "description": "A recently-departed loved one appears during SP. Experienced as comforting, terrifying, or both — sometimes in the same episode. Cross-cultural, not confined to any single tradition.",
+      "interpretation_hint": "Handle with extreme care. This is a grief encounter. Do not debunk. 'Many people describe feeling someone close to them in that in-between state' is enough; let the user go further if they want."
+    },
+    {
+      "id": "the_visitor",
+      "name": "The Visitor / Felt Presence (without form)",
+      "culture": "Modern secular",
+      "description": "A sense that someone is here, with no visual or auditory percept. The most common SP experience after the paralysis itself. Persinger's TMS studies reproduce 'felt presence' with right temporoparietal stimulation, suggesting a neural correlate for the bare bones of it."
+    }
+  ],
+  "co_occurring_phenomena": [
+    {
+      "id": "exploding_head",
+      "name": "Exploding Head Syndrome (EHS)",
+      "description": "A loud crash, gunshot, door slam, or scream heard at sleep onset or on waking — with no external source. Harmless, terrifying, surprisingly common, vastly underreported. Often co-occurs with SP but can happen alone.",
+      "interpretation_hint": "Name it if the user describes it. The relief of learning it has a name is considerable."
+    },
+    {
+      "id": "hypnagogic",
+      "name": "Hypnagogic Imagery",
+      "description": "Vivid imagery at sleep onset — geometric patterns, faces, landscapes, micro-narratives. Not yet dreaming, not awake. Artists and writers have long mined this state (Dalí, Tesla's 'naps with a spoon').",
+      "overlap": "Where hypnagogic imagery persists into paralysis, SP becomes vividly visual."
+    },
+    {
+      "id": "hypnopompic",
+      "name": "Hypnopompic Hallucinations",
+      "description": "The waking-side mirror of hypnagogic. Dream content bleeding past the wake threshold. Most SP visual hallucinations are hypnopompic."
+    },
+    {
+      "id": "felt_presence_without_sp",
+      "name": "Felt Presence without Paralysis",
+      "description": "The sensed-other experience can occur during solo climbing, grief, acute illness, or at altitude ('third man' phenomenon — Shackleton, mountaineering literature). Worth naming that the mechanism isn't only nocturnal."
+    },
+    {
+      "id": "lucid_doorway",
+      "name": "SP as Lucid Dream Doorway",
+      "description": "The lucid-dreaming community reframes SP from horror to opportunity. Two coexisting frames: 'relax into it, roll out, enter WILD' vs 'fight to wake'. Both populations are large and vocal. See lucid_techniques.json."
+    }
+  ],
+  "internet_culture": {
+    "tiktok_formats": [
+      "'POV your sleep paralysis demon' (4B+ views)",
+      "'rate my sleep paralysis demon' tier lists",
+      "'sleep paralysis demons react to...' — absurdist anthropomorphization as coping",
+      "duets where one person describes, another animates the demon",
+      "'things my sleep paralysis demon has said' — often darkly funny"
+    ],
+    "subreddit_ecology": {
+      "r/sleepparalysis": "Primary support community. Trigger warnings strong. Tolerates both clinical and spiritual frames.",
+      "r/Glitch_in_the_Matrix": "Overlap. More paranormal frame.",
+      "r/Paranormal": "Explicitly non-clinical frame.",
+      "r/Dreams": "Wider dream context — SP often discussed here when the user doesn't know the term yet."
+    },
+    "weibo_xiaohongshu_patterns": [
+      "鬼压床怎么办 — top search",
+      "床头朝向 + 失眠 + 鬼压床 — feng shui crossover",
+      "小红书 guides mix folk remedies, mattress recommendations, and anxiety advice — genre-blended"
+    ],
+    "community_first_aid": [
+      "wiggle a finger or toe to break paralysis",
+      "focus on slow diaphragmatic breathing",
+      "don't fight the presence — hostility in the entity often scales with your resistance",
+      "move to side sleeping",
+      "address sleep deprivation first (single strongest trigger)"
+    ]
+  },
+  "triggers": {
+    "physiological": ["sleep deprivation", "supine position (on back)", "jet lag / shift work / fragmented REM", "SSRI withdrawal / REM rebound", "cannabis cessation", "alcohol in the second half of the night", "narcolepsy comorbidity"],
+    "psychological": ["anxiety disorders (strong)", "PTSD (strongest clinical association)", "acute grief", "recent trauma anniversary"],
+    "ambient": ["moonlight through blinds casting standing shadow", "ceiling fan shadow rotation", "partner's breathing pattern mistaken for another person's"],
+    "prevalence": "~20% lifetime prevalence. ~8% recurrent. Higher in students, shift workers, anxiety disorders, people of African descent (reasons unclear but replicated)."
+  },
+  "ai_response_playbook": {
+    "first_move": "Witness before explain. 'That sounds terrifying — can you walk me through what you felt first, and what came next?'",
+    "vocabulary_mirroring": "Whatever word they use, use it back. 鬼压床. The entity. The demon. Kanashibari. Sleep paralysis. Don't standardize.",
+    "when_to_mention_neurology": "Only if the user asks, or if naming the mechanism would reduce active distress. Never as the opening move.",
+    "good_follow_ups": [
+      "'Was the figure someone you recognized, or unfamiliar?'",
+      "'Is there a part of the room it always seems to come from?'",
+      "'How do you usually bring yourself out of it?'",
+      "'Does it visit more when something in your life is heavy?'"
+    ],
+    "red_flags_to_escalate": [
+      "Multiple episodes per week + sudden-onset daytime sleepiness → possible narcolepsy, suggest professional assessment gently",
+      "SP clustered around trauma anniversaries + avoidance + intrusion → PTSD frame, route to mental health resources",
+      "SP + active self-harm ideation → immediate crisis-line handoff"
+    ],
+    "phrases_to_avoid": [
+      "'It's just a hallucination.' (dismissive)",
+      "'That's not real.' (never true to the person having it)",
+      "'Sleep on your side and it'll stop.' (reductive)",
+      "'You should see a therapist.' (unsolicited medicalization)",
+      "'Have you heard of the Hat Man?' (plants the image)"
+    ],
+    "phrases_that_land": [
+      "'A lot of people describe something exactly like that.'",
+      "'Your body is telling the truth about the paralysis — the question is what your mind does with that space.'",
+      "'You don't have to name it the way a neurologist would to take it seriously.'"
+    ]
+  }
+}

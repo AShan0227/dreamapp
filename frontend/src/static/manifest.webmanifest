@@ -1,0 +1,19 @@
+{
+  "name": "DreamApp — Dream OS",
+  "short_name": "DreamApp",
+  "description": "Capture, visualize and interpret your dreams.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e0a26",
+  "theme_color": "#0e0a26",
+  "orientation": "portrait",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/static/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

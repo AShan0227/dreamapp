@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+        CSS.supports('top: constant(a)'))
+      document.write(
+        '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+        (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+    </script>
+    <title>DreamApp — Dream OS</title>
+    <meta name="description" content="Capture, visualize and interpret your dreams." />
+    <meta name="theme-color" content="#0e0a26" />
+
+    <!-- PWA: web app manifest + icon hints -->
+    <link rel="manifest" href="/static/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/static/logo.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="DreamApp" />
+
+    <!-- Optional runtime API base override — useful for staging hot-swap.
+         Comment out or unset to use VITE_API_BASE_URL / same-origin. -->
+    <script>
+      // window.__DREAM_API_BASE__ = "https://api.dreamapp.cn";
+    </script>
+
+    <!--preload-links-->
+    <!--app-context-->
+  </head>
+  <body>
+    <div id="app"><!--app-html--></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

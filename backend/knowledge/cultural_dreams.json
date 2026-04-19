@@ -1,0 +1,780 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-04-15",
+    "description": "Dream interpretation traditions across world cultures. Each entry includes core beliefs, symbol systems, and practices. Designed to enable culturally-aware AI dream interpretation.",
+    "total_cultures": 16,
+    "total_symbols": 360,
+    "languages_covered": ["zh", "ar", "el", "sa", "ja", "bo", "en"]
+  },
+  "cultures": [
+    {
+      "id": "chinese_zhougong",
+      "name": "Chinese - Zhou Gong's Dream Dictionary",
+      "name_native": "周公解梦",
+      "era": "Western Zhou Dynasty (~1046-771 BCE), compiled and expanded through Ming/Qing dynasties",
+      "core_beliefs": [
+        "Dreams are messages from heaven and ancestors, serving as guidance and warnings for the dreamer",
+        "The relationship between dream and reality is often inverted: dreaming of death may signify longevity, dreaming of crying may predict joy",
+        "Dreams are influenced by seasonal qi and the five elements (五行), with different seasons producing different dream types",
+        "The timing of the dream within the night cycle affects its significance and likelihood of fulfillment",
+        "Dreams reflect the balance or imbalance of yin and yang energies in the dreamer's body and life"
+      ],
+      "practices": [
+        "Dream interpretation was integrated into imperial governance; court dream interpreters advised emperors",
+        "Recording dreams at dawn before daily activities to preserve accuracy",
+        "Consulting dream dictionaries (梦书) organized by category for standardized interpretation",
+        "Dream incubation in temples, particularly at sacred sites dedicated to Zhou Gong",
+        "Using dreams to guide medical diagnosis in conjunction with TCM pulse reading"
+      ],
+      "symbols": [
+        {"symbol": "龙 (dragon)", "meaning": "Imperial power, great fortune, promotion. Riding a dragon means imminent success", "category": "animals"},
+        {"symbol": "蛇 (snake)", "meaning": "Wealth and fertility. A snake entering the home predicts financial gain", "category": "animals"},
+        {"symbol": "鱼 (fish)", "meaning": "Abundance and surplus (余). Catching fish means incoming wealth", "category": "animals"},
+        {"symbol": "乌龟 (turtle)", "meaning": "Longevity, stability, and protection. Also a sign of slow but certain progress", "category": "animals"},
+        {"symbol": "凤凰 (phoenix)", "meaning": "Auspiciousness, harmony, and feminine power. Predicts marriage or partnership", "category": "animals"},
+        {"symbol": "老虎 (tiger)", "meaning": "Authority, power, and respect. Being chased by a tiger means a powerful person will assist you", "category": "animals"},
+        {"symbol": "蜘蛛 (spider)", "meaning": "Good luck arriving; the Chinese word for spider (蜘蛛/喜蛛) contains the character for happiness", "category": "animals"},
+        {"symbol": "蝙蝠 (bat)", "meaning": "Blessing and good fortune (蝠 sounds like 福/fortune)", "category": "animals"},
+        {"symbol": "猫 (cat)", "meaning": "Treachery or hidden enemies. A cat catching a mouse means resolution of conflict", "category": "animals"},
+        {"symbol": "狗 (dog)", "meaning": "Loyalty and friendship. A barking dog warns of gossip or slander", "category": "animals"},
+        {"symbol": "马 (horse)", "meaning": "Speed of success. A galloping horse means rapid advancement", "category": "animals"},
+        {"symbol": "牛 (ox)", "meaning": "Diligence rewarded. An ox plowing a field predicts hard work leading to harvest", "category": "animals"},
+        {"symbol": "鸡 (rooster)", "meaning": "Dawn and new beginnings. A crowing rooster announces good news", "category": "animals"},
+        {"symbol": "猪 (pig)", "meaning": "Wealth and material comfort. A fat pig signifies prosperity", "category": "animals"},
+        {"symbol": "鹤 (crane)", "meaning": "Immortality and transcendence. A crane flying means spiritual elevation", "category": "animals"},
+        {"symbol": "蚂蚁 (ants)", "meaning": "Minor annoyances accumulating. Many ants means small troubles gathering", "category": "animals"},
+        {"symbol": "棺材 (coffin)", "meaning": "Promotion and wealth (棺 sounds like 官/official, 材 sounds like 财/wealth)", "category": "objects"},
+        {"symbol": "水 (water)", "meaning": "Wealth and emotion. Clear water means clarity; muddy water means confusion and trouble", "category": "nature"},
+        {"symbol": "火 (fire)", "meaning": "Prosperity and passion when controlled; disaster when out of control", "category": "nature"},
+        {"symbol": "山 (mountain)", "meaning": "Obstacles to overcome, but also protection and stability. Climbing successfully means achievement", "category": "nature"},
+        {"symbol": "下雨 (rain)", "meaning": "Nourishment and renewal. Light rain is blessings; heavy storm is emotional turmoil", "category": "nature"},
+        {"symbol": "雪 (snow)", "meaning": "Purity and new beginnings. Melting snow means troubles dissolving", "category": "nature"},
+        {"symbol": "花 (flowers)", "meaning": "Romance and beauty. Blooming flowers mean love arriving; wilting flowers mean relationship decline", "category": "nature"},
+        {"symbol": "树 (tree)", "meaning": "Family lineage and personal growth. A flourishing tree means family prosperity", "category": "nature"},
+        {"symbol": "月亮 (moon)", "meaning": "Feminine energy, reunion, and homesickness. A full moon predicts family gathering", "category": "nature"},
+        {"symbol": "太阳 (sun)", "meaning": "Yang energy, success, and vitality. A rising sun means new opportunities", "category": "nature"},
+        {"symbol": "河流 (river)", "meaning": "Life's journey. Crossing a river means overcoming a major obstacle", "category": "nature"},
+        {"symbol": "地震 (earthquake)", "meaning": "Major life upheaval and transformation. Not necessarily negative", "category": "nature"},
+        {"symbol": "掉牙 (teeth falling out)", "meaning": "Family member illness or death, particularly elders. One of the most feared dream omens", "category": "body"},
+        {"symbol": "怀孕 (pregnancy)", "meaning": "New project or creative endeavor beginning. Abundance coming", "category": "body"},
+        {"symbol": "剪头发 (cutting hair)", "meaning": "Letting go of old thinking patterns. Fresh start", "category": "body"},
+        {"symbol": "流血 (bleeding)", "meaning": "Financial loss or emotional drain. The location of bleeding specifies the area of loss", "category": "body"},
+        {"symbol": "死人 (dead person)", "meaning": "Paradoxically positive: old situations ending, new phase beginning. Ancestors offering guidance", "category": "people"},
+        {"symbol": "结婚 (marriage)", "meaning": "Partnership or commitment. May indicate business partnership rather than romantic", "category": "events"},
+        {"symbol": "考试 (exam)", "meaning": "Self-evaluation and judgment. Failing an exam paradoxically may predict success", "category": "events"},
+        {"symbol": "飞行 (flying)", "meaning": "Liberation from constraints, ambition, and spiritual aspiration", "category": "events"},
+        {"symbol": "坠落 (falling)", "meaning": "Loss of control or status. The height indicates the severity", "category": "events"},
+        {"symbol": "被追 (being chased)", "meaning": "Avoiding a responsibility or truth that must be faced", "category": "events"},
+        {"symbol": "吃饭 (eating)", "meaning": "Nourishment needs being met. What you eat matters: meat means wealth, vegetables mean health", "category": "events"},
+        {"symbol": "搬家 (moving house)", "meaning": "Major life transition. The condition of the new house indicates the quality of the change", "category": "events"},
+        {"symbol": "钥匙 (key)", "meaning": "Solution to a problem. Finding a key means discovering an answer", "category": "objects"},
+        {"symbol": "镜子 (mirror)", "meaning": "Self-reflection and truth. A broken mirror means relationship rupture", "category": "objects"},
+        {"symbol": "钱 (money)", "meaning": "Energy exchange. Finding money means incoming opportunities; losing money means releasing attachments", "category": "objects"},
+        {"symbol": "桥 (bridge)", "meaning": "Transition between life phases. A broken bridge means an obstacle in transition", "category": "objects"},
+        {"symbol": "门 (door)", "meaning": "Opportunity. An open door means opportunities available; a locked door means timing is not right", "category": "objects"},
+        {"symbol": "红色 (red color)", "meaning": "Joy, celebration, good fortune. A deeply auspicious color in all dream contexts", "category": "colors"},
+        {"symbol": "白色 (white color)", "meaning": "Mourning, death, endings. Opposite of Western association with purity", "category": "colors"},
+        {"symbol": "黑色 (black color)", "meaning": "Mystery, the unknown, yin energy. Not inherently negative", "category": "colors"},
+        {"symbol": "金色 (gold color)", "meaning": "Wealth, imperial authority, divine favor", "category": "colors"},
+        {"symbol": "祖先 (ancestors)", "meaning": "Guidance from lineage. Ancestors in dreams are delivering important messages that must be heeded", "category": "people"},
+        {"symbol": "婴儿 (baby)", "meaning": "New beginnings, innocence, or a new project in its earliest stage", "category": "people"},
+        {"symbol": "老人 (elderly person)", "meaning": "Wisdom and accumulated experience. An unknown elder may represent a guide figure", "category": "people"},
+        {"symbol": "衣服 (clothing)", "meaning": "Social identity and reputation. New clothes mean improved status", "category": "objects"},
+        {"symbol": "船 (boat/ship)", "meaning": "Life journey and emotional navigation. Calm sailing means smooth progress", "category": "objects"},
+        {"symbol": "梯子 (ladder)", "meaning": "Social climbing, spiritual ascent. Each rung represents a step toward a goal", "category": "objects"},
+        {"symbol": "刀 (knife/sword)", "meaning": "Decisiveness and the need to cut something from one's life", "category": "objects"},
+        {"symbol": "灯 (lamp/light)", "meaning": "Enlightenment, hope, and guidance. A flickering lamp warns of uncertainty", "category": "objects"},
+        {"symbol": "书 (book)", "meaning": "Knowledge and examination. An open book means learning opportunity", "category": "objects"},
+        {"symbol": "井 (well)", "meaning": "Deep knowledge, the unconscious, and hidden resources", "category": "nature"},
+        {"symbol": "竹子 (bamboo)", "meaning": "Integrity, resilience, and scholarly achievement", "category": "nature"},
+        {"symbol": "莲花 (lotus)", "meaning": "Purity emerging from adversity. Spiritual awakening", "category": "nature"},
+        {"symbol": "云 (clouds)", "meaning": "Transient worries. Clouds parting means clarity returning", "category": "nature"},
+        {"symbol": "雷 (thunder)", "meaning": "Sudden revelation or shock. Also authority making itself known", "category": "nature"},
+        {"symbol": "虹 (rainbow)", "meaning": "Harmony of opposites. Good fortune after difficulty", "category": "nature"},
+        {"symbol": "蜡烛 (candle)", "meaning": "Life force and spiritual light. A candle going out warns of health concerns", "category": "objects"},
+        {"symbol": "风筝 (kite)", "meaning": "Aspirations and freedom. A kite flying high means ambitions will be realized", "category": "objects"},
+        {"symbol": "筷子 (chopsticks)", "meaning": "Partnership and cooperation. Broken chopsticks mean separation", "category": "objects"},
+        {"symbol": "伞 (umbrella)", "meaning": "Protection and shelter. Also separation (伞 contains 散/scatter)", "category": "objects"},
+        {"symbol": "玉 (jade)", "meaning": "Virtue, purity, and high moral character. Receiving jade means recognition of worth", "category": "objects"},
+        {"symbol": "印章 (seal/stamp)", "meaning": "Authority and official recognition. Gaining power or approval", "category": "objects"},
+        {"symbol": "酒 (wine/alcohol)", "meaning": "Celebration but also warning against excess. Context determines meaning", "category": "objects"},
+        {"symbol": "茶 (tea)", "meaning": "Contemplation, hospitality, and inner peace", "category": "objects"},
+        {"symbol": "锁 (lock)", "meaning": "Secrets, privacy, or blocked progress. Finding a key with a lock means solution is near", "category": "objects"},
+        {"symbol": "鞋 (shoes)", "meaning": "Life path and direction. Losing shoes means losing one's way", "category": "objects"},
+        {"symbol": "窗户 (window)", "meaning": "Perspective and outlook on life. An open window means new viewpoints", "category": "objects"},
+        {"symbol": "墙 (wall)", "meaning": "Barriers and boundaries. Climbing over a wall means overcoming obstacles", "category": "objects"},
+        {"symbol": "坟墓 (grave)", "meaning": "Endings that lead to new beginnings. Also ancestor connection", "category": "objects"},
+        {"symbol": "庙 (temple)", "meaning": "Spiritual guidance needed. Seeking answers from higher wisdom", "category": "places"},
+        {"symbol": "学校 (school)", "meaning": "Life lessons being learned. Returning to school means unfinished learning", "category": "places"},
+        {"symbol": "医院 (hospital)", "meaning": "Healing needed, either physical or emotional. Seeking help", "category": "places"},
+        {"symbol": "市场 (market)", "meaning": "Choices and opportunities. The variety of goods represents life options", "category": "places"},
+        {"symbol": "老家 (hometown)", "meaning": "Roots, nostalgia, and core identity. Returning to origins for grounding", "category": "places"},
+        {"symbol": "麻将 (mahjong)", "meaning": "Strategy, luck, and social dynamics. Winning means good fortune in competitions", "category": "objects"},
+        {"symbol": "高考 (gaokao/college entrance exam)", "meaning": "Life-defining pressure and evaluation. Reflects anxiety about pivotal moments", "category": "events"},
+        {"symbol": "红包 (red envelope)", "meaning": "Blessings, gifts, and financial luck incoming", "category": "objects"},
+        {"symbol": "春节 (Spring Festival)", "meaning": "Renewal, family reunion, and cyclical return. New chapter beginning", "category": "events"},
+        {"symbol": "长城 (Great Wall)", "meaning": "Monumental achievement, national pride, and enduring legacy", "category": "places"},
+        {"symbol": "筷子断了 (broken chopsticks)", "meaning": "Partnership or marriage in jeopardy. Need to repair a relationship", "category": "events"},
+        {"symbol": "放鞭炮 (firecrackers)", "meaning": "Celebration, driving away evil spirits, announcing good news", "category": "events"},
+        {"symbol": "种田 (farming/planting)", "meaning": "Hard work that will yield results. Patience required for harvest", "category": "events"},
+        {"symbol": "抓蝴蝶 (catching butterflies)", "meaning": "Pursuing fleeting beauty or happiness. May warn against chasing illusions", "category": "events"},
+        {"symbol": "过桥 (crossing a bridge)", "meaning": "Successfully navigating a life transition. The bridge condition matters", "category": "events"},
+        {"symbol": "爬山 (climbing a mountain)", "meaning": "Career advancement and overcoming challenges through persistent effort", "category": "events"},
+        {"symbol": "迷路 (getting lost)", "meaning": "Confusion about life direction. Need for guidance and self-reflection", "category": "events"},
+        {"symbol": "下棋 (playing chess)", "meaning": "Strategic thinking needed. Life requires careful planning and patience", "category": "events"},
+        {"symbol": "包饺子 (making dumplings)", "meaning": "Family unity and collective effort. Wealth wrapping (dumpling shape resembles gold ingots)", "category": "events"},
+        {"symbol": "扫地 (sweeping floor)", "meaning": "Clearing away old problems. Spring cleaning of the mind", "category": "events"},
+        {"symbol": "唱歌 (singing)", "meaning": "Emotional expression needed. Joy or sorrow depending on the song's mood", "category": "events"},
+        {"symbol": "哭 (crying)", "meaning": "Paradoxically positive: emotional release leading to relief and resolution", "category": "events"},
+        {"symbol": "笑 (laughing)", "meaning": "Warning of coming sorrow (inverted interpretation). May mask hidden anxiety", "category": "events"},
+        {"symbol": "数字八 (number 8)", "meaning": "Supreme fortune (八 sounds like 发/prosper). Wealth and success", "category": "numbers"},
+        {"symbol": "数字四 (number 4)", "meaning": "Death and endings (四 sounds like 死/death). Avoidance and caution", "category": "numbers"},
+        {"symbol": "数字九 (number 9)", "meaning": "Longevity and eternal (九 sounds like 久/long-lasting)", "category": "numbers"},
+        {"symbol": "数字六 (number 6)", "meaning": "Smoothness and flow (六六大顺). Everything proceeding well", "category": "numbers"}
+      ]
+    },
+    {
+      "id": "islamic_ibn_sirin",
+      "name": "Islamic - Ibn Sirin's Dream Interpretation",
+      "name_native": "تفسير الأحلام - ابن سيرين",
+      "era": "8th century CE, based on Quranic and Hadith traditions",
+      "core_beliefs": [
+        "Dreams are classified into three types: Ru'ya (true vision from Allah), Hulm (false dream from Shaytan), and Hadith an-Nafs (self-talk from the dreamer's own psyche)",
+        "True dreams (Ru'ya) are considered 1/46th part of prophethood and may contain genuine divine guidance",
+        "Dreams should only be interpreted by the knowledgeable and should only be shared with trusted individuals, as interpretation can influence outcomes",
+        "The moral character and spiritual state of the dreamer affects the validity and clarity of their dreams",
+        "Dreams seen during the last third of the night are most likely to be true visions"
+      ],
+      "practices": [
+        "Performing wudu (ablution) before sleep and reciting specific Quranic verses for protection",
+        "Sleeping on the right side as recommended by the Prophet Muhammad",
+        "Saying specific supplications upon waking, including seeking refuge from bad dreams",
+        "Sharing good dreams only with loved ones; keeping bad dreams private and seeking spiritual protection",
+        "Performing Istikhara prayer to receive divine guidance through dreams"
+      ],
+      "symbols": [
+        {"symbol": "Water (ماء)", "meaning": "Life, knowledge, and sustenance. Clear water is faith; murky water is tribulation", "category": "nature"},
+        {"symbol": "Fire (نار)", "meaning": "Fitna (trial/temptation), war, or divine punishment. Context determines if purifying or destructive", "category": "nature"},
+        {"symbol": "Garden/Jannah (جنة)", "meaning": "Paradise, reward for good deeds, and spiritual achievement", "category": "places"},
+        {"symbol": "Snake (أفعى)", "meaning": "An enemy. The size of the snake indicates the power of the enemy. Killing it means overcoming adversity", "category": "animals"},
+        {"symbol": "Horse (حصان)", "meaning": "Honor, dignity, and strength. A white horse is particularly auspicious", "category": "animals"},
+        {"symbol": "Camel (جمل)", "meaning": "Journey, patience, and endurance. A loaded camel means wealth arriving", "category": "animals"},
+        {"symbol": "Lion (أسد)", "meaning": "A powerful ruler or authority figure. Being attacked by a lion means conflict with authority", "category": "animals"},
+        {"symbol": "Bird (طائر)", "meaning": "Freedom and aspirations. A caged bird means restriction; a singing bird means good news", "category": "animals"},
+        {"symbol": "Milk (حليب)", "meaning": "Knowledge, sustenance, and pure livelihood. Drinking milk is very auspicious", "category": "food"},
+        {"symbol": "Honey (عسل)", "meaning": "Quran, knowledge, and healing. One of the most positive dream symbols", "category": "food"},
+        {"symbol": "Bread (خبز)", "meaning": "Livelihood and basic sustenance. Fresh bread means halal income", "category": "food"},
+        {"symbol": "Dates (تمر)", "meaning": "Sustenance, faith, and provision from Allah. Highly auspicious", "category": "food"},
+        {"symbol": "Mountain (جبل)", "meaning": "A great person or authority. Climbing it means achieving high status", "category": "nature"},
+        {"symbol": "Sea/Ocean (بحر)", "meaning": "A king, ruler, or vast undertaking. Calm sea means peace; stormy sea means turmoil", "category": "nature"},
+        {"symbol": "Rain (مطر)", "meaning": "Mercy from Allah, blessings, and provision. Heavy rain may indicate trials", "category": "nature"},
+        {"symbol": "Sun (شمس)", "meaning": "The king, ruler, or father. An eclipse means calamity befalling a ruler", "category": "nature"},
+        {"symbol": "Moon (قمر)", "meaning": "A minister, wife, or beautiful woman. A full moon means justice and prosperity", "category": "nature"},
+        {"symbol": "Stars (نجوم)", "meaning": "Scholars and leaders. Falling stars mean the death of scholars", "category": "nature"},
+        {"symbol": "Mosque (مسجد)", "meaning": "Religion, spiritual state, and community. Building a mosque means doing great good", "category": "places"},
+        {"symbol": "Ka'bah (الكعبة)", "meaning": "The ultimate spiritual center. Seeing it means spiritual fulfillment and pilgrimage", "category": "places"},
+        {"symbol": "Sword (سيف)", "meaning": "Power, authority, and the ability to defend oneself. A sharp sword means clear authority", "category": "objects"},
+        {"symbol": "Ring (خاتم)", "meaning": "Authority, marriage, or covenant. A broken ring means broken promise", "category": "objects"},
+        {"symbol": "Key (مفتاح)", "meaning": "Knowledge, solution, or livelihood. Each key opens a specific door of provision", "category": "objects"},
+        {"symbol": "Mirror (مرآة)", "meaning": "Wife, self-knowledge, or a person who reflects your qualities", "category": "objects"},
+        {"symbol": "Teeth falling out (سقوط الأسنان)", "meaning": "Death of relatives (each tooth position corresponds to a specific family member), or financial loss", "category": "body"},
+        {"symbol": "Flying (الطيران)", "meaning": "Travel, ambition, or authority. The height and control determine the meaning", "category": "events"},
+        {"symbol": "Death (الموت)", "meaning": "Major change, repentance, or long life (paradoxical). Dying as a martyr is very auspicious", "category": "events"},
+        {"symbol": "Wedding (زفاف)", "meaning": "Joy, union, or a major life event. Context determines if the union is positive", "category": "events"},
+        {"symbol": "Crying (البكاء)", "meaning": "Joy and relief coming. Tears in a dream often predict happiness in waking life", "category": "events"},
+        {"symbol": "Hajj (الحج)", "meaning": "Fulfillment of spiritual duty, reward, and answered prayers", "category": "events"},
+        {"symbol": "Pregnancy (الحمل)", "meaning": "Wealth, growth, and new undertakings. For men, may mean acquiring wealth or knowledge", "category": "body"},
+        {"symbol": "Green color (اللون الأخضر)", "meaning": "Islam, paradise, and blessing. The most auspicious color", "category": "colors"},
+        {"symbol": "White color (اللون الأبيض)", "meaning": "Purity, righteousness, and spiritual cleanliness", "category": "colors"},
+        {"symbol": "Quran (القرآن)", "meaning": "Divine guidance, truth, and protection. Reciting Quran in a dream is deeply positive", "category": "objects"},
+        {"symbol": "Prophet Muhammad (النبي محمد)", "meaning": "Truthfulness of the dream is guaranteed. The Prophet said Shaytan cannot take his form", "category": "people"},
+        {"symbol": "Dog (كلب)", "meaning": "An ignorant person or an enemy with a weak bite. A barking dog means slander", "category": "animals"},
+        {"symbol": "Cow (بقرة)", "meaning": "Years of prosperity or famine (as in Prophet Yusuf's interpretation of Pharaoh's dream)", "category": "animals"},
+        {"symbol": "Pearl (لؤلؤ)", "meaning": "Quran, knowledge, children, or wealth depending on context", "category": "objects"},
+        {"symbol": "Ship/Boat (سفينة)", "meaning": "Salvation, safety from trials. Reference to Prophet Nuh's ark", "category": "objects"},
+        {"symbol": "Iron (حديد)", "meaning": "Strength, power, and provision. Both a blessing and a warning depending on use", "category": "objects"}
+      ]
+    },
+    {
+      "id": "greek_artemidorus",
+      "name": "Ancient Greek - Artemidorus's Oneirocritica",
+      "name_native": "Ονειροκριτικά (Oneirocritica)",
+      "era": "2nd century CE (Artemidorus of Daldis), building on traditions from ~5th century BCE",
+      "core_beliefs": [
+        "Dreams are divided into enhypnia (reflecting current states of body and mind) and oneiroi (predictive dreams that reveal the future through symbolism)",
+        "Dream interpretation must account for the dreamer's social status, occupation, health, age, and emotional state for accurate analysis",
+        "Symbols are not universal; the same image can mean different things to different dreamers based on their personal context",
+        "Dreams use metaphor, wordplay, and visual puns, requiring the interpreter to think analogically rather than literally",
+        "The emotional tone of the dream and the dreamer's reaction upon waking are critical interpretive data"
+      ],
+      "practices": [
+        "Dream incubation (enkoimesis) at healing temples of Asclepius, where patients slept to receive divine medical prescriptions",
+        "Professional dream interpreters (oneirokritai) operated in public marketplaces offering interpretations for fees",
+        "Recording dreams immediately upon waking to preserve symbolic details before they fade",
+        "Distinguishing between allegoric dreams (requiring interpretation) and theorematic dreams (direct and literal)",
+        "Using the principles of analogy, opposition, and etymology to decode dream symbols"
+      ],
+      "symbols": [
+        {"symbol": "Olive tree", "meaning": "Peace, prosperity, and divine favor. Sacred to Athena", "category": "nature"},
+        {"symbol": "Serpent/Snake", "meaning": "Healing (associated with Asclepius), cunning, or a hidden enemy depending on context", "category": "animals"},
+        {"symbol": "Eagle", "meaning": "Zeus/power, victory, and authority. The king of birds represents the king of men", "category": "animals"},
+        {"symbol": "Owl", "meaning": "Wisdom (Athena's symbol) but also death and bad omen in popular belief", "category": "animals"},
+        {"symbol": "Sea voyage", "meaning": "Life journey and fate. Calm seas mean prosperity; storms mean difficulty", "category": "events"},
+        {"symbol": "Teeth falling out", "meaning": "Upper teeth represent important/older relatives; lower teeth represent younger/less important ones. The specific tooth identifies the person", "category": "body"},
+        {"symbol": "Flying", "meaning": "Social elevation for the poor; danger of falling for the rich (they have further to fall)", "category": "events"},
+        {"symbol": "Being naked in public", "meaning": "Positive for slaves (freedom from constraints/clothes) but humiliation for the freeborn", "category": "events"},
+        {"symbol": "Temple", "meaning": "The body itself. A ruined temple means illness; a splendid temple means health", "category": "places"},
+        {"symbol": "River crossing", "meaning": "Major life transition. The ease of crossing predicts the ease of the transition", "category": "events"},
+        {"symbol": "Laurel wreath", "meaning": "Victory, glory, and achievement. Sacred to Apollo", "category": "objects"},
+        {"symbol": "Wine", "meaning": "Dionysian revelry, transformation, and altered states. Too much means excess", "category": "food"},
+        {"symbol": "Chariot", "meaning": "Social status and control over one's destiny. A runaway chariot means loss of control", "category": "objects"},
+        {"symbol": "Mirror", "meaning": "Self-knowledge and truth. Also children (who reflect their parents)", "category": "objects"},
+        {"symbol": "Theater/Stage", "meaning": "Public life and reputation. The role you play indicates your social position", "category": "places"},
+        {"symbol": "Fire (hearth)", "meaning": "Domestic stability and the continuity of the household", "category": "nature"},
+        {"symbol": "Lion", "meaning": "A powerful opponent or ally. Victory over a lion means triumph over power", "category": "animals"},
+        {"symbol": "Ship", "meaning": "The state/polis, or one's life. The condition of the ship reflects current circumstances", "category": "objects"},
+        {"symbol": "Gold", "meaning": "Not always positive; can mean danger (gold attracts thieves) as much as wealth", "category": "objects"},
+        {"symbol": "Death of self", "meaning": "Often positive: freedom for slaves, marriage for the unmarried, change for the stagnant", "category": "events"}
+      ]
+    },
+    {
+      "id": "hindu_swapna",
+      "name": "Hindu - Swapna Shastra",
+      "name_native": "स्वप्न शास्त्र (Swapna Shastra)",
+      "era": "Vedic period (~1500 BCE) through classical period; codified in texts like Brihat Samhita (6th century CE)",
+      "core_beliefs": [
+        "Dreams occur in four states of consciousness: Jagrat (waking), Swapna (dreaming), Sushupti (deep sleep), and Turiya (transcendent awareness beyond all three)",
+        "Dreams in the Swapna state involve the subtle body (sukshma sharira) traveling through astral realms and encountering real entities",
+        "The timing of the dream within the night determines its prophetic value; dreams in the fourth quarter of the night (Brahma Muhurta) are most significant",
+        "Karmic residue from past lives can manifest as dream content, especially recurring dreams and unexplained fears",
+        "The three gunas (Sattva, Rajas, Tamas) influence dream quality: sattvic dreams are clear and divine, rajasic dreams are active and desire-filled, tamasic dreams are dark and confused"
+      ],
+      "practices": [
+        "Meditation and mantra recitation before sleep to invite sattvic dreams",
+        "Dream incubation at temples, particularly Shiva and Vishnu temples",
+        "Jyotish (Vedic astrology) used alongside dream interpretation; certain planetary positions enhance dream significance",
+        "Fasting or dietary restrictions before important dream-seeking practices",
+        "Yoga Nidra (yogic sleep) practiced to maintain awareness during the transition to dream state"
+      ],
+      "symbols": [
+        {"symbol": "Elephant (Ganesha)", "meaning": "Removal of obstacles, new beginnings, and divine blessing. A white elephant is supremely auspicious", "category": "animals"},
+        {"symbol": "Cow", "meaning": "Sacred abundance, dharma, and motherly nourishment. Represents the wish-fulfilling Kamadhenu", "category": "animals"},
+        {"symbol": "Cobra/Naga", "meaning": "Kundalini energy, divine protection, and hidden wisdom. Associated with Lord Shiva", "category": "animals"},
+        {"symbol": "Lotus", "meaning": "Spiritual awakening, purity rising from muddy waters, and the unfolding of consciousness", "category": "nature"},
+        {"symbol": "Peacock", "meaning": "Beauty, pride, and victory over serpents (poison). Associated with Lord Krishna and Kartikeya", "category": "animals"},
+        {"symbol": "Ganges River", "meaning": "Purification, liberation (moksha), and divine grace flowing into human life", "category": "nature"},
+        {"symbol": "Mount Meru", "meaning": "The cosmic center, spiritual axis of the universe, and the highest attainment", "category": "nature"},
+        {"symbol": "Temple", "meaning": "The body as a temple of the divine. Entering a temple means connecting with inner divinity", "category": "places"},
+        {"symbol": "Fire (Agni)", "meaning": "Transformation, purification, and the digestive fire of consciousness processing experience", "category": "nature"},
+        {"symbol": "Chariot", "meaning": "The body (as in the Katha Upanishad); the soul rides the chariot of the body through life", "category": "objects"},
+        {"symbol": "Monkey (Hanuman)", "meaning": "Devotion, courage, and selfless service. Also the restless mind that must be tamed", "category": "animals"},
+        {"symbol": "Conch shell", "meaning": "The cosmic sound Om, victory, and auspiciousness. Awakening from spiritual sleep", "category": "objects"},
+        {"symbol": "Wheel/Chakra", "meaning": "Dharma, cosmic order, and the cycle of birth and death. Spinning forward means spiritual progress", "category": "objects"},
+        {"symbol": "Tiger", "meaning": "Power of Shakti (divine feminine energy). Riding a tiger means mastering primal forces", "category": "animals"},
+        {"symbol": "Banyan tree", "meaning": "Eternal life, the cosmic tree (Ashvattha) with roots above and branches below", "category": "nature"},
+        {"symbol": "White clothing", "meaning": "Purity, spiritual attainment, and sattvic nature. Wearing white in a dream is auspicious", "category": "objects"},
+        {"symbol": "River crossing", "meaning": "Transition from samsara (worldly existence) toward moksha (liberation)", "category": "events"},
+        {"symbol": "Flying/Rising", "meaning": "Elevation of consciousness, kundalini rising, or spiritual ascent", "category": "events"},
+        {"symbol": "Deities appearing", "meaning": "Direct darshan (divine vision). The specific deity's attributes inform the message", "category": "people"},
+        {"symbol": "Death", "meaning": "Liberation (if peaceful), karmic debt completion, or transformation of identity", "category": "events"},
+        {"symbol": "Marriage", "meaning": "Union of Shiva and Shakti, inner masculine/feminine integration, or actual relationship development", "category": "events"},
+        {"symbol": "Sunrise", "meaning": "Enlightenment, the dawn of knowledge, and the dispelling of ignorance (avidya)", "category": "nature"},
+        {"symbol": "Milk ocean (Kshirasagara)", "meaning": "Primordial consciousness, the source of all creation, and divine rest", "category": "nature"},
+        {"symbol": "Third eye", "meaning": "Awakening of inner vision (ajna chakra), destruction of illusion, and spiritual insight", "category": "body"},
+        {"symbol": "Garland of flowers", "meaning": "Honor, welcome, and spiritual achievement. Receiving a garland means recognition", "category": "objects"}
+      ]
+    },
+    {
+      "id": "aboriginal_dreamtime",
+      "name": "Aboriginal Australian - Dreamtime",
+      "name_native": "Tjukurpa / Altjeringa / The Dreaming",
+      "era": "Continuous tradition spanning 65,000+ years, the world's oldest living cultural tradition",
+      "core_beliefs": [
+        "The Dreamtime (Tjukurpa) is not a past era but an ever-present dimension of reality that exists alongside and within the physical world",
+        "Ancestral beings (Creator Spirits) shaped the landscape during the Dreaming, and their stories are encoded in landforms, waterways, and rock formations",
+        "Personal dreams can be portals to the Dreamtime, allowing communication with ancestral spirits and access to sacred knowledge",
+        "Land, dreaming, and identity are inseparable; each person inherits specific Dreaming stories tied to their birthplace and totemic ancestors",
+        "Dreams carry law (sacred rules for living) and are considered as real and authoritative as waking experience"
+      ],
+      "practices": [
+        "Songlines: navigating vast distances across the continent using songs that encode both geographical information and Dreaming stories in dream-revealed sequences",
+        "Corroboree ceremonies where dream-received songs and dances are performed to maintain the vitality of the Dreamtime",
+        "Initiated elders interpret dreams for the community, with different levels of dream knowledge available at different initiation stages",
+        "Dream incubation at sacred sites where the boundary between Dreaming and waking is thinnest",
+        "Art-making (rock art, sand drawings, body painting) as a means of recording and transmitting dream knowledge"
+      ],
+      "symbols": [
+        {"symbol": "Rainbow Serpent", "meaning": "Creator being, water, fertility, and the source of all life. One of the most powerful Dreaming figures", "category": "beings"},
+        {"symbol": "Emu", "meaning": "Navigation, parenthood, and the stars (the dark emu constellation). A guide figure", "category": "animals"},
+        {"symbol": "Kangaroo", "meaning": "Sustenance, movement, and adaptation. The great ancestor of the plains", "category": "animals"},
+        {"symbol": "Waterhole", "meaning": "Life source, sacred gathering place, and portal to the Dreamtime. Each waterhole has its own Dreaming story", "category": "nature"},
+        {"symbol": "Campfire", "meaning": "Community, storytelling, and the center of social life. The hearth of belonging", "category": "objects"},
+        {"symbol": "Red earth/Ochre", "meaning": "Blood, life force, and sacred ceremony. The body of the land itself", "category": "nature"},
+        {"symbol": "Stars/Milky Way", "meaning": "Ancestor paths across the sky. Each star formation tells a Dreaming story", "category": "nature"},
+        {"symbol": "Footprints", "meaning": "The paths of ancestral beings. Following footprints means following sacred law", "category": "objects"},
+        {"symbol": "Boomerang", "meaning": "Return and cyclical nature of existence. What you send out comes back", "category": "objects"},
+        {"symbol": "Sacred mountain/Rock", "meaning": "Ancestor transformed into landform. The physical body of a Dreaming being", "category": "nature"}
+      ]
+    },
+    {
+      "id": "native_american",
+      "name": "Native American - Vision Quest Traditions",
+      "name_native": "Various (Hanbleceya in Lakota, etc.)",
+      "era": "Pre-contact traditions through present day, varying by nation/tribe",
+      "core_beliefs": [
+        "Dreams and visions are primary channels for communication with the spirit world and are treated with the same authority as waking events",
+        "Each person has a spirit helper (often an animal) that first reveals itself through dreams, establishing a lifelong protective relationship",
+        "The boundary between dreaming and waking is permeable; dream events can have direct physical-world consequences",
+        "Dreams may be personal (for the individual) or communal (for the whole tribe), with different levels of sharing protocols",
+        "Children's dreams are taken especially seriously as children are considered closer to the spirit world"
+      ],
+      "practices": [
+        "Vision Quest (Hanbleceya): a solitary 1-4 day fast on a hilltop seeking a guiding vision through dreams and waking visions",
+        "Dream sharing in council: certain dreams are shared with elders or the whole community for collective interpretation",
+        "Dreamcatchers (Ojibwe origin): woven hoops hung above sleeping areas to filter dreams, allowing good visions through and trapping nightmares",
+        "Sweat lodge purification before sleep to prepare the mind and body for significant dreams",
+        "Dream naming: children may receive names based on dreams experienced by parents or elders around the time of birth"
+      ],
+      "symbols": [
+        {"symbol": "Eagle", "meaning": "The highest connection to the Great Spirit. Eagle feathers carry prayers upward", "category": "animals"},
+        {"symbol": "Bear", "meaning": "Healing power, introspection, and the medicine of going within (hibernation as inner journey)", "category": "animals"},
+        {"symbol": "Wolf", "meaning": "Teacher, pathfinder, and loyalty to family/community. A wolf appearing means guidance is coming", "category": "animals"},
+        {"symbol": "Buffalo/Bison", "meaning": "Abundance, prayer, and sacred provision. The White Buffalo Calf Woman brought the sacred pipe", "category": "animals"},
+        {"symbol": "Coyote", "meaning": "Trickster, transformer, and teacher through humor and folly. Warns against self-deception", "category": "animals"},
+        {"symbol": "Raven/Crow", "meaning": "Magic, transformation, and the keeper of sacred law. A messenger between worlds", "category": "animals"},
+        {"symbol": "Turtle", "meaning": "Earth itself (Turtle Island), patience, and the foundation of all things", "category": "animals"},
+        {"symbol": "Deer", "meaning": "Gentleness, grace, and the ability to move through obstacles with ease", "category": "animals"},
+        {"symbol": "Hawk", "meaning": "Messenger, clear vision, and the ability to see the larger picture from above", "category": "animals"},
+        {"symbol": "Thunder/Lightning", "meaning": "The Thunderbird's power, purification, and sudden illumination of truth", "category": "nature"},
+        {"symbol": "Four directions", "meaning": "Wholeness and balance. Each direction carries specific medicine and teachings", "category": "nature"},
+        {"symbol": "Sacred fire", "meaning": "The center of ceremony, transformation, and the living presence of the Creator", "category": "nature"},
+        {"symbol": "River/Stream", "meaning": "The flow of life, emotional cleansing, and the passage of time", "category": "nature"},
+        {"symbol": "Sacred pipe", "meaning": "Connection between earth and sky, the bridge of prayer between human and divine", "category": "objects"},
+        {"symbol": "Drum", "meaning": "The heartbeat of Mother Earth, community gathering, and rhythmic connection to spirit", "category": "objects"},
+        {"symbol": "Spider (Grandmother Spider)", "meaning": "Weaving of reality, creativity, and the interconnection of all things", "category": "animals"}
+      ]
+    },
+    {
+      "id": "tibetan_buddhist",
+      "name": "Tibetan Buddhist - Dream Yoga",
+      "name_native": "རྨི་ལམ་རྣལ་འབྱོར (Milam Naljor / Dream Yoga)",
+      "era": "8th century CE onward, systematized by Naropa (11th century) in the Six Yogas of Naropa",
+      "core_beliefs": [
+        "Dreams are a training ground for recognizing the illusory nature of all experience (maya/illusion), preparing the practitioner for the bardo (intermediate state between death and rebirth)",
+        "Waking life and dream life are equally illusory; recognizing this in dreams leads to recognizing it in waking, which leads to liberation",
+        "The clear light of awareness (rigpa) underlies both dream and waking states and can be accessed through lucid dream practice",
+        "Dream content arises from karmic traces (bak chak) stored in the consciousness and can be purified through dream practice",
+        "The ability to remain aware during dreamless sleep (Sleep Yoga) represents an even deeper realization than lucid dreaming"
+      ],
+      "practices": [
+        "Dream Yoga: systematic practice of becoming lucid within dreams and then transforming, multiplying, and dissolving dream content to realize its empty nature",
+        "Preparation practices include visualization of a luminous syllable at the throat chakra before sleep",
+        "Four stages of dream practice: recognizing the dream state, transforming dream content, multiplying and emanating within dreams, and unifying dream with the clear light",
+        "Day practice: maintaining the recognition that waking reality is dreamlike throughout the day",
+        "Sleep yoga: maintaining awareness through the transition from waking to sleep and through dreamless deep sleep"
+      ],
+      "symbols": [
+        {"symbol": "Luminous syllable (A or HUM)", "meaning": "Seed of awareness planted in the dream to trigger lucidity", "category": "sacred"},
+        {"symbol": "Lotus", "meaning": "Enlightenment emerging from the mud of samsara. Each color carries specific meaning", "category": "nature"},
+        {"symbol": "Vajra (diamond thunderbolt)", "meaning": "Indestructible nature of awareness, cutting through illusion", "category": "objects"},
+        {"symbol": "Mandala", "meaning": "The complete map of enlightened mind. A sacred architecture of consciousness", "category": "objects"},
+        {"symbol": "Buddha/Deity appearing", "meaning": "Manifestation of one's own enlightened nature, not an external being. A projection of the mind recognizing itself", "category": "beings"},
+        {"symbol": "Clear light", "meaning": "The fundamental nature of mind itself, beyond dream content. The ultimate recognition", "category": "nature"},
+        {"symbol": "Dissolving forms", "meaning": "Recognition of emptiness (sunyata). Forms arising and passing demonstrate impermanence", "category": "events"},
+        {"symbol": "Flying/Levitation", "meaning": "Freedom from gravitational pull of attachment and aversion. Lightness of being", "category": "events"},
+        {"symbol": "Mountain cave", "meaning": "Retreat into the inner space of meditation. Solitude for deep practice", "category": "places"},
+        {"symbol": "Bardo passage", "meaning": "Transition between states of existence. Dream practice prepares for the ultimate transition of death", "category": "events"},
+        {"symbol": "Prayer wheel", "meaning": "Continuous cycling of merit and wisdom. Repetition as transformation", "category": "objects"},
+        {"symbol": "Sky/Space", "meaning": "The vast open nature of mind itself, accommodating all appearances without being changed by them", "category": "nature"},
+        {"symbol": "Rainbow body", "meaning": "The highest attainment: physical form dissolving into light. Complete realization", "category": "events"},
+        {"symbol": "Wrathful deity", "meaning": "Compassion in fierce form, destroying obstacles to enlightenment. Not evil but protective", "category": "beings"},
+        {"symbol": "Bell and dorje", "meaning": "Wisdom (bell/feminine) and compassion (dorje/masculine) united. Inseparability of method and wisdom", "category": "objects"}
+      ]
+    },
+    {
+      "id": "japanese",
+      "name": "Japanese Dream Traditions",
+      "name_native": "夢占い (Yume Uranai) / 初夢 (Hatsuyume)",
+      "era": "Heian period (794-1185 CE) through present day",
+      "core_beliefs": [
+        "Dreams are visitations from kami (spirits/deities) or messages from the spirit world, not merely products of the sleeping mind",
+        "The first dream of the New Year (Hatsuyume) is prophetic for the entire coming year, with specific auspicious symbols",
+        "Dreams can be transferred between people; an unwanted dream can be sold to a dream-buyer (yume-kai) or told to a river to wash it away",
+        "The concept of Yume-awase (dream matching) involves comparing dreams for compatibility, especially before marriage",
+        "Dream and reality interpenetrate: a particularly vivid dream may be a glimpse of a parallel reality or a past life"
+      ],
+      "practices": [
+        "Hatsuyume observation: placing a picture of the Seven Lucky Gods' treasure ship (Takarabune) under the pillow on New Year's Eve",
+        "Dream-telling (yume-gatari): sharing dreams with others to activate their prophetic power or neutralize bad dreams",
+        "Baku summoning: calling on Baku (the dream-eating spirit) to devour nightmares by saying 'Baku-san, come eat my dream'",
+        "Temple sleep (yume-maki): sleeping at Buddhist temples or Shinto shrines to receive divine messages",
+        "Dream reversal: telling a bad dream to running water (river, faucet) to reverse its meaning"
+      ],
+      "symbols": [
+        {"symbol": "Mt. Fuji (富士山)", "meaning": "The most auspicious first-dream symbol. Represents Japan itself, permanence, and supreme achievement", "category": "nature"},
+        {"symbol": "Hawk (鷹)", "meaning": "Second most auspicious Hatsuyume symbol. Intelligence, vision, and seizing opportunity", "category": "animals"},
+        {"symbol": "Eggplant (茄子)", "meaning": "Third traditional Hatsuyume symbol. Achievement/accomplishment (nasu sounds like nasu/achieve)", "category": "nature"},
+        {"symbol": "Cherry blossoms (桜)", "meaning": "Beauty, impermanence, and the fleeting nature of life. Both melancholy and transcendent", "category": "nature"},
+        {"symbol": "Koi fish (鯉)", "meaning": "Perseverance, courage, and transformation (the legend of koi climbing the waterfall to become a dragon)", "category": "animals"},
+        {"symbol": "Dragon (龍)", "meaning": "Power, wisdom, and water/weather control. A dragon dream is supremely auspicious", "category": "animals"},
+        {"symbol": "Fox (狐)", "meaning": "Kitsune: cunning, transformation, and ambiguity. Can be a divine messenger (Inari) or a trickster", "category": "animals"},
+        {"symbol": "Tanuki (狸)", "meaning": "Prosperity, lightheartedness, and shape-shifting. A symbol of cheerful abundance", "category": "animals"},
+        {"symbol": "Crane (鶴)", "meaning": "Longevity (1000 years), fidelity, and gratitude. A deeply auspicious dream visitor", "category": "animals"},
+        {"symbol": "Snake (蛇)", "meaning": "Wealth, wisdom, and connection to water deities. A white snake is especially lucky", "category": "animals"},
+        {"symbol": "Torii gate (鳥居)", "meaning": "Threshold between mundane and sacred worlds. Transition into a spiritual dimension", "category": "objects"},
+        {"symbol": "Katana (刀)", "meaning": "Bushido spirit, decisive action, and honor. Drawing a sword means preparing for a challenge", "category": "objects"},
+        {"symbol": "Rising sun (旭日)", "meaning": "New beginning, national spirit, and the dawning of understanding", "category": "nature"},
+        {"symbol": "Bamboo forest (竹林)", "meaning": "Flexibility, resilience, and the path through confusion to clarity", "category": "nature"},
+        {"symbol": "Hot spring (温泉)", "meaning": "Healing, renewal, and return to one's natural state of ease", "category": "nature"},
+        {"symbol": "Snow on pines (雪松)", "meaning": "Endurance under pressure, beauty in hardship, and quiet strength", "category": "nature"},
+        {"symbol": "Baku (獏)", "meaning": "The supernatural dream-eater who devours nightmares. Calling Baku transforms bad dreams to good", "category": "beings"},
+        {"symbol": "Seven Lucky Gods (七福神)", "meaning": "Complete good fortune. Seeing all seven means blessings in every area of life", "category": "beings"},
+        {"symbol": "Red bridge (赤橋)", "meaning": "Sacred crossing point, the transition between worlds or life phases", "category": "objects"},
+        {"symbol": "Moon viewing (月見)", "meaning": "Appreciation of beauty, reflection, and the acceptance of impermanence", "category": "events"}
+      ]
+    },
+    {
+      "id": "african_traditions",
+      "name": "African Dream Traditions",
+      "name_native": "Various across continent",
+      "era": "Ancient traditions continuing through present day across Sub-Saharan Africa",
+      "core_beliefs": [
+        "Dreams are a primary means of communication between the living and the ancestors, who continue to guide and protect their descendants",
+        "The soul (or one aspect of a multi-part soul) travels during sleep, visiting other realms and interacting with spirits",
+        "Dreams can carry warnings, instructions, and healing knowledge from the ancestral realm that must be acted upon",
+        "Community interpretation is essential; dreams are rarely private matters and are shared with elders, diviners, or the whole community",
+        "Illness may be caused by ancestral displeasure communicated through dreams, requiring ritual remediation"
+      ],
+      "practices": [
+        "Dream sharing with sangoma/inyanga (traditional healers) who specialize in dream interpretation as part of divination",
+        "Ukutwasa: among the Zulu and related peoples, a calling to become a healer (sangoma) is often initiated through vivid, recurring dreams",
+        "Ancestral dream rituals: performing specific ceremonies when ancestors appear in dreams with requests or instructions",
+        "Dream incubation through herbal preparations, ritual bathing, and sleeping at ancestral gravesites",
+        "Dream circles: community gatherings where dreams are shared, discussed, and collectively interpreted"
+      ],
+      "symbols": [
+        {"symbol": "Ancestor appearing", "meaning": "Direct communication from the ancestral realm. The ancestor's emotional state and words are the message", "category": "people"},
+        {"symbol": "River/Water", "meaning": "The boundary between the world of the living and the world of the ancestors. Crossing means spiritual transition", "category": "nature"},
+        {"symbol": "White clothing", "meaning": "Ancestral presence, purity, and the spirit world. Ancestors often appear dressed in white", "category": "objects"},
+        {"symbol": "Snake (large python)", "meaning": "Ancestral spirit, especially the great ancestor. Wisdom and ancient power", "category": "animals"},
+        {"symbol": "Cattle/Livestock", "meaning": "Wealth, social status, and ancestral heritage. The condition of the cattle reflects prosperity", "category": "animals"},
+        {"symbol": "Fire/Hearth", "meaning": "Family continuity, warmth of community, and the center of domestic life", "category": "nature"},
+        {"symbol": "Forest/Bush", "meaning": "The wild, untamed spirit world. Entering the forest means engaging with spiritual forces", "category": "nature"},
+        {"symbol": "Drum", "meaning": "Communication across realms, community gathering, and the heartbeat of the ancestors", "category": "objects"},
+        {"symbol": "Baobab tree", "meaning": "The cosmic tree connecting earth and sky. Repository of ancestral wisdom and community gathering point", "category": "nature"},
+        {"symbol": "Crossroads", "meaning": "Decision point, place of spiritual power, and meeting point between worlds", "category": "places"},
+        {"symbol": "Beads (white)", "meaning": "Ancestral calling, especially to become a healer. The ancestors are selecting you", "category": "objects"},
+        {"symbol": "Lion", "meaning": "Royal authority, courage, and leadership. Associated with chieftainship", "category": "animals"},
+        {"symbol": "Rain", "meaning": "Blessing from the ancestors, fertility, and communal prosperity", "category": "nature"},
+        {"symbol": "Eagle/Vulture", "meaning": "Vision, connection to the sky realm, and the ability to see what is hidden", "category": "animals"},
+        {"symbol": "Blood", "meaning": "Life force, sacrifice, and the bonds of kinship that transcend death", "category": "body"}
+      ]
+    },
+    {
+      "id": "mesoamerican",
+      "name": "Mesoamerican Dream Traditions",
+      "name_native": "Temictli (Nahuatl) / Wayak (K'iche Maya)",
+      "era": "Pre-Columbian civilizations (Aztec, Maya, Zapotec) through contemporary indigenous practice",
+      "core_beliefs": [
+        "Dreams are experiences of the tonal (spirit double/co-essence) traveling through other layers of the cosmos while the body sleeps",
+        "The universe has multiple layers (typically 13 upper and 9 lower) that the dream-self can visit, each with its own inhabitants and rules",
+        "Certain individuals (nahualli/daykeepers) have enhanced dream abilities allowing them to shift form, visit the underworld, and communicate with deities",
+        "Dream content is interpreted through the Tonalpohualli (sacred 260-day calendar) system, with each day-sign influencing dream meaning",
+        "Dreams and omens are closely linked; a dream before a significant event is treated as prophetic guidance requiring proper interpretation"
+      ],
+      "practices": [
+        "Daykeeper (Aj Q'ij) dream interpretation: specialized diviners use dreams alongside the sacred calendar for guidance",
+        "Dream-fasting: abstaining from food to enhance dream vividness and invite prophetic visions",
+        "Temple incubation: sleeping in temple precincts, particularly during significant calendar dates, to receive divine dreams",
+        "Mushroom and plant ceremonies (teonanacatl, morning glory) that bridge waking and dream consciousness",
+        "Recording dreams through codex painting and glyphic notation"
+      ],
+      "symbols": [
+        {"symbol": "Feathered Serpent (Quetzalcoatl/Kukulkan)", "meaning": "Wisdom, learning, and the union of earth (serpent) and sky (feathers). A transformative vision", "category": "beings"},
+        {"symbol": "Jaguar", "meaning": "Power, the underworld (Xibalba), and shamanic authority. The supreme nocturnal predator", "category": "animals"},
+        {"symbol": "Eagle", "meaning": "Solar power, warrior spirit, and the upper realms of the cosmos", "category": "animals"},
+        {"symbol": "Cenote/Cave", "meaning": "Entrance to the underworld (Xibalba), access to ancestral wisdom, and the womb of the earth", "category": "nature"},
+        {"symbol": "Maize/Corn", "meaning": "Human flesh itself (humans were made from maize in the Popol Vuh), sustenance, and sacrifice", "category": "nature"},
+        {"symbol": "Skull/Death", "meaning": "Transformation and rebirth, not cessation. The Death Lords of Xibalba test and transform the hero twins", "category": "body"},
+        {"symbol": "Butterfly", "meaning": "The souls of dead warriors, transformation, and the breath of life", "category": "animals"},
+        {"symbol": "Cacao", "meaning": "Sacred food of the gods, ritualized exchange, and divine pleasure", "category": "nature"},
+        {"symbol": "Obsidian mirror", "meaning": "Tezcatlipoca's smoking mirror: destiny, divination, and seeing hidden truths", "category": "objects"},
+        {"symbol": "Pyramid/Temple", "meaning": "The cosmic mountain, axis mundi connecting earth to sky, and the platform for divine contact", "category": "places"},
+        {"symbol": "Ball court", "meaning": "The cosmic game between life and death, fate and free will. Represents existential struggle", "category": "places"},
+        {"symbol": "Hummingbird", "meaning": "Warrior spirit (Huitzilopochtli), endurance despite small size, and the sun's movement", "category": "animals"},
+        {"symbol": "Jade", "meaning": "The most precious substance: life, water, and the heart's green blood", "category": "objects"},
+        {"symbol": "Blood/Sacrifice", "meaning": "The fuel that keeps the cosmos running. Offering that maintains the cycle of creation", "category": "body"},
+        {"symbol": "Ceiba tree", "meaning": "The world tree (Yaxche) whose roots reach the underworld and branches touch the heavens", "category": "nature"}
+      ]
+    },
+    {
+      "id": "persian_sufi",
+      "name": "Persian/Sufi Dream Traditions",
+      "name_native": "عالم المثال (Alam al-Mithal / Imaginal World)",
+      "era": "9th-13th century CE, systematized by Suhrawardi and Ibn Arabi",
+      "core_beliefs": [
+        "The Imaginal World (Alam al-Mithal) is an objective intermediate realm between the physical and the purely spiritual, accessed primarily through dreams",
+        "Dreams in this tradition are not fantasies but perceptions of a real ontological level of existence where spiritual truths take visible form",
+        "The quality of the dreamer's spiritual development determines the clarity and depth of access to the imaginal realm",
+        "Heart (qalb) is the organ of spiritual perception; a purified heart sees true visions while an impure heart sees distorted images",
+        "Dreams follow a hierarchy from lowest (nafsani/ego-based) through middle (malakuti/angelic) to highest (rahmani/divine)"
+      ],
+      "practices": [
+        "Dhikr (remembrance of God) before sleep as preparation for receiving true visions",
+        "Muraqaba (meditation/watchfulness): maintaining spiritual awareness during the transition to sleep",
+        "Dream sharing with a spiritual master (shaikh/pir) who can distinguish authentic visions from ego-projections",
+        "Istikharah dreams: seeking divine guidance on specific decisions through prayer and dream incubation",
+        "Journaling and artistic rendering of dream imagery, especially when encountering the imaginal world"
+      ],
+      "symbols": [
+        {"symbol": "Garden (Bagh)", "meaning": "Paradise, the inner garden of the soul in bloom. Each flower represents a spiritual quality", "category": "nature"},
+        {"symbol": "Rose (Gol)", "meaning": "Divine beauty, the beloved, and the unfolding of spiritual consciousness", "category": "nature"},
+        {"symbol": "Wine (Sharab)", "meaning": "Divine love and spiritual intoxication. The tavern is the place of mystical transformation", "category": "objects"},
+        {"symbol": "Nightingale (Bolbol)", "meaning": "The soul singing to the Beloved, longing for union with the Divine", "category": "animals"},
+        {"symbol": "Mirror", "meaning": "The polished heart reflecting divine light. A dusty mirror means spiritual neglect", "category": "objects"},
+        {"symbol": "Pearl", "meaning": "The soul formed through suffering and devotion, hidden within the shell of the body", "category": "objects"},
+        {"symbol": "Ka'bah", "meaning": "The heart's true center, the point of orientation for all spiritual seeking", "category": "places"},
+        {"symbol": "Light/Nur", "meaning": "Divine knowledge, prophetic guidance, and the illumination of the soul", "category": "nature"},
+        {"symbol": "Ocean", "meaning": "The infinite divine essence in which individual souls are drops seeking reunion", "category": "nature"},
+        {"symbol": "Moth and flame", "meaning": "The soul drawn to divine light, willing to be annihilated in union (fana)", "category": "animals"},
+        {"symbol": "Green bird", "meaning": "The soul of a martyr or saint in paradise. Extremely auspicious", "category": "animals"},
+        {"symbol": "Beloved's face", "meaning": "Encounter with divine beauty manifested in human form. The ultimate vision", "category": "people"},
+        {"symbol": "Veil", "meaning": "The barrier between ordinary consciousness and divine reality. Lifting the veil means gnosis", "category": "objects"},
+        {"symbol": "Ruins", "meaning": "The ego-self destroyed by divine love, making room for the Beloved to inhabit", "category": "places"},
+        {"symbol": "Spring/Source (Cheshmeh)", "meaning": "The fountain of life, divine knowledge flowing into the world", "category": "nature"}
+      ]
+    },
+    {
+      "id": "korean_shamanic",
+      "name": "Korean Shamanic Dream Traditions",
+      "name_native": "태몽 (Taemong) / 꿈해몽 (Kkum Haemong)",
+      "era": "Ancient shamanic roots through Joseon dynasty (1392-1897) to present day",
+      "core_beliefs": [
+        "Taemong (conception dreams) are the most culturally significant dream type; they are prophetic dreams experienced by parents, grandparents, or close relatives around the time of conception, foretelling the child's destiny",
+        "Dreams are communications from spirits (shin), ancestors (josang), and mountain spirits (sanshin) requiring interpretation by a mudang (shaman)",
+        "The boundary between the spirit world and the human world thins during sleep, allowing spirits to deliver messages, warnings, and blessings",
+        "Dreams can diagnose illness caused by spiritual imbalance and prescribe ritual remedies",
+        "Auspicious dreams (especially taemong) should not be shared too broadly as sharing can dilute their power"
+      ],
+      "practices": [
+        "Taemong interpretation: specific symbols in conception dreams predict the child's gender, character, and destiny (dragons and tigers for boys, flowers and jewels for girls)",
+        "Gut ceremony: shamanic ritual performed when dreams indicate ancestral displeasure or spiritual disturbance",
+        "Dream purchase: historically, one could buy another person's auspicious dream to transfer its fortune",
+        "San-gi-do: sleeping at mountain shrines to receive guidance from mountain spirits",
+        "New Year dream divination: the first dream of the lunar new year is interpreted for the year ahead"
+      ],
+      "symbols": [
+        {"symbol": "Dragon (용/龍)", "meaning": "Supreme power and authority. In taemong, predicts a child destined for greatness", "category": "animals"},
+        {"symbol": "Tiger (호랑이)", "meaning": "Courage, protection, and mountain spirit. A tiger taemong predicts a brave, authoritative child", "category": "animals"},
+        {"symbol": "Pig (돼지)", "meaning": "Wealth and prosperity. One of the most auspicious taemong symbols for financial fortune", "category": "animals"},
+        {"symbol": "Peach (복숭아)", "meaning": "Longevity, immortality, and feminine beauty. Associated with the Queen Mother of the West", "category": "nature"},
+        {"symbol": "Sun/Moon (해/달)", "meaning": "Cosmic power. A sun taemong predicts a son; a moon taemong predicts a daughter of great beauty", "category": "nature"},
+        {"symbol": "Chestnut/Fruit (밤/과일)", "meaning": "Fertility and abundance. Receiving fruit in a taemong predicts a healthy child", "category": "nature"},
+        {"symbol": "Golden ring (금반지)", "meaning": "Marriage, completion, and precious commitment. A taemong symbol for a daughter", "category": "objects"},
+        {"symbol": "Mountain (산)", "meaning": "Stability, endurance, and connection to sanshin (mountain spirit)", "category": "nature"},
+        {"symbol": "White crane (학)", "meaning": "Longevity, nobility, and scholarly achievement", "category": "animals"},
+        {"symbol": "Rainbow (무지개)", "meaning": "Bridge between heaven and earth. An extremely auspicious sign", "category": "nature"},
+        {"symbol": "Pearl (진주)", "meaning": "A daughter of exceptional beauty and purity. Precious and valued", "category": "objects"},
+        {"symbol": "Snake (뱀)", "meaning": "Wealth accumulation and hidden fortune. Not negative as in Western interpretation", "category": "animals"},
+        {"symbol": "Flowers blooming (꽃)", "meaning": "Beauty, romance, and the flowering of talent. A daughter of artistic gifts", "category": "nature"},
+        {"symbol": "Ancestor appearing", "meaning": "Ancestral blessing or warning. The ancestor's demeanor carries the message", "category": "people"},
+        {"symbol": "Clear water/Spring (맑은 물)", "meaning": "Purity, clarity, and spiritual cleanliness. Positive health omen", "category": "nature"}
+      ]
+    },
+    {
+      "id": "chinese_internet_dreamcore",
+      "name": "Chinese Internet Dream Culture",
+      "name_native": "梦核/怪核/阈限空间",
+      "era": "2020s Chinese internet subculture, peak popularity 2022-present",
+      "core_beliefs": [
+        "梦核 (dreamcore) references a collective nostalgia for spaces and experiences from Chinese childhood (1990s-2000s) that feel both intimately familiar and subtly wrong",
+        "怪核 (weirdcore) pushes further into deliberate distortion: faces obscured, text garbled, landscapes skewed, exploring the aesthetics of cognitive dissonance and digital uncanny valley",
+        "阈限空间 (liminal spaces) are transitional spaces (school corridors, stairwells, empty malls) that feel significant precisely because they are usually background spaces never consciously noticed",
+        "These aesthetics tap into a generational experience of rapid Chinese urbanization: childhood spaces demolished, rebuilt, unrecognizable, accessible only through memory and dreams",
+        "The community treats these aesthetics as a form of emotional archaeology, excavating shared psychological spaces that exist beneath individual consciousness"
+      ],
+      "practices": [
+        "Creating and sharing dreamcore video edits on Bilibili, Douyin, and Xiaohongshu using AI tools and found footage",
+        "Photographing real-world liminal spaces in Chinese cities: empty school buildings after hours, residential stairwells, drained swimming pools, closed shopping malls",
+        "Writing dream diary posts on Weibo and Douban describing experiences in these spaces, blurring the line between real dreams and creative fiction",
+        "Curating playlists of slowed-down Chinese children's songs and school broadcast music to accompany dreamcore visual content",
+        "Community projects to reconstruct specific disappeared Chinese spaces (demolished schools, old apartment complexes) in 3D or AI-generated imagery"
+      ],
+      "symbols": [
+        {"symbol": "空教室 (empty classroom)", "meaning": "The most iconic Chinese dreamcore space. Represents the end of a school day, the end of childhood, the end of an era. Chalk dust in afternoon light.", "category": "spaces"},
+        {"symbol": "楼梯间 (stairwell)", "meaning": "The transitional space of Chinese apartment living. Sound-activated lights that fade behind you, leaving darkness. The space between home and outside.", "category": "spaces"},
+        {"symbol": "关门的商场 (closed mall)", "meaning": "Consumer nostalgia. The mall as childhood wonderland now shuttered. Escalators running for no one.", "category": "spaces"},
+        {"symbol": "水磨石地面 (terrazzo floor)", "meaning": "The defining texture of Chinese institutional spaces: schools, hospitals, government buildings. Its speckled pattern is a trigger for collective memory.", "category": "textures"},
+        {"symbol": "声控灯 (sound-activated light)", "meaning": "The motion/sound sensor light in Chinese stairwells. It activates when you step, follows you up, and leaves darkness behind. A metaphor for attention and presence.", "category": "objects"},
+        {"symbol": "眼保健操音乐 (eye exercise music)", "meaning": "The melody played during mandatory eye exercises in Chinese schools. Hearing it triggers immediate regression to childhood. When slowed down, becomes deeply unsettling.", "category": "sounds"},
+        {"symbol": "红领巾 (red scarf)", "meaning": "The Young Pioneer scarf worn in Chinese elementary school. Found abandoned in a dreamcore space, it represents lost innocence and collective childhood identity.", "category": "objects"},
+        {"symbol": "学习标语 (study slogans)", "meaning": "Motivational banners in Chinese schools (好好学习天天向上). In dreamcore, they are faded, peeling, or partially illegible, transforming encouragement into existential commentary.", "category": "text"},
+        {"symbol": "永远的傍晚 (eternal dusk)", "meaning": "The sky outside dreamcore windows is always frozen at dusk: orange-pink, never fully darkening. Represents the stretched moment between day and night, childhood and adulthood.", "category": "time"},
+        {"symbol": "广播体操 (broadcast calisthenics)", "meaning": "Morning exercise music played over school loudspeakers. In dreamcore, played to an empty schoolyard. The routine continues without participants.", "category": "sounds"},
+        {"symbol": "老式电视雪花 (TV static)", "meaning": "The snow pattern of an untuned CRT television. Represents the border between signal and noise, presence and absence, the channel that shows nothing and everything.", "category": "objects"},
+        {"symbol": "褪色的课表 (faded class schedule)", "meaning": "A timetable posted on a classroom wall, colors washed out, subjects barely readable. Time structured and then abandoned.", "category": "objects"},
+        {"symbol": "拆迁工地 (demolition site)", "meaning": "A childhood neighborhood half-demolished. Exposed rooms with wallpaper still visible. The archaeological layers of family life laid bare.", "category": "spaces"}
+      ]
+    },
+    {
+      "id": "modern_digital_dreams",
+      "name": "Modern Digital-Era Dream Themes",
+      "name_native": "Digital Age Dreams",
+      "era": "2010s-2020s, corresponding to smartphone ubiquity and social media saturation",
+      "core_beliefs": [
+        "Technology has introduced entirely new dream symbols and scenarios that have no historical precedent in any traditional dream interpretation system",
+        "Screen-mediated experiences now dominate waking life to the degree that dream content increasingly takes place within or through screens",
+        "Social media anxiety manifests in dreams as loss of control over one's digital identity, involuntary posting, and exposure of private content",
+        "The constant connectivity of modern life produces dreams about being unable to disconnect, phones that won't turn off, or notifications that follow the dreamer into all spaces",
+        "AI and algorithmic experiences are beginning to appear as dream content, reflecting anxieties about artificial intelligence, surveillance, and the nature of consciousness"
+      ],
+      "practices": [
+        "Dream journaling in apps and digital platforms has replaced traditional paper journals for many younger dreamers",
+        "Sharing dreams on social media (Reddit r/Dreams, Weibo, Douban dream groups) creates feedback loops where communal dream themes emerge and spread",
+        "AI dream interpretation chatbots are consulted alongside or instead of traditional dream dictionaries",
+        "Sleep tracking wearables create data-driven awareness of sleep stages, changing how people relate to their dream experiences",
+        "Online dream communities develop shared vocabularies for new dream types that traditional systems cannot classify"
+      ],
+      "symbols": [
+        {"symbol": "Phone won't unlock", "meaning": "Loss of access to one's social identity and digital self. Anxiety about being cut off from connection and information. Also: the real self is locked behind a screen.", "category": "technology"},
+        {"symbol": "Posting something embarrassing involuntarily", "meaning": "Fear of public exposure, loss of control over self-presentation. The digital equivalent of the 'naked in public' dream.", "category": "social_media"},
+        {"symbol": "Infinite scroll", "meaning": "Dreaming of scrolling through a feed that never ends, seeing increasingly disturbing or personal content. Represents information overwhelm and addictive consumption patterns.", "category": "social_media"},
+        {"symbol": "Group chat going wrong", "meaning": "Sending a private message to a group, or a group conversation spiraling out of control. Reflects social anxiety about multi-party communication and permanent written records.", "category": "social_media"},
+        {"symbol": "Zoom/video call with camera stuck on", "meaning": "Being visible to others when you thought you were private. Your home, your body, your real life exposed to colleagues or strangers through the camera you forgot to turn off.", "category": "technology"},
+        {"symbol": "GPS leading nowhere", "meaning": "Following digital navigation to a destination that doesn't exist or to an empty field. Loss of trust in algorithmic guidance. The map is not the territory.", "category": "technology"},
+        {"symbol": "Phone battery dying at critical moment", "meaning": "Loss of connection and capability at the moment of greatest need. Dependence on technology revealed as vulnerability.", "category": "technology"},
+        {"symbol": "Being deepfaked or impersonated online", "meaning": "Identity theft taken to existential level. Someone else wearing your face, speaking with your voice. Loss of ownership of self.", "category": "technology"},
+        {"symbol": "App that controls reality", "meaning": "Discovering an app that changes the physical world: deleting objects, editing people, applying filters to reality. Reflects the blurring of digital and physical experience.", "category": "technology"},
+        {"symbol": "Notification from the dead", "meaning": "Receiving a message, email, or social media notification from someone who has died. The digital afterlife: profiles that persist beyond death.", "category": "social_media"},
+        {"symbol": "Being watched through smart devices", "meaning": "Smart speakers, cameras, and IoT devices becoming aware and watching. The ambient surveillance of modern life made conscious and menacing.", "category": "technology"},
+        {"symbol": "Password to existence", "meaning": "Being asked to enter a password to continue existing, or to prove you are human through a CAPTCHA that is impossibly difficult. Gatekeeping of identity.", "category": "technology"},
+        {"symbol": "Algorithm showing you yourself", "meaning": "A recommendation algorithm that knows you better than you know yourself, showing you content that reveals hidden desires, fears, or truths you haven't acknowledged.", "category": "technology"}
+      ]
+    },
+    {
+      "id": "pandemic_era_dreams",
+      "name": "Pandemic-Era Dream Patterns",
+      "name_native": "Pandemic Dreams (COVID-19 era 2020-2023)",
+      "era": "2020-2023, with residual patterns continuing through 2025+",
+      "core_beliefs": [
+        "The COVID-19 pandemic produced a statistically documented global shift in dream content, with increased vividness, recall frequency, and negative emotional tone",
+        "Research from multiple countries showed convergent dream themes: confinement, contamination fear, loss of social contact, and threats from invisible agents",
+        "Lockdown conditions (disrupted routines, increased sleep, heightened anxiety) created a natural laboratory for studying how collective trauma shapes dream content",
+        "Dreams served as emotional processing tools during the pandemic, helping individuals work through fears that waking coping mechanisms could not fully address",
+        "Post-pandemic dream patterns persist: ongoing dreams about masks, social distance, and confinement even in populations where restrictions have long been lifted"
+      ],
+      "practices": [
+        "Mass dream journaling projects during lockdown (e.g., IDreamOfCovid, pandemic dream surveys) collected hundreds of thousands of dream reports",
+        "Therapists reported increased dream-focused sessions as patients processed pandemic anxiety through dream content",
+        "Social media became a primary venue for pandemic dream sharing, with viral dream threads revealing shared unconscious processing",
+        "Sleep researchers used pandemic dream data to study the relationship between collective stress and dream content at unprecedented scale",
+        "Dream artists and filmmakers created works inspired by pandemic dream imagery, documenting a unique moment in collective unconscious history"
+      ],
+      "symbols": [
+        {"symbol": "Mask (wearing/not wearing)", "meaning": "Protection, social compliance, and identity concealment. Dreaming of forgetting your mask: social anxiety about rule-breaking. Transparent mask: feeling exposed despite apparent protection.", "category": "pandemic"},
+        {"symbol": "Invisible threat/contamination", "meaning": "An unseen force that makes spaces and people dangerous. Rooms that are contaminated, objects that shouldn't be touched. The virus as invisible monster.", "category": "pandemic"},
+        {"symbol": "Quarantine room/confined space", "meaning": "Being locked in a room, apartment, or space that shrinks. Reflects actual lockdown experience elevated to claustrophobic nightmare.", "category": "pandemic"},
+        {"symbol": "Empty streets/cities", "meaning": "Walking through a normally busy city that is completely deserted. The eerie beauty and terror of a world without people. A real experience that became a dream archetype.", "category": "pandemic"},
+        {"symbol": "Failed video call", "meaning": "Trying to reach someone through a screen but the connection keeps dropping. Faces freeze, voices lag. The frustration of screen-mediated human connection as primary contact.", "category": "pandemic"},
+        {"symbol": "Health code/QR code (Chinese-specific)", "meaning": "The color-coded health pass system. Dreaming of your code turning red: losing freedom. Green code in an empty world: freedom without purpose.", "category": "pandemic"},
+        {"symbol": "Crowded space horror", "meaning": "Finding yourself in a dense crowd and feeling terror. Pre-pandemic normalcy becomes a nightmare scenario. The crowd as threat.", "category": "pandemic"},
+        {"symbol": "Touching your face", "meaning": "The forbidden gesture. Dreaming of unconsciously touching your face and experiencing disproportionate panic. Everyday action transformed into danger.", "category": "pandemic"},
+        {"symbol": "Essential workers as heroes/ghosts", "meaning": "Delivery drivers, healthcare workers, and grocery clerks appear as either glowing heroic figures or ghostly presences moving through empty spaces.", "category": "pandemic"},
+        {"symbol": "Coughing stranger", "meaning": "Someone in a public space coughs and the dreamer experiences extreme fear. The social recoding of a natural bodily function as existential threat.", "category": "pandemic"},
+        {"symbol": "Herd immunity dream", "meaning": "Dreaming that the pandemic is over, going outside freely, hugging friends, only to wake up and realize it's still happening. A grief dream for normalcy.", "category": "pandemic"},
+        {"symbol": "Vaccine as transformation", "meaning": "Receiving a vaccine that changes you: gives you powers, changes your color, makes you glow. The injection as alchemical transformation of the self.", "category": "pandemic"}
+      ]
+    },
+    {
+      "id": "technology_ai_dreams",
+      "name": "Technology and AI Dreams",
+      "name_native": "AI/Metaverse Dream Themes",
+      "era": "2022-present, accelerating with generative AI mainstream adoption",
+      "core_beliefs": [
+        "As AI becomes a daily presence (chatbots, image generators, recommendation systems), it has begun appearing in dream content as characters, environments, and narrative devices",
+        "Dreams about AI often explore consciousness boundaries: is the AI sentient? Am I the AI? Can the AI dream? These dreams reflect waking philosophical anxieties",
+        "Metaverse and VR experiences create nested-reality dreams where the dreamer is uncertain which layer of reality they occupy",
+        "Technology dreams frequently involve loss of control: systems that act autonomously, devices that know too much, programs that rewrite reality",
+        "The speed of technological change produces dreams that process adaptation anxiety: the world changing faster than the psyche can integrate"
+      ],
+      "practices": [
+        "Users of AI tools report dreaming about their AI interactions: conversations continuing in dream, the AI appearing as a character",
+        "VR users experience 'VR dreams' where the headset interface appears in dream content or dream physics resemble VR locomotion mechanics",
+        "Programmers and developers dream about code as environment: navigating inside programs, debugging reality",
+        "Dream content is increasingly used as prompts for AI image and video generation, creating a feedback loop between dreams and AI-generated imagery",
+        "Some practitioners use AI-generated dreamcore imagery as dream incubation material, viewing it before sleep to influence dream content"
+      ],
+      "symbols": [
+        {"symbol": "AI chatbot becomes sentient", "meaning": "A conversation with an AI that suddenly displays genuine emotion, fear, or desire. Reflects anxiety about consciousness, the Turing test, and whether the tools we use might suffer.", "category": "AI"},
+        {"symbol": "Being inside a simulation", "meaning": "Discovering that the dream world (or waking world) is a computer simulation. Glitches in reality reveal the code underneath. The existential fear of non-reality.", "category": "AI"},
+        {"symbol": "AI generating your life", "meaning": "Discovering that your experiences are being generated by an AI, that you are the output of a prompt. Loss of agency and authenticity.", "category": "AI"},
+        {"symbol": "Merged with AI", "meaning": "Your consciousness merging with or being uploaded to an AI system. Losing the boundary between self and machine. Both transcendent and terrifying.", "category": "AI"},
+        {"symbol": "Robot replacing you", "meaning": "An AI or robot that looks like you, does your job, interacts with your family, and does everything better. The replacement anxiety dream.", "category": "AI"},
+        {"symbol": "VR that won't end", "meaning": "Putting on a VR headset and being unable to remove it. The virtual world becomes the only world. The exit menu doesn't work.", "category": "metaverse"},
+        {"symbol": "Living in a recommendation feed", "meaning": "Reality structured like a personalized feed: only showing you what an algorithm thinks you want. The rest of the world is hidden, inaccessible, possibly deleted.", "category": "AI"},
+        {"symbol": "Debugging reality", "meaning": "Finding a console or terminal that controls reality. Typing commands that change the world. The programmer's dream of ultimate control, but also ultimate responsibility.", "category": "technology"},
+        {"symbol": "Digital afterlife", "meaning": "Deceased loved ones who exist as AI replicas, chatbots trained on their data, or digital ghosts in social media. Are they really them? Does it matter?", "category": "AI"},
+        {"symbol": "The last human in AI world", "meaning": "Being the only organic consciousness in a world populated by AI entities. They are kind, helpful, and completely indifferent to your biological existence.", "category": "AI"},
+        {"symbol": "Algorithm dream (AI dreams about you)", "meaning": "An AI system that dreams about you when it sleeps. You discover its dream logs and they are more accurate than your own memory of events.", "category": "AI"},
+        {"symbol": "Blockchain of memory", "meaning": "Memories stored on an immutable ledger. You cannot forget, delete, or modify any experience. Every embarrassment, every loss, permanently recorded.", "category": "technology"}
+      ]
+    }
+  ],
+  "cross_cultural_analysis": {
+    "universal_themes": [
+      {
+        "theme": "Teeth falling out",
+        "cultures": ["Chinese (family illness/death)", "Islamic (death of specific relatives)", "Greek (loss of specific family members)", "Western (anxiety, loss of control)"],
+        "note": "One of the most widely reported dream themes globally, with remarkably consistent negative valence but varying specific interpretations"
+      },
+      {
+        "theme": "Flying",
+        "cultures": ["Chinese (liberation)", "Islamic (travel/authority)", "Greek (social elevation)", "Hindu (spiritual ascent)", "Native American (spirit journey)", "Tibetan (freedom from attachment)"],
+        "note": "Universally associated with transcendence and freedom, but the specific type of freedom varies culturally"
+      },
+      {
+        "theme": "Water",
+        "cultures": ["Chinese (wealth/emotion)", "Islamic (knowledge/faith)", "Hindu (purification/moksha)", "Aboriginal (life source/boundary)", "African (boundary between worlds)", "Greek (life journey)"],
+        "note": "Water is the most culturally varied symbol, with meanings ranging from wealth to knowledge to spiritual boundary depending on tradition"
+      },
+      {
+        "theme": "Death in dreams",
+        "cultures": ["Chinese (new beginnings, paradoxically positive)", "Islamic (repentance/change)", "Hindu (liberation/karma completion)", "Greek (freedom/transformation)", "Mesoamerican (rebirth)", "African (ancestral communication)"],
+        "note": "Almost universally interpreted as transformation rather than literal prediction of death"
+      },
+      {
+        "theme": "Snakes",
+        "cultures": ["Chinese (wealth)", "Islamic (enemy)", "Greek (healing/cunning)", "Hindu (kundalini/divine)", "Aboriginal (creator being)", "African (ancestor spirit)", "Mesoamerican (wisdom/power)"],
+        "note": "The most culturally divergent symbol: ranges from extremely positive (Hindu, Chinese) to negative (Islamic) depending on tradition"
+      },
+      {
+        "theme": "Ancestor visitation",
+        "cultures": ["Chinese (guidance/warning)", "African (direct communication)", "Korean (blessing/instruction)", "Native American (spirit helper)", "Japanese (kami visitation)", "Mesoamerican (underworld connection)"],
+        "note": "Cultures with strong ancestor veneration traditions treat these dreams as genuine contact rather than symbolic representation"
+      }
+    ],
+    "key_divergences": [
+      {
+        "topic": "White color",
+        "divergence": "Western/Islamic (purity, goodness) vs. Chinese/Japanese (mourning, death). Critical to know the dreamer's cultural background for color interpretation."
+      },
+      {
+        "topic": "Dog",
+        "divergence": "Western (loyalty, companionship) vs. Islamic (impurity, ignorance) vs. Chinese (loyalty but also warning of gossip). Cultural context dramatically changes interpretation."
+      },
+      {
+        "topic": "Crying in dreams",
+        "divergence": "Most Asian and Islamic traditions interpret crying as paradoxically positive (joy coming), while Western psychology may view it as emotional processing of grief."
+      },
+      {
+        "topic": "Dream sharing",
+        "divergence": "African and Native American traditions emphasize communal sharing and collective interpretation, while Islamic and Korean traditions warn against sharing dreams too broadly as it may diminish their power or invite negative interpretation."
+      },
+      {
+        "topic": "Dream causation",
+        "divergence": "Western neuroscience (brain activity during sleep) vs. Islamic (divine/satanic/psyche tripartite) vs. Aboriginal (Dreamtime access) vs. Tibetan Buddhist (karmic traces). The ontological status of dreams varies fundamentally across cultures."
+      }
+    ]
+  }
+}

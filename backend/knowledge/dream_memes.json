@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Viral dream-tweet formats + slang from X/Twitter, Reddit, TikTok 2020-2025. Surfaces patterns the AI interpreter should recognize when users frame dreams in these registers.",
+    "total_formats": 25
+  },
+  "formats": [
+    {
+      "id": "x_coded",
+      "name": "X-coded dream",
+      "pattern": "this dream felt very [X]-coded",
+      "examples": ["very cottagecore-coded dream", "the dream was so traumacore-coded", "dream felt deeply liminal-coded"],
+      "interpretation_hint": "User invokes an aesthetic to compress emotional tone. Map to internet_aesthetics.json entries — they're naming the visual mood, not the content."
+    },
+    {
+      "id": "ate_that",
+      "name": "Ate that dream",
+      "pattern": "I ate that dream / dream ate / served / served lewks",
+      "interpretation_hint": "Dream content was satisfying / impressive / aesthetically delivered. Compliment to one's own subconscious."
+    },
+    {
+      "id": "core_memory",
+      "name": "Core memory unlocked",
+      "pattern": "core memory unlocked / unlocked a memory I didn't know I had",
+      "interpretation_hint": "Dream surfaced a pre-verbal or long-buried recollection. Often nostalgic. Worth tagging for cross-temporal correlation engine."
+    },
+    {
+      "id": "pov_dream",
+      "name": "POV dream description",
+      "pattern": "POV: you have the dream where [scenario] / the dream where you're [doing X]",
+      "examples": ["POV: you have the dream where you're back in high school but you're 35", "the dream where you find a new room in your house"],
+      "interpretation_hint": "Universal-dream framing — user invokes a category they assume others share. Surface 'you're not alone' matches via dream matching."
+    },
+    {
+      "id": "and_somehow_normal",
+      "name": "And somehow this was normal",
+      "pattern": "I had a dream that [absurd thing] and somehow this was perfectly normal",
+      "interpretation_hint": "Recognition that dream-logic accepted absurdity. Self-aware about dream phenomenology."
+    },
+    {
+      "id": "rate_my_dream",
+      "name": "Rate my dream",
+      "pattern": "rate this dream out of 10 / rate the dream economy / dream tier list",
+      "interpretation_hint": "Gamified sharing — feeds well into Plaza reactions + challenge format."
+    },
+    {
+      "id": "main_character",
+      "name": "Main character dream",
+      "pattern": "I had a main character dream / very main character of me",
+      "interpretation_hint": "Dream where dreamer is heroic/protagonist of an epic narrative. Often empowering — surface to the user as ego-affirming."
+    },
+    {
+      "id": "ick_dream",
+      "name": "Ick dream",
+      "pattern": "had a dream where [partner/crush] did [minor thing] and now I have the ick",
+      "interpretation_hint": "Dream-as-evaluation-of-relationship — minor detail in dream triggers waking-life aversion. Worth gentle interpretation, not literal."
+    },
+    {
+      "id": "delulu",
+      "name": "Delulu dream",
+      "pattern": "had a delulu dream about [crush] / fully delusional dream",
+      "interpretation_hint": "Self-aware acknowledgement of wish-fulfillment. Don't analyze too seriously — meet the playful register."
+    },
+    {
+      "id": "brain_rot_dream",
+      "name": "Brainrot dream",
+      "pattern": "absolute brainrot dream / my brainrot is showing",
+      "examples": ["dream where I was an NPC in my own life", "TikTok trends invaded my dream"],
+      "interpretation_hint": "Dream content reflects oversaturation with internet content. Possibly tag for digital-wellbeing reflection."
+    },
+    {
+      "id": "haunted_by",
+      "name": "Haunted by a dream",
+      "pattern": "still haunted by the dream where / the dream where X happens lives rent free",
+      "interpretation_hint": "Recurring or persistently-impactful dream. Worth checking against recurring_patterns + IRT push."
+    },
+    {
+      "id": "weirdest_dream",
+      "name": "Weirdest dream",
+      "pattern": "had the weirdest dream last night / the WILDEST dream",
+      "interpretation_hint": "Standard sharing opener — user wants engagement. Surface to plaza."
+    },
+    {
+      "id": "lost_the_plot",
+      "name": "Dream lost the plot",
+      "pattern": "the dream really lost the plot at the end / midway it went off rails",
+      "interpretation_hint": "User noticing dream-narrative inconsistency. Comment on how this is normal — dreams pivot when REM phase changes."
+    },
+    {
+      "id": "fever_dream_label",
+      "name": "Fever dream label",
+      "pattern": "this whole [event] felt like a fever dream / fever dream of an experience",
+      "interpretation_hint": "User invokes fever-dream as descriptor for waking events too. Map to fever_dream_aesthetic for visualization."
+    },
+    {
+      "id": "shifted_realities",
+      "name": "Shifting / DR dream",
+      "pattern": "I shifted last night / went to my DR / my CR is so boring after my DR",
+      "interpretation_hint": "Reality-shifting community: Desired Reality / Current Reality. Treat with respect — don't dismiss as fantasy. Powerful coping mechanism for many young users."
+    },
+    {
+      "id": "manifesting_dream",
+      "name": "Manifesting dream",
+      "pattern": "had a manifestation dream / the universe sent me a sign",
+      "interpretation_hint": "Spiritual-but-not-religious framing — common in Gen Z. Mirror the user's framing, don't impose secular reading."
+    },
+    {
+      "id": "lucid_acquired",
+      "name": "I went lucid",
+      "pattern": "went lucid mid-dream / I caught the dream / did a reality check",
+      "interpretation_hint": "Lucid-dreaming community — they're proud + want technique discussion. Surface lucid-techniques content."
+    },
+    {
+      "id": "unhinged_dream",
+      "name": "Unhinged dream",
+      "pattern": "absolutely unhinged dream / my brain is not okay",
+      "interpretation_hint": "Affectionate self-deprecation about bizarre dream content."
+    },
+    {
+      "id": "dream_diary_ex",
+      "name": "Dreamt about ex",
+      "pattern": "dreamt about my ex AGAIN / why is my brain doing this",
+      "interpretation_hint": "Common — neutral processing, not a sign user wants reconnection. Provide reassurance."
+    },
+    {
+      "id": "teeth_falling",
+      "name": "Teeth falling out",
+      "pattern": "had THAT dream again — teeth falling out / why does my brain do this",
+      "interpretation_hint": "Universal dream — Hall/Van de Castle norms confirm 39% of population has it. Reassure as common."
+    },
+    {
+      "id": "lived_a_whole_life",
+      "name": "Lived a whole life in 5 minutes",
+      "pattern": "fell asleep for 10 minutes and lived an entire life",
+      "interpretation_hint": "Time-compression dream — REM time-perception works strangely. Worth surfacing the Schwartz 2020 research."
+    },
+    {
+      "id": "two_minds_arguing",
+      "name": "Two of you in the dream",
+      "pattern": "I was both me and watching me / two versions of me",
+      "interpretation_hint": "Dissociative-feeling dream. Often reflects internal conflict / decision-state. Jungian Shadow integration territory."
+    },
+    {
+      "id": "celebrity_friend",
+      "name": "Celebrity is your friend in dream",
+      "pattern": "had a dream [celebrity] and I were besties / [celebrity] saved me",
+      "interpretation_hint": "Parasocial-relationship surfaced in dreams. Common, harmless. Surface a 'you're not alone' match."
+    },
+    {
+      "id": "deceased_visitation",
+      "name": "Visitation dream",
+      "pattern": "[deceased loved one] visited me last night / felt them there",
+      "interpretation_hint": "Real phenomenology described in Krippner 2019 cross-cultural surveys. Treat with reverence regardless of user's spiritual frame. Surface gently — don't psychologize away."
+    },
+    {
+      "id": "worst_fear_dream",
+      "name": "Specific phobia dream",
+      "pattern": "every nightmare is just my worst fear in a Halloween costume",
+      "interpretation_hint": "User's own meta-observation about dream content. Mirror back — they're already doing the analysis."
+    }
+  ],
+  "vocabulary": {
+    "based": "approving — 'this dream was so based'",
+    "cringe": "embarrassing dream content",
+    "hits different": "dream feels emotionally distinct from waking memory",
+    "no thoughts head empty": "blank/peaceful dream",
+    "rent free": "intrusive recurring dream",
+    "main character energy": "epic / heroic dream",
+    "side quest": "weird subplot in a dream",
+    "lore drop": "dream that explains something about your past",
+    "NPC dream": "dream where you're observing not acting",
+    "the algorithm": "noticing your dreams reflect what you've been consuming online",
+    "dream economy": "the social market of who shares which dreams"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "transitions": {
+    "match_cut": {
+      "name": "Match Cut",
+      "origin": "Kon Satoshi (Paprika, Perfect Blue)",
+      "description": "Object/shape in frame A becomes object/shape in frame B with identical composition",
+      "prompt_keywords": "match cut, seamless transition, shape continuity",
+      "dream_use": "Scene shifts that feel logically connected despite being spatially impossible"
+    },
+    "fluid_morph": {
+      "name": "Fluid Morph",
+      "origin": "Kon Satoshi (Paprika)",
+      "description": "Continuous deformation from one scene to another without a cut point. Objects seamlessly transform into other objects",
+      "prompt_keywords": "morphing, fluid transition, seamless transformation, one thing becoming another",
+      "dream_use": "The way dream environments shift without explanation — a room becomes a field becomes an ocean"
+    },
+    "environmental_collapse": {
+      "name": "Environmental Collapse",
+      "origin": "Gondry (Eternal Sunshine)",
+      "description": "Scene elements disappear, blur, or shrink, transitioning through destruction",
+      "prompt_keywords": "crumbling walls, disappearing objects, collapsing environment, dissolving scene",
+      "dream_use": "Nightmares, anxiety dreams, the feeling of a dream fading or being forgotten"
+    },
+    "elemental_threshold": {
+      "name": "Elemental Threshold",
+      "origin": "Tarkovsky (Mirror)",
+      "description": "Wind, fire, or water events mark the passage from one state to another",
+      "prompt_keywords": "sudden wind, mist rising, rain beginning, fire igniting, elemental transition",
+      "dream_use": "Transitions that feel organic and natural — the dream shifts because the wind blows"
+    },
+    "grafted_entry": {
+      "name": "Grafted Dream Entry",
+      "origin": "Fellini (8½)",
+      "description": "Fantasy begins within reality seamlessly; the viewer does not notice the transition",
+      "prompt_keywords": "imperceptible shift, seamless reality to dream, gradual unreality",
+      "dream_use": "Dreams that start from waking reality — lying in bed, then suddenly somewhere else"
+    },
+    "tunnel_passage": {
+      "name": "Tunnel/Passage",
+      "origin": "Miyazaki (Spirited Away)",
+      "description": "Physical movement through a threshold space with gradual color/light shift",
+      "prompt_keywords": "tunnel, corridor, passage, threshold, gradual color change, entering another world",
+      "dream_use": "The classic 'entering the dream' moment"
+    },
+    "material_shift": {
+      "name": "Material Shift",
+      "origin": "Gondry (Science of Sleep)",
+      "description": "Real-world textures replaced by handmade/constructed textures",
+      "prompt_keywords": "cardboard, cellophane, felt, handmade, craft, lo-fi textures",
+      "dream_use": "Dreams that feel constructed, childlike, or deliberately artificial"
+    }
+  },
+  "time_distortion": {
+    "parallel_speed": {
+      "name": "Parallel Speed Editing",
+      "description": "Same event shown at different speeds across intercutting layers",
+      "prompt_keywords": "multi-speed, parallel timelines, time dilation across layers"
+    },
+    "ultra_slow_motion": {
+      "name": "Ultra Slow Motion",
+      "description": "1000+ fps for key moments of awe, beauty, or terror",
+      "prompt_keywords": "extreme slow motion, time frozen, every detail visible, stretched moment"
+    },
+    "reverse_chronology": {
+      "name": "Reverse Chronology",
+      "description": "Narrative moves backward through time",
+      "prompt_keywords": "reverse, backwards, rewinding, time flowing backwards"
+    },
+    "non_chronological_drift": {
+      "name": "Non-Chronological Drift",
+      "description": "Time has no direction; scenes associate by emotion rather than sequence",
+      "prompt_keywords": "associative editing, emotional connection, non-linear, time without direction"
+    },
+    "subjective_expansion": {
+      "name": "Subjective Time Expansion",
+      "description": "Minimal motion and sound stretch a brief event into contemplation",
+      "prompt_keywords": "still, quiet, contemplative, time stretching, lingering moment, meditative"
+    },
+    "repetition_variation": {
+      "name": "Repetition with Variation",
+      "description": "Same event replays with alterations, eroding temporal certainty",
+      "prompt_keywords": "repeating, loop, same but different, deja vu, slight changes each time"
+    },
+    "temporal_collision": {
+      "name": "Temporal Collision",
+      "description": "Characters from different time periods share the same physical space",
+      "prompt_keywords": "time collision, past and present overlapping, multiple eras in one space"
+    }
+  },
+  "color_vocabulary": {
+    "saturation_boost": {
+      "name": "Dream Saturation Boost",
+      "description": "Dream world uses maximum saturation vs muted reality",
+      "prompt_keywords": "vivid, oversaturated, vibrant colors, hyper-real color"
+    },
+    "temperature_coding": {
+      "name": "Color-Temperature Level Coding",
+      "description": "Each dream level/zone has a locked color grade",
+      "prompt_keywords": "distinct color grade, warm amber, cool blue, specific color temperature per scene"
+    },
+    "chromatic_anchor": {
+      "name": "Chromatic Anchor",
+      "description": "Single high-saturation element in otherwise desaturated world",
+      "prompt_keywords": "one bright color element, color focal point, desaturated except for one element"
+    },
+    "mood_breathing": {
+      "name": "Color-Mood Breathing",
+      "description": "Palette shifts dynamically with emotional tone within a single scene",
+      "prompt_keywords": "color shifting with emotion, warm to cool transition, palette breathing"
+    },
+    "night_in_day": {
+      "name": "Night-in-Day Contradiction",
+      "description": "Nighttime lighting applied to daytime scenes",
+      "prompt_keywords": "contradictory lighting, dark shadows in bright scenes, impossible light sources"
+    }
+  },
+  "camera_grammar": {
+    "floating": {
+      "name": "Floating Camera",
+      "description": "Camera moves as if unattached to human operator; drifts with dream inertia",
+      "prompt_keywords": "floating camera, drifting, weightless camera movement, ethereal movement"
+    },
+    "panic_handheld": {
+      "name": "Panic Handheld",
+      "description": "Camera instability motivated by character's emotional state",
+      "prompt_keywords": "shaky camera, unstable, frantic, handheld, disoriented movement"
+    },
+    "creeping_dolly": {
+      "name": "Creeping Dolly",
+      "description": "Extremely slow forward movement toward a source of dread",
+      "prompt_keywords": "slow push in, creeping forward, approaching dread, slow dolly toward"
+    },
+    "architectural_reveal": {
+      "name": "Architectural Reveal",
+      "description": "Wide lens reveals impossible architecture in a single composition",
+      "prompt_keywords": "wide angle, impossible architecture, vast reveal, scale reveal"
+    },
+    "jitter_wobble": {
+      "name": "Jitter Wobble",
+      "description": "Surfaces and edges breathe and undulate, nothing holds still",
+      "prompt_keywords": "undulating, breathing surfaces, unstable edges, organic movement"
+    },
+    "continuous_pan_discontinuous": {
+      "name": "Continuous Pan Through Discontinuous Space",
+      "description": "Camera pans left in one room and arrives in a different scene",
+      "prompt_keywords": "continuous pan, space shifting, one room becoming another, impossible pan"
+    }
+  },
+  "environment_grammar": {
+    "impossible_geometry": {
+      "name": "Impossible Geometry",
+      "description": "Penrose stairs, folding cities, paradoxical architecture",
+      "prompt_keywords": "impossible architecture, Escher-like, folding space, paradoxical geometry"
+    },
+    "environmental_erasure": {
+      "name": "Environmental Erasure",
+      "description": "Objects and people disappearing from the frame",
+      "prompt_keywords": "vanishing, disappearing objects, fading people, erasing environment"
+    },
+    "elemental_contradiction": {
+      "name": "Elemental Contradiction",
+      "description": "Fire and water coexisting; wind without cause",
+      "prompt_keywords": "fire in water, rain inside, impossible elements, wind from nowhere"
+    },
+    "detail_overload": {
+      "name": "Detail Overload",
+      "description": "Extreme density of visual detail creating overwhelm",
+      "prompt_keywords": "densely detailed, overwhelming detail, every surface textured, visual density"
+    },
+    "reflection_fragmentation": {
+      "name": "Reflection Fragmentation",
+      "description": "Multiple versions of a character visible in mirrors and glass simultaneously",
+      "prompt_keywords": "multiple reflections, fragmented identity, mirrors showing different versions"
+    }
+  }
+}
