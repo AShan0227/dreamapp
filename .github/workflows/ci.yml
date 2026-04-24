@@ -39,6 +39,8 @@ jobs:
                  tests/test_crisis.py \
                  tests/test_moderation.py \
                  tests/test_agent_sandbox.py \
+                 tests/test_quota.py \
+                 tests/test_video_concat.py \
                  -v --tb=short
 
   migrations:
