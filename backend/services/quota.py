@@ -18,16 +18,28 @@ DEFAULT_DAILY_VIDEO_QUOTA = 5
 
 
 def _today_utc() -> datetime:
-    now = datetime.now(timezone.utc)
-    return datetime(now.year, now.month, now.day, tzinfo=timezone.utc)
+    """Today as a NAIVE UTC midnight datetime.
+
+    The `users.video_quota_date` column is `DateTime` (timezone-naive). Mixing
+    a tz-aware value into a naive column makes asyncpg reject the write with
+    "can't subtract offset-naive and offset-aware datetimes". We compare and
+    store everything as naive-UTC instead.
+
+    Uses `datetime.now(timezone.utc).replace(tzinfo=None)` rather than the
+    deprecated `datetime.utcnow()` (slated for removal post-3.12).
+    """
+    now = datetime.now(timezone.utc).replace(tzinfo=None)
+    return datetime(now.year, now.month, now.day)
 
 
 def _quota_day(dt: datetime | None) -> datetime | None:
     if dt is None:
         return None
-    if dt.tzinfo is None:
-        dt = dt.replace(tzinfo=timezone.utc)
-    return datetime(dt.year, dt.month, dt.day, tzinfo=timezone.utc)
+    if dt.tzinfo is not None:
+        # Strip tzinfo (assume already UTC); this happens for legacy rows
+        # written before this fix.
+        dt = dt.astimezone(timezone.utc).replace(tzinfo=None)
+    return datetime(dt.year, dt.month, dt.day)
 
 
 def get_daily_quota(entitlements: dict | None = None) -> int:
