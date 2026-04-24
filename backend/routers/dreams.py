@@ -517,6 +517,31 @@ async def check_video_status(
     assert_dream_owner(dream, user)
 
     if dream.status == DreamStatus.completed and dream.video_urls:
+        # Self-heal: if we have N>1 shot URLs but video_url / video_object_name
+        # point to a single shot (not dream_film.mp4), an older build may
+        # have stranded this dream with a bogus single-shot "completion".
+        # Re-run concat so the user eventually sees the real film.
+        urls = list(dream.video_urls or [])
+        obj_name = getattr(dream, "video_object_name", None) or ""
+        is_stranded = (
+            len(urls) > 1
+            and obj_name
+            and not obj_name.endswith("dream_film.mp4")
+        )
+        if is_stranded:
+            try:
+                film_url, new_obj = await concat_clips(urls, dream_id)
+                if film_url and new_obj:
+                    dream.video_url = film_url
+                    dream.video_object_name = new_obj
+                    dream.updated_at = datetime.utcnow()
+                    await db.commit()
+            except Exception:
+                from services.observability import get_logger
+                get_logger("dreams").exception(
+                    "self-heal concat failed",
+                    extra={"dream_id": dream_id},
+                )
         return {
             "status": "completed",
             "video_url": dream.video_url,
@@ -582,28 +607,53 @@ async def check_video_status(
         # Auto-concat into single film. concat_clips returns
         # (playable_url, object_name) — we store object_name as the source
         # of truth and resign on every read.
+        #
+        # Crucially: if concat_clips returns ("", "") on a multi-shot dream,
+        # we do NOT flip status to 'completed' — we leave it 'generating'
+        # so the next poll re-tries. Previously we'd set status=completed
+        # + video_url=shot_01 as a "good enough" fallback, which silently
+        # buried the broken concat and stranded the user on a 1/8 film.
+        film_url: str = ""
+        obj_name: str = ""
+        concat_ok = False
         if len(existing_urls) > 1:
             try:
                 film_url, obj_name = await concat_clips(existing_urls, dream_id)
-                dream.video_url = film_url or (existing_urls[0] if existing_urls else None)
-                if obj_name:
-                    dream.video_object_name = obj_name
+                concat_ok = bool(film_url and obj_name)
             except Exception:
-                dream.video_url = existing_urls[0] if existing_urls else None
-        else:
-            dream.video_url = existing_urls[0] if existing_urls else None
+                from services.observability import get_logger
+                get_logger("dreams").exception(
+                    "concat_clips raised; will retry on next poll",
+                    extra={"dream_id": dream_id},
+                )
+                concat_ok = False
+        elif len(existing_urls) == 1:
+            # Genuine single-shot dream (only 1 URL returned, shot plan had 1)
+            film_url, obj_name = await concat_clips(existing_urls, dream_id)
+            concat_ok = bool(film_url)
 
-        dream.status = DreamStatus.completed
+        if concat_ok:
+            dream.video_url = film_url
+            dream.video_object_name = obj_name
+            dream.status = DreamStatus.completed
+        else:
+            # Concat not (yet) successful. Keep status=generating so the
+            # frontend keeps polling; record nothing bogus. After a few
+            # polls / retries this either succeeds or flips to failed via
+            # a separate repair path.
+            dream.status = DreamStatus.generating
+
         dream.updated_at = datetime.utcnow()
         flag_modified(dream, "video_urls")
         await db.commit()
 
         return {
-            "status": "completed",
+            "status": dream.status.value,
             "video_url": dream.video_url,
             "video_urls": existing_urls,
             "total_shots": len(existing_urls),
             "completed_shots": len(existing_urls),
+            "concat_pending": not concat_ok,
         }
 
     # Still processing current batch
@@ -617,6 +667,54 @@ async def check_video_status(
         "video_urls": existing_urls,
         "total_shots": total_shots,
         "completed_shots": len(existing_urls),
+    }
+
+
+@router.post("/{dream_id}/reconcatenate")
+async def reconcatenate_video(
+    dream_id: str,
+    user: UserRecord = Depends(require_user),
+    db: AsyncSession = Depends(get_db),
+):
+    """Force-rerun ffmpeg concat on the stored video_urls.
+
+    Use case: the dream finished generating with an older build that
+    silently published shot_01.mp4 as the "film" because one download
+    failed. `video_urls` still has all N shots; we just need to concat
+    them again.
+
+    Idempotent — safe to call any time. Uses local cached clips if
+    present (download_clip skips if valid file already exists).
+    """
+    dream = await db.get(DreamRecord, dream_id)
+    if not dream:
+        raise HTTPException(status_code=404, detail="Dream not found")
+    assert_dream_mutable_by(dream, user)
+    if dream.deleted_at is not None:
+        raise HTTPException(status_code=410, detail="Dream deleted")
+
+    urls = list(dream.video_urls or [])
+    if not urls:
+        raise HTTPException(status_code=400, detail="No shot URLs to concatenate")
+
+    film_url, obj_name = await concat_clips(urls, dream_id)
+    if not (film_url and obj_name):
+        raise HTTPException(
+            status_code=503,
+            detail="Concat failed — check backend logs for download/ffmpeg errors",
+        )
+
+    dream.video_url = film_url
+    dream.video_object_name = obj_name
+    if dream.status != DreamStatus.completed:
+        dream.status = DreamStatus.completed
+    dream.updated_at = datetime.utcnow()
+    await db.commit()
+    return {
+        "status": "completed",
+        "video_url": dream.video_url,
+        "video_object_name": dream.video_object_name,
+        "shots_concatenated": len(urls),
     }
 
 
